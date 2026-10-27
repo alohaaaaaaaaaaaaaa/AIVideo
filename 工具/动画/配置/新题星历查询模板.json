@@ -1,0 +1,16 @@
+{
+  "observer": {
+    "longitude_east_deg": null,
+    "latitude_north_deg": null,
+    "height_km": null,
+    "role": "待查证：是地面参考点还是实际观测点"
+  },
+  "start_utc": "待填，形如 YYYY-MM-DDTHH:MM:00Z",
+  "stop_utc": "待填，必须晚于开始时刻",
+  "step_minutes": 1,
+  "display_timezone": "待填，如 Asia/Shanghai",
+  "event_time_uncertainty": "待填：原始记录能支持的时间范围",
+  "targets": [
+    {"id": "Venus", "name": "金星", "horizons_command": "299"}
+  ]
+}

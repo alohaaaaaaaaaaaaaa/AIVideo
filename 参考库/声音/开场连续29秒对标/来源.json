@@ -1,0 +1,18 @@
+{
+  "source_project": "xsufo",
+  "source_mix_relative": "10_重新策划/全片终版/叙事优化制作/声音/全片_旁白与BGM_48k_stereo.wav",
+  "source_mix_sha256": "2ff889b0811bc77fe1bab40870a4cb33326d44df529e0b6cd4ceac42ca5c997a",
+  "range": [
+    0,
+    29.36
+  ],
+  "context_range": [
+    29.36,
+    33.36
+  ],
+  "voice_reprocessed": false,
+  "note_plan_imported": true,
+  "waveform_looped": false,
+  "scope": "同一连续开场，使用原C01逐音符计划重新采样渲染；C02前4秒原分轨仅用于按原算法重建幕间桥上下文",
+  "paid_calls": 0
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-22",
+  "status": "approved_clear_contour_final",
+  "rebuild_pixel_identical": true,
+  "master_pixel_identical_to_approved_sample": true,
+  "scope": "当前素材；历史版本保持原始存档",
+  "files": [
+    {
+      "path": "00_使用说明.md",
+      "bytes": 2365,
+      "sha256": "ea64472871929b0c01c1f267198b6692f38de7cc7c2a6b5f9320afd75b445b40"
+    },
+    {
+      "path": "品牌规范.md",
+      "bytes": 1995,
+      "sha256": "4fb3be5e26c92a6bf75b60f8d9b31ec06a1c40f0ca86703aee79318e99cf327c"
+    },
+    {
+      "path": "字体/Yozai-Medium.ttf",
+      "bytes": 15238394,
+      "sha256": "05f50f252b45197d0d6148a4abc3e37c7cd4cfdf03c955b57c25d53d924f835f"
+    },
+    {
+      "path": "字体/Yozai-OFL.txt",
+      "bytes": 4497,
+      "sha256": "86b3a0b5162848503241d80ea9a309a6459690ba7dc547940758a6a689a53b02"
+    },
+    {
+      "path": "源文件/字形蒙版.png",
+      "bytes": 36440,
+      "sha256": "60f71abf4944e70483d9299b0c29303258aef234c48fda9a8decc46943a55025"
+    },
+    {
+      "path": "源文件/重建水印.py",
+      "bytes": 1522,
+      "sha256": "4c9d7f4aeeceaa2562ce410b63389eb5babccf6681dae5628bc1fdddeac7b762"
+    },
+    {
+      "path": "素材登记.json",
+      "bytes": 1030,
+      "sha256": "1eb18e5230270e01d034320d9a36ef763f48cffffbf7e2f3baef31e855d1a6ef"
+    },
+    {
+      "path": "透明PNG/啊子牙_透明浮雕_1080p.png",
+      "bytes": 21071,
+      "sha256": "675689cdcb6be22e38048ed784e34e27ccc9f81af64592095e36c15814152981"
+    },
+    {
+      "path": "透明PNG/啊子牙_透明浮雕_4K.png",
+      "bytes": 59577,
+      "sha256": "ec7c9e3e014a7c8dde8322a1cf6dc3c7c7bef05d980767f12284d7a20be25bff"
+    },
+    {
+      "path": "透明PNG/啊子牙_透明浮雕_高清母版.png",
+      "bytes": 146893,
+      "sha256": "d86b7243b9c4c9504e56ea3c55f43c261b9eb8b081aaf62f5943297999992ebc"
+    },
+    {
+      "path": "预览/水印样式.jpg",
+      "bytes": 109023,
+      "sha256": "84cd07d16cd6ad88264f53f70cac7c0709dd3bed1454fe21051a331ce76dd30e"
+    }
+  ]
+}

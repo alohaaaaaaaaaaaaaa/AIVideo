@@ -1,0 +1,128 @@
+{
+  "scope": "temporary real Git index checkout, full lossless restore, current manifest verification and browser playback; no remote/API",
+  "commands": [
+    {
+      "name": "git init",
+      "returncode": 0,
+      "output_tail": "",
+      "error_tail": ""
+    },
+    {
+      "name": "git --git-dir=/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah_compact_checkout_nsqxjgc1/repo.git",
+      "returncode": 0,
+      "output_tail": "",
+      "error_tail": ""
+    },
+    {
+      "name": "git --git-dir=/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah_compact_checkout_nsqxjgc1/repo.git",
+      "returncode": 0,
+      "output_tail": "jects/f93f47e63f891ff8e757d355a5b23536417828f7c03f9f8c3b26781555748981.xz\u0000资源存储/objects/fb8b2d61428828fbec83a087828d38634c0bb572d4947944fdfab72dac28c125.xz\u0000资源存储/objects/fb9cc78499d2f8291e84d7d7c892c52dae9a3ca7e74092977be2021a2a87a78a.xz\u0000资源存储/objects/fc07698e1e7ba9257c7afa0604f1f5419c6ad39e27d803f5216def59f7376987.xz\u0000资源存储/objects/fc1f3b7d15fdd2fd86eeee8124be4ef9b7463a0a3a807fba8473435656b765a9.xz\u0000资源存储/objects/fc2100743dbe1a5e24c01deb871b8da17f806a90ee471091c64873fdbb87ae30.xz\u0000资源存储/objects/fc73324baf1fb0c2df609c3946f129fc23e25a1f5fe2da63951f184aedb9108e.xz\u0000资源存储/objects/fc87ae4d88d629613d75084daa6f158c338a4b1ad806b0e7813fd15d840b992b.xz\u0000资源存储/objects/fd83b004dc263fa503e79631c566d91c09e0ebf8b18e6e3252e484e610503db9.xz\u0000资源存储/objects/fe231d6e658ae7adde7637a9fa0e19aefe623bf60127ce4e89b05fffa13382a2.xz\u0000资源存储/objects/fe4ef74d9bfc02288f35e22df7409b2298e536a33adedd2e60003a58da1271c4.xz\u0000资源存储/objects/fe81a0e070dc29dfd0ba595921f84ce46a23c65d8530e45191a1f08670e0360f.xz\u0000资源存储/objects/ff2515762c6c809804709b685582804d8c9a78e4c2472a61ceae36bd1eff1a8d.xz\u0000资源存储/objects/fff2f45512ed47c3815b6786a56fd494d392bcf381d0ab8d6565daae512d0c3a.xz\u0000资源存储/资源清单.json\u0000默认配置/声音.json\u0000默认配置/工作室.json\u0000默认配置/精简版预览保留.json\u0000默认配置/视觉.json\u0000",
+      "error_tail": ""
+    },
+    {
+      "name": "git --git-dir=/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah_compact_checkout_nsqxjgc1/repo.git",
+      "returncode": 0,
+      "output_tail": "",
+      "error_tail": ""
+    },
+    {
+      "name": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/.venv/bin/python /var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah_compact_checkout_nsqxjgc1/移动后的 工作室/工具/studio.py",
+      "returncode": 0,
+      "output_tail": "已校验并恢复精简版原件： 415\nusage: studio.py [-h] {doctor,new,snapshot,source} ...\n\nSmall local entry point for Codex. Users can work entirely in natural\nlanguage.\n\npositional arguments:\n  {doctor,new,snapshot,source}\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "error_tail": ""
+    },
+    {
+      "name": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/.venv/bin/python /var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah_compact_checkout_nsqxjgc1/移动后的 工作室/工具/compact_assets.py",
+      "returncode": 0,
+      "output_tail": "{\n  \"status\": \"passed\",\n  \"files\": 1168,\n  \"objects_fully_decoded\": 384,\n  \"present_original_hashes_matched\": 1168,\n  \"required_full_restore\": true,\n  \"mismatches\": []\n}\n",
+      "error_tail": ""
+    },
+    {
+      "name": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/.venv/bin/python /var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah_compact_checkout_nsqxjgc1/移动后的 工作室/工具/studio.py",
+      "returncode": 0,
+      "output_tail": "{\n  \"checked_at\": \"2026-10-26T23:35:54+08:00\",\n  \"python\": \"3.13.16\",\n  \"environment_is_local\": false,\n  \"modules\": {\n    \"numpy\": true,\n    \"PIL\": true,\n    \"scipy\": true,\n    \"soundfile\": true,\n    \"av\": true,\n    \"imageio_ffmpeg\": true,\n    \"requests\": true,\n    \"jsonschema\": true,\n    \"yaml\": true\n  },\n  \"essential_assets\": {\n    \"默认配置/声音.json\": true,\n    \"工具/媒体/studio_media.py\": true,\n    \"工具/声音/score_mix.py\": true,\n    \"工具/动画/渲染范例.py\": true,\n    \"参考库/动画/字体/NotoSansCJKsc-Regular.otf\": true,\n    \"参考库/品牌/B站/透明PNG/啊子牙_悠哉_B站无账号_1080p.png\": true\n  },\n  \"ffmpeg_available\": true,\n  \"api_credential_available\": true,\n  \"credential_value_logged\": false,\n  \"paid_api_connectivity_tested\": false,\n  \"paid_calls\": 0,\n  \"status\": \"passed\"\n}\n",
+      "error_tail": ""
+    },
+    {
+      "name": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/.venv/bin/python /var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah_compact_checkout_nsqxjgc1/移动后的 工作室/工具/studio.py",
+      "returncode": 0,
+      "output_tail": "完整视频/音频解码、帧数、PTS、音轨一致性、章节数核验通过；仍须实际视听审片。\n",
+      "error_tail": ""
+    }
+  ],
+  "git_tracked_files": 1139,
+  "preview_before_restore": true,
+  "automatic_restore_via_studio": true,
+  "all_original_bytes_recovered": true,
+  "opening_both_exports_verified_after_move": true,
+  "used_existing_python_dependencies": true,
+  "fresh_os_install_claimed": false,
+  "working_tree_preserved_without_hydration": true,
+  "source_workspace_unchanged_by_test": true,
+  "status": "passed",
+  "archive_stage": "verified_complete",
+  "repo_path": "/Users/elton/Documents/AIVideo",
+  "sizes": {
+    "source_bytes": 1109002651,
+    "compact_before_reports_bytes": 586766052,
+    "reduction_fraction": 0.4709065379862649,
+    "largest_file_bytes": 27315752
+  },
+  "regression": {
+    "status": "passed",
+    "checks": {
+      "restore_exact_bytes_odd_length": true,
+      "second_restore_no_write": true,
+      "existing_edit_not_overwritten": true,
+      "changed_file_detected": true,
+      "corrupt_object_refused": true,
+      "path_escape_refused": true,
+      "symlink_refused": true
+    }
+  },
+  "repack_regression": {
+    "status": "passed",
+    "repack_does_not_reuse_old_ignore_block": true,
+    "managed_to_inline_git_tracked": true,
+    "old_generated_report_not_hashed_then_overwritten": true,
+    "all_managed_storage_is_immutable_objects": true
+  },
+  "archives": [
+    {
+      "name": "啊子牙视频工作室_交付备份_2026-10-26.zip",
+      "time": "2026-10-26 20:54 Asia/Shanghai",
+      "bytes": 358908838,
+      "status": "historical_initial"
+    },
+    {
+      "name": "啊子牙视频工作室_原片标准复核_2026-10-26.zip",
+      "time": "2026-10-26 22:46 Asia/Shanghai",
+      "bytes": 808425922,
+      "status": "historical_baseline_audit"
+    },
+    {
+      "name": "啊子牙视频工作室_Git精简版_2026-10-26.zip",
+      "bytes": 581510963,
+      "status": "latest_compact_verified"
+    }
+  ],
+  "git_operations": {
+    "existing_remote_preserved": true,
+    "existing_git_directory_preserved": true,
+    "production_repo_staged": false,
+    "committed": false,
+    "pushed": false
+  },
+  "latest_archive": {
+    "archive": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室_Git精简版_2026-10-26.zip",
+    "archive_sha256": "62668cc7c8cf5d95466cbbea7b55e0ac5604bb3583af68843f3ac7c45dec2179",
+    "archive_bytes": 581510963,
+    "files": 1141,
+    "uncompressed_bytes": 586775358,
+    "zip_crc": "passed",
+    "credentials_included": false,
+    "venv_included": false,
+    "embedded_inventory": "归档文件清单.json"
+  },
+  "zip_restore_verification": "检查/最新精简备份核验.json"
+}

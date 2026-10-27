@@ -1,0 +1,52 @@
+{
+  "mode": "fullframe",
+  "source": "原始未划线.png",
+  "duration": 5.32,
+  "fps": 25,
+  "marks": {
+    "noah": [
+      [
+        220.45,
+        593.29,
+        407.77,
+        593.29
+      ]
+    ],
+    "ticket": [
+      [
+        641.91,
+        593.29,
+        969.71,
+        593.29
+      ]
+    ]
+  },
+  "cues": [
+    {
+      "mark": "noah",
+      "start": 0.6667,
+      "draw_duration": 0.52
+    },
+    {
+      "mark": "ticket",
+      "start": 2.9333,
+      "draw_duration": 0.52
+    }
+  ],
+  "footer": {
+    "safe_area_confirmed": true,
+    "first_y": 886,
+    "lines": [
+      "天涯原帖归档 · peace1989 · 2010-07-11 18:29:19"
+    ]
+  },
+  "review_times": [
+    0,
+    0.84,
+    1.2,
+    3.12,
+    4.8
+  ],
+  "source_note": "保留原始截图全幅，DOM原坐标；只追加底栏与红线，字幕由媒体合成。",
+  "timing_basis": "F01_00_00 actual adopted phrase cues"
+}

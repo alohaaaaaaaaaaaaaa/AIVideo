@@ -1,0 +1,29 @@
+{
+  "stems": {
+    "piano": {
+      "program": 0,
+      "notes": 51,
+      "raw_rms": 0.01423730696062715,
+      "relative_gain": 0.9
+    },
+    "strings": {
+      "program": 48,
+      "notes": 56,
+      "raw_rms": 0.007425712018468446,
+      "relative_gain": 0.34
+    },
+    "pizz": {
+      "program": 45,
+      "notes": 41,
+      "raw_rms": 0.004157625819210453,
+      "relative_gain": 0.57
+    },
+    "vibes": {
+      "program": 11,
+      "notes": 6,
+      "raw_rms": 0.003131008624790645,
+      "relative_gain": 0.23
+    }
+  },
+  "source": "已认可《一起查案》原始四乐器校准；保持相同音源的音量比例"
+}

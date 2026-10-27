@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "mode": "historical_reference_only",
+  "case": "sky",
+  "fps": 25,
+  "size": [
+    1280,
+    720
+  ],
+  "captions": false,
+  "shots": [
+    {
+      "phase": "turn",
+      "duration": 8.0
+    }
+  ],
+  "output": "参考库/动画/01_星月与日期/独立重渲染/转身找金星_8秒.mp4",
+  "input_sha256": {
+    "参考库/动画/01_星月与日期/数据/sky_positions.json": "55e6cadbb0c259529a6d1e582ad5db1ab7d95154acc24b513be2be4062a30ac5",
+    "参考库/动画/01_星月与日期/数据/金星计算演示.json": "659bdb5493acedc87b184deea8253752d6ceb24903db320fc2d0b3d0d47a08a8"
+  },
+  "notes": [
+    "这份配置仅复现萧山项目已采用风格，不用于给新主题提供事实。",
+    "新题必须重新准备事实数据、台词时点与标注，不得只替换标题。"
+  ]
+}

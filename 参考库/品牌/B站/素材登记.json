@@ -1,0 +1,37 @@
+{
+  "name": "啊子牙常用水印 · B站无账号版",
+  "date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "status": "reusable_brand_asset",
+  "user_request": "很好，但是我还想发b站，所以再做一版水印，下面没有抖音id的",
+  "visible_text": "啊子牙",
+  "account_line": null,
+  "font": "Yozai Medium",
+  "license": "字体/Yozai-OFL.txt",
+  "style": "transparent hollow embossed outline",
+  "parameters": {
+    "highlight": 0.78,
+    "shadow": 0.6,
+    "rim": 0.12,
+    "body_fill": 0,
+    "layer_opacity": 1,
+    "master_direction_offset_px": 5,
+    "master_edge_blur_px": 0.5
+  },
+  "canvas_sizes": {
+    "1080p": [
+      224,
+      70
+    ],
+    "4K": [
+      448,
+      140
+    ],
+    "master": [
+      896,
+      280
+    ]
+  },
+  "motion": "stationary within shots; occasional placement changes only at cuts",
+  "rebuild_verification": "检查/重建核验.json"
+}

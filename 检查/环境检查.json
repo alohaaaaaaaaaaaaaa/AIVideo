@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-26T20:24:57+08:00",
+  "python": "3.13.16",
+  "environment_is_local": true,
+  "modules": {
+    "numpy": true,
+    "PIL": true,
+    "scipy": true,
+    "soundfile": true,
+    "av": true,
+    "imageio_ffmpeg": true,
+    "requests": true,
+    "jsonschema": true,
+    "yaml": true
+  },
+  "essential_assets": {
+    "默认配置/声音.json": true,
+    "工具/媒体/studio_media.py": true,
+    "工具/声音/score_mix.py": true,
+    "工具/动画/渲染范例.py": true,
+    "参考库/动画/字体/NotoSansCJKsc-Regular.otf": true,
+    "参考库/品牌/B站/透明PNG/啊子牙_悠哉_B站无账号_1080p.png": true
+  },
+  "ffmpeg_available": true,
+  "api_credential_available": true,
+  "credential_value_logged": false,
+  "paid_api_connectivity_tested": false,
+  "paid_calls": 0,
+  "status": "passed"
+}

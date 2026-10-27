@@ -1,0 +1,28 @@
+{
+  "fps": 25,
+  "segments": [
+    {
+      "id": "C01_P001",
+      "chapter": "01",
+      "chapter_title": "真实原文与默认声音",
+      "music_mood": "comments",
+      "tail_seconds": 0.4
+    },
+    {
+      "id": "DEMO_ANIMATION",
+      "chapter": "02",
+      "chapter_title": "星月动画独立重渲染",
+      "music_mood": "trace",
+      "tail_seconds": 0
+    },
+    {
+      "id": "C02_P001",
+      "chapter": "03",
+      "chapter_title": "完整姓名与作者片尾",
+      "music_mood": "outro",
+      "tail_seconds": 1.2
+    }
+  ],
+  "music_cues": [],
+  "sound_cues": []
+}

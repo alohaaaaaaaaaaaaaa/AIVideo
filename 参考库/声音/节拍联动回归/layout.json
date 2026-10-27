@@ -1,0 +1,82 @@
+{
+  "fps": 25,
+  "segments": [
+    {
+      "id": "CONCLUSION",
+      "chapter": "01",
+      "chapter_title": "完整结论与精确字尾",
+      "music_mood": "judgment",
+      "pauses": [
+        {
+          "at": 5.4,
+          "duration": 0.4,
+          "source_audio_sha256": "fc2100743dbe1a5e24c01deb871b8da17f806a90ee471091c64873fdbb87ae30",
+          "reason": "Test explicit breath at a real silent seam; this test does not replace the accepted original rhythm"
+        }
+      ]
+    },
+    {
+      "id": "C02_P001",
+      "chapter": "02",
+      "chapter_title": "保留作者结尾",
+      "music_mood": "outro",
+      "tail_seconds": 1.2
+    }
+  ],
+  "conclusion_cue": {
+    "segment_id": "CONCLUSION",
+    "source_audio_sha256": "fc2100743dbe1a5e24c01deb871b8da17f806a90ee471091c64873fdbb87ae30",
+    "core_start": 5.94,
+    "core_end": 9.465,
+    "scope_end": 12.36,
+    "post_word_delay": 0.1,
+    "verification_method": "approved_original_waveform_review"
+  },
+  "music_cues": [
+    {
+      "segment_id": "CONCLUSION",
+      "type": "space",
+      "start": 5.1,
+      "end": 5.9,
+      "gain": 0.5
+    }
+  ],
+  "sound_cues": [
+    {
+      "segment_id": "CONCLUSION",
+      "type": "page",
+      "time": 5.94
+    }
+  ],
+  "visual_cues": [
+    {
+      "id": "judgment_card",
+      "segment_id": "CONCLUSION",
+      "start": 0,
+      "end": 12.36,
+      "reveal": false
+    },
+    {
+      "id": "judgment_reveal",
+      "segment_id": "CONCLUSION",
+      "time": 5.94
+    },
+    {
+      "id": "author_outro",
+      "segment_id": "C02_P001",
+      "start": 0,
+      "end": 3.6339375
+    }
+  ],
+  "chapter_music_strategy": {
+    "mode": "explicit_bridges",
+    "transitions": [
+      {
+        "after_chapter": "01",
+        "duration": 0,
+        "overlap_before": 0.8,
+        "overlap_after": 0.8
+      }
+    ]
+  }
+}

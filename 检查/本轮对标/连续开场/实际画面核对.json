@@ -1,0 +1,75 @@
+{
+  "status": "sampled_visual_review_completed",
+  "checked_at": "2026-10-26T22:43:12+08:00",
+  "outputs": [
+    {
+      "id": "bili",
+      "sha256": "710756c03c7d2bc0de519a4ce3ecc3fac4ea38b785e158b5d625460dba042235",
+      "decoded_frames": 734,
+      "duration": 29.36,
+      "decoded_audio_samples": 1409280,
+      "audio_duration": 29.36,
+      "audio_packet_sha256": "07dc9ec71bab46b3918673cafd849c98a2b0e9f60b18f05e41385740cfbd3844",
+      "peak_dbfs": -4.427018572284833,
+      "loudness": {
+        "integrated_lufs": -17.1,
+        "true_peak_dbtp": -4.42,
+        "recommended_max_dbtp": -1.0,
+        "true_peak_pass": true,
+        "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+      },
+      "clipped_samples": 0,
+      "complete_decode": true
+    },
+    {
+      "id": "clean",
+      "sha256": "6e8a5d919c87574a094b894d80c65ed002a1f05c94aa174ead798e9956db7e9c",
+      "decoded_frames": 734,
+      "duration": 29.36,
+      "decoded_audio_samples": 1409280,
+      "audio_duration": 29.36,
+      "audio_packet_sha256": "07dc9ec71bab46b3918673cafd849c98a2b0e9f60b18f05e41385740cfbd3844",
+      "peak_dbfs": -4.427018572284833,
+      "loudness": {
+        "integrated_lufs": -17.1,
+        "true_peak_dbtp": -4.42,
+        "recommended_max_dbtp": -1.0,
+        "true_peak_pass": true,
+        "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+      },
+      "clipped_samples": 0,
+      "complete_decode": true
+    }
+  ],
+  "review_method": "15 encoded timepoints across all eight shots; original/new seven-frame comparisons; both watermark versions; contact sheets directly viewed",
+  "timepoints": [
+    0.4,
+    1.4,
+    3.6,
+    4.8,
+    7,
+    10.8,
+    12,
+    14.8,
+    17.6,
+    20.4,
+    21.8,
+    23,
+    25,
+    28.8,
+    29.28
+  ],
+  "observations": [
+    "首镜全幅，未因来源栏缩图；原作者日期及完整底部来源保留",
+    "红线随词出现，未在首帧预画完成",
+    "机场情境原生标签只有一处",
+    "央视标题、日期、原文完整；查找动效与采用版一致",
+    "字幕与水印不遮关键证据句；网页水印放底部右侧",
+    "章尾保留原0.4秒，画面无新增备注"
+  ],
+  "limits": [
+    "keyframe viewing is not continuous human viewing",
+    "no human listening claim; waveform/ASR and reference PCM comparison separately recorded"
+  ],
+  "image_outputs_identical_to_already_reviewed_version": true
+}

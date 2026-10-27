@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "真实旁白编排布局",
+  "type": "object",
+  "required": [
+    "segments"
+  ],
+  "properties": {
+    "fps": {
+      "type": "integer",
+      "default": 25,
+      "minimum": 1,
+      "maximum": 60
+    },
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "chapter",
+          "chapter_title",
+          "music_mood"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "chapter": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "chapter_title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "music_mood": {
+            "enum": [
+              "discovery",
+              "trace",
+              "mismatch",
+              "early",
+              "comments",
+              "window",
+              "recap",
+              "judgment",
+              "resolved",
+              "coda",
+              "outro"
+            ]
+          },
+          "music_title": {
+            "type": "string"
+          },
+          "tail_seconds": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 30,
+            "default": 0
+          },
+          "pauses": {
+            "type": "array",
+            "description": "Source-local quiet pauses; every event binds original WAV hash. All time fields and visual_cues use the same shift map.",
+            "items": {
+              "type": "object",
+              "required": [
+                "at",
+                "duration",
+                "source_audio_sha256",
+                "reason"
+              ],
+              "properties": {
+                "at": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "duration": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "maximum": 3
+                },
+                "source_audio_sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "silent_music_rms_dbfs": {
+            "type": "number",
+            "minimum": -50,
+            "maximum": -20,
+            "description": "Explicit BGM RMS target only for wholly unvoiced chapters; choose from adjacent real music context."
+          }
+        }
+      }
+    },
+    "music_cues": {
+      "type": "array",
+      "description": "与timeline.schema一致；可带segment_id，时间相对此段实音起点"
+    },
+    "sound_cues": {
+      "type": "array",
+      "description": "只能显式指定，无题材/编号推断"
+    },
+    "visual_cues": {
+      "type": "array",
+      "description": "Explicit source-local image/animation event anchors. Required when internal pauses are inserted; generated full-film times bind to timeline SHA."
+    },
+    "observation_music_ducks": {
+      "type": "array",
+      "description": "Source-local start/end/gain_db, executed by final chapter bridge runner."
+    },
+    "conclusion_cue": {
+      "type": "object",
+      "required": [
+        "segment_id",
+        "source_audio_sha256",
+        "core_start",
+        "core_end",
+        "scope_end",
+        "verification_method"
+      ],
+      "properties": {
+        "segment_id": {
+          "type": "string"
+        },
+        "source_audio_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "core_start": {
+          "type": "number",
+          "minimum": 0
+        },
+        "core_end": {
+          "type": "number",
+          "minimum": 0
+        },
+        "scope_end": {
+          "type": "number",
+          "minimum": 0
+        },
+        "post_word_delay": {
+          "type": "number",
+          "minimum": 0.08,
+          "maximum": 0.25
+        },
+        "verification_method": {
+          "enum": [
+            "waveform_and_independent_asr",
+            "waveform_and_listening",
+            "approved_original_waveform_review"
+          ]
+        }
+      }
+    },
+    "chapter_music_strategy": {
+      "type": "object",
+      "required": [
+        "mode",
+        "transitions"
+      ],
+      "properties": {
+        "mode": {
+          "const": "explicit_bridges"
+        },
+        "transitions": {
+          "type": "array",
+          "description": "One entry per chapter seam, duration=0 (all pauses are already in the voice ledger)",
+          "items": {
+            "type": "object",
+            "required": [
+              "after_chapter",
+              "duration"
+            ],
+            "properties": {
+              "after_chapter": {
+                "type": "string"
+              },
+              "duration": {
+                "const": 0
+              },
+              "overlap_before": {
+                "type": "number",
+                "minimum": 0.5,
+                "maximum": 1
+              },
+              "overlap_after": {
+                "type": "number",
+                "minimum": 0.5,
+                "maximum": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$comment": "所有段ID必须与输入paragraphs恰好对应；fps须整除48000；tail须整帧；段落自然PCM不裁切不变速；章节连续。"
+}

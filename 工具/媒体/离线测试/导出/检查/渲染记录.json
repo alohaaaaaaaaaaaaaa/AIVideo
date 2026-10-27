@@ -1,0 +1,63 @@
+{
+  "manifest_sha256": "6ba01e5f4eb0c9ab0996b824c52e459000ae0bed61f7df52d487f189c35789f6",
+  "duration": 6.0,
+  "input_assets": {
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/工具/媒体/离线测试/a.png": {
+      "sha256": "0a3bb4aa3863376e01b173ac39b5aa9f9f0109079fe93eef71f7961001b88fe4",
+      "image": true,
+      "width": 640,
+      "height": 360
+    },
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/工具/媒体/离线测试/animation.mp4": {
+      "sha256": "4165f2ddc40b09ca022cb18061af6547b721bd717e0c8370a63f56db997d92db",
+      "video": {
+        "width": 640,
+        "height": 360,
+        "fps": 25.0,
+        "duration": 2.0,
+        "frames": 50
+      }
+    },
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/工具/媒体/离线测试/b.png": {
+      "sha256": "53c747e3888241ca75fd5f5bc86950395f05d9310d51632ddb1ab4c4e1aa464c",
+      "image": true,
+      "width": 640,
+      "height": 360
+    }
+  },
+  "audio_sha256": "a81f9b2f7ac9f8e08f18a1e19c5183e107516840ddc647fc0fb6ac27215c7838",
+  "visual_config_sha256": "e7c7c6b4025f60e8dacd7bcd7df68768bfd6b30a90fa24a9bdaf9a8daabcd9ad",
+  "resolved_font": {
+    "family": "Hiragino Sans GB",
+    "file": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "sha256": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130",
+    "exact_reference_face": true,
+    "notice": null
+  },
+  "ass_sha256": "8522f7bc47f6b1c7b686555f28157836edb12096ab9941c5da269396f0b3232c",
+  "srt_sha256": "6769c0f5ddae5e307a8bdd306b9cbebfbd5d1b24059628d8f18d97fb32661152",
+  "outputs": [
+    {
+      "id": "clean",
+      "path": "clean.mp4",
+      "sha256": "cd9d7350c172e0717bfaee8932a2a11c868d37e1c41b0ae43a95b387433b50d4",
+      "actual_libass_font_selections": [
+        {
+          "selection": "/System/Library/Fonts/Hiragino Sans GB.ttc, -1, HiraginoSansGB-W3",
+          "file_sha256": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130"
+        }
+      ]
+    },
+    {
+      "id": "bili",
+      "path": "bili.mp4",
+      "sha256": "b1a12ab68339ebe571bf8357db6bd233077373d26556b1c0dc61a510388f07fd",
+      "actual_libass_font_selections": [
+        {
+          "selection": "/System/Library/Fonts/Hiragino Sans GB.ttc, -1, HiraginoSansGB-W3",
+          "file_sha256": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130"
+        }
+      ]
+    }
+  ]
+}

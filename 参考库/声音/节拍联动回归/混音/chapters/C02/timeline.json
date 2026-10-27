@@ -1,0 +1,15 @@
+{
+  "duration": 4.840000000000002,
+  "music_sections": [
+    {
+      "id": "M002",
+      "chapter": "02",
+      "title": "保留作者结尾",
+      "music_mood": "outro",
+      "start": 0.0,
+      "end": 4.84
+    }
+  ],
+  "music_cues": [],
+  "sound_cues": []
+}

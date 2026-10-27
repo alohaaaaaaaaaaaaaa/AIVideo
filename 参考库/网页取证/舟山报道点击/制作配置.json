@@ -1,0 +1,31 @@
+{
+  "mode": "cursor_click",
+  "source": "输入/标题日期高光.png",
+  "duration": 4.36,
+  "fps": 25,
+  "cursor": {
+    "from": [
+      1710,
+      760
+    ],
+    "to": [
+      1140,
+      365
+    ],
+    "move_fraction": 0.65,
+    "click_fraction": 0.78,
+    "pulse_halfwidth": 0.13
+  },
+  "review_times": [
+    0,
+    1.4,
+    2.84,
+    3.4,
+    4.32
+  ],
+  "adopted_final_time": [
+    721.92,
+    726.28
+  ],
+  "editorial_overlay_disclosure": "画面为保存原页标题日期截图，鼠标与点击圈由后期绘制；并非真实链接点击录屏或伪造搜索结果。来源底栏已在原图内，不重复添加。"
+}

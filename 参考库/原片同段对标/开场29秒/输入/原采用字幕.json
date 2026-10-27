@@ -1,0 +1,189 @@
+[
+  {
+    "text": "“二〇一二，",
+    "start": 0.0889,
+    "end": 0.6222,
+    "tts_text": "“二〇一二，",
+    "source_phrase_indices": [
+      0
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "诺亚飞舟，",
+    "start": 0.6667,
+    "end": 1.7333,
+    "tts_text": "诺亚飞舟，",
+    "source_phrase_indices": [
+      1
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "试飞而已，",
+    "start": 1.7778,
+    "end": 2.8889,
+    "tts_text": "试飞而已，",
+    "source_phrase_indices": [
+      2
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "要票的联系我啊。”",
+    "start": 2.9333,
+    "end": 4.5333,
+    "tts_text": "要票的联系我啊。”",
+    "source_phrase_indices": [
+      3
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "萧山机场因为不明飞行物暂停起降，",
+    "start": 5.3644,
+    "end": 7.9422,
+    "tts_text": "萧山机场因为不明飞行物暂停起降，",
+    "source_phrase_indices": [
+      0
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "网友已经开始卖船票了。",
+    "start": 7.9867,
+    "end": 9.8978,
+    "tts_text": "网友已经开始卖船票了。",
+    "source_phrase_indices": [
+      1
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "可另一条留言，",
+    "start": 11.2444,
+    "end": 12.2222,
+    "tts_text": "可另一条留言，",
+    "source_phrase_indices": [
+      0
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "突然认真了：",
+    "start": 12.2667,
+    "end": 13.0667,
+    "tts_text": "突然认真了：",
+    "source_phrase_indices": [
+      1
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "“内部消息表示是私人飞机。”",
+    "start": 13.2444,
+    "end": 15.4222,
+    "tts_text": "“内部消息表示是私人飞机。”",
+    "source_phrase_indices": [
+      2
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "更值得查的是，",
+    "start": 16.2444,
+    "end": 17.0,
+    "tts_text": "更值得查的是，",
+    "source_phrase_indices": [
+      0
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "四个月后的央视节目实录，",
+    "start": 17.0444,
+    "end": 19.1333,
+    "tts_text": "四个月后的央视节目实录，",
+    "source_phrase_indices": [
+      1
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "也写到了私人飞机。",
+    "start": 19.1778,
+    "end": 20.6,
+    "tts_text": "也写到了私人飞机。",
+    "source_phrase_indices": [
+      2
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "它说的日期和机场，",
+    "start": 20.6889,
+    "end": 22.2889,
+    "tts_text": "它说的日期和机场，",
+    "source_phrase_indices": [
+      3
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "正是这一次。",
+    "start": 22.3333,
+    "end": 23.4444,
+    "tts_text": "正是这一次。",
+    "source_phrase_indices": [
+      4
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "网友那句话，",
+    "start": 24.1244,
+    "end": 24.7467,
+    "tts_text": "网友那句话，",
+    "source_phrase_indices": [
+      0
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "究竟有多少依据？",
+    "start": 24.7911,
+    "end": 26.1244,
+    "tts_text": "究竟有多少依据？",
+    "source_phrase_indices": [
+      1
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  },
+  {
+    "text": "我们把原文翻出来。",
+    "start": 26.1689,
+    "end": 27.9022,
+    "tts_text": "我们把原文翻出来。",
+    "source_phrase_indices": [
+      2
+    ],
+    "timing_source": "MiniMax_generated_audio_word_timestamps",
+    "timing_not_allocated_by_character_count": true
+  }
+]

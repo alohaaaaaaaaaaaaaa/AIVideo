@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": {
+    "all_hashes_match_and_unicode_relative_paths": true,
+    "same_size_image_replaced": {
+      "rejected_before_encoding": true,
+      "reason": "镜头 S01: 编译后输入已变化；重新审定分镜并编译，禁止直接渲染旧manifest"
+    },
+    "same_duration_mix_replaced": {
+      "rejected_before_encoding": true,
+      "reason": "全片混音: 编译后输入已变化；重新审定分镜并编译，禁止直接渲染旧manifest"
+    },
+    "storyboard_changed": {
+      "rejected_before_encoding": true,
+      "reason": "导演绑定 plan: 编译后输入已变化；重新审定分镜并编译，禁止直接渲染旧manifest"
+    },
+    "timeline_changed": {
+      "rejected_before_encoding": true,
+      "reason": "导演绑定 timeline: 编译后输入已变化；重新审定分镜并编译，禁止直接渲染旧manifest"
+    },
+    "visual_cues_changed": {
+      "rejected_before_encoding": true,
+      "reason": "导演绑定 visual_cues: 编译后输入已变化；重新审定分镜并编译，禁止直接渲染旧manifest"
+    },
+    "same_duration_narration_replaced": {
+      "rejected_before_encoding": true,
+      "reason": "导演绑定 narration: 编译后输入已变化；重新审定分镜并编译，禁止直接渲染旧manifest"
+    },
+    "bound_manifest_cannot_drop_asset_hash": {
+      "rejected_before_encoding": true,
+      "reason": "S01: 导演编译的镜头缺少expected_sha256，不能退回未绑定素材"
+    },
+    "optional_binding_requires_path_hash_pair": {
+      "rejected_before_encoding": true,
+      "reason": "导演绑定 narration: 路径与SHA256必须成对提供"
+    },
+    "unbound_manual_manifest_remains_compatible": true,
+    "optional_asset_hash_alone_is_enforced": {
+      "rejected_before_encoding": true,
+      "reason": "镜头 S01: 编译后输入已变化；重新审定分镜并编译，禁止直接渲染旧manifest"
+    }
+  },
+  "network_calls": 0,
+  "paid_calls": 0,
+  "encoded_files": 0
+}

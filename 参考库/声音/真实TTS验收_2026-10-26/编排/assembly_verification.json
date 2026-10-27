@@ -1,0 +1,35 @@
+{
+  "status": "sample_identical_all_paragraphs",
+  "samples": 349440,
+  "frames": 182,
+  "duration": 7.28,
+  "time_stretch": false,
+  "speech_trimmed_samples": 0,
+  "padding_samples": 78,
+  "explicit_tail_samples": 38400,
+  "paragraph_checks": [
+    {
+      "id": "CHECK001",
+      "sample_start": 0,
+      "samples": 310962,
+      "original_samples": 310962,
+      "inserted_pause_samples": 0,
+      "pcm_sha256": "e0fbb3872f333838a6cc93a12d7abbba73e0b9b4c4fcd91eb4cdfdfe20dd2ada",
+      "source_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 310962,
+          "edited_start_sample": 0,
+          "edited_end_sample": 310962
+        }
+      ],
+      "source_pcm_sha256": "e0fbb3872f333838a6cc93a12d7abbba73e0b9b4c4fcd91eb4cdfdfe20dd2ada",
+      "sample_identical": true
+    }
+  ],
+  "narration_sha256": "5bda98ad45800a2035ff22212fd3879ef0f5f8fd14bb0b5d708d1d5c60a8ab03",
+  "paid_calls": 0,
+  "internal_pause_samples": 0,
+  "all_source_samples_preserved": true,
+  "subtitles_and_visual_cues_use_same_shift_map": true
+}

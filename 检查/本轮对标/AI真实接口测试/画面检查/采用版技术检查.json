@@ -1,0 +1,10 @@
+{
+  "duration": 5.875,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24.0,
+  "frames": 141,
+  "largest_consecutive_small_frame_luma_mae": 1.0838020833333333,
+  "mean_consecutive_small_frame_luma_mae": 0.9211460813492063,
+  "metric_units": "0..255 grayscale at320x180; descriptive only, not an automatic aesthetic verdict"
+}

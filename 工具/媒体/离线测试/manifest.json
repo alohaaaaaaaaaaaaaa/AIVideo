@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "title": "离线技术测试（非视觉模板）",
+  "fps": 25,
+  "width": 640,
+  "height": 360,
+  "output_dir": "导出",
+  "shots": [
+    {
+      "id": "S01",
+      "path": "a.png",
+      "duration": 2,
+      "kind": "image",
+      "native_label": false,
+      "source_note": "来源：自制技术测试图",
+      "source_note_safe_area": true
+    },
+    {
+      "id": "S02",
+      "path": "animation.mp4",
+      "duration": 2,
+      "kind": "animation",
+      "native_label": true,
+      "watermark_position": [
+        520,
+        40
+      ]
+    },
+    {
+      "id": "S03",
+      "path": "b.png",
+      "duration": 2,
+      "kind": "image",
+      "native_label": false
+    }
+  ],
+  "audio": {
+    "path": "mix.wav"
+  },
+  "subtitles": [
+    {
+      "start": 0.32,
+      "end": 1.68,
+      "text": "字幕应可读，不能贴底"
+    },
+    {
+      "start": 2.12,
+      "end": 3.72,
+      "text": "原生说明不重复添加"
+    },
+    {
+      "start": 4.24,
+      "end": 5.68,
+      "text": "名字保留，水印可切换"
+    }
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "来源"
+    },
+    {
+      "start": 2,
+      "title": "动画"
+    },
+    {
+      "start": 4,
+      "title": "片尾"
+    }
+  ],
+  "watermark": {
+    "path": "logo.png",
+    "width": 100,
+    "x": 520,
+    "y": 20
+  },
+  "versions": [
+    {
+      "id": "clean",
+      "label": "无水印版",
+      "watermark": false
+    },
+    {
+      "id": "bili",
+      "label": "B站版",
+      "watermark": true
+    }
+  ],
+  "subtitle_style": {
+    "font": "Hiragino Sans GB",
+    "font_size": 20,
+    "margin_v": 25
+  }
+}

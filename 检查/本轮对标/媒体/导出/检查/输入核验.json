@@ -1,0 +1,118 @@
+{
+  "status": "validated",
+  "manifest_sha256": "6e936f2c3e5dc2a014ebd3b118f44340360c25f4ee8ea174de2fb4c983ec9d24",
+  "duration": 4.0,
+  "frames": 100,
+  "shots": [
+    {
+      "id": "comment",
+      "path": "comment_source.png",
+      "kind": "image",
+      "duration": 1,
+      "native_label": false,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "source_note": "天涯原帖归档 · peace1989 · 2010-07-11 18:29:19",
+      "source_note_safe_area": true,
+      "start": 0.0,
+      "end": 1.0,
+      "frame_count": 25,
+      "absolute_path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/comment_source.png",
+      "in": 0.0
+    },
+    {
+      "id": "science",
+      "path": "science_source.png",
+      "kind": "image",
+      "duration": 1,
+      "native_label": false,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "start": 1.0,
+      "end": 2.0,
+      "frame_count": 25,
+      "absolute_path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/science_source.png",
+      "in": 0.0
+    },
+    {
+      "id": "source_two_lines",
+      "path": "source_two_lines_source.png",
+      "kind": "image",
+      "duration": 1,
+      "native_label": false,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "source_note": "京沪民间联合调查报告｜2010年7月14—15日走访｜UFO研究网后续转载\n现存论坛页发表于2015年；报告转述接待答复，非机组原始笔录或政府结案文件",
+      "source_note_safe_area": true,
+      "start": 2.0,
+      "end": 3.0,
+      "frame_count": 25,
+      "absolute_path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/source_two_lines_source.png",
+      "in": 0.0
+    },
+    {
+      "id": "endcard",
+      "path": "endcard_source.png",
+      "kind": "image",
+      "duration": 1,
+      "native_label": false,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "start": 3.0,
+      "end": 4.0,
+      "frame_count": 25,
+      "absolute_path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/endcard_source.png",
+      "in": 0.0
+    }
+  ],
+  "assets": {
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/comment_source.png": {
+      "sha256": "dad5f70c8fa37383a4232c26b1518affd1bb3ccfaeafb43177843518a9d13732",
+      "image": true,
+      "width": 1920,
+      "height": 1080
+    },
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/science_source.png": {
+      "sha256": "c877b57b2dc55e786144f5eb73409a87fc54aa30dadeb41d11e6f2f21d84a826",
+      "image": true,
+      "width": 1920,
+      "height": 1080
+    },
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/source_two_lines_source.png": {
+      "sha256": "5fd71808e45b50d70d57a4a56da718077d363a8427a46c9cba7271719fc094f1",
+      "image": true,
+      "width": 1920,
+      "height": 1080
+    },
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/endcard_source.png": {
+      "sha256": "6fa04f33f035c8391568838199f9fa3232a82ac1bc63ec971ed459ff4f06a251",
+      "image": true,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "audio": {
+    "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/本轮对标/媒体/test_mix.wav",
+    "sha256": "5643b38bf19153d6db00275797575e164e2590e7edf44ef26183910fa795c101",
+    "duration": 4.0,
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "subtitle_count": 4,
+  "chapter_count": 1,
+  "native_label_policy": "preserve_only; manual native label verification required",
+  "ai_original_speed_no_repeated_ranges": true,
+  "within_shot_watermark_motion": false,
+  "visual_config_sha256": "e7c7c6b4025f60e8dacd7bcd7df68768bfd6b30a90fa24a9bdaf9a8daabcd9ad",
+  "resolved_font": {
+    "family": "Hiragino Sans GB",
+    "file": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "sha256": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130",
+    "exact_reference_face": true,
+    "notice": null
+  }
+}

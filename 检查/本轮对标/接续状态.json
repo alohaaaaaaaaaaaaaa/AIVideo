@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "updated_at": "2026-10-26T22:43:12+08:00",
+  "reference_duration_seconds": 1319.96,
+  "report": "检查/工作室验收.json",
+  "main_preview": "参考库/原片同段对标/开场29秒/看同段对照.html",
+  "web_methods": "文档/09_网页抓取与网页动画.md",
+  "paid_generation_submissions": 2,
+  "pending_user_action": "可直接看同段对照；下一期尚未指定题目",
+  "remaining_production_tasks": [],
+  "archive_record": "检查/归档记录.json"
+}

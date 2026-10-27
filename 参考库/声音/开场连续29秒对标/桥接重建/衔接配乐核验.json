@@ -1,0 +1,115 @@
+{
+  "status": "technical_checks_passed",
+  "input_timeline": "参考库/声音/开场连续29秒对标/桥接timeline.json",
+  "input_timeline_sha256": "614be2b64f34777d13a5f319890d5d40e8fd6c6636e01bc64be0b616dfd42d16",
+  "transitions_file": "参考库/声音/开场连续29秒对标/桥接接口.json",
+  "duration": 33.36,
+  "bridges": [
+    {
+      "after_chapter": "01",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "before_chapter": "02",
+      "old_boundary": 29.36,
+      "start": 29.36,
+      "end": 29.36,
+      "previous_last_chord": "Cmaj7",
+      "next_first_chord": "Am9",
+      "common_tone_pitches": [
+        60,
+        64
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 9.172279133960757,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -40.92299036621738,
+      "reference_peak_dbfs": -25.387993678638576,
+      "new_bridge_peak_dbfs": -28.12742593631063,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 28.56,
+      "region_end": 30.16,
+      "mixed_peak_dbfs": -26.14717912920066,
+      "original_music_peak_dbfs": -25.387993678638576,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    }
+  ],
+  "observation_ducks": [],
+  "narration_checks": [
+    {
+      "chapter": "01",
+      "narration_source": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/开场连续29秒对标/voice_48k.wav",
+      "narration_source_sha256": "d5e5e7b120ffa260979c39a74c965a3cb2c05dba73db55b44a9c7bc3abf0e570",
+      "source_stereo_samples_sha256": "cbfd4136d70ea8be2d7625f79fc95777e4c737a7539ba8c242ff3558b3bc09a7",
+      "source_frames": 1409280,
+      "output_start_sample": 0,
+      "music_source": "参考库/声音/开场连续29秒对标/桥接上下文/C01/music_48k_stereo.wav",
+      "music_source_sha256": "f7f5ebaf243ae9913c8ebb841de9755b5536fb13a4b5898255c6746610dbfd96",
+      "narration_sample_identical": true
+    },
+    {
+      "chapter": "02",
+      "narration_source": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/开场连续29秒对标/桥接上下文/C02/narration.wav",
+      "narration_source_sha256": "4659169005f880dc54263536453f239bd72d5beb896fb8f34d0717a2db4d1b9e",
+      "source_stereo_samples_sha256": "2dfb5d6f86a243dec3f889a886aa6f957e68654aa945e4e43b9414c65166283c",
+      "source_frames": 192000,
+      "output_start_sample": 1409280,
+      "music_source": "参考库/声音/开场连续29秒对标/桥接上下文/C02/music_48k_stereo.wav",
+      "music_source_sha256": "dbcb2edd39fc1d58d24b38bac3989cccb775d268a41b0916af7262f2efd312bf",
+      "narration_sample_identical": true
+    }
+  ],
+  "voice_unstretched": true,
+  "voice_sample_identical": true,
+  "music_waveform_looped": false,
+  "paid_calls": 0,
+  "outputs": {
+    "voice": {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/voice_48k_stereo.wav",
+      "sha256": "008682e3336e7d5910d89b1cc61ae5f28ee64db1c77ddbd41a5810b847fe2182"
+    },
+    "music": {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/music_48k_stereo.wav",
+      "sha256": "e1488d810cc3d21b67112f28d2a3550839db01f09ec458fdcf653f11cfb9965b"
+    },
+    "sfx": {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/sfx_48k_stereo.wav",
+      "sha256": "51404c55f38e6b06bf319ea01825ccf165c29dc08672eabc2c67a5cbd17bc944"
+    },
+    "mix": {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/mix_48k_stereo.wav",
+      "sha256": "b4345630603683e8bf3416199948794ace74b46342670bcdb240969731c9ab80"
+    }
+  },
+  "verification": {
+    "frames": 1601280,
+    "clipped_samples": 0,
+    "nonvoice_safety_gain_min": 1.0,
+    "sample_peak_dbfs": -4.427084075191111,
+    "integrated_lufs": -16.82,
+    "true_peak_dbtp": -4.42,
+    "loudness_range_lu": 3.8,
+    "complete_decode": true
+  },
+  "listening_review": "技术核验；不声称已人工听完整片"
+}

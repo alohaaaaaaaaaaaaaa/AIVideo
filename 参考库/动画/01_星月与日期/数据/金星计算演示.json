@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "purpose": "金星20:40从JPL站心视坐标转换为地面参考点方位与高度的动作演示",
+  "paths_relative_to": "project_root",
+  "method_boundary": {
+    "JPL_provides": "天体轨道解、站心视赤经赤纬与当地视恒星时；第4项同时提供方位高度供交叉核对。",
+    "locally_calculated": "用JPL第2项和第7项以及地理纬度，实际计算时角、东/北/上分量、高度角与方位角。",
+    "not_claimed": "没有独立计算行星轨道，没有还原实际机组视线，没有进行新联网查询；这是坐标转换核对。"
+  },
+  "query_inputs": {
+    "target": "Venus",
+    "horizons_command": "299",
+    "time_beijing": "2010-07-07T20:40:00+08:00",
+    "time_utc": "2010-07-07T12:40:00Z",
+    "time_conversion": "北京时间20:40 − 8小时 = UTC12:40",
+    "longitude_east_deg": 120.3,
+    "geodetic_latitude_north_deg": 30.2,
+    "height_km": 0.01,
+    "observer_role": "萧山附近的地面参考点，不是机场精确坐标或实际机组观察位置。",
+    "center": "coord@399",
+    "coordinate_type": "GEODETIC",
+    "quantities": "2,4,7",
+    "refraction": "AIRLESS",
+    "coordinate_epoch": "站心视位置，of-date真赤道/春分点；恒星时为当地视恒星时。"
+  },
+  "jpl_direct_inputs": {
+    "alpha_ra_deg": 149.450761382,
+    "delta_dec_deg": 14.112744594,
+    "LAST_decimal_hours": 15.7118641102,
+    "raw_row": " 2010-Jul-07 12:40, , , 149.450761382,  14.112744594,   280.458860008,      10.241917991,  15.7118641102,",
+    "raw_fields_order": [
+      "UTC",
+      "solar_presence_flag",
+      "lunar_interference_flag",
+      "RA_deg",
+      "Dec_deg",
+      "Az_deg",
+      "Alt_deg",
+      "LAST_hours"
+    ]
+  },
+  "local_calculation": {
+    "phi_deg": 30.2,
+    "theta_deg": 235.677961653,
+    "hour_angle_deg": 86.22720027100002,
+    "term1_sin_phi_sin_delta": 0.12265172550095872,
+    "term2_cos_phi_cos_delta_cos_H": 0.05515301171710989,
+    "east_component": -0.9677160314049883,
+    "north_component": 0.17863694462398597,
+    "up_component_sin_h": 0.1778047372180686,
+    "altitude_deg": 10.241917990960802,
+    "azimuth_deg": 280.4588600081255,
+    "direction_enu_unit_vector": [
+      -0.9677160314049883,
+      0.17863694462398597,
+      0.1778047372180686
+    ],
+    "target_equatorial_unit_vector": [
+      -0.8351999888236447,
+      0.49293767274463574,
+      0.2438307393625462
+    ],
+    "zenith_equatorial_unit_vector": [
+      -0.48731595323709814,
+      -0.7137885506315816,
+      0.503019946630235
+    ],
+    "target_dot_zenith": 0.1778047372180684,
+    "east_basis_equatorial": [
+      0.8258814777638467,
+      -0.5638437591093873,
+      0
+    ],
+    "north_basis_equatorial": [
+      0.28362465761499506,
+      0.41543485686766973,
+      0.8642748019537048
+    ]
+  },
+  "formulae": {
+    "theta": "theta_deg = 15 * LAST_decimal_hours",
+    "H": "H_deg = wrap(theta_deg - alpha_ra_deg, -180, 180)",
+    "target_equatorial_unit_vector": "s = (cos(delta)*cos(alpha), cos(delta)*sin(alpha), sin(delta))",
+    "zenith_equatorial_unit_vector": "z = (cos(phi)*cos(theta), cos(phi)*sin(theta), sin(phi))",
+    "east_basis_equatorial": "e = (-sin(theta), cos(theta), 0)",
+    "north_basis_equatorial": "n = (-sin(phi)*cos(theta), -sin(phi)*sin(theta), cos(phi))",
+    "up": "U = s dot z = sin(phi)*sin(delta) + cos(phi)*cos(delta)*cos(H)",
+    "altitude": "h = asin(U)",
+    "east": "E = s dot e = -cos(delta)*sin(H)",
+    "north": "N = s dot n = cos(phi)*sin(delta) - sin(phi)*cos(delta)*cos(H)",
+    "azimuth": "A = atan2(E,N) mod 360 degrees",
+    "az_alt_to_enu": "(E,N,U) = (cos(h)*sin(A), cos(h)*cos(A), sin(h))",
+    "trig_units": "数值输入和展示为度；代码中先转弧度，反三角函数结果再转度。"
+  },
+  "jpl_cross_check_not_calculation_input": {
+    "azimuth_deg": 280.458860008,
+    "altitude_deg": 10.241917991,
+    "locally_calculated_minus_jpl_az_deg": 1.255102688446641e-10,
+    "locally_calculated_minus_jpl_alt_deg": -3.9197090018205927e-11,
+    "meaning": "与同一JPL返回中的打印方位/高度一致，仅为打印数值的舍入一致性；不是现实目击精度。"
+  },
+  "animation_steps": [
+    {
+      "id": "inputs",
+      "action": "把日期和参考位置放入查询，读取真实返回行；先突出RA/Dec/LAST，方位/高度列暂不当答案展示。",
+      "minimal_display": [
+        "2010/7/7 20:40 北京时间",
+        "地面参考点 120.3°E / 30.2°N",
+        "α 149.450761382°",
+        "δ 14.112744594°",
+        "LAST 15.7118641102h"
+      ],
+      "source": "06_原始资料/天文/JPL_Venus_返回正文.txt"
+    },
+    {
+      "id": "time_angle",
+      "action": "地球旁的时间刻度转成角度，再减去金星赤经，得到时角；经度已在LAST内，不再次相加。",
+      "calculation_display": "15 × 15.7118641102 − 149.450761382 = 86.227200271°",
+      "short_display": "时角 H = 86.23°"
+    },
+    {
+      "id": "project_to_zenith",
+      "action": "在参考点建立地平面/天顶箭头，金星视线投向天顶；向上投影为正，说明还在地平线上方。",
+      "calculation_display": "sin h = 0.122651725501 + 0.055153011717 = 0.177804737218",
+      "followup_display": "h = arcsin(0.177804737218) = +10.24°",
+      "geometry": "视线与天顶夹角为90°−h；点积s·z = cos(90°−h) = sin h。"
+    },
+    {
+      "id": "project_to_horizon",
+      "action": "保留同一条视线，将其投到东/北平面；东分量为负即向西，北分量为正即偏北，再读罗盘角。",
+      "calculation_display": "E = −0.967716031405；N = +0.178636944624",
+      "followup_display": "A = atan2(E,N) = 280.46°",
+      "short_display": "西偏北约10.46°"
+    },
+    {
+      "id": "compare_and_check",
+      "action": "先与真实返回的方位/高度列核对，再与报道东南区域并置。",
+      "short_display": "+10.24° / 280.46°，与JPL方位高度列一致",
+      "conclusion": "金星还在几何地平线上方，但在西偏北，与报道的机场东南区域线索对不上。"
+    }
+  ],
+  "render_conventions": {
+    "local_axes": {
+      "x": "East",
+      "y": "North",
+      "z": "Up"
+    },
+    "azimuth": "北0°、东90°、南180°、西270°；从上向下看顺时针。",
+    "altitude": "目标中心相对当地参考椭球的地平面，上正下负。",
+    "unit_vector_usage": "direction_enu_unit_vector是从参考观察点出发的单位视线，乘任意示意天球半径即可。",
+    "equatorial_axes": "x沿of-date春分点，y沿赤经90°，z沿真北天极；与JPL站心视赤经赤纬及LAST使用同一基准。",
+    "sphere_warning": "若用球形地球表达纬度/天顶，是几何关系示意，不声称绘制精密椭球地形或真实机组姿态。",
+    "no_fake_observation": "星点大小、光亮、天气、当地地形不在这组数据中。报道东南是大致地理描述，不是实测135°射线。",
+    "safe_frame_label": "星历坐标转换演示 · 地面参考点 · 无大气折射"
+  },
+  "pitfalls": [
+    "LAST已包含经度与时刻影响，theta不再加120.3°。",
+    "LAST为十进制小时，15.711864不是15时71分。",
+    "atan2参数顺序为东分量、北分量；若所用语言定义atan2(y,x)，调用atan2(E,N)。",
+    "不能把H_deg时角与h_deg高度角当同一变量；避免大小写不敏感的JSON工具。",
+    "不能混用J2000/ICRF天体测量赤经和平恒星时，也不能给站心输入再次加视差修正。",
+    "几何高度为正不证明当晚云况下实际肉眼可见；AIRLESS未加大气折射。",
+    "从七节点插值只能作动画过渡，不用插值数值宣布精确落下时刻。"
+  ],
+  "source_paths": [
+    "04_计算与排除/01_天文计算.json",
+    "04_计算与排除/01_天文取数与推导.md",
+    "04_计算与排除/复算天文.py",
+    "06_原始资料/天文/JPL_Venus_原始返回.json",
+    "06_原始资料/天文/JPL_Venus_参数.json",
+    "06_原始资料/天文/JPL_Venus_返回正文.txt"
+  ],
+  "verification": {
+    "status": "passed",
+    "checked_against": "保存JPL原始行及本地独立math标量/向量重算",
+    "max_saved_scalar_or_vector_difference": 1.1102230246251565e-16,
+    "field_differences": {
+      "phi_deg": 0.0,
+      "theta_deg": 0.0,
+      "hour_angle_deg": 0.0,
+      "term1_sin_phi_sin_delta": 0.0,
+      "term2_cos_phi_cos_delta_cos_H": 0.0,
+      "east_component": 0.0,
+      "north_component": 0.0,
+      "up_component_sin_h": 0.0,
+      "altitude_deg": 0.0,
+      "azimuth_deg": 0.0,
+      "direction_enu_unit_vector": 0.0,
+      "target_equatorial_unit_vector": 1.1102230246251565e-16,
+      "zenith_equatorial_unit_vector": 0.0,
+      "target_dot_zenith": 5.551115123125783e-17
+    },
+    "unit_vector_squared_length": 0.9999999999999998,
+    "recomputed_az_deg": 280.4588600081255,
+    "recomputed_alt_deg": 10.241917990960802,
+    "difference_from_JPL_printed_az_deg": 1.255102688446641e-10,
+    "difference_from_JPL_printed_alt_deg": -3.9197090018205927e-11,
+    "precision_note": "差值反映同一JPL打印数值的舍入一致性，不是绝对观测精度。",
+    "network_requests": 0,
+    "paid_api_calls": 0,
+    "source_files_modified": false,
+    "sources": [
+      {
+        "path": "04_计算与排除/01_天文计算.json",
+        "sha256": "76d279c833fd77a343de501ac1dda497a22540eb8e758b036527f792800fb87d"
+      },
+      {
+        "path": "04_计算与排除/01_天文取数与推导.md",
+        "sha256": "640eea488a9cce1079196fa8df6347c28f53ec92134df5cf1c9c1de04902a1e8"
+      },
+      {
+        "path": "04_计算与排除/复算天文.py",
+        "sha256": "20fbfaa93b43e3b371a774a8260cd5b3a1ca180f272ec5e3a19f96e9f98d8c13"
+      },
+      {
+        "path": "06_原始资料/天文/JPL_Venus_原始返回.json",
+        "sha256": "b0b6385148c0d10fd99c417b94da228cf09128b5caf1c2f9069f7b9e9d1431d3"
+      },
+      {
+        "path": "06_原始资料/天文/JPL_Venus_参数.json",
+        "sha256": "6ae3871988b6a79ac8a638b80ae305c5500a4e4cf688c31779f6d7fed167c2b4"
+      },
+      {
+        "path": "06_原始资料/天文/JPL_Venus_返回正文.txt",
+        "sha256": "a0d386082909510a5e43d34de0d6944555db5f39f67370e8881d586c48758ebe"
+      }
+    ]
+  }
+}

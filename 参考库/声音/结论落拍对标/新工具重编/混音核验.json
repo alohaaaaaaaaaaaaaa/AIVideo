@@ -1,0 +1,30 @@
+{
+  "duration": 12.36,
+  "narration": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/结论落拍对标/voice_48k.wav",
+  "narration_sha256": "fc2100743dbe1a5e24c01deb871b8da17f806a90ee471091c64873fdbb87ae30",
+  "music_sha256": "3f67b80dec4e6861a9ad77434a7a3a0a75d1c83f4eea651a34127fdcf0a84743",
+  "voice_processing": "单声道等功率居中；立体声输入保持；不归一化、不变速、不削人声",
+  "music_eq": "HP105Hz; -4.5dB@1800Hz Q0.65; LP7000Hz",
+  "duck_attack_ms": 35,
+  "duck_release_ms": 480,
+  "lookahead_ms": 60,
+  "music_relative_db_median": -21.71070402706835,
+  "music_relative_db_max": -13.999999318094282,
+  "dialogue_addition_residual_peak": 5.551115123125783e-17,
+  "nonvoice_safety_gain": 1.0,
+  "final": {
+    "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/结论落拍对标/新工具重编/mix_48k_stereo.wav",
+    "sha256": "498a681294e7c54ff331b97aeff0b3d4862ceb7eec84fc240865803bcb6fbd9e",
+    "duration": 12.36,
+    "sample_peak_dbfs": -4.6441396379311355,
+    "clipped_samples": 0,
+    "integrated_lufs": -17.04,
+    "true_peak_dbtp": -4.62,
+    "loudness_range_lu": 2.3,
+    "complete_decode": true
+  },
+  "preserved_prefix_checks": [],
+  "loudness_near_accepted_reference": true,
+  "new_paid_calls": 0,
+  "listening_review": "技术核验；听感与画面结合由整片审阅确认"
+}

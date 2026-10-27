@@ -1,0 +1,11 @@
+{
+  "old_project_name": "xsufo",
+  "historical_mix": "10_重新策划/全片终版/叙事优化制作/声音/全片_旁白与BGM_48k_stereo.wav",
+  "historical_global_start": 1268.04,
+  "historical_global_end": 1280.4,
+  "source_mix_sha256": "2ff889b0811bc77fe1bab40870a4cb33326d44df529e0b6cd4ceac42ca5c997a",
+  "voice_samples_copied_without_processing": true,
+  "voice_samples": 593280,
+  "scope": "同一句完整结论与原声停顿；重编方案与原音乐进行AB，不能仅凭技术指标声称主观听感相同",
+  "new_paid_calls": 0
+}

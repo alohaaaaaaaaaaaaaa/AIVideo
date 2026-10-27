@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "duration": 6,
+  "frames": 150,
+  "full_decode_both_versions": true,
+  "actual_burned_subtitle_white_pixels": 445,
+  "pre_caption_white_pixels": 1,
+  "watermark_difference_verified": true,
+  "guard_rejections": {
+    "repeat_ai": "S04: AI源区间与 S02 重复",
+    "duplicate_annotation": "S02: 仅无原生备注的静态截图可新增底部来源；视频/动画不加第二层",
+    "overlong_video": "S02: 请求超出素材时长；禁止末帧补足或循环",
+    "moving_watermark": "水印位置必须为两个固定数字；禁止镜头内动画",
+    "missing_ai_label": "S02: AI片段请先在素材内做好一处情景示意标识，核验后设置 native_label:true"
+  },
+  "note": "测试图仅验证技术，不作为频道成片美术样式。"
+}

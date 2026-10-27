@@ -1,0 +1,121 @@
+{
+  "assets": [
+    {
+      "id": "new:pinghu_context",
+      "path": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_context.png",
+      "raw_path": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_context_原页原像素.png",
+      "environment_raw_path": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_context_原页环境.png",
+      "source": "06_原始资料/新闻/E06_央视经济半小时_新浪转载.html",
+      "source_sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "sha256": "08a27628adfa99387238a4469f44d538d6d42dc48aa5e5d51e84e6817233d353",
+      "source_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "quote": "记者在浙江嘉兴平湖九龙旅游度假山庄同样看到停放着两架飞机，一架小型固定翼飞机，一架蜂鸟260L型直升机，工作人员介绍由于是在上海世博会期间，所以私人飞行活动被取消，这些飞机被相关监管部门监控不得使用。",
+      "marks": {
+        "浙江嘉兴平湖九龙旅游度假山庄": [
+          [
+            400.0,
+            397.66666666666663,
+            922.6666666666666,
+            397.66666666666663
+          ]
+        ]
+      },
+      "clip_css": {
+        "x": 256,
+        "y": 848,
+        "width": 609.5625,
+        "height": 77
+      },
+      "view_css": {
+        "x": 200,
+        "y": 723.375,
+        "width": 720,
+        "height": 326.25
+      },
+      "focus_rect": [
+        149,
+        332,
+        1775,
+        538
+      ],
+      "treatment": "actual source page; blur surrounding page; intact sharp original paragraph; actual-speech redlines",
+      "source_pixels_rewritten": false,
+      "network_requests_sent": 0
+    },
+    {
+      "id": "new:pinghu_quote",
+      "path": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_quote.png",
+      "raw_path": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_quote_原页原像素.png",
+      "environment_raw_path": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_quote_原页环境.png",
+      "source": "06_原始资料/新闻/E06_央视经济半小时_新浪转载.html",
+      "source_sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "sha256": "526f619b3c83ae5d280b2807a069b922690493177af83c55f4d2648ba1cea95e",
+      "source_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "quote": "记者了解到，今年4月27日九龙旅游度假山庄为了筹划飞行俱乐部做了一次飞行表演，在未经军民航批准的情况下，飞行员擅自驾驶直升机升空飞行10分钟，结果造成了上海浦东、虹桥国际机场航班大面积延误，目前相关监管部门对此事件正在处理之中。",
+      "marks": {
+        "4月27日": [
+          [
+            586.6666666666666,
+            397.66666666666663,
+            717.3333333333333,
+            397.66666666666663
+          ]
+        ],
+        "未经军民航批准": [
+          [
+            213.33333333333331,
+            459.0,
+            474.66666666666663,
+            459.0
+          ]
+        ],
+        "直升机升空飞行10分钟": [
+          [
+            922.6666666666666,
+            459.0,
+            1296.0,
+            459.0
+          ]
+        ],
+        "上海浦东、虹桥国际机场航班大面积延误": [
+          [
+            1520.0,
+            459.0,
+            1706.6666666666665,
+            459.0
+          ],
+          [
+            213.33333333333331,
+            520.3333333333333,
+            698.6666666666666,
+            520.3333333333333
+          ]
+        ]
+      },
+      "clip_css": {
+        "x": 256,
+        "y": 1215,
+        "width": 615,
+        "height": 75
+      },
+      "view_css": {
+        "x": 200,
+        "y": 1089.375,
+        "width": 720,
+        "height": 326.25
+      },
+      "focus_rect": [
+        149,
+        335,
+        1789,
+        535
+      ],
+      "treatment": "actual source page; blur surrounding page; intact sharp original paragraph; actual-speech redlines",
+      "source_pixels_rewritten": false,
+      "network_requests_sent": 0
+    }
+  ],
+  "paid_calls": 0,
+  "source_text_changed": false,
+  "network_requests_sent": 0
+}

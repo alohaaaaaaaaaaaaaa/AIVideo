@@ -1,0 +1,29 @@
+[
+  {
+    "file": "NotoSansCJKsc-Regular.otf",
+    "source_url": "https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+    "upstream_repository": "https://github.com/notofonts/noto-cjk",
+    "license": "SIL Open Font License 1.1",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "bytes": 16437364,
+    "downloaded_local_date": "2026-10-26"
+  },
+  {
+    "file": "NotoSansCJKsc-Bold.otf",
+    "source_url": "https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf",
+    "upstream_repository": "https://github.com/notofonts/noto-cjk",
+    "license": "SIL Open Font License 1.1",
+    "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a",
+    "bytes": 17002248,
+    "downloaded_local_date": "2026-10-26"
+  },
+  {
+    "file": "LICENSE.txt",
+    "source_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE",
+    "upstream_repository": "https://github.com/notofonts/noto-cjk",
+    "license": "SIL Open Font License 1.1",
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "bytes": 4301,
+    "downloaded_local_date": "2026-10-26"
+  }
+]

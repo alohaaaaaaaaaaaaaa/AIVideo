@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "time_basis": "seconds derived from actual 48000Hz sample ledger",
+  "sample_rate": 48000,
+  "fps": 25,
+  "samples_per_frame": 1920,
+  "duration": 11.12,
+  "samples": 533760,
+  "frames": 278,
+  "narration": "narration_48k_mono.wav",
+  "segments": [
+    {
+      "id": "C01_P001",
+      "chapter": "01",
+      "text": "萧山机场因为不明飞行物暂停起降，网友已经开始卖船票了。",
+      "source_audio": "C01_P001_48k_mono.wav",
+      "source_sha256": "398cbc775275dfa0496cd801ed2cd75dd271e26cf89bbe45917fa33d68a4bac8",
+      "start": 0.0,
+      "end": 6.28,
+      "natural_duration": 5.88,
+      "sample_start": 0,
+      "speech_end_sample": 282240,
+      "sample_end": 301440,
+      "source_samples": 282240,
+      "frame_start": 0,
+      "frame_end": 157,
+      "alignment_padding_samples": 0,
+      "explicit_tail_samples": 19200,
+      "explicit_tail_seconds": 0.4,
+      "phrases": [
+        {
+          "start": 0.0444,
+          "end": 2.6222,
+          "text": "萧山机场因为不明飞行物暂停起降，",
+          "time_basis": "actual_approved_film_phrase_timestamps",
+          "segment_id": "C01_P001"
+        },
+        {
+          "start": 2.6667,
+          "end": 4.5778,
+          "text": "网友已经开始卖船票了。",
+          "time_basis": "actual_approved_film_phrase_timestamps",
+          "segment_id": "C01_P001"
+        }
+      ],
+      "time_stretch": false
+    },
+    {
+      "id": "C02_P001",
+      "chapter": "02",
+      "text": "我是啊子牙。想拿这次整理的资料，可以先关注我。",
+      "source_audio": "C02_P001_48k_mono.wav",
+      "source_sha256": "3fdaff245a65dbf75741b09624f9e0aa8316c11a15782a4b32833fc991db05fc",
+      "start": 6.28,
+      "end": 11.12,
+      "natural_duration": 3.6339375,
+      "sample_start": 301440,
+      "speech_end_sample": 475869,
+      "sample_end": 533760,
+      "source_samples": 174429,
+      "frame_start": 157,
+      "frame_end": 278,
+      "alignment_padding_samples": 291,
+      "explicit_tail_samples": 57600,
+      "explicit_tail_seconds": 1.2,
+      "phrases": [
+        {
+          "text": "我是啊子牙。",
+          "tts_text": "我是阿子牙。",
+          "start": 6.3244,
+          "end": 6.9467,
+          "time_basis": "provider_actual_word_timestamps",
+          "segment_id": "C02_P001"
+        },
+        {
+          "text": "想拿这次整理的资料，",
+          "tts_text": "想拿这次整理的资料，",
+          "start": 6.9911,
+          "end": 8.5911,
+          "time_basis": "provider_actual_word_timestamps",
+          "segment_id": "C02_P001"
+        },
+        {
+          "text": "可以先关注我。",
+          "tts_text": "可以先关注我。",
+          "start": 8.6356,
+          "end": 9.6133,
+          "time_basis": "provider_actual_word_timestamps",
+          "segment_id": "C02_P001"
+        }
+      ],
+      "time_stretch": false
+    }
+  ],
+  "subtitles": [
+    {
+      "start": 0.0444,
+      "end": 2.6222,
+      "text": "萧山机场因为不明飞行物暂停起降，",
+      "time_basis": "actual_approved_film_phrase_timestamps",
+      "segment_id": "C01_P001"
+    },
+    {
+      "start": 2.6667,
+      "end": 4.5778,
+      "text": "网友已经开始卖船票了。",
+      "time_basis": "actual_approved_film_phrase_timestamps",
+      "segment_id": "C01_P001"
+    },
+    {
+      "text": "我是啊子牙。",
+      "tts_text": "我是阿子牙。",
+      "start": 6.3244,
+      "end": 6.9467,
+      "time_basis": "provider_actual_word_timestamps",
+      "segment_id": "C02_P001"
+    },
+    {
+      "text": "想拿这次整理的资料，",
+      "tts_text": "想拿这次整理的资料，",
+      "start": 6.9911,
+      "end": 8.5911,
+      "time_basis": "provider_actual_word_timestamps",
+      "segment_id": "C02_P001"
+    },
+    {
+      "text": "可以先关注我。",
+      "tts_text": "可以先关注我。",
+      "start": 8.6356,
+      "end": 9.6133,
+      "time_basis": "provider_actual_word_timestamps",
+      "segment_id": "C02_P001"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "01",
+      "title": "真实旁白衔接测试",
+      "start": 0.0,
+      "end": 6.28,
+      "sample_start": 0,
+      "sample_end": 301440,
+      "frame_start": 0,
+      "frame_end": 157,
+      "narration": "chapters/chapter_01_48k_mono.wav"
+    },
+    {
+      "id": "02",
+      "title": "姓名读音与尾帧测试",
+      "start": 6.28,
+      "end": 11.12,
+      "sample_start": 301440,
+      "sample_end": 533760,
+      "frame_start": 157,
+      "frame_end": 278,
+      "narration": "chapters/chapter_02_48k_mono.wav"
+    }
+  ],
+  "music_sections": [
+    {
+      "id": "M001",
+      "chapter": "01",
+      "title": "真实旁白衔接测试",
+      "music_mood": "comments",
+      "start": 0.0,
+      "end": 6.28
+    },
+    {
+      "id": "M002",
+      "chapter": "02",
+      "title": "姓名读音与尾帧测试",
+      "music_mood": "outro",
+      "start": 6.28,
+      "end": 11.12
+    }
+  ],
+  "music_cues": [],
+  "sound_cues": [],
+  "source_paragraphs_sha256": "2c37578c6775ebbea9c306804e82f301fe9c3ed802e0b2fedd90446d03938618",
+  "layout_sha256": "89cdbc7f47336e0aeacf074285e0449e0f646b44c622c1ed5b658d0c7bfb30d0"
+}

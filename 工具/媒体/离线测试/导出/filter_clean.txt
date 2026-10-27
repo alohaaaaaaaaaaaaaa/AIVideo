@@ -1,0 +1,1 @@
+[0:v]ass=subtitles.ass:fontsdir=fonts[captioned];[captioned]format=yuv420p[video]

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "files": 1168,
+  "objects_fully_decoded": 384,
+  "present_original_hashes_matched": 753,
+  "required_full_restore": false,
+  "mismatches": [],
+  "source_bytes": 1109003503,
+  "source_files": 1168,
+  "stored_bytes": 586766052,
+  "kept_preview_files": 53,
+  "unique_stored_objects": 384,
+  "all_objects_under_50MiB": true,
+  "lossy_conversion": false
+}

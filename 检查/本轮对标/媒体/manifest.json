@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "title": "原采用版同画面对标",
+  "fps": 25,
+  "width": 1920,
+  "height": 1080,
+  "output_dir": "导出",
+  "shots": [
+    {
+      "id": "comment",
+      "path": "comment_source.png",
+      "kind": "image",
+      "duration": 1,
+      "native_label": false,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "source_note": "天涯原帖归档 · peace1989 · 2010-07-11 18:29:19",
+      "source_note_safe_area": true
+    },
+    {
+      "id": "science",
+      "path": "science_source.png",
+      "kind": "image",
+      "duration": 1,
+      "native_label": false,
+      "layout": {
+        "mode": "fullframe"
+      }
+    },
+    {
+      "id": "source_two_lines",
+      "path": "source_two_lines_source.png",
+      "kind": "image",
+      "duration": 1,
+      "native_label": false,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "source_note": "京沪民间联合调查报告｜2010年7月14—15日走访｜UFO研究网后续转载\n现存论坛页发表于2015年；报告转述接待答复，非机组原始笔录或政府结案文件",
+      "source_note_safe_area": true
+    },
+    {
+      "id": "endcard",
+      "path": "endcard_source.png",
+      "kind": "image",
+      "duration": 1,
+      "native_label": false,
+      "layout": {
+        "mode": "fullframe"
+      }
+    }
+  ],
+  "audio": {
+    "path": "test_mix.wav"
+  },
+  "subtitles": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "要票的联系我啊。”",
+      "style": {
+        "profile": "main"
+      }
+    },
+    {
+      "start": 1,
+      "end": 2,
+      "text": "快门开着的时候，",
+      "style": {
+        "profile": "science"
+      }
+    },
+    {
+      "start": 2,
+      "end": 3,
+      "text": "可到了华东管理局办公室，",
+      "style": {
+        "profile": "main"
+      }
+    },
+    {
+      "start": 3,
+      "end": 4,
+      "text": "可以先关注我。",
+      "style": {
+        "profile": "main"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "同画面对标"
+    }
+  ],
+  "subtitle_style": {
+    "profile": "main"
+  },
+  "versions": [
+    {
+      "id": "clean",
+      "label": "对标无水印",
+      "watermark": false
+    }
+  ]
+}

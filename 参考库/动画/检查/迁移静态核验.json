@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-10-26",
+  "source_copies_hash_matched": 65,
+  "independent_python_compilation_passed": [
+    "汇聚范例.py",
+    "星月范例.py",
+    "核验独立引擎.py",
+    "核验动画数据.py",
+    "渲染范例.py",
+    "雷达范例.py",
+    "曝光范例.py",
+    "取回新题星历.py",
+    "日期范例.py"
+  ],
+  "no_old_project_absolute_runtime_paths": true,
+  "gallery_video_paths_passed": 9,
+  "gallery_static_links_passed": true,
+  "paid_calls": 0
+}

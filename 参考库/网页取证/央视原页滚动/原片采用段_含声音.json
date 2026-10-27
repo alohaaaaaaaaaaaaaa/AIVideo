@@ -1,0 +1,12 @@
+{
+  "source": "/Users/elton/Documents/xsuvidio/xsufo/10_重新策划/全片终版/叙事优化制作/导出/萧山机场事件_叙事优化版_无水印_1080p.mp4",
+  "source_sha256": "985ea1e3a2b200959a3d2ea3407675597dcc5f0d69387a582e6ea665f914684b",
+  "source_total_duration": 1319.96,
+  "start": 191.12,
+  "end": 200.84,
+  "duration": 9.72,
+  "file": "原片采用段_含声音.mp4",
+  "sha256": "1f61b67079b806dcb8bcc1bc99f4c8f341cff0467ac0fc0f4fc13bdb5f163e93",
+  "purpose": "actual adopted final video with its original narration/music; reference cut, re-encoded, not bit-identical audio",
+  "new_api_calls": 0
+}

@@ -1,0 +1,103 @@
+{
+  "status": "validated",
+  "manifest_sha256": "03a16aa83f7bb0e53c4e16928d220f346d31e350cfc9c5f7bd58493068a97053",
+  "duration": 19.12,
+  "frames": 478,
+  "shots": [
+    {
+      "id": "DEMO_001",
+      "path": "输入/船票评论_真实采用画面.png",
+      "kind": "image",
+      "native_label": false,
+      "duration": 6.28,
+      "source_note": "来源：天涯社区原帖归档，第12页；回复日期：2010-07-11",
+      "source_note_safe_area": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "start": 0.0,
+      "end": 6.28,
+      "frame_count": 157,
+      "absolute_path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/全流程验收样片/输入/船票评论_真实采用画面.png",
+      "in": 0.0
+    },
+    {
+      "id": "DEMO_002",
+      "path": "输入/星月转身_8秒.mp4",
+      "kind": "animation",
+      "native_label": true,
+      "duration": 8.0,
+      "watermark_position": [
+        1664,
+        880
+      ],
+      "layout": {
+        "mode": "fullframe"
+      },
+      "start": 6.28,
+      "end": 14.28,
+      "frame_count": 200,
+      "absolute_path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/全流程验收样片/输入/星月转身_8秒.mp4",
+      "in": 0.0
+    },
+    {
+      "id": "DEMO_003",
+      "path": "输入/片尾啊子牙.png",
+      "kind": "image",
+      "native_label": true,
+      "duration": 4.84,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "start": 14.28,
+      "end": 19.12,
+      "frame_count": 121,
+      "absolute_path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/全流程验收样片/输入/片尾啊子牙.png",
+      "in": 0.0
+    }
+  ],
+  "assets": {
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/全流程验收样片/输入/船票评论_真实采用画面.png": {
+      "sha256": "918592ad8876a800c4f8888d35864692bf3ac7e4f977d139f035a5d4e4f42a31",
+      "image": true,
+      "width": 1920,
+      "height": 1080
+    },
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/全流程验收样片/输入/星月转身_8秒.mp4": {
+      "sha256": "a099dcbe010287ab85bebe7bb0322a9af941b7fbc5cc13f7f1868f75bae8bae0",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 25.0,
+        "duration": 8.0,
+        "frames": 200
+      }
+    },
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/全流程验收样片/输入/片尾啊子牙.png": {
+      "sha256": "db2d0abf0311e31b836e38718393d3631b120535a2cea242e8fdf0603fb1a303",
+      "image": true,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "audio": {
+    "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/全流程验收样片/混音/mix_48k_stereo.wav",
+    "sha256": "eef41692cdec205d8dba48a14a2af573bb2d1151fdb225f4fe275170cdb1afe3",
+    "duration": 19.12,
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "subtitle_count": 5,
+  "chapter_count": 3,
+  "native_label_policy": "preserve_only; manual native label verification required",
+  "ai_original_speed_no_repeated_ranges": true,
+  "within_shot_watermark_motion": false,
+  "visual_config_sha256": "e7c7c6b4025f60e8dacd7bcd7df68768bfd6b30a90fa24a9bdaf9a8daabcd9ad",
+  "resolved_font": {
+    "family": "Hiragino Sans GB",
+    "file": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "sha256": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130",
+    "exact_reference_face": true,
+    "notice": null
+  }
+}

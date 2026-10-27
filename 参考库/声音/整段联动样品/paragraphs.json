@@ -1,0 +1,73 @@
+[
+  {
+    "id": "C01_P001",
+    "text": "萧山机场因为不明飞行物暂停起降，网友已经开始卖船票了。",
+    "audio": "C01_P001_48k_mono.wav",
+    "audio_sha256": "398cbc775275dfa0496cd801ed2cd75dd271e26cf89bbe45917fa33d68a4bac8",
+    "duration": 5.88,
+    "sample_rate": 48000,
+    "samples": 282240,
+    "phrases": [
+      {
+        "start": 0.0444,
+        "end": 2.6222,
+        "text": "萧山机场因为不明飞行物暂停起降，",
+        "time_basis": "actual_approved_film_phrase_timestamps"
+      },
+      {
+        "start": 2.6667,
+        "end": 4.5778,
+        "text": "网友已经开始卖船票了。",
+        "time_basis": "actual_approved_film_phrase_timestamps"
+      }
+    ]
+  },
+  {
+    "id": "C02_P001",
+    "text": "我是啊子牙。想拿这次整理的资料，可以先关注我。",
+    "audio": "C02_P001_48k_mono.wav",
+    "audio_sha256": "3fdaff245a65dbf75741b09624f9e0aa8316c11a15782a4b32833fc991db05fc",
+    "duration": 3.6339375,
+    "sample_rate": 48000,
+    "samples": 174429,
+    "phrases": [
+      {
+        "text": "我是啊子牙。",
+        "tts_text": "我是阿子牙。",
+        "start": 0.0444,
+        "end": 0.6667,
+        "time_basis": "provider_actual_word_timestamps"
+      },
+      {
+        "text": "想拿这次整理的资料，",
+        "tts_text": "想拿这次整理的资料，",
+        "start": 0.7111,
+        "end": 2.3111,
+        "time_basis": "provider_actual_word_timestamps"
+      },
+      {
+        "text": "可以先关注我。",
+        "tts_text": "可以先关注我。",
+        "start": 2.3556,
+        "end": 3.3333,
+        "time_basis": "provider_actual_word_timestamps"
+      }
+    ],
+    "level_match": {
+      "linear_gain": 2.9671258352573537,
+      "gain_db": 9.446719301119732,
+      "raw_peak_dbfs": -12.205174433454193,
+      "raw_voiced_median_dbfs": -25.398600156788266,
+      "reference_voiced_median_dbfs": -15.951880855668536,
+      "processed_voiced_median_dbfs": -15.951880449600825,
+      "processed_peak_dbfs": -2.7584550324010486,
+      "limiter_max_reduction_db": -1.0354387945871882e-06,
+      "fraction_limited": 0.0,
+      "limiter_method": "same 20ms peak lookahead / 50ms protection / 10ms smoothing as accepted opening",
+      "time_stretch": false
+    },
+    "time_stretch": false,
+    "independent_asr": "not_yet_run",
+    "listening_review": "not_yet_reviewed"
+  }
+]

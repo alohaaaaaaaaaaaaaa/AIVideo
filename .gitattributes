@@ -1,0 +1,3 @@
+# Preserve evidence and hash-bound plans byte-for-byte across checkout.
+# Do not normalize CRLF/LF: original HTML and adopted manifests are SHA-bound.
+* -text

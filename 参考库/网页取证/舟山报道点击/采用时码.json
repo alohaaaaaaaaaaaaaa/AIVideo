@@ -1,0 +1,26 @@
+{
+  "final_duration": 1319.96,
+  "shot": {
+    "id": "B08_P008_S00",
+    "chapter": "08",
+    "paragraph_index": 8,
+    "start": 721.92,
+    "end": 726.28,
+    "duration": 4.36,
+    "kind": "video",
+    "asset_id": "clip:C04:S09",
+    "adapter": "/Users/elton/Documents/xsuvidio/xsufo/10_重新策划/全片终版/叙事优化制作/工具/画面后半/back_visuals.py",
+    "cues": [],
+    "playback_rate": 1,
+    "personal_branding": false,
+    "narration_subtitles": false,
+    "source": "/Users/elton/Documents/xsuvidio/xsufo/10_重新策划/调查后续/缓存/S09.mp4",
+    "source_in": 0,
+    "source_out": 4.36,
+    "source_sha256": "6fe8044e035db97df3f1b43c6e4980690179e740115d258eacf44c7c822a19c4",
+    "_path": "/Users/elton/Documents/xsuvidio/xsufo/10_重新策划/全片终版/叙事优化制作/素材/后半/镜头/B08_P008_S00.mp4",
+    "_original_duration": 4.36,
+    "_side": "back"
+  },
+  "use": "historical trace only; runnable config uses local relative files"
+}

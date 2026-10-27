@@ -1,0 +1,114 @@
+{
+  "status": "ready_for_next_topic",
+  "created_at": "2026-10-26T20:54:39",
+  "project_name": "啊子牙视频工作室",
+  "separate_from_original_project": true,
+  "original_project_moved_or_overwritten": false,
+  "entry": "打开工作室.html",
+  "guide": "00_从这里开始.md",
+  "current_episode": "作品/2026-10-26_下一期_待选题",
+  "scope": "可复用独立视频制作工作室；下一期题目尚未指定，没有擅自开拍",
+  "defaults": {
+    "voice": "Chinese (Mandarin)_Southern_Young_Man",
+    "tts_model": "speech-2.8-hd",
+    "speed": 0.96,
+    "voice_music_change": "仅用户主动要求",
+    "music": "原认可的GeneralUser GS四乐器体系，按每期实音重新编曲",
+    "watermark": [
+      "B站啊子牙",
+      "抖音啊子牙+账号"
+    ],
+    "export": [
+      "bili",
+      "clean"
+    ]
+  },
+  "included": [
+    "8份详细制作手册",
+    "本地制作技能与AGENTS接手规则",
+    "每期模板与状态接续",
+    "211项可核对的声音/动画/品牌/截图参考文件",
+    "星月及日期/曝光/雷达/空间汇聚5类动画引擎",
+    "配音计划/缓存/生成与实音编排工具",
+    "原配乐音源、许可、MIDI、分轨、编曲与混音源码",
+    "真实截图高光、AI镜头规划及任务状态管理",
+    "字幕、章节、两版成片与播放器生成",
+    "源文件/许可/备份与哈希工具"
+  ],
+  "paid_generation_calls": 0,
+  "new_paid_tts": 0,
+  "new_paid_ai_video": 0,
+  "credentials_in_project": false,
+  "verification": {
+    "new_local_venv": "检查/环境检查.json",
+    "skill_frontmatter": "passed using skill-creator quick_validate.py",
+    "independent_skill_forward_exercise": "检查/技能前向演练/黑客事件_选题与声画规划_待补证.md",
+    "reference_hashes": "检查/参考原件哈希核验.json",
+    "audio_default_match": "检查/声音独立性审查.json",
+    "media_relocation": "检查/媒体独立性审查.json",
+    "whole_studio_relocation": "检查/整项目迁移验收.json",
+    "browser": "检查/入口核验/浏览器核验.json",
+    "file_links_and_credentials": "检查/入口与文件完整性.json"
+  },
+  "demo": {
+    "player": "参考库/全流程验收样片/导出/播放成片.html",
+    "duration": 19.12,
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "frames": 478,
+    "versions": [
+      {
+        "id": "bili",
+        "sha256": "b4a28574abe83863a795531b37507c979c68dbca20308116db184776041c53ca",
+        "decoded_frames": 478,
+        "duration": 19.12,
+        "decoded_audio_samples": 917760,
+        "audio_duration": 19.12,
+        "audio_packet_sha256": "e064e5931750e1372ba89e267754d8d6836f15df36cfdf443294379158e2bae0",
+        "peak_dbfs": -4.556972700241889,
+        "loudness": {
+          "integrated_lufs": -18.75,
+          "true_peak_dbtp": -4.56,
+          "recommended_max_dbtp": -1.0,
+          "true_peak_pass": true,
+          "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+        },
+        "clipped_samples": 0,
+        "complete_decode": true
+      },
+      {
+        "id": "clean",
+        "sha256": "9e212b138330131bfea172c0fd37ab05f0d6bc3dc7065ac202d37ee81b4f8aaa",
+        "decoded_frames": 478,
+        "duration": 19.12,
+        "decoded_audio_samples": 917760,
+        "audio_duration": 19.12,
+        "audio_packet_sha256": "e064e5931750e1372ba89e267754d8d6836f15df36cfdf443294379158e2bae0",
+        "peak_dbfs": -4.556972700241889,
+        "loudness": {
+          "integrated_lufs": -18.75,
+          "true_peak_dbtp": -4.56,
+          "recommended_max_dbtp": -1.0,
+          "true_peak_pass": true,
+          "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+        },
+        "clipped_samples": 0,
+        "complete_decode": true
+      }
+    ],
+    "voice_samples_preserved": true,
+    "not_a_new_episode": true,
+    "new_composition": true,
+    "new_1080p_sky_render": true,
+    "visual_review": "实际解码样帧目视；评论真实原文/底部单处来源、完整作者片尾、水印避让右上时间",
+    "listening": "重点实音时码经ASR和波形核对；没有声称人工全片试听"
+  },
+  "limitations": [
+    "迁移重建是同一台macOS换路径，复用已安装依赖；不是新机器/Windows验收",
+    "真实TTS/AI服务本轮未发试单；新片生成前核对当前可用性、价格与本期授权",
+    "范例证明本地制作链路可以运行；新选题需要独立调查与资料核对",
+    "未承诺播放量或爆款效果"
+  ],
+  "archive_record": "检查/归档记录.json"
+}

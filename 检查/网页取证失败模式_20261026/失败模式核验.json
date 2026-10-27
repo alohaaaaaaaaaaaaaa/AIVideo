@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "scope": "Generated fixtures + local loopback only; no real-site browsing claims",
+  "cases": [
+    {
+      "case": "01_cross_node_exact_match",
+      "passed": true,
+      "expected_success": true,
+      "returncode": 0,
+      "status": "captured_coordinate_audit_required",
+      "error": null,
+      "requests": 0,
+      "report": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/网页取证失败模式_20261026/01_cross_node_exact_match/capture.json"
+    },
+    {
+      "case": "cross_node_quote_and_mark_exact",
+      "passed": true
+    },
+    {
+      "case": "02_ambiguous_quote_rejected",
+      "passed": true,
+      "expected_success": false,
+      "returncode": 1,
+      "status": "failed_do_not_use_as_complete_evidence",
+      "error": "原文匹配必须唯一：'原文跨节点必须连贯保留'，找到 2 处；请给 selector/context 或显式 occurrence",
+      "requests": 0,
+      "report": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/网页取证失败模式_20261026/02_ambiguous_quote_rejected/capture.json"
+    },
+    {
+      "case": "03_missing_quote_rejected",
+      "passed": true,
+      "expected_success": false,
+      "returncode": 1,
+      "status": "failed_do_not_use_as_complete_evidence",
+      "error": "原文匹配必须唯一：'不存在的引文'，找到 0 处；请给 selector/context 或显式 occurrence",
+      "requests": 0,
+      "report": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/网页取证失败模式_20261026/03_missing_quote_rejected/capture.json"
+    },
+    {
+      "case": "04_crop_truncation_rejected",
+      "passed": true,
+      "expected_success": false,
+      "returncode": 1,
+      "status": "failed_do_not_use_as_complete_evidence",
+      "error": "选区不能裁断引用全文：region=test, quote_bounds=[8, 77.4375, 184, 95.4375], clip={'x': 0.0, 'y': 81.4375, 'width': 10.0, 'height': 10.0}",
+      "requests": 0,
+      "report": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/网页取证失败模式_20261026/04_crop_truncation_rejected/capture.json"
+    },
+    {
+      "case": "05_public_mode_loopback_get",
+      "passed": true,
+      "expected_success": true,
+      "returncode": 0,
+      "status": "captured_coordinate_audit_required",
+      "error": null,
+      "requests": 1,
+      "report": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/网页取证失败模式_20261026/05_public_mode_loopback_get/capture.json"
+    },
+    {
+      "case": "public_html_archived",
+      "passed": true
+    },
+    {
+      "case": "06_http403_stops",
+      "passed": true,
+      "expected_success": false,
+      "returncode": 1,
+      "status": "failed_do_not_use_as_complete_evidence",
+      "error": "页面拒绝访问/鉴权/限流；停止，不尝试绕过",
+      "requests": 1,
+      "report": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/网页取证失败模式_20261026/06_http403_stops/capture.json"
+    },
+    {
+      "case": "original_bytes_change_rejected",
+      "passed": true,
+      "report": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/网页取证失败模式_20261026/07_tamper_audit.json"
+    }
+  ],
+  "paid_api_calls": 0,
+  "external_network_required": false
+}

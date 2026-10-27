@@ -1,0 +1,30 @@
+{
+  "final_duration": 1319.96,
+  "shot": {
+    "asset": "finalclip:SH002",
+    "duration_mode": "fixed",
+    "duration": 2.8,
+    "min_duration": 2.8,
+    "source_in": 0,
+    "source_out": 2.8,
+    "playback_rate": 1,
+    "loop": false,
+    "freeze_tail": false,
+    "anchor": null,
+    "id": "F04_00_01",
+    "chapter": "04",
+    "paragraph_index": 0,
+    "kind": "page_motion",
+    "start": 194.2,
+    "end": 197.0,
+    "source": "10_重新策划/最后一幕_重新整理/制作/缓存/镜头/SH002.mp4",
+    "source_sha256": "ff2515762c6c809804709b685582804d8c9a78e4c2472a61ceae36bd1eff1a8d",
+    "renderer": "front_visuals",
+    "cache": "10_重新策划/全片终版/叙事优化制作/素材/前半/镜头/F04_00_01.mp4",
+    "cues": [],
+    "_path": "/Users/elton/Documents/xsuvidio/xsufo/10_重新策划/全片终版/叙事优化制作/素材/前半/镜头/F04_00_01.mp4",
+    "_original_duration": 2.8,
+    "_side": "front"
+  },
+  "use": "historical trace only; runnable config uses local relative files"
+}

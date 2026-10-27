@@ -1,0 +1,21 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Hiragino Sans GB,42,&H00F8F8F8,&H00FFFFFF,&H00101014,&H80000000,0,0,0,0,100,100,0,0,1,2.5,1,2,90,90,42,1
+Style: Source,Hiragino Sans GB,27,&H00F4EBE6,&H00FFFFFF,&H001A1410,&H001A1410,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.04,0:00:02.90,Main,,0,0,42,,萧山机场因为不明飞行物暂停起降，
+Dialogue: 0,0:00:03.04,0:00:04.76,Main,,0,0,42,,网友已经开始卖船票了。
+Dialogue: 0,0:00:14.32,0:00:15.08,Main,,0,0,42,,我是啊子牙。
+Dialogue: 0,0:00:15.28,0:00:16.83,Main,,0,0,42,,想拿这次整理的资料，
+Dialogue: 0,0:00:16.86,0:00:17.84,Main,,0,0,42,,可以先关注我。
+Dialogue: -2,0:00:00.00,0:00:06.28,Source,,0,0,0,,{\an7\pos(0,870)\p1\c&H1A1410&}m 0 0 l 1920 0 1920 210 0 210{\p0}
+Dialogue: -1,0:00:00.00,0:00:06.28,Source,,0,0,0,,{\an7\pos(32,884)\fs27\c&HF4EBE6&}来源：天涯社区原帖归档，第12页；回复日期：2010-07-11

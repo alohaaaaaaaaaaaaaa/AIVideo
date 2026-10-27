@@ -1,0 +1,39 @@
+{
+  "input_duration": 18.76,
+  "duration": 18.76,
+  "fps": 25,
+  "added_seconds": 0.0,
+  "chapters": [
+    {
+      "id": "01",
+      "start": 0.0,
+      "end": 5.88,
+      "narration": "参考库/声音/离线复现样品/桥接输入/C01/narration.wav",
+      "old_start": 0,
+      "old_end": 5.88,
+      "duration": 5.88
+    },
+    {
+      "id": "02",
+      "start": 5.88,
+      "end": 18.76,
+      "narration": "参考库/声音/离线复现样品/桥接输入/C02/narration.wav",
+      "old_start": 5.88,
+      "old_end": 18.76,
+      "duration": 12.880000000000003
+    }
+  ],
+  "transitions": [
+    {
+      "after_chapter": "01",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "before_chapter": "02",
+      "old_boundary": 5.88,
+      "start": 5.88,
+      "end": 5.88
+    }
+  ],
+  "pause_events": []
+}

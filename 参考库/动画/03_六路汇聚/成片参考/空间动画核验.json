@@ -1,0 +1,19 @@
+{
+  "version": "six_sources_spatial_final",
+  "preview_frames": 250,
+  "preview_duration": 10.0,
+  "active_text_y": [
+    780,
+    827,
+    869
+  ],
+  "converge_label_fade_start": 0.82,
+  "converge_label_overlap_samples": 0,
+  "source_pages": "3 original full-screen pages, sequential, no inset",
+  "watermark_safe_region": [
+    1440,
+    80,
+    224,
+    70
+  ]
+}

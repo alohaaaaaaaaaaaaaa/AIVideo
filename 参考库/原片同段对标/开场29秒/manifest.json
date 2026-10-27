@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "title": "啊子牙 · 开场29秒原片标准复核",
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "output_dir": "导出",
+  "shots": [
+    {
+      "id": "F01_00_00",
+      "path": "../../网页取证/开场评论/首镜5.32秒_实音划线_完整来源.mp4",
+      "kind": "animation",
+      "duration": 5.32,
+      "expected_sha256": "6462231e0dae9f361ae7e4697610847c141dfe02c4f9f33574804960b184b535",
+      "native_label": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "watermark_position": [
+        1664,
+        40
+      ]
+    },
+    {
+      "id": "F01_01_00",
+      "path": "输入/F01_01_00.mp4",
+      "kind": "ai",
+      "duration": 5.88,
+      "expected_sha256": "6936556feb6a4af836ea14d0cb354b53c31a89e16cbe52935d81c4abad595ba2",
+      "native_label": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "watermark_position": [
+        1664,
+        40
+      ]
+    },
+    {
+      "id": "F01_02_00",
+      "path": "输入/F01_02_00.mp4",
+      "kind": "video",
+      "duration": 5.0,
+      "expected_sha256": "87a7176d2b9434530c3c1d7edeb5b421e4a55eb615052d3dc22f54a6392b73c8",
+      "native_label": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "watermark_position": [
+        1664,
+        40
+      ]
+    },
+    {
+      "id": "F01_03_00",
+      "path": "输入/F01_03_00.mp4",
+      "kind": "animation",
+      "duration": 3.08,
+      "expected_sha256": "230f91887b62b35fee4f04738a5b987a8dc8bcbc32b86967b7c7f64980f76c98",
+      "native_label": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "watermark_position": [
+        1664,
+        950
+      ]
+    },
+    {
+      "id": "F01_03_01",
+      "path": "输入/F01_03_01.mp4",
+      "kind": "animation",
+      "duration": 2.8,
+      "expected_sha256": "b5b68cc89a9662f8a352e9162711620e76e649bada749e0e375e1b1882aa3e6e",
+      "native_label": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "watermark_position": [
+        1664,
+        950
+      ]
+    },
+    {
+      "id": "F01_03_02",
+      "path": "输入/F01_03_02.mp4",
+      "kind": "video",
+      "duration": 2.0,
+      "expected_sha256": "9ad33ded22a5ec8dca06596c123233ea8662ed60cff44362c6efedcd302eceb2",
+      "native_label": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "watermark_position": [
+        1664,
+        950
+      ]
+    },
+    {
+      "id": "F01_04_00",
+      "path": "输入/F01_04_00.mp4",
+      "kind": "video",
+      "duration": 4.88,
+      "expected_sha256": "cea5dbc7eff2e8c43f5a9acca9886ff8c30e06fdc7b2f5ea0d33972006d441c0",
+      "native_label": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "watermark_position": [
+        1664,
+        40
+      ]
+    },
+    {
+      "id": "F01_04_TAIL",
+      "path": "输入/F01_04_00_幕间留拍.mp4",
+      "kind": "video",
+      "duration": 0.4,
+      "expected_sha256": "8d5f9dd5b2ff96094ce0749ae3b62b6cb66b5c5facb828d559b6c13ada0a4adc",
+      "native_label": true,
+      "layout": {
+        "mode": "fullframe"
+      },
+      "watermark_position": [
+        1664,
+        40
+      ]
+    }
+  ],
+  "audio": {
+    "path": "../../声音/开场连续29秒对标/最终/开场29.36_默认混音_48k_stereo.wav",
+    "expected_sha256": "186605812a725251c44367c4e0b62ff0025409b959f1f2b8e4aca1372e1b0abd"
+  },
+  "subtitles": [
+    {
+      "text": "“二〇一二，",
+      "start": 0.0889,
+      "end": 0.6222
+    },
+    {
+      "text": "诺亚飞舟，",
+      "start": 0.6667,
+      "end": 1.7333
+    },
+    {
+      "text": "试飞而已，",
+      "start": 1.7778,
+      "end": 2.8889
+    },
+    {
+      "text": "要票的联系我啊。”",
+      "start": 2.9333,
+      "end": 4.5333
+    },
+    {
+      "text": "萧山机场因为不明飞行物暂停起降，",
+      "start": 5.3644,
+      "end": 7.9422
+    },
+    {
+      "text": "网友已经开始卖船票了。",
+      "start": 7.9867,
+      "end": 9.8978
+    },
+    {
+      "text": "可另一条留言，",
+      "start": 11.2444,
+      "end": 12.2222
+    },
+    {
+      "text": "突然认真了：",
+      "start": 12.2667,
+      "end": 13.0667
+    },
+    {
+      "text": "“内部消息表示是私人飞机。”",
+      "start": 13.2444,
+      "end": 15.4222
+    },
+    {
+      "text": "更值得查的是，",
+      "start": 16.2444,
+      "end": 17.0
+    },
+    {
+      "text": "四个月后的央视节目实录，",
+      "start": 17.0444,
+      "end": 19.1333
+    },
+    {
+      "text": "也写到了私人飞机。",
+      "start": 19.1778,
+      "end": 20.6
+    },
+    {
+      "text": "它说的日期和机场，",
+      "start": 20.6889,
+      "end": 22.2889
+    },
+    {
+      "text": "正是这一次。",
+      "start": 22.3333,
+      "end": 23.4444
+    },
+    {
+      "text": "网友那句话，",
+      "start": 24.1244,
+      "end": 24.7467
+    },
+    {
+      "text": "究竟有多少依据？",
+      "start": 24.7911,
+      "end": 26.1244
+    },
+    {
+      "text": "我们把原文翻出来。",
+      "start": 26.1689,
+      "end": 27.9022
+    }
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "网友已经开始卖船票了"
+    }
+  ],
+  "subtitle_style": {
+    "profile": "main"
+  },
+  "watermark": {
+    "path": "../../品牌/B站/透明PNG/啊子牙_悠哉_B站无账号_1080p.png",
+    "width": 224,
+    "x": 1664,
+    "y": 40
+  },
+  "versions": [
+    {
+      "id": "bili",
+      "label": "B站水印版",
+      "watermark": true
+    },
+    {
+      "id": "clean",
+      "label": "无个人水印版",
+      "watermark": false
+    }
+  ],
+  "editorial_binding": {
+    "plan_path": "声画任务.json",
+    "plan_sha256": "6022cc2a662685785bc455387d15d3c59d7715816e05f99490965237f3bee78c",
+    "timeline_path": "实音时间线.json",
+    "timeline_sha256": "54e759c19896c085381c1349e171ab4afb65d964f2e5fe6b9ab23baf560c10e1"
+  }
+}

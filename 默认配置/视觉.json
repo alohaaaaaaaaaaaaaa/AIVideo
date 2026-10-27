@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "reference": {
+    "project": "萧山机场事件叙事优化采用版",
+    "duration_seconds": 1319.96,
+    "subtitle_reference": "导出/subtitle_burn.ass Main + 各Dialogue底距",
+    "note": "只继承已核视觉标准，不硬编码12幕或原片时间线"
+  },
+  "reference_resolution": [
+    1920,
+    1080
+  ],
+  "default_layout": {
+    "mode": "fullframe"
+  },
+  "font": {
+    "primary_family": "Hiragino Sans GB",
+    "primary_system_file": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "primary_face": "HiraginoSansGB-W3",
+    "redistribute_primary": false,
+    "fallback_family": "Noto Sans CJK SC",
+    "fallback_workspace_file": "参考库/动画/字体/NotoSansCJKsc-Regular.otf",
+    "fallback_notice": "可运行回退，不是原片同字形；必须在报告中披露并重新看字幕遮挡",
+    "verified_primary_sha256": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130"
+  },
+  "subtitle": {
+    "font_size": 42,
+    "primary_colour": "&H00F8F8F8",
+    "secondary_colour": "&H00FFFFFF",
+    "outline_colour": "&H00101014",
+    "back_colour": "&H80000000",
+    "outline": 2.5,
+    "shadow": 1,
+    "margin_l": 90,
+    "margin_r": 90
+  },
+  "profiles": {
+    "main": {
+      "margin_v": 42
+    },
+    "science": {
+      "margin_v": 74
+    }
+  },
+  "source_footer": {
+    "top": 870,
+    "height": 210,
+    "background_rgb": [
+      16,
+      20,
+      26
+    ],
+    "background_ass": "&H1A1410&",
+    "x": 32,
+    "first_y": 884,
+    "line_step": 42,
+    "font_sizes": [
+      27,
+      23
+    ],
+    "colours_ass": [
+      "&HF4EBE6&",
+      "&HB7A79A&"
+    ],
+    "max_lines": 2,
+    "safe_width": 1856
+  },
+  "evidence_highlight": {
+    "front_underline_rgb": [
+      230,
+      67,
+      52
+    ],
+    "back_underline_rgb": [
+      225,
+      63,
+      56
+    ],
+    "underline_width": 5,
+    "default_draw_duration": 0.52,
+    "preserve_source_pixels": true,
+    "no_yellow_marker_by_default": true
+  },
+  "rules": [
+    "已构图全幅画面不因source_note缩小、加边或裁切",
+    "原页长图需要显式阅读区域与独立构图，不自动挤进全画面",
+    "fullframe覆盖来源底栏需source_note_safe_area:true确认不遮有效正文",
+    "跨机font回退必须披露，不能冒称字体像素一致",
+    "AI/动画已有原生备注只保留一处",
+    "水印镜头内静止，只在切镜换位"
+  ]
+}

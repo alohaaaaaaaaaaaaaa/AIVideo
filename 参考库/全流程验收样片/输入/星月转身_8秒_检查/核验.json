@@ -1,0 +1,44 @@
+{
+  "status": "full_decode_passed_visual_review_pending",
+  "date_local": "2026-10-26",
+  "video": "参考库/全流程验收样片/输入/星月转身_8秒.mp4",
+  "video_sha256": "a099dcbe010287ab85bebe7bb0322a9af941b7fbc5cc13f7f1868f75bae8bae0",
+  "engine": "工具/动画/星月范例.py",
+  "engine_sha256": "7b84d4b54c2040345a9acb89df5a674e522b1a3a5ce910ee00f676d764f7ddc1",
+  "config": "参考库/全流程验收样片/输入/animation.json",
+  "config_sha256": "44173977400a922860282ef7c499a588edf06469c5d39e7237c46818fd6b1208",
+  "frames": 200,
+  "decoded_frames": 200,
+  "fps": 25,
+  "duration_seconds": 8.0,
+  "size": [
+    1920,
+    1080
+  ],
+  "audio": false,
+  "segments": [
+    {
+      "phase": "turn",
+      "start_frame": 0,
+      "frames": 200
+    }
+  ],
+  "sample_frames": [
+    0,
+    40,
+    80,
+    119,
+    159,
+    199
+  ],
+  "runtime": {
+    "python": "3.13.16",
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "imageio_ffmpeg": "0.6.0"
+  },
+  "paid_api_calls": 0,
+  "network_calls": 0,
+  "old_project_runtime_dependencies": 0,
+  "scope": "历史案例离线复现，非新题事实论证"
+}

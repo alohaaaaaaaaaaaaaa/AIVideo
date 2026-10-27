@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "test_scope": "real accepted voice; explicit additional 0.4-second pause is a regression fixture, not a proposed new edit of the approved film",
+  "duration": 17.6,
+  "frames": 440,
+  "inserted_pause_seconds": 0.4,
+  "all_source_speech_samples_identical": true,
+  "phrase_visual_music_sfx_and_conclusion_shifted_together": true,
+  "explicit_chapter_bridge_executed": true,
+  "final_voice_sample_identical": true,
+  "no_time_added_by_music_bridge": true,
+  "early_word_tail_refused": true,
+  "changed_source_or_syllable_pause_refused": true,
+  "scoped_conclusion_preserves_later_outro": true,
+  "complete_nine_note_cadence": true,
+  "actual_resolve": 9.965,
+  "final_measurement": {
+    "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/final/mix_48k_stereo.wav",
+    "sha256": "84c7a246098196ef15b7e8a566528e65f9525e508e19b4f919e2c8b3d9d4d086",
+    "duration": 17.6,
+    "sample_peak_dbfs": -4.921633404324826,
+    "clipped_samples": 0,
+    "integrated_lufs": -17.06,
+    "true_peak_dbtp": -4.9,
+    "loudness_range_lu": 3.1,
+    "complete_decode": true
+  },
+  "paid_calls": 0,
+  "listening_quality_not_inferred_from_metrics": true,
+  "scoped_conclusion_preserves_exact_later_outro_harmony_and_notes": true
+}

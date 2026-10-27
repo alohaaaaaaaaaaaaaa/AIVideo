@@ -1,0 +1,12 @@
+{
+  "actual_render_test": true,
+  "music_notes_unchanged_for_envelope_test": true,
+  "space_gain": 0.5,
+  "middle_window_seconds": [
+    1.0,
+    1.6
+  ],
+  "stem_max_error_against_half_gain": 0.0,
+  "space_cue_executed_in_waveform": true,
+  "paid_calls": 0
+}

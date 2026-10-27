@@ -1,0 +1,31 @@
+{
+  "status": "one_successful_real_request",
+  "submitted_requests": 1,
+  "repeat_requests": 0,
+  "model": "speech-2.8-hd",
+  "voice_setting": {
+    "voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+    "speed": 0.96,
+    "vol": 1,
+    "pitch": 0,
+    "emotion": "neutral"
+  },
+  "default_voice_unchanged": true,
+  "usage_characters_returned_by_provider": 70,
+  "official_rate_cny_per_10k": 3.5,
+  "cost_at_verified_rate_cny": 0.0245,
+  "account_invoice_or_credit_deduction_verified": false,
+  "account_cost_statement": "Provider usage confirmed; fee calculated from current public rate. Account cash/resource-pack debit was not inspected.",
+  "budget_cap_cny": 1,
+  "raw_audio": "cache/6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d.mp3",
+  "prepared_voice_duration": 6.478375,
+  "final_demo_mix_duration": 7.28,
+  "final_mix": "混音/chapters/C01/mix_48k_stereo.wav",
+  "asr_without_prompt": "我是阿子牙,今天我們順著證據往下查,網友police留下的線索到底能說明什麼",
+  "name_and_police_recognized": true,
+  "subjective_listening_or_tone_certification_claimed": false,
+  "complete_decode": true,
+  "integrated_lufs": -16.27,
+  "true_peak_dbtp": -4.51,
+  "new_calls_for_asr_mix_verification": 0
+}

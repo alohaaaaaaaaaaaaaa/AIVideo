@@ -1,0 +1,9 @@
+{
+  "voice_source": "已认可成片旁白单声道",
+  "original_start": 5.32,
+  "original_end": 24.08,
+  "duration": 18.76,
+  "voice_sha256": "aade179ee119ba815ab24da1fd343ce68f653849e5ebc703eb1cf47486f8126b",
+  "scope": "保留原片实音18.76秒，以相同四音色和避让策略重新编曲；没有调用TTS、没有重用旧BGM波形",
+  "paid_calls": 0
+}

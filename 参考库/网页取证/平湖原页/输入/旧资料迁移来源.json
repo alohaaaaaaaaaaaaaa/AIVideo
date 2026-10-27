@@ -1,0 +1,21 @@
+{
+  "kind": "preserved_source_bytes",
+  "files": [
+    {
+      "old_project_relative": "06_原始资料/新闻/E06_央视经济半小时_新浪转载.html",
+      "local": "E06_保存原始.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32"
+    },
+    {
+      "old_project_relative": "10_重新策划/调查后续/证据素材/走访与军事报道/原站样式/sina_master.css",
+      "local": "sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb"
+    },
+    {
+      "old_project_relative": "10_重新策划/调查后续/证据素材/走访与军事报道/原站样式/sina_theme.css",
+      "local": "sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef"
+    }
+  ],
+  "not_a_fresh_network_capture": true
+}

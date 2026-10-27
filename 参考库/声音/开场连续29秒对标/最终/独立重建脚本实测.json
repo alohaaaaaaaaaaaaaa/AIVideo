@@ -1,0 +1,26 @@
+{
+  "duration": 29.36,
+  "frames": 734,
+  "samples": 1409280,
+  "comparison": {
+    "mix": {
+      "sample_identical": true,
+      "maximum_absolute_difference": 0,
+      "sha256": "03cd1703d53e5caa4aaa66767e52d2eea74c00b5d29457b2a8583a0f2be5052e"
+    },
+    "voice": {
+      "sample_identical": true,
+      "maximum_absolute_difference": 0,
+      "sha256": "1ad11b05d4b6470b32867937960018e00b8e6bad17af203ed9d3033e196e199a"
+    },
+    "music": {
+      "sample_identical": true,
+      "maximum_absolute_difference": 0,
+      "sha256": "9cc77bb0ee421ffbfd55064e2d242ed929bd6b182ebd7b0fac896257b9e62dda"
+    }
+  },
+  "old_project_required": false,
+  "paid_calls": 0,
+  "music_from_notes": true,
+  "original_C02_stems_used_only_for_bridge_context": true
+}

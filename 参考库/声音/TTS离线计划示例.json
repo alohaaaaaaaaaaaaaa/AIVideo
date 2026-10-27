@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "source_filename": "TTS输入示例.json",
+  "source_sha256": "f2a42eb08636f371ecbef0e0090d23b823f9debf3cc559a5dbd9b5ce2237990e",
+  "created_at": "2026-10-26T11:46:56.390210+00:00",
+  "default_voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+  "rate_cny_per_10000_weighted_characters": 3.5,
+  "price_basis": "2026-10-23 previous-project estimate; not a current verified quotation. Replace rate from current provider pricing before paying.",
+  "billing_verified": false,
+  "paragraphs": [
+    {
+      "id": "C01_P001",
+      "text": "我是啊子牙。想拿这次整理的资料，可以先关注我。",
+      "tts_text": "我是阿子牙。想拿这次整理的资料，可以先关注我。",
+      "phrases": [
+        "我是啊子牙。",
+        "想拿这次整理的资料，",
+        "可以先关注我。"
+      ],
+      "tts_phrases": [
+        "我是阿子牙。",
+        "想拿这次整理的资料，",
+        "可以先关注我。"
+      ],
+      "request": {
+        "model": "speech-2.8-hd",
+        "text": "我是阿子牙。想拿这次整理的资料，可以先关注我。",
+        "stream": false,
+        "voice_setting": {
+          "voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+          "speed": 0.96,
+          "vol": 1,
+          "pitch": 0,
+          "emotion": "neutral"
+        },
+        "audio_setting": {
+          "sample_rate": 44100,
+          "bitrate": 256000,
+          "format": "mp3",
+          "channel": 1
+        },
+        "language_boost": "Chinese",
+        "subtitle_enable": true,
+        "subtitle_type": "word",
+        "output_format": "hex",
+        "pronunciation_dict": {
+          "tone": [
+            "阿子牙/(a1)(zi3)(ya2)"
+          ]
+        }
+      },
+      "cache_key": "6113ee2f56bf06db574c663c95cc9924826ec7d56dfc16b4305143f5df79ee9f",
+      "estimated_billable_characters": 43,
+      "estimated_cost_cny": 0.01505
+    },
+    {
+      "id": "C01_P002",
+      "text": "网友 p.o.l.i.c.e 留下了一条线索。",
+      "tts_text": "网友 police 留下了一条线索。",
+      "phrases": [
+        "网友 p.o.l.i.c.e 留下了一条线索。"
+      ],
+      "tts_phrases": [
+        "网友 police 留下了一条线索。"
+      ],
+      "request": {
+        "model": "speech-2.8-hd",
+        "text": "网友 police 留下了一条线索。",
+        "stream": false,
+        "voice_setting": {
+          "voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+          "speed": 0.96,
+          "vol": 1,
+          "pitch": 0,
+          "emotion": "neutral"
+        },
+        "audio_setting": {
+          "sample_rate": 44100,
+          "bitrate": 256000,
+          "format": "mp3",
+          "channel": 1
+        },
+        "language_boost": "Chinese",
+        "subtitle_enable": true,
+        "subtitle_type": "word",
+        "output_format": "hex"
+      },
+      "cache_key": "229cf4a45292bc763d529207b0362d74ff83fc714f6bd234c683b560f7fd1ada",
+      "estimated_billable_characters": 27,
+      "estimated_cost_cny": 0.00945
+    }
+  ],
+  "estimated_total_cny": 0.0245,
+  "paid_calls": 0
+}

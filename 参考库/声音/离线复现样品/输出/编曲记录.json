@@ -1,0 +1,716 @@
+{
+  "duration": 18.76,
+  "sections": [
+    {
+      "id": "S01",
+      "title": "线索出现",
+      "start": 0.0,
+      "end": 5.88,
+      "role": "comments"
+    },
+    {
+      "id": "S02",
+      "title": "查到后续记录",
+      "start": 5.88,
+      "end": 18.76,
+      "role": "discovery"
+    }
+  ],
+  "music_cues": [
+    {
+      "type": "space",
+      "start": 5.6,
+      "end": 6.35,
+      "gain": 0.708,
+      "reason": "转入另一条留言前，音乐给口吻让半拍；不改变原旁白时序"
+    }
+  ],
+  "bars": [
+    {
+      "time": 0.12,
+      "section": "S01",
+      "role": "comments",
+      "chord": "Cmaj7",
+      "bpm": 88,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 2.8473,
+      "section": "S01",
+      "role": "comments",
+      "chord": "Fmaj9",
+      "bpm": 88,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 5.5745,
+      "section": "S01",
+      "role": "comments",
+      "chord": "Am7",
+      "bpm": 88,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 6.0,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "Am9",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 8.8571,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "Cmaj7",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 11.7143,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "Fmaj9",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 14.5714,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "C6",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 17.4286,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "Dm9",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    }
+  ],
+  "notes": [
+    {
+      "track": "strings",
+      "time": 0.12,
+      "pitch": 55,
+      "duration": 2.76136,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 0.145,
+      "pitch": 59,
+      "duration": 2.76136,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 0.155,
+      "pitch": 60,
+      "duration": 1.70455,
+      "velocity": 26,
+      "purpose": "稀疏低音支点"
+    },
+    {
+      "track": "strings",
+      "time": 0.17,
+      "pitch": 60,
+      "duration": 2.76136,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 0.195,
+      "pitch": 64,
+      "duration": 2.76136,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "pizz",
+      "time": 0.46091,
+      "pitch": 67,
+      "duration": 0.27273,
+      "velocity": 22,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 0.65937,
+      "pitch": 72,
+      "duration": 0.81818,
+      "velocity": 28,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 1.31318,
+      "pitch": 71,
+      "duration": 0.27273,
+      "velocity": 22,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 1.81904,
+      "pitch": 76,
+      "duration": 0.81818,
+      "velocity": 31,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 2.19955,
+      "pitch": 72,
+      "duration": 0.27273,
+      "velocity": 22,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "strings",
+      "time": 2.84727,
+      "pitch": 57,
+      "duration": 2.76136,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 2.87227,
+      "pitch": 60,
+      "duration": 2.76136,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 2.89727,
+      "pitch": 64,
+      "duration": 2.76136,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 2.92227,
+      "pitch": 67,
+      "duration": 2.76136,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "pizz",
+      "time": 3.18818,
+      "pitch": 72,
+      "duration": 0.27273,
+      "velocity": 22,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 3.53236,
+      "pitch": 74,
+      "duration": 0.81818,
+      "velocity": 28,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 4.04045,
+      "pitch": 76,
+      "duration": 0.27273,
+      "velocity": 22,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 4.76332,
+      "pitch": 71,
+      "duration": 0.81818,
+      "velocity": 31,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 4.92682,
+      "pitch": 79,
+      "duration": 0.27273,
+      "velocity": 22,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "strings",
+      "time": 5.57455,
+      "pitch": 55,
+      "duration": 0.30545,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "vibes",
+      "time": 5.58,
+      "pitch": 72,
+      "duration": 0.95455,
+      "velocity": 21,
+      "purpose": "少量色彩，不做发现音效"
+    },
+    {
+      "track": "strings",
+      "time": 5.59955,
+      "pitch": 57,
+      "duration": 0.30545,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 5.60955,
+      "pitch": 57,
+      "duration": 1.70455,
+      "velocity": 26,
+      "purpose": "稀疏低音支点"
+    },
+    {
+      "track": "strings",
+      "time": 5.62455,
+      "pitch": 60,
+      "duration": 0.30545,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 5.64955,
+      "pitch": 64,
+      "duration": 0.30545,
+      "velocity": 23,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 6.0,
+      "pitch": 57,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 6.025,
+      "pitch": 60,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 6.035,
+      "pitch": 57,
+      "duration": 1.78571,
+      "velocity": 29,
+      "purpose": "稀疏低音支点"
+    },
+    {
+      "track": "strings",
+      "time": 6.05,
+      "pitch": 64,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 6.075,
+      "pitch": 71,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "pizz",
+      "time": 6.35714,
+      "pitch": 57,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 6.57362,
+      "pitch": 76,
+      "duration": 0.85714,
+      "velocity": 32,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 7.25,
+      "pitch": 60,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 7.60297,
+      "pitch": 71,
+      "duration": 0.85714,
+      "velocity": 34,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 8.17857,
+      "pitch": 64,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "strings",
+      "time": 8.85714,
+      "pitch": 55,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 8.88214,
+      "pitch": 59,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 8.90714,
+      "pitch": 60,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 8.93214,
+      "pitch": 64,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "pizz",
+      "time": 9.21429,
+      "pitch": 59,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 9.5777,
+      "pitch": 74,
+      "duration": 0.85714,
+      "velocity": 32,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 10.10714,
+      "pitch": 60,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 10.78592,
+      "pitch": 69,
+      "duration": 0.85714,
+      "velocity": 34,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 11.03571,
+      "pitch": 64,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "strings",
+      "time": 11.71429,
+      "pitch": 57,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 11.73929,
+      "pitch": 60,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 11.74929,
+      "pitch": 53,
+      "duration": 1.78571,
+      "velocity": 29,
+      "purpose": "稀疏低音支点"
+    },
+    {
+      "track": "strings",
+      "time": 11.76429,
+      "pitch": 64,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 11.78929,
+      "pitch": 67,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "pizz",
+      "time": 12.07143,
+      "pitch": 64,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 12.49943,
+      "pitch": 72,
+      "duration": 0.85714,
+      "velocity": 32,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 12.96429,
+      "pitch": 67,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 13.64926,
+      "pitch": 76,
+      "duration": 0.85714,
+      "velocity": 34,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "vibes",
+      "time": 13.85714,
+      "pitch": 76,
+      "duration": 1.0,
+      "velocity": 21,
+      "purpose": "少量色彩，不做发现音效"
+    },
+    {
+      "track": "pizz",
+      "time": 13.89286,
+      "pitch": 57,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "strings",
+      "time": 14.57143,
+      "pitch": 55,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 14.59643,
+      "pitch": 60,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 14.62143,
+      "pitch": 64,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 14.64643,
+      "pitch": 69,
+      "duration": 2.89286,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "pizz",
+      "time": 15.35714,
+      "pitch": 69,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "piano",
+      "time": 15.85796,
+      "pitch": 71,
+      "duration": 0.85714,
+      "velocity": 32,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "piano",
+      "time": 15.86,
+      "pitch": 60,
+      "duration": 1.35,
+      "velocity": 29,
+      "purpose": "片尾自然落定"
+    },
+    {
+      "track": "piano",
+      "time": 15.915,
+      "pitch": 64,
+      "duration": 1.35,
+      "velocity": 29,
+      "purpose": "片尾自然落定"
+    },
+    {
+      "track": "piano",
+      "time": 15.97,
+      "pitch": 67,
+      "duration": 1.35,
+      "velocity": 29,
+      "purpose": "片尾自然落定"
+    },
+    {
+      "track": "piano",
+      "time": 16.025,
+      "pitch": 72,
+      "duration": 1.35,
+      "velocity": 29,
+      "purpose": "片尾自然落定"
+    },
+    {
+      "track": "strings",
+      "time": 17.42857,
+      "pitch": 57,
+      "duration": 1.28143,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 17.45357,
+      "pitch": 60,
+      "duration": 1.25643,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 17.46357,
+      "pitch": 62,
+      "duration": 1.24643,
+      "velocity": 29,
+      "purpose": "稀疏低音支点"
+    },
+    {
+      "track": "strings",
+      "time": 17.47857,
+      "pitch": 62,
+      "duration": 1.23143,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 17.50357,
+      "pitch": 65,
+      "duration": 1.20643,
+      "velocity": 25,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "pizz",
+      "time": 17.78571,
+      "pitch": 57,
+      "duration": 0.28571,
+      "velocity": 25,
+      "purpose": "查阅推进或轻巧尾奏"
+    }
+  ],
+  "old_waveform_loop_used": false,
+  "paid_api_calls": 0,
+  "timeline": "参考库/声音/离线复现样品/timeline.json",
+  "timeline_sha256": "a253053118c9d9881bfaf54dad41d76172ccca96a7728e0b6578be645c3d7337",
+  "sample_rate": 48000,
+  "master_gain": 1.0,
+  "stems": {
+    "piano": {
+      "program": 0,
+      "notes": 20,
+      "path": "参考库/声音/离线复现样品/输出/分轨_piano_48k_float.wav",
+      "sha256": "130e3be8f39c1a168cdfc7969dc1db415388e79616c5527dfba600fefba441a2",
+      "preserved_prefix": null
+    },
+    "strings": {
+      "program": 48,
+      "notes": 32,
+      "path": "参考库/声音/离线复现样品/输出/分轨_strings_48k_float.wav",
+      "sha256": "39132892bb3bdf354b3726f1e0d375ce8d0ceb265c6d12ef2faae3accbea95b8",
+      "preserved_prefix": null
+    },
+    "pizz": {
+      "program": 45,
+      "notes": 17,
+      "path": "参考库/声音/离线复现样品/输出/分轨_pizz_48k_float.wav",
+      "sha256": "6fdfbea329e1432e83114b6a285b6ea461c9dcbe08b7690c737f6d515b5151a7",
+      "preserved_prefix": null
+    },
+    "vibes": {
+      "program": 11,
+      "notes": 2,
+      "path": "参考库/声音/离线复现样品/输出/分轨_vibes_48k_float.wav",
+      "sha256": "92c7c91d8c0d8b47c9d085cafc67b48e8faa5a8640ab7ae42585fa7a6de1ea56",
+      "preserved_prefix": null
+    }
+  },
+  "preserved_prefix": null,
+  "output": "参考库/声音/离线复现样品/输出/music_score_48k_stereo.wav",
+  "output_sha256": "63014fb28e033373518b75bc53f7a2ea7c9c97a21004cc32f4534895bc9aaeb2",
+  "soundfont": "参考库/声音/音源/GeneralUser-GS.sf2",
+  "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "license": "参考库/声音/音源/GeneralUser-GS_LICENSE.txt",
+  "license_source_url": "https://schristiancollins.com/generaluser.php",
+  "composition": "本幕按实音重新编曲；沿用已认可乐器音源和两音问句动机，不复制或循环已有音乐录音。"
+}

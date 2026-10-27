@@ -1,0 +1,62 @@
+{
+  "status": "full_decode_and_sampled_visual_review_passed",
+  "date_local": "2026-10-26",
+  "video": "参考库/动画/01_星月与日期/独立重渲染/转身找金星_8秒.mp4",
+  "video_sha256": "91628a02885d5201dfa52e107b9a134aa151f5b33c246c303d20219b6ac55a5a",
+  "engine": "工具/动画/星月范例.py",
+  "engine_sha256": "7b84d4b54c2040345a9acb89df5a674e522b1a3a5ce910ee00f676d764f7ddc1",
+  "config": "工具/动画/配置/星月_转身找金星_8秒.json",
+  "config_sha256": "a5583bbac319dafd47f73b1a3070a554f44b1c26fea46ffe12feb7530631ce3a",
+  "frames": 200,
+  "decoded_frames": 200,
+  "fps": 25,
+  "duration_seconds": 8.0,
+  "size": [
+    1280,
+    720
+  ],
+  "audio": false,
+  "segments": [
+    {
+      "phase": "turn",
+      "start_frame": 0,
+      "frames": 200
+    }
+  ],
+  "sample_frames": [
+    0,
+    40,
+    80,
+    119,
+    159,
+    199
+  ],
+  "runtime": {
+    "python": "3.13.16",
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "imageio_ffmpeg": "0.6.0"
+  },
+  "paid_api_calls": 0,
+  "network_calls": 0,
+  "old_project_runtime_dependencies": 0,
+  "scope": "历史案例离线复现，非新题事实论证",
+  "visual_review": {
+    "method": "实际解码六帧联系表及末帧原尺寸目视",
+    "checked_frames": [
+      0,
+      40,
+      80,
+      119,
+      159,
+      199
+    ],
+    "findings": [
+      "面向东南→转身→金星出现→外部模型回退的状态顺序正确",
+      "主对象、方位、角度和来源提示无缺字",
+      "本地Noto字体替换后将右上方法范围提示下移13px，避免与北京时间靠得过紧",
+      "没有新叠字幕、来源条或水印"
+    ],
+    "limit": "抽样目视加完整技术解码；无声样品，不代表对整片配音音乐节奏的核验。"
+  }
+}

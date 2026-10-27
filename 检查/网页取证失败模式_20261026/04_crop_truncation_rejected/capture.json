@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "failed_do_not_use_as_complete_evidence",
+  "captured_at_utc": "2026-10-26T14:02:29.049850+00:00",
+  "mode": "archived_html",
+  "requested_url": "http://offline.test/fixture",
+  "viewport_css": [
+    800,
+    600
+  ],
+  "device_scale_factor": 2,
+  "scripts_enabled": false,
+  "logged_in_profile_used": false,
+  "source_text_rewritten": false,
+  "css_override_injected": false,
+  "network_requests_sent": 0,
+  "resources": [
+    {
+      "url": "http://offline.test/fixture",
+      "path": "原始资源/main_original.html",
+      "sha256": "cd6bfec14154fcfe1927968d74b4f61e576c54db8bb2b90057e4c93eca0c0bdd",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 130,
+      "role": "unchanged_saved_main_html"
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://offline.test/fixture",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "cd6bfec14154fcfe1927968d74b4f61e576c54db8bb2b90057e4c93eca0c0bdd"
+    }
+  ],
+  "regions": [],
+  "limitations": [],
+  "archive_render_url": "http://offline.test/fixture",
+  "archive_render_origin_differs_from_source": false,
+  "resolved_url": "http://offline.test/fixture",
+  "title": "",
+  "browser": "151.0.7922.34",
+  "http_status": 200,
+  "document_size_css": {
+    "width": 800,
+    "height": 600
+  },
+  "page_metadata": {},
+  "error": "选区不能裁断引用全文：region=test, quote_bounds=[8, 77.4375, 184, 95.4375], clip={'x': 0.0, 'y': 81.4375, 'width': 10.0, 'height': 10.0}"
+}

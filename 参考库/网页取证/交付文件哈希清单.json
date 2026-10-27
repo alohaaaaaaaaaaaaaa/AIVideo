@@ -1,0 +1,861 @@
+{
+  "status": "inventoried_and_original_copies_verified",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1f6af9009764b2b92f9e2e68db755165ec1c4f691489b5162180f3da6114bcf3",
+      "bytes": 464
+    },
+    {
+      "path": "全解码核验.json",
+      "sha256": "35997b8cc9415a6b731f42455260d3d903fd6340e77c760be58a07b4205143a1",
+      "bytes": 3687
+    },
+    {
+      "path": "央视原页滚动/制作配置.json",
+      "sha256": "bbfabbfb90bd977182885cb5ec6073ba34651222b948518e6a151c4fe26bc54c",
+      "bytes": 1381
+    },
+    {
+      "path": "央视原页滚动/原制作记录/准备查阅原页.py",
+      "sha256": "10de8dfa0b739046deaeed15facfe05557e2f26e25ea2e352b83ed69b8dbe3d8",
+      "bytes": 3121
+    },
+    {
+      "path": "央视原页滚动/原制作记录/编排时间线.py",
+      "sha256": "4d9b90e2a5eabb357d7e8887447700a85f8adc72ec7a384267c4eca0871bdfa2",
+      "bytes": 20691
+    },
+    {
+      "path": "央视原页滚动/原制作记录/证据画面.py",
+      "sha256": "08bfb865407e841476575546bfd10a18352ca71c500d2be0385c90bdf2047d06",
+      "bytes": 18381
+    },
+    {
+      "path": "央视原页滚动/原片采用段_含声音.json",
+      "sha256": "dc73b202c6a385779843fcc5176b935499c52af71bacc9875e37c1afaf6dd486",
+      "bytes": 619
+    },
+    {
+      "path": "央视原页滚动/原片采用段_含声音.mp4",
+      "sha256": "1f61b67079b806dcb8bcc1bc99f4c8f341cff0467ac0fc0f4fc13bdb5f163e93",
+      "bytes": 5017892
+    },
+    {
+      "path": "央视原页滚动/原采用缓存_SH002.mp4",
+      "sha256": "ff2515762c6c809804709b685582804d8c9a78e4c2472a61ceae36bd1eff1a8d",
+      "bytes": 1543199
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/capture.json",
+      "sha256": "d1e49d62ed5a0bc3daa7ad1d04c8219fec6886af4f5ec1b634549898ff4b71cc",
+      "bytes": 13514
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/capture_config.json",
+      "sha256": "6526785d62f404e497a533b138153fd41aa6dfeb35ecf3e9d39fc0faa0e0e9e0",
+      "bytes": 2014
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/rendered_dom.html",
+      "sha256": "39c4f0e42bcf2841d1a167a54eb3b5c92623e11231b2a2b4a5c02bc1a0b16667",
+      "bytes": 89273
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/visible_full_text.txt",
+      "sha256": "1a12249a71dda5ab4a31f8f33305220a861ac8d0069039367b1dcdf6a4291108",
+      "bytes": 9687
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/原始截图/cctv_case.png",
+      "sha256": "b80aa5e01e2f7c31cf7aa976e8e03ee18b3726eace0b9b3fe7bb1a1a7af6722c",
+      "bytes": 394055
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/原始截图/cctv_title.png",
+      "sha256": "1d0e57ccaed465ae7cceaf5fe6e41d9b041ec0e13f03e5ca4f0556970b5918d4",
+      "bytes": 287172
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/原始截图/full_page.png",
+      "sha256": "f93e850fccddf13a799bbaa377c2cb6942379d3756c8356e13c2ead9cc1d22f6",
+      "bytes": 3563197
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/原始截图/viewport.png",
+      "sha256": "44658baa937cbfa496149dbc44daf3bd2b568b78f4c7a96343a4a2d5a683b9bb",
+      "bytes": 1287666
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "央视原页滚动/原页重抓_20261026/原始资源/main_original.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "bytes": 84799
+    },
+    {
+      "path": "央视原页滚动/抓取坐标核验.json",
+      "sha256": "2399223eeade1f8a88f5db3dd128a88a8dded0bd09a89dd45b8b8c5b303dc55e",
+      "bytes": 6667
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒.json",
+      "sha256": "b1399624f5e5de1da8beb914dd7681fc07bca20a0cf164bc20664e4ad18df709",
+      "bytes": 2444
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒.mp4",
+      "sha256": "0b797de744a2d237637eb49e2adc56e92634fed67abf0ee765db2e320902f2ce",
+      "bytes": 4884341
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_检查00_0.00s.png",
+      "sha256": "7bad7f6ac8e4959dd3ee776a9cf6366795ba5a0c920a376c65d1382e96eb027b",
+      "bytes": 529921
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_检查01_0.64s.png",
+      "sha256": "ceead14aae345fd368797b0ecb73519e3b6523a7fba2f7713c69334719406abc",
+      "bytes": 531336
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_检查02_1.50s.png",
+      "sha256": "6bb15214b2db5fa536250e1452a08634fb84c82f405f72c8c437a578a6441fb4",
+      "bytes": 706588
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_检查03_2.40s.png",
+      "sha256": "7cdd1dae9fa3c956e5270613e1e78cca66d056219826b9b3dbdef5fefc95e1e1",
+      "bytes": 695944
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_检查04_2.76s.png",
+      "sha256": "fc1f3b7d15fdd2fd86eeee8124be4ef9b7463a0a3a807fba8473435656b765a9",
+      "bytes": 707312
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_编码实帧_0.00s.jpg",
+      "sha256": "5a70378a00a4b0746fe4d9f3ec84b817b1bc39d4ff818ce4dd181bce0a0fe5d7",
+      "bytes": 364716
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_编码实帧_0.64s.jpg",
+      "sha256": "ab6d0d4002cd06d2336367500c85411e6c2f3e6fa371982aed3f7aafe4c7214b",
+      "bytes": 366324
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_编码实帧_1.50s.jpg",
+      "sha256": "50b67161fcc450cec889d539367c7e0a97d6bafe5940e98d196f30dd58f91000",
+      "bytes": 460118
+    },
+    {
+      "path": "央视原页滚动/独立重渲染_2.8秒_编码实帧_2.76s.jpg",
+      "sha256": "404a12fc2784165278c0c81edd46aa8907992acbbfcfa71b169dc66e26059f39",
+      "bytes": 239057
+    },
+    {
+      "path": "央视原页滚动/输入/sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "path": "央视原页滚动/输入/sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "央视原页滚动/输入/保存原始.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "bytes": 84799
+    },
+    {
+      "path": "央视原页滚动/输入/原查阅坐标.json",
+      "sha256": "91cf050544a1836a62735a89afa0e27a59f7e3e05878c7f1b9172b96e41a1818",
+      "bytes": 1755
+    },
+    {
+      "path": "央视原页滚动/输入/原涉案段素材登记.json",
+      "sha256": "999368b3e3151e05589afb64f08e3f0065b2c65d8d4c53e2bc596f6597772c32",
+      "bytes": 5463
+    },
+    {
+      "path": "央视原页滚动/输入/原页连续条.png",
+      "sha256": "9e80334800e6c077dc048835a52cdc7ba5a471eb97e9162436e04194c59a4cc3",
+      "bytes": 674991
+    },
+    {
+      "path": "央视原页滚动/输入/抓取配置.json",
+      "sha256": "6526785d62f404e497a533b138153fd41aa6dfeb35ecf3e9d39fc0faa0e0e9e0",
+      "bytes": 2014
+    },
+    {
+      "path": "央视原页滚动/输入/涉案原文高光.png",
+      "sha256": "66108af1f079c3d277621645050943190f3e9126fc12b6773d1b3d7c74cbc59e",
+      "bytes": 602012
+    },
+    {
+      "path": "央视原页滚动/采用时码.json",
+      "sha256": "f401c81e2ab3a2082ef22bb5e32cb31315f9c17d1e1cbe536cda018e5bfa8d43",
+      "bytes": 1017
+    },
+    {
+      "path": "平湖原页/制作配置.json",
+      "sha256": "a2dca0deb6cb993cf9d9da5e5743b67883b9ef258e814b40994dbd38d994191e",
+      "bytes": 945
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒.json",
+      "sha256": "3b680eb0ff15313b291eee53fc0a685c91e6ad0928d820d127ea6b5bb6caf94d",
+      "bytes": 2905
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒.mp4",
+      "sha256": "2f500b84997aa6f91c224cd7a7220acb3b751307dafd1ac222d569319b793e1c",
+      "bytes": 410985
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒_检查00_0.00s.png",
+      "sha256": "08b895935ace8ee6d4fac580e1fc5ee34043b19814447ac6a66685565f2de3cb",
+      "bytes": 638556
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒_检查01_0.30s.png",
+      "sha256": "d35acc911ccd9d37006bf42dd69078a0af0ac5a6ff0a4d137ebf59643890ccf8",
+      "bytes": 638592
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒_检查02_8.20s.png",
+      "sha256": "a22819ad8b38c28c8700e8675588400d98478fb0b122d08f0fe31df5b03447f1",
+      "bytes": 638629
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒_检查03_10.50s.png",
+      "sha256": "fb9cc78499d2f8291e84d7d7c892c52dae9a3ca7e74092977be2021a2a87a78a",
+      "bytes": 638645
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒_检查04_15.60s.png",
+      "sha256": "6ad544eeb100ac1a543852fec5bb9ba23714da83bcda53065409dbd1612a3803",
+      "bytes": 638705
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒_检查05_16.20s.png",
+      "sha256": "35be118f5392a16b2e5cc743ef882db54dd2438dcdece8f8c351fb1e0c7252d4",
+      "bytes": 638704
+    },
+    {
+      "path": "平湖原页/原文高光与实音划线_20.52秒_检查06_20.48s.png",
+      "sha256": "35be118f5392a16b2e5cc743ef882db54dd2438dcdece8f8c351fb1e0c7252d4",
+      "bytes": 638704
+    },
+    {
+      "path": "平湖原页/原片实音混音_20.52秒.wav",
+      "sha256": "aaaa990ff629a80c7c35078b5ca8718d1cb9ddaa98a159fffc23aa72eb8128c6",
+      "bytes": 5909940
+    },
+    {
+      "path": "平湖原页/原片实音混音来源.json",
+      "sha256": "09b7c6872fabf5827aab2fce273a76336a3805759fd1c1520b8a0788fa75b595",
+      "bytes": 589
+    },
+    {
+      "path": "平湖原页/实音时码依据.json",
+      "sha256": "cab1f111148b409b4912ec9ee8b04a09eefc0e46de5a7c3136399b94dab1b003",
+      "bytes": 5474
+    },
+    {
+      "path": "平湖原页/抓取_20261026/capture.json",
+      "sha256": "c03576e3e4128ffb1b4f8b1f7397c7624081b71663730a6325139b4e05782858",
+      "bytes": 11864
+    },
+    {
+      "path": "平湖原页/抓取_20261026/capture_config.json",
+      "sha256": "80746b9322fc44ca52b1db4a6f3b44009985b71d540de6efbb1aa8f9c10732ea",
+      "bytes": 1905
+    },
+    {
+      "path": "平湖原页/抓取_20261026/rendered_dom.html",
+      "sha256": "39c4f0e42bcf2841d1a167a54eb3b5c92623e11231b2a2b4a5c02bc1a0b16667",
+      "bytes": 89273
+    },
+    {
+      "path": "平湖原页/抓取_20261026/visible_full_text.txt",
+      "sha256": "1a12249a71dda5ab4a31f8f33305220a861ac8d0069039367b1dcdf6a4291108",
+      "bytes": 9687
+    },
+    {
+      "path": "平湖原页/抓取_20261026/原始截图/full_page.png",
+      "sha256": "f93e850fccddf13a799bbaa377c2cb6942379d3756c8356e13c2ead9cc1d22f6",
+      "bytes": 3563197
+    },
+    {
+      "path": "平湖原页/抓取_20261026/原始截图/pinghu.png",
+      "sha256": "2612689b98f0c42a48cc393271e2752f1deee0369d7e82d9db8ed91b8b4ca109",
+      "bytes": 418246
+    },
+    {
+      "path": "平湖原页/抓取_20261026/原始截图/viewport.png",
+      "sha256": "44658baa937cbfa496149dbc44daf3bd2b568b78f4c7a96343a4a2d5a683b9bb",
+      "bytes": 1287666
+    },
+    {
+      "path": "平湖原页/抓取_20261026/原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "path": "平湖原页/抓取_20261026/原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "平湖原页/抓取_20261026/原始资源/main_original.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "bytes": 84799
+    },
+    {
+      "path": "平湖原页/抓取坐标核验.json",
+      "sha256": "6f470fdcbf3d3ec53be67fb6e4d5af172075f360916f04b1e056804b54544dcf",
+      "bytes": 4976
+    },
+    {
+      "path": "平湖原页/新抓原页_配原片实音_20.52秒.mp4",
+      "sha256": "d074fef4fd2a09958dcd4166a27af2b6b9f10dffc4803fc35e633796efa0cc5e",
+      "bytes": 916819
+    },
+    {
+      "path": "平湖原页/新抓原页_配原片实音_20.52秒_编码实帧_0.00s.jpg",
+      "sha256": "8436508c0bd09e0d5a06e3f0debc119fb72f94a00b02e4bea7fe94cd97114a03",
+      "bytes": 248359
+    },
+    {
+      "path": "平湖原页/新抓原页_配原片实音_20.52秒_编码实帧_15.60s.jpg",
+      "sha256": "27f63810a51608edc475ff293a08e413cd4a4f6e3a4526a304882083f70cd799",
+      "bytes": 254204
+    },
+    {
+      "path": "平湖原页/新抓原页_配原片实音_20.52秒_编码实帧_20.48s.jpg",
+      "sha256": "52a3aa4b7c31125839f1276f50665cf1f7b2f0ccd901663db906ceeb71739551",
+      "bytes": 254822
+    },
+    {
+      "path": "平湖原页/新抓原页_配原片实音_20.52秒_编码实帧_8.20s.jpg",
+      "sha256": "86705a9b5200c0c031a7eebcf1ec425f9659ce2d7bfbd42f681ce1d266e828e2",
+      "bytes": 250233
+    },
+    {
+      "path": "平湖原页/输入/E06_保存原始.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "bytes": 84799
+    },
+    {
+      "path": "平湖原页/输入/P001_48k_mono.wav",
+      "sha256": "7873cfc5c586055aa1a2786b86b8e4c7d9e345e458884a78734196c7af6cb4ac",
+      "bytes": 2489982
+    },
+    {
+      "path": "平湖原页/输入/P002_48k_mono.wav",
+      "sha256": "30a1e82de4d58187ca421cdd761640c6dfc37eaecc950c2e04bfb39c13b3c02a",
+      "bytes": 1346446
+    },
+    {
+      "path": "平湖原页/输入/sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "path": "平湖原页/输入/sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "平湖原页/输入/抓取配置.json",
+      "sha256": "80746b9322fc44ca52b1db4a6f3b44009985b71d540de6efbb1aa8f9c10732ea",
+      "bytes": 1905
+    },
+    {
+      "path": "平湖原页/输入/旧资料迁移来源.json",
+      "sha256": "e60c8409f635a22e977bcb8970aa264c664034ff5c907f7ce00776d5ce9fe704",
+      "bytes": 841
+    },
+    {
+      "path": "开场评论/制作配置.json",
+      "sha256": "b05dd872660095553ab4b88bba102aaa6eaf2ca1506ab0ed41ea08890e18c4b9",
+      "bytes": 900
+    },
+    {
+      "path": "开场评论/原始未划线.png",
+      "sha256": "226d343a394c3c7c5d05118a453dc35bab0b0cb844d9da136aede3c2e0f26348",
+      "bytes": 403434
+    },
+    {
+      "path": "开场评论/实码第120帧.png",
+      "sha256": "7d4e23f607728ff85240174b52c7fea8a26e088dd6fd79515e50ef4e1123be52",
+      "bytes": 260043
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线.json",
+      "sha256": "106ff812fca756b11b867a439de381f4d727428695e93c986c3779a7ee3a5cfe",
+      "bytes": 2202
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线.mp4",
+      "sha256": "3f824d04afbff89eae930a42148bc9d5502acc62f982ca84c21b0933a9bba2ae",
+      "bytes": 72187
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源.json",
+      "sha256": "0e8df97001aca2809bd3a41dd516a18d7cbdbd6ec48b1ca8a51d5c8d6081ea79",
+      "bytes": 2280
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源.mp4",
+      "sha256": "6462231e0dae9f361ae7e4697610847c141dfe02c4f9f33574804960b184b535",
+      "bytes": 74056
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_检查00_0.00s.png",
+      "sha256": "69bdeccb68d84680992cbb43b7fbb5480777ace75051fc914d2a54e9c6b4f9bf",
+      "bytes": 311480
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_检查01_0.84s.png",
+      "sha256": "adb83e72baa27a47dca50491fa88a896058ce06b5e104d6bd0af8c7999c52a41",
+      "bytes": 311416
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_检查02_1.20s.png",
+      "sha256": "ae26dfa991672e707fb63cde87b643845f60ef1753754df8dae4dd968d361cd9",
+      "bytes": 311165
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_检查03_3.12s.png",
+      "sha256": "903233692a6d56b00684200421498354be016950936ddafa6a8c9669517502a7",
+      "bytes": 311022
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_检查04_4.80s.png",
+      "sha256": "2db8096903013f3879b624be4d28d7795702f2285891e42bc570b75e4fe104b5",
+      "bytes": 310743
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_编码实帧_0.00s.jpg",
+      "sha256": "5713258007414036cb92ec40c2623dcef506998cf442eafea50e002bc736ae32",
+      "bytes": 147892
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_编码实帧_0.84s.jpg",
+      "sha256": "037cdcb0c196dfb71a2522e5c32992974d06a62a410cf2232451d0c61fb01634",
+      "bytes": 148532
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_编码实帧_3.12s.jpg",
+      "sha256": "752a7ffb37de4440ff63e4d5ce1537caf37241c7832dedff4d0effb038550112",
+      "bytes": 149415
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_完整来源_编码实帧_4.80s.jpg",
+      "sha256": "4413aa15970985c3a9a9c635909a51a02478a66108fcaf3e256edb0b5b0ae041",
+      "bytes": 150165
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_检查00_0.00s.png",
+      "sha256": "723f8190237c2a8c88f2dbd14026c6b9421a4867aeac608cb700de941442ee6c",
+      "bytes": 309700
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_检查01_0.84s.png",
+      "sha256": "ada09005007dbfa949c9fcb2de983b742a7b2a692c113b5ad8bf929970492cca",
+      "bytes": 309635
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_检查02_1.20s.png",
+      "sha256": "fe231d6e658ae7adde7637a9fa0e19aefe623bf60127ce4e89b05fffa13382a2",
+      "bytes": 309385
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_检查03_3.12s.png",
+      "sha256": "4cf473edbf9e81e7c5ca0be2af4f013983cd338cea9090c3f2d33f9480a7489a",
+      "bytes": 309243
+    },
+    {
+      "path": "开场评论/首镜5.32秒_实音划线_检查04_4.80s.png",
+      "sha256": "96c9eed342c1ea591aa801199974cae3428ddf8831ed86772add6e58e16d27d1",
+      "bytes": 308966
+    },
+    {
+      "path": "旧项目复制清单.json",
+      "sha256": "e9772504566b7cfa4ecc45ca38f942abff0d178af4f14a43c339c79436f551e7",
+      "bytes": 7026
+    },
+    {
+      "path": "本轮核验说明.md",
+      "sha256": "1c1a9babca8d7c82675250c809cb4897a9c358c61c373faafc08015da35cbdef",
+      "bytes": 2997
+    },
+    {
+      "path": "看网页参考.html",
+      "sha256": "828a352c01ce8fd517a034aa6946a99d32130a1b7ea8e3aea3748e4586044588",
+      "bytes": 4894
+    },
+    {
+      "path": "编码实帧联系表.jpg",
+      "sha256": "3a6d41948c67867f55a95093745e0c0dd59bec3442f7c8d0e436dfca32a7ded1",
+      "bytes": 483719
+    },
+    {
+      "path": "舟山报道点击/制作配置.json",
+      "sha256": "f23779beced9a1a333096d10fc1a77d89bbf13e438fb0dbbdea5c0298f517a0a",
+      "bytes": 634
+    },
+    {
+      "path": "舟山报道点击/原制作记录/合成本环.py",
+      "sha256": "53040d52bea4087ed05dbab50742f51ab3935a199a2c4556885d10652baa8f01",
+      "bytes": 24243
+    },
+    {
+      "path": "舟山报道点击/原制作记录/捕获走访与军事报道.py",
+      "sha256": "5098522a045270b0abdb606d8a450588861745525b9dabe46066e0a6af7de505",
+      "bytes": 15446
+    },
+    {
+      "path": "舟山报道点击/原制作记录/编排正式时间线.py",
+      "sha256": "e25916f2fca97dd55bcb71a8cc11b259d04aca527e5368400e987a6a311468e2",
+      "bytes": 13942
+    },
+    {
+      "path": "舟山报道点击/原片采用段_含声音.json",
+      "sha256": "94a81f480e57f5715c6f6e627cd369210cd32f848ae378f823d477ddbe3c69e9",
+      "bytes": 620
+    },
+    {
+      "path": "舟山报道点击/原片采用段_含声音.mp4",
+      "sha256": "182a97444da10c2882c470b4fbd94832e82b0a8fe089549d7b96c877993dc1cf",
+      "bytes": 997723
+    },
+    {
+      "path": "舟山报道点击/原采用缓存_S09.mp4",
+      "sha256": "6fe8044e035db97df3f1b43c6e4980690179e740115d258eacf44c7c822a19c4",
+      "bytes": 93333
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/capture.json",
+      "sha256": "3bd5003cabe544e7557d161cc32f017bad38bd5f075c023d54ae16bfe2dba3be",
+      "bytes": 12748
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/capture_config.json",
+      "sha256": "60452d39cbd18460386e064bf79a0da8586b7271181afdbe4eb3595b202aa61a",
+      "bytes": 2421
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/rendered_dom.html",
+      "sha256": "723a0c9b4dba54d2641411cbb1ff6edc30d0139750d72d55a184c2859f4babdc",
+      "bytes": 63467
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/visible_full_text.txt",
+      "sha256": "b86ec0e0374aa8b900b73cf3ef9a41b9f70a4039275b7cb05960457fad6a16d5",
+      "bytes": 1406
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/原始截图/full_page.png",
+      "sha256": "8519c31ba5bade5e74e546b9e331399ccb5fcd809e74adda59706298e6e4d19c",
+      "bytes": 524315
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/原始截图/mil_notice.png",
+      "sha256": "01448fe544622422a16da4dcd178c814ed986e108eb72fd8b3bb37de879fb04c",
+      "bytes": 259988
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/原始截图/mil_title.png",
+      "sha256": "3b3de641482aa6b1f7dc6a4cee73656af5dd345c70df69ea0d0bdad50818ec27",
+      "bytes": 233499
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/原始截图/viewport.png",
+      "sha256": "1b5fb2a2185db2dfc1196320f10bf0859efc9f69790c440b1ac77e0336bc5a98",
+      "bytes": 468732
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "舟山报道点击/原页重抓_20261026_v3/原始资源/main_original.html",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "bytes": 61925
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/capture.json",
+      "sha256": "5215636fc0d6cbc1ef6b88330787f2e265c58c020729737221656a62c3979d2f",
+      "bytes": 3210
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/capture_config.json",
+      "sha256": "8cbaaaa9e68f17cda989bb67bdc3380c69283e4ee1329083edc8b4853b39c918",
+      "bytes": 2175
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/rendered_dom.html",
+      "sha256": "723a0c9b4dba54d2641411cbb1ff6edc30d0139750d72d55a184c2859f4babdc",
+      "bytes": 63467
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/visible_full_text.txt",
+      "sha256": "3df3331464bdc9a6a326fd33b17f2ab420c0ef99437b57e87f49e58a6fc64a00",
+      "bytes": 2658
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/原始截图/full_page.png",
+      "sha256": "94cad83aa5ef954015d1a8a6136449951bd2ded8984b01d8d6ced50d273879f6",
+      "bytes": 1188036
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/原始截图/viewport.png",
+      "sha256": "e880e0526ad222f44c1a713ee170c65594569c6e02aad0676620ff2c20ba72a2",
+      "bytes": 483417
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "舟山报道点击/失败记录/01_固定横坐标裁断/原始资源/main_original.html",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "bytes": 61925
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/capture.json",
+      "sha256": "263b3bda59a79c161399e328107d16b2de7d8cdf3930093bf9a042935df14eca",
+      "bytes": 4409
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/capture_config.json",
+      "sha256": "3ece0f6cdf3ad7eb40b7cd64e209557e287461b1957adac7a321255bf4c524e5",
+      "bytes": 2139
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/rendered_dom.html",
+      "sha256": "723a0c9b4dba54d2641411cbb1ff6edc30d0139750d72d55a184c2859f4babdc",
+      "bytes": 63467
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/visible_full_text.txt",
+      "sha256": "3df3331464bdc9a6a326fd33b17f2ab420c0ef99437b57e87f49e58a6fc64a00",
+      "bytes": 2658
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/原始截图/full_page.png",
+      "sha256": "94cad83aa5ef954015d1a8a6136449951bd2ded8984b01d8d6ced50d273879f6",
+      "bytes": 1188036
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/原始截图/mil_title.png",
+      "sha256": "dda7af7c9027c43ae6804c77557a0f8b7a4f277c71e96235876c21721ee74e4d",
+      "bytes": 197835
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/原始截图/viewport.png",
+      "sha256": "e880e0526ad222f44c1a713ee170c65594569c6e02aad0676620ff2c20ba72a2",
+      "bytes": 483417
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "舟山报道点击/失败记录/02_HTTP样式被HTTPS阻断/原始资源/main_original.html",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "bytes": 61925
+    },
+    {
+      "path": "舟山报道点击/失败记录/说明.md",
+      "sha256": "b3cfa64d30b66393a68c36459d8dc2d11cbd9f60ac2200e7ffc900fcb6ef8532",
+      "bytes": 330
+    },
+    {
+      "path": "舟山报道点击/抓取坐标核验.json",
+      "sha256": "b6523496f715f6183b0545ac6789e1bce484d7c267caf6ad11053dbd2a0aa438",
+      "bytes": 6101
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒.json",
+      "sha256": "d46981d6c81b99268bcbce3f7271932db67b54b91d5152972f992135ad718cab",
+      "bytes": 2214
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒.mp4",
+      "sha256": "3c325afe9aa04e16efdc7ebacb37fc1b6a9f0ac492b7f423591880e56060b692",
+      "bytes": 106771
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_检查00_0.00s.png",
+      "sha256": "3d4068f2f2cf55e56484dc06c8c67238b82655ec1f5a80bfd2eb2da75bcefd7e",
+      "bytes": 400668
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_检查01_1.40s.png",
+      "sha256": "24dad27d99d20855140bca6e2065c9ab6c7a1abd02461ebe2f6163924f284810",
+      "bytes": 400796
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_检查02_2.84s.png",
+      "sha256": "318998c9e7e09dc706965afe8e93c54fed45d276039dc035151fe8ddeef25740",
+      "bytes": 399659
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_检查03_3.40s.png",
+      "sha256": "4048ee14acd642b990d0350ac062e1e0e93ac9808958923ed1be4827e8adf632",
+      "bytes": 400051
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_检查04_4.32s.png",
+      "sha256": "4782213d302321ab264901728af5c2260a84883caa311ad5099a6acd080017f7",
+      "bytes": 399614
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_编码实帧_0.00s.jpg",
+      "sha256": "2ba056d97fa6732530fa9bc817b2d1891312c74b531be8e56450dd71f12e5478",
+      "bytes": 166330
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_编码实帧_1.40s.jpg",
+      "sha256": "ef7543bfbffa78e0cafaeac3b6da70cf1fbba752e29c9dfa5435ce72ea79bc4e",
+      "bytes": 166214
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_编码实帧_2.84s.jpg",
+      "sha256": "3d4800f64e9d67ed555116608d96cd301d3585e8157aa9e91a503dfc7bc72e70",
+      "bytes": 165767
+    },
+    {
+      "path": "舟山报道点击/独立重渲染_4.36秒_编码实帧_3.40s.jpg",
+      "sha256": "391561e424e88fadc5b8880d9bf0db31fd38331ffc9b7e159d4ef2fcb768383a",
+      "bytes": 166635
+    },
+    {
+      "path": "舟山报道点击/输入/sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "path": "舟山报道点击/输入/sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "舟山报道点击/输入/保存原始.html",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "bytes": 61925
+    },
+    {
+      "path": "舟山报道点击/输入/原捕获登记.json",
+      "sha256": "66b6804b664422cc3a0f3cda609011afb23c15bf391f0959e77265571b420a6f",
+      "bytes": 10780
+    },
+    {
+      "path": "舟山报道点击/输入/抓取配置.json",
+      "sha256": "60452d39cbd18460386e064bf79a0da8586b7271181afdbe4eb3595b202aa61a",
+      "bytes": 2421
+    },
+    {
+      "path": "舟山报道点击/输入/标题日期DPR3.png",
+      "sha256": "9ee95d6e70401232b1ef39dabf43cbc6ab3ea597f8ac863bbf79a7eb9332770f",
+      "bytes": 337054
+    },
+    {
+      "path": "舟山报道点击/输入/标题日期原页.png",
+      "sha256": "43aa8ae9d80ddfbef4e1a8ba995e1b151b3a74a422cab778e97080a6af4a85a0",
+      "bytes": 528660
+    },
+    {
+      "path": "舟山报道点击/输入/标题日期高光.png",
+      "sha256": "4c57ef4d63b67444c3c542ae4335182be5fd1cf3d71e73f8961d6514f522ad74",
+      "bytes": 400561
+    },
+    {
+      "path": "舟山报道点击/输入/通告DPR3.png",
+      "sha256": "0670d30d0abed21d9ed8495151bda295f912d24e59d26e2a1fefe8b51705ae1f",
+      "bytes": 282545
+    },
+    {
+      "path": "舟山报道点击/输入/通告完整段高光.png",
+      "sha256": "cc86c43667274d31ff52d08cdf6a5af1a7b3e20dcdbf2fed49e59d6cb374e4ce",
+      "bytes": 564881
+    },
+    {
+      "path": "舟山报道点击/采用时码.json",
+      "sha256": "25b031515997679460e1fa65e1e3e9f820c2cbcb09f384bf935fb23de5cdb70e",
+      "bytes": 984
+    }
+  ],
+  "count": 163,
+  "copied_originals_reverified": 23,
+  "runtime_files": [
+    {
+      "path": "工具/网页/README.md",
+      "sha256": "34cd9245183011ef48d1b711c92e396db2b95e0f00e0aa2a928d18bdc8f5363f",
+      "bytes": 1251
+    },
+    {
+      "path": "工具/网页/animate_evidence.py",
+      "sha256": "0851d899c5d457bab257bd44f0d24f695c6c3904d4fa880e4da39b4f95b6d3e5",
+      "bytes": 7966
+    },
+    {
+      "path": "工具/网页/audit_capture.py",
+      "sha256": "ac0abec27d982b0bddb94ccaa8212462b8f52a1f360a00ee7e6eef600edb7104",
+      "bytes": 3019
+    },
+    {
+      "path": "工具/网页/capture_evidence.py",
+      "sha256": "9f27a2e62b094fa237dd6133b0ab9756ffe7fa2f5e82324a95c871be7bbd8b02",
+      "bytes": 12797
+    },
+    {
+      "path": "工具/网页/requirements.txt",
+      "sha256": "ce1605546e8fa65e40c8c7a5d7194918b83e4a872c7bf7f3d73ab51b492b59d7",
+      "bytes": 72
+    },
+    {
+      "path": "工具/网页/verify_pipeline.py",
+      "sha256": "2f424d41553b8258ba2a5e0cd2fab55ec254de0b2a3da2d4f255a6f008d691d1",
+      "bytes": 4430
+    },
+    {
+      "path": "文档/09_网页抓取与网页动画.md",
+      "sha256": "c6b1489a755ffae3c97699c18baec68a656216ae76690a858f2a80f8bdea0c81",
+      "bytes": 15732
+    }
+  ],
+  "root_for_runtime_files": "工作室根目录",
+  "note": "原输入、历史源码、当前抓取、渲染和失败记录分别保留；历史旧项目路径仅作追溯，新制作入口读取本地相对配置。"
+}

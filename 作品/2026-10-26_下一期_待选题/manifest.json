@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "title": "下一期_待选题",
+  "fps": 25,
+  "width": 1920,
+  "height": 1080,
+  "output_dir": "06_导出",
+  "shots": [],
+  "audio": {
+    "path": "03_声音/最终/mix_48k_stereo.wav"
+  },
+  "subtitles": [],
+  "subtitle_style": {
+    "profile": "main"
+  },
+  "chapters": [],
+  "watermark": {
+    "path": "../../参考库/品牌/B站/透明PNG/啊子牙_悠哉_B站无账号_1080p.png",
+    "width": 224,
+    "x": 1664,
+    "y": 40,
+    "opacity": 1
+  },
+  "versions": [
+    {
+      "id": "bili",
+      "label": "B站 · 啊子牙水印",
+      "watermark": true
+    },
+    {
+      "id": "clean",
+      "label": "无个人水印",
+      "watermark": false
+    }
+  ]
+}

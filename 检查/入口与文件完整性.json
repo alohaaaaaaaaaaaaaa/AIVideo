@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checked_links": 133,
+  "missing_links": [],
+  "syntax_checked_python_files": 51,
+  "runtime_hardcoded_old_root": [],
+  "credential_files_in_project": [],
+  "credential_contents_not_read": true,
+  "scope": "authored entry/docs/player links; vendor archived HTML intentionally excluded"
+}

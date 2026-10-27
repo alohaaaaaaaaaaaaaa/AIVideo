@@ -1,0 +1,86 @@
+{
+  "status": "passed_with_recorded_duration_difference",
+  "checked_at": "2026-10-26T14:03:32.421690+00:00",
+  "provider": "minimax-v1",
+  "model": "MiniMax-Hailuo-02",
+  "real_generation_submissions": 1,
+  "automatic_retries": 0,
+  "task_id": "456579998466281",
+  "file_id": "456580613890281",
+  "provider_final_status": "Success",
+  "public_unit_price_cny": 3.5,
+  "estimated_total_cny": 3.5,
+  "internal_budget_cap_cny": 20,
+  "billing_verified": false,
+  "actual_billed_cny": null,
+  "billing_note": "当前官方按量价估算，不等于核对了账号实际扣费；可能存在资源包扣点。",
+  "request": {
+    "duration_seconds": 6,
+    "resolution": "1080P",
+    "prompt_optimizer": false,
+    "aigc_watermark": false
+  },
+  "actual": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "duration": 5.875,
+    "timeline_duration": 5.875,
+    "frames": 141,
+    "full_decode": true,
+    "monotonic_pts": true,
+    "uniform_frame_timing": true,
+    "requested_resolution_verified": true,
+    "requested_duration_seconds": 6,
+    "duration_difference_seconds": -0.125,
+    "accepted_duration_tolerance_seconds": 0.2
+  },
+  "raw": {
+    "file": "N001_空机房_生成原片.mp4",
+    "sha256": "74fac6ce9d500d46612e39dcbd4bcd7a3db8912047b7312eb1ab2a8f8a0f1861",
+    "has_context_label": false,
+    "audio_streams": 0
+  },
+  "adopted": {
+    "file": "N001_空机房_情境示意.mp4",
+    "sha256": "88ecfbc6e7c8aaab4d29293ef623ebe94f0455c83f392ef08f11a8a16be72bc6",
+    "context_label_count": 1,
+    "label": "情境示意",
+    "full_source_duration_preserved": true,
+    "fps": 24,
+    "frames": 141
+  },
+  "timeline_25fps": {
+    "duration_seconds": 5.84,
+    "frames": 146,
+    "end_trim_seconds": 0.035,
+    "method": "按实际源时长向下量化至25fps整帧；正常帧率采样，不通过循环/冻结/变速补到6秒。"
+  },
+  "visual_review": {
+    "method": "完整技术解码141帧；原片全时段15个抽帧及首尾1080p大图；采用版首中尾和放大标签区域",
+    "result": "适合作为匿名机房的情境镜头",
+    "observations": [
+      "一个连续缓慢推进镜头，抽检未见突切或严重几何跳变",
+      "无人物、公司标识、可读账号、金额、指令或特定事件",
+      "机柜小面板有泛化蓝色图形，不能当作真实仪器或网络状态示范",
+      "原片无情境说明，采用版仅左上角一处情境示意，未改变速度与总帧数"
+    ],
+    "limitations": [
+      "没有验证H3/v2、图生、首尾帧或人物生成；本次只覆盖v1文生视频",
+      "静帧抽检与完整解码不能替代每期语境下的最终审片",
+      "未读取供应商账单，实际扣费未知"
+    ]
+  },
+  "evidence": {
+    "plan_sha256": "06a88f914011cb2ae23934e54b58c79b93003f87115712b0c1d23f6e13b61455",
+    "authorization_sha256": "91d634db99fc65f2de2c4dda0d0407c9606b9976c3efc2bc3dfff90cc38d492d",
+    "price_evidence_sha256": "31dafba59aefd91645d71112fef7278b6c56b6001ce06329b53eda64660956ea",
+    "receipt_relative_path": "检查/本轮对标/AI真实接口测试/run/receipts/9ade7c5e4f13cae2b2370767db7276f2bca6b2879b04e89b36f0fcc930213cac.json"
+  },
+  "fixes": [
+    "修正当前价格页旧型号表被遗漏的文档错误",
+    "加入提交/查询/检索的脱敏响应记录",
+    "加入请求分辨率、逐帧PTS、实际时长校验",
+    "离线测试验证低分辨率返回会被拒绝"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MiniMax v1 AI shot input",
+  "type": "object",
+  "required": [
+    "shots"
+  ],
+  "properties": {
+    "config": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "const": "minimax-v1"
+        },
+        "base_url": {
+          "type": "string"
+        },
+        "model": {
+          "enum": [
+            "MiniMax-Hailuo-02",
+            "MiniMax-Hailuo-2.3",
+            "T2V-01",
+            "T2V-01-Director"
+          ]
+        },
+        "duration": {
+          "enum": [
+            6,
+            10
+          ]
+        },
+        "resolution": {
+          "enum": [
+            "720P",
+            "768P",
+            "1080P"
+          ]
+        },
+        "prompt_optimizer": {
+          "type": "boolean"
+        },
+        "aigc_watermark": {
+          "type": "boolean"
+        }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "prompt"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]+$"
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "context_label": {
+            "type": "string"
+          },
+          "acceptance": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "estimated_cost_cny": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "request_override": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

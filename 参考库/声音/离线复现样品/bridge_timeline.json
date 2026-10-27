@@ -1,0 +1,17 @@
+{
+  "duration": 18.76,
+  "chapters": [
+    {
+      "id": "01",
+      "start": 0,
+      "end": 5.88,
+      "narration": "桥接输入/C01/narration.wav"
+    },
+    {
+      "id": "02",
+      "start": 5.88,
+      "end": 18.76,
+      "narration": "桥接输入/C02/narration.wav"
+    }
+  ]
+}

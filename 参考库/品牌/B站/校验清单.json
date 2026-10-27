@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-23",
+  "algorithm": "SHA-256",
+  "scope": "all package files excluding this manifest",
+  "files": [
+    {
+      "path": "00_使用说明.md",
+      "bytes": 1704,
+      "sha256": "9ae165bf1113a81ccf2917ad7d9e1d86122ca693db11efb3ec9b8b3c6487d4c9"
+    },
+    {
+      "path": "品牌规范.md",
+      "bytes": 843,
+      "sha256": "b058f80d72e03bf3ff88ea928af69a0e5c9e9d03a69eb4ea1f89341081e76476"
+    },
+    {
+      "path": "字体/Yozai-Medium.ttf",
+      "bytes": 15238394,
+      "sha256": "05f50f252b45197d0d6148a4abc3e37c7cd4cfdf03c955b57c25d53d924f835f"
+    },
+    {
+      "path": "字体/Yozai-OFL.txt",
+      "bytes": 4497,
+      "sha256": "86b3a0b5162848503241d80ea9a309a6459690ba7dc547940758a6a689a53b02"
+    },
+    {
+      "path": "检查/重建核验.json",
+      "bytes": 1191,
+      "sha256": "fc918b95c51d34c78375761a1f56c597b1ffccf7e13c58673aad20ce9d6e465e"
+    },
+    {
+      "path": "源文件/字形蒙版.png",
+      "bytes": 21701,
+      "sha256": "4aa9206fa80e84e79fa655a627c41b56f72e87981b36253c9ef80453435ab09e"
+    },
+    {
+      "path": "源文件/重建水印.py",
+      "bytes": 1530,
+      "sha256": "bbeb4cbd51b24102996066fafbc37a105508b487c59936b39acb4ef42a7ba377"
+    },
+    {
+      "path": "素材登记.json",
+      "bytes": 903,
+      "sha256": "b428d89e8222987086921655dab2843f142b0c9d4568dff225c80d352d5291e8"
+    },
+    {
+      "path": "透明PNG/啊子牙_悠哉_B站无账号_1080p.png",
+      "bytes": 14000,
+      "sha256": "0df441dca5484d789c8c4433b2c3d38c4a61840b695825b8f05cb8245ff47a38"
+    },
+    {
+      "path": "透明PNG/啊子牙_悠哉_B站无账号_4K.png",
+      "bytes": 39184,
+      "sha256": "88ff16b6153731d5f4b2395f819bc139dd4ef11ef7a863015c4f28e66ee42cb1"
+    },
+    {
+      "path": "透明PNG/啊子牙_悠哉_B站无账号_高清母版.png",
+      "bytes": 89292,
+      "sha256": "437860ca2bfcba99fa4a098200f07c9de795b0811a01fbc39c4d0fecc56c8269"
+    },
+    {
+      "path": "预览/水印样式.jpg",
+      "bytes": 73139,
+      "sha256": "9b9d47bc50b29bf263434bdc6afdd0839ec85c24768eab0318e5259f926c9407"
+    }
+  ]
+}

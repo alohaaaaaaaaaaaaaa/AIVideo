@@ -1,0 +1,21 @@
+{
+  "fps": 25,
+  "segments": [
+    {
+      "id": "C01_P001",
+      "chapter": "01",
+      "chapter_title": "真实旁白衔接测试",
+      "music_mood": "comments",
+      "tail_seconds": 0.4
+    },
+    {
+      "id": "C02_P001",
+      "chapter": "02",
+      "chapter_title": "姓名读音与尾帧测试",
+      "music_mood": "outro",
+      "tail_seconds": 1.2
+    }
+  ],
+  "music_cues": [],
+  "sound_cues": []
+}

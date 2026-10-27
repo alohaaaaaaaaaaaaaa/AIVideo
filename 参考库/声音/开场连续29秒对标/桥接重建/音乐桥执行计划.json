@@ -1,0 +1,39 @@
+{
+  "input_duration": 33.36,
+  "duration": 33.36,
+  "fps": 25,
+  "added_seconds": 0.0,
+  "chapters": [
+    {
+      "id": "01",
+      "start": 0.0,
+      "end": 29.36,
+      "narration": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/开场连续29秒对标/voice_48k.wav",
+      "old_start": 0,
+      "old_end": 29.36,
+      "duration": 29.36
+    },
+    {
+      "id": "02",
+      "start": 29.36,
+      "end": 33.36,
+      "narration": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/开场连续29秒对标/桥接上下文/C02/narration.wav",
+      "old_start": 29.36,
+      "old_end": 33.36,
+      "duration": 4.0
+    }
+  ],
+  "transitions": [
+    {
+      "after_chapter": "01",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "before_chapter": "02",
+      "old_boundary": 29.36,
+      "start": 29.36,
+      "end": 29.36
+    }
+  ],
+  "pause_events": []
+}

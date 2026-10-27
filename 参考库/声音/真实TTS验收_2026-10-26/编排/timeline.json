@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "time_basis": "seconds derived from actual 48000Hz sample ledger",
+  "sample_rate": 48000,
+  "fps": 25,
+  "samples_per_frame": 1920,
+  "duration": 7.28,
+  "samples": 349440,
+  "frames": 182,
+  "narration": "narration_48k_mono.wav",
+  "segments": [
+    {
+      "id": "CHECK001",
+      "chapter": "01",
+      "text": "我是啊子牙。今天我们顺着证据往下查，网友p.o.l.i.c.e留下的线索，到底能说明什么？",
+      "source_audio": "CHECK001_48k_mono.wav",
+      "source_sha256": "090e97457212ce278aa81edfabe0c6568e0a19e79bb798d4880456c26023009c",
+      "start": 0.0,
+      "end": 7.28,
+      "natural_duration": 6.478375,
+      "sample_start": 0,
+      "speech_end_sample": 310962,
+      "sample_end": 349440,
+      "source_samples": 310962,
+      "frame_start": 0,
+      "frame_end": 182,
+      "alignment_padding_samples": 78,
+      "explicit_tail_samples": 38400,
+      "explicit_tail_seconds": 0.8,
+      "phrases": [
+        {
+          "text": "我是啊子牙。",
+          "tts_text": "我是阿子牙。",
+          "start": 0.0444,
+          "end": 0.7111,
+          "time_basis": "provider_actual_word_timestamps",
+          "segment_id": "CHECK001"
+        },
+        {
+          "text": "今天我们顺着证据往下查，",
+          "tts_text": "今天我们顺着证据往下查，",
+          "start": 0.8,
+          "end": 2.7111,
+          "time_basis": "provider_actual_word_timestamps",
+          "segment_id": "CHECK001"
+        },
+        {
+          "text": "网友p.o.l.i.c.e留下的线索，",
+          "tts_text": "网友police留下的线索，",
+          "start": 2.7556,
+          "end": 4.7556,
+          "time_basis": "provider_actual_word_timestamps",
+          "segment_id": "CHECK001"
+        },
+        {
+          "text": "到底能说明什么？",
+          "tts_text": "到底能说明什么？",
+          "start": 4.8,
+          "end": 6.1333,
+          "time_basis": "provider_actual_word_timestamps",
+          "segment_id": "CHECK001"
+        }
+      ],
+      "time_stretch": false,
+      "edited_samples": 310962,
+      "internal_pause_samples": 0,
+      "internal_pauses": [],
+      "source_identity_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 310962,
+          "edited_start_sample": 0,
+          "edited_end_sample": 310962
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    {
+      "text": "我是啊子牙。",
+      "tts_text": "我是阿子牙。",
+      "start": 0.0444,
+      "end": 0.7111,
+      "time_basis": "provider_actual_word_timestamps",
+      "segment_id": "CHECK001"
+    },
+    {
+      "text": "今天我们顺着证据往下查，",
+      "tts_text": "今天我们顺着证据往下查，",
+      "start": 0.8,
+      "end": 2.7111,
+      "time_basis": "provider_actual_word_timestamps",
+      "segment_id": "CHECK001"
+    },
+    {
+      "text": "网友p.o.l.i.c.e留下的线索，",
+      "tts_text": "网友police留下的线索，",
+      "start": 2.7556,
+      "end": 4.7556,
+      "time_basis": "provider_actual_word_timestamps",
+      "segment_id": "CHECK001"
+    },
+    {
+      "text": "到底能说明什么？",
+      "tts_text": "到底能说明什么？",
+      "start": 4.8,
+      "end": 6.1333,
+      "time_basis": "provider_actual_word_timestamps",
+      "segment_id": "CHECK001"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "01",
+      "title": "新短句真实API验收",
+      "start": 0.0,
+      "end": 7.28,
+      "sample_start": 0,
+      "sample_end": 349440,
+      "frame_start": 0,
+      "frame_end": 182,
+      "narration": "chapters/chapter_01_48k_mono.wav"
+    }
+  ],
+  "music_sections": [
+    {
+      "id": "M001",
+      "chapter": "01",
+      "title": "新短句真实API验收",
+      "music_mood": "trace",
+      "start": 0.0,
+      "end": 7.28
+    }
+  ],
+  "music_cues": [],
+  "sound_cues": [],
+  "source_paragraphs_sha256": "1633c5c2adb2a9723acb728bb12d91aec151d38dd89869b1a1dbb0e4531a0147",
+  "layout_sha256": "9108762a41a27f7e9f4ecd3555d3d1e376912d4d0505a5e9661d6d120661e659",
+  "narration_sha256": "5bda98ad45800a2035ff22212fd3879ef0f5f8fd14bb0b5d708d1d5c60a8ab03",
+  "visual_cues": [],
+  "observation_music_ducks": []
+}

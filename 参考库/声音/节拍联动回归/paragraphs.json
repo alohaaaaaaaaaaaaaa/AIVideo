@@ -1,0 +1,117 @@
+[
+  {
+    "id": "CONCLUSION",
+    "audio": "../结论落拍对标/voice_48k.wav",
+    "audio_sha256": "fc2100743dbe1a5e24c01deb871b8da17f806a90ee471091c64873fdbb87ae30",
+    "samples": 593280,
+    "duration": 12.36,
+    "text": "所以，综合前面的线索和央视针对本案的后续报道，我的结论是：萧山机场这次事件，是一起私人飞机黑飞事件。",
+    "phrases": [
+      {
+        "text": "所以，",
+        "start": 0.0444,
+        "end": 0.3556,
+        "tts_text": "所以，",
+        "source_phrase_indices": [
+          0
+        ],
+        "timing_source": "MiniMax_generated_audio_word_timestamps",
+        "timing_not_allocated_by_character_count": true
+      },
+      {
+        "text": "综合前面的线索和央视针对本案的后续报道，",
+        "start": 0.4,
+        "end": 3.7778,
+        "tts_text": "综合前面的线索和央视针对本案的后续报道，",
+        "source_phrase_indices": [
+          1
+        ],
+        "timing_source": "MiniMax_generated_audio_word_timestamps",
+        "timing_not_allocated_by_character_count": true
+      },
+      {
+        "text": "我的结论是：",
+        "start": 4.18,
+        "end": 5.12,
+        "tts_text": "我的结论是：",
+        "source_phrase_indices": [
+          2
+        ],
+        "timing_source": "waveform_and_independent_ASR_boundary_review",
+        "timing_not_allocated_by_character_count": true
+      },
+      {
+        "text": "萧山机场这次事件，",
+        "start": 5.94,
+        "end": 7.1378,
+        "tts_text": "萧山机场这次事件，",
+        "source_phrase_indices": [
+          3
+        ],
+        "timing_source": "waveform_and_independent_ASR_boundary_review_with_silence_shift",
+        "timing_not_allocated_by_character_count": true,
+        "editing_shift_seconds": 0.56
+      },
+      {
+        "text": "是一起私人飞机黑飞事件。",
+        "start": 7.1822,
+        "end": 9.46,
+        "tts_text": "是一起私人飞机黑飞事件。",
+        "source_phrase_indices": [
+          4
+        ],
+        "timing_source": "MiniMax_generated_audio_word_timestamps",
+        "timing_not_allocated_by_character_count": true,
+        "editing_shift_seconds": 0.56
+      }
+    ]
+  },
+  {
+    "id": "C02_P001",
+    "text": "我是啊子牙。想拿这次整理的资料，可以先关注我。",
+    "audio": "../整段联动样品/C02_P001_48k_mono.wav",
+    "audio_sha256": "3fdaff245a65dbf75741b09624f9e0aa8316c11a15782a4b32833fc991db05fc",
+    "duration": 3.6339375,
+    "sample_rate": 48000,
+    "samples": 174429,
+    "phrases": [
+      {
+        "text": "我是啊子牙。",
+        "tts_text": "我是阿子牙。",
+        "start": 0.0444,
+        "end": 0.6667,
+        "time_basis": "provider_actual_word_timestamps"
+      },
+      {
+        "text": "想拿这次整理的资料，",
+        "tts_text": "想拿这次整理的资料，",
+        "start": 0.7111,
+        "end": 2.3111,
+        "time_basis": "provider_actual_word_timestamps"
+      },
+      {
+        "text": "可以先关注我。",
+        "tts_text": "可以先关注我。",
+        "start": 2.3556,
+        "end": 3.3333,
+        "time_basis": "provider_actual_word_timestamps"
+      }
+    ],
+    "level_match": {
+      "linear_gain": 2.9671258352573537,
+      "gain_db": 9.446719301119732,
+      "raw_peak_dbfs": -12.205174433454193,
+      "raw_voiced_median_dbfs": -25.398600156788266,
+      "reference_voiced_median_dbfs": -15.951880855668536,
+      "processed_voiced_median_dbfs": -15.951880449600825,
+      "processed_peak_dbfs": -2.7584550324010486,
+      "limiter_max_reduction_db": -1.0354387945871882e-06,
+      "fraction_limited": 0.0,
+      "limiter_method": "same 20ms peak lookahead / 50ms protection / 10ms smoothing as accepted opening",
+      "time_stretch": false
+    },
+    "time_stretch": false,
+    "independent_asr": "not_yet_run",
+    "listening_review": "not_yet_reviewed"
+  }
+]

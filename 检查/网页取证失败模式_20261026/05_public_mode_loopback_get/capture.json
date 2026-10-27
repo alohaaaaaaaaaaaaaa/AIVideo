@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "status": "captured_coordinate_audit_required",
+  "captured_at_utc": "2026-10-26T14:02:29.470308+00:00",
+  "mode": "public_url",
+  "requested_url": "http://127.0.0.1:60055/fixture",
+  "viewport_css": [
+    800,
+    600
+  ],
+  "device_scale_factor": 2,
+  "scripts_enabled": false,
+  "logged_in_profile_used": false,
+  "source_text_rewritten": false,
+  "css_override_injected": false,
+  "network_requests_sent": 1,
+  "resources": [
+    {
+      "url": "http://127.0.0.1:60055/fixture",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "role": "document",
+      "path": "原始资源/network_0000.html",
+      "sha256": "cd6bfec14154fcfe1927968d74b4f61e576c54db8bb2b90057e4c93eca0c0bdd",
+      "bytes": 130
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:60055/fixture",
+      "method": "GET",
+      "action": "public_read_without_login"
+    }
+  ],
+  "regions": [
+    {
+      "id": "test",
+      "quote": "原文跨节点必须连贯保留",
+      "quote_text_sha256": "afae75f09470db3eded8340523eca3288f51625bfb769f99a1436251ca77bbf6",
+      "selector": "body",
+      "context_text": "原文跨节点必须连贯保留",
+      "image": "原始截图/test.png",
+      "image_sha256": "13ec5c12ef427808095ad5e4812ac61dad2ae589dcf2da170dc06efc6b82dfbc",
+      "clip_css": {
+        "x": 0,
+        "y": 0,
+        "width": 216,
+        "height": 186
+      },
+      "quote_rects_css_document": [
+        [
+          8,
+          77.4375,
+          56,
+          95.4375
+        ],
+        [
+          56,
+          77.4375,
+          88,
+          95.4375
+        ],
+        [
+          56,
+          77.4375,
+          88,
+          95.4375
+        ],
+        [
+          88,
+          77.4375,
+          184,
+          95.4375
+        ]
+      ],
+      "quote_rects_image_pixels": [
+        [
+          16,
+          154.875,
+          112,
+          190.875
+        ],
+        [
+          112,
+          154.875,
+          176,
+          190.875
+        ],
+        [
+          112,
+          154.875,
+          176,
+          190.875
+        ],
+        [
+          176,
+          154.875,
+          368,
+          190.875
+        ]
+      ],
+      "focus_rect_image_pixels": [
+        16,
+        154.875,
+        368,
+        190.875
+      ],
+      "marks": [
+        {
+          "id": "across",
+          "quote": "跨节点",
+          "rects_css_document": [
+            [
+              40,
+              77.4375,
+              56,
+              95.4375
+            ],
+            [
+              56,
+              77.4375,
+              88,
+              95.4375
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              80,
+              154.875,
+              112,
+              190.875
+            ],
+            [
+              112,
+              154.875,
+              176,
+              190.875
+            ]
+          ]
+        }
+      ],
+      "source_url": "http://127.0.0.1:60055/fixture",
+      "capture_mode": "public_url"
+    }
+  ],
+  "limitations": [],
+  "archive_render_url": null,
+  "archive_render_origin_differs_from_source": false,
+  "resolved_url": "http://127.0.0.1:60055/fixture",
+  "title": "",
+  "browser": "151.0.7922.34",
+  "http_status": 200,
+  "document_size_css": {
+    "width": 800,
+    "height": 600
+  },
+  "page_metadata": {},
+  "responses": [
+    {
+      "url": "http://127.0.0.1:60055/fixture",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "role": "document",
+      "path": "原始资源/network_0000.html",
+      "sha256": "cd6bfec14154fcfe1927968d74b4f61e576c54db8bb2b90057e4c93eca0c0bdd",
+      "bytes": 130
+    }
+  ],
+  "source_kind": "current_public_web_capture",
+  "current_capture_not_historical_screenshot": true,
+  "paid_api_calls": 0,
+  "authentication_bypassed": false,
+  "files": [
+    {
+      "path": "visible_full_text.txt",
+      "sha256": "3288552697efb7d2accdef3b3caccffd68f0fccdf478db9746e1299a843fe5c7",
+      "bytes": 74
+    },
+    {
+      "path": "capture_config.json",
+      "sha256": "5d870f468279fd6d2ec0aa507277d03d4ccda764de9911ef80310bf775b7d163",
+      "bytes": 342
+    },
+    {
+      "path": "rendered_dom.html",
+      "sha256": "e897f0e32d5a75282e3b908482e305409f973eeb6d749acd9d032807b24be1ca",
+      "bytes": 169
+    },
+    {
+      "path": "原始截图/viewport.png",
+      "sha256": "02e4509050ab7737ceb736c9198557f43ecf04e16f8f131070dcf6c8ad6558a1",
+      "bytes": 42207
+    },
+    {
+      "path": "原始截图/full_page.png",
+      "sha256": "02e4509050ab7737ceb736c9198557f43ecf04e16f8f131070dcf6c8ad6558a1",
+      "bytes": 42207
+    },
+    {
+      "path": "原始截图/test.png",
+      "sha256": "13ec5c12ef427808095ad5e4812ac61dad2ae589dcf2da170dc06efc6b82dfbc",
+      "bytes": 21001
+    },
+    {
+      "path": "原始资源/network_0000.html",
+      "sha256": "cd6bfec14154fcfe1927968d74b4f61e576c54db8bb2b90057e4c93eca0c0bdd",
+      "bytes": 130
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "mode": "archived_html",
+  "url": "http://offline.test/fixture",
+  "html": "fixture.html",
+  "viewport": [
+    800,
+    600
+  ],
+  "device_scale_factor": 2,
+  "regions": [
+    {
+      "id": "test",
+      "quote": "原文跨节点必须连贯保留",
+      "view": {
+        "x": 0,
+        "width": 10,
+        "height": 10
+      }
+    }
+  ]
+}

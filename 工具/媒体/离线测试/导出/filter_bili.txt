@@ -1,0 +1,1 @@
+[0:v]ass=subtitles.ass:fontsdir=fonts[captioned];[3:v]scale=100:-1,format=rgba,colorchannelmixer=aa=1[logo];[captioned][logo]overlay=x='if(lt(t,2.000000),520,if(lt(t,4.000000),520,520))':y='if(lt(t,2.000000),20,if(lt(t,4.000000),40,20))':eval=frame:format=auto,format=yuv420p[video]

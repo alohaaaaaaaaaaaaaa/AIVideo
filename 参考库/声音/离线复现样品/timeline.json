@@ -1,0 +1,29 @@
+{
+  "duration": 18.76,
+  "music_sections": [
+    {
+      "id": "S01",
+      "title": "线索出现",
+      "start": 0,
+      "end": 5.88,
+      "music_mood": "comments"
+    },
+    {
+      "id": "S02",
+      "title": "查到后续记录",
+      "start": 5.88,
+      "end": 18.76,
+      "music_mood": "discovery"
+    }
+  ],
+  "music_cues": [
+    {
+      "type": "space",
+      "start": 5.6,
+      "end": 6.35,
+      "gain": 0.708,
+      "reason": "转入另一条留言前，音乐给口吻让半拍；不改变原旁白时序"
+    }
+  ],
+  "sound_cues": []
+}

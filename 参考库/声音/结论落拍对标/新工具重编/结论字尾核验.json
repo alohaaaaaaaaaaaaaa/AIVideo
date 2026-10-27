@@ -1,0 +1,15 @@
+{
+  "core_start": 5.94,
+  "core_end": 9.465,
+  "rms_last_active_seconds": 9.465,
+  "rms_window_ms": 5,
+  "rms_threshold_dbfs": -43,
+  "resolve": 9.565,
+  "word_to_resolve_seconds": 0.1,
+  "scope_end": 12.36,
+  "tail_seconds": 2.795,
+  "narration_sha256": "fc2100743dbe1a5e24c01deb871b8da17f806a90ee471091c64873fdbb87ae30",
+  "verification_method": "waveform_and_independent_asr",
+  "subtitle_end_used_as_word_tail": false,
+  "narration_changed": false
+}

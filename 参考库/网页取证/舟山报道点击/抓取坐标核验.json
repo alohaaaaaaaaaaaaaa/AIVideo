@@ -1,0 +1,268 @@
+{
+  "status": "passed_with_visual_note",
+  "capture": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/舟山报道点击/原页重抓_20261026_v3/capture.json",
+  "capture_sha256": "3bd5003cabe544e7557d161cc32f017bad38bd5f075c023d54ae16bfe2dba3be",
+  "checks": [
+    {
+      "check": "capture_not_failed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_text_not_retyped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_css_injected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_network_in_archived_mode",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:visible_full_text.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:capture_config.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:rendered_dom.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/viewport.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/full_page.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/mil_title.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/mil_notice.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/002_sina_theme.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/main_original.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/001_sina_master.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_title:screenshot_dimensions",
+      "passed": true,
+      "detail": [
+        2160,
+        978
+      ]
+    },
+    {
+      "check": "mil_title:quoted_context_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_title:quote_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_title:full_quote:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_title:full_quote:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_title:full_quote:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:screenshot_dimensions",
+      "passed": true,
+      "detail": [
+        2160,
+        978
+      ]
+    },
+    {
+      "check": "mil_notice:quoted_context_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:quote_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:in_capture_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:transform_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:in_capture_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:transform_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:in_capture_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:transform_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:in_capture_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:transform_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:full_quote:in_capture_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark_is_original:dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:dates:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:dates:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:dates:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:dates:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:dates:in_capture_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark_is_original:place",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:place:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:place:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:place:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark_is_original:vessels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:vessels:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:vessels:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mil_notice:mark:vessels:in_capture_0",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "visual_review": {
+    "performed": true,
+    "note": "已查看原页完整通告截图，标题/署期与完整五点坐标、日期和船舶限定保留；查看独立点击视频实际帧，来源底栏只有原图一处。"
+  },
+  "scope": "Integrity and coordinate geometry. Does not independently prove the source claims or copyright ownership."
+}

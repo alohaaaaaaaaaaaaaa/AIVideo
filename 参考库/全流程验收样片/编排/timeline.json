@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "time_basis": "seconds derived from actual 48000Hz sample ledger",
+  "sample_rate": 48000,
+  "fps": 25,
+  "samples_per_frame": 1920,
+  "duration": 19.12,
+  "samples": 917760,
+  "frames": 478,
+  "narration": "narration_48k_mono.wav",
+  "segments": [
+    {
+      "id": "C01_P001",
+      "chapter": "01",
+      "text": "萧山机场因为不明飞行物暂停起降，网友已经开始卖船票了。",
+      "source_audio": "C01_P001_48k_mono.wav",
+      "source_sha256": "398cbc775275dfa0496cd801ed2cd75dd271e26cf89bbe45917fa33d68a4bac8",
+      "start": 0.0,
+      "end": 6.28,
+      "natural_duration": 5.88,
+      "sample_start": 0,
+      "speech_end_sample": 282240,
+      "sample_end": 301440,
+      "source_samples": 282240,
+      "frame_start": 0,
+      "frame_end": 157,
+      "alignment_padding_samples": 0,
+      "explicit_tail_samples": 19200,
+      "explicit_tail_seconds": 0.4,
+      "phrases": [
+        {
+          "start": 0.04,
+          "end": 2.9,
+          "text": "萧山机场因为不明飞行物暂停起降，",
+          "time_basis": "actual_demo_WAV_unprompted_ASR_crosschecked_with_10ms_RMS_word_tail",
+          "segment_id": "C01_P001"
+        },
+        {
+          "start": 3.04,
+          "end": 4.76,
+          "text": "网友已经开始卖船票了。",
+          "time_basis": "actual_demo_WAV_unprompted_ASR_crosschecked_with_10ms_RMS_word_tail",
+          "segment_id": "C01_P001"
+        }
+      ],
+      "time_stretch": false,
+      "edited_samples": 282240,
+      "internal_pause_samples": 0,
+      "internal_pauses": [],
+      "source_identity_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 282240,
+          "edited_start_sample": 0,
+          "edited_end_sample": 282240
+        }
+      ]
+    },
+    {
+      "id": "DEMO_ANIMATION",
+      "chapter": "02",
+      "text": "",
+      "source_audio": "观察动画_8秒_静音.wav",
+      "source_sha256": "65f3f8647a43cab98e0be7e02aa3efa49938348cc0afbacdddcae4e2fda31303",
+      "start": 6.28,
+      "end": 14.28,
+      "natural_duration": 8.0,
+      "sample_start": 301440,
+      "speech_end_sample": 685440,
+      "sample_end": 685440,
+      "source_samples": 384000,
+      "frame_start": 157,
+      "frame_end": 357,
+      "alignment_padding_samples": 0,
+      "explicit_tail_samples": 0,
+      "explicit_tail_seconds": 0,
+      "phrases": [],
+      "time_stretch": false,
+      "edited_samples": 384000,
+      "internal_pause_samples": 0,
+      "internal_pauses": [],
+      "source_identity_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 384000,
+          "edited_start_sample": 0,
+          "edited_end_sample": 384000
+        }
+      ]
+    },
+    {
+      "id": "C02_P001",
+      "chapter": "03",
+      "text": "我是啊子牙。想拿这次整理的资料，可以先关注我。",
+      "source_audio": "C02_P001_48k_mono.wav",
+      "source_sha256": "3fdaff245a65dbf75741b09624f9e0aa8316c11a15782a4b32833fc991db05fc",
+      "start": 14.28,
+      "end": 19.12,
+      "natural_duration": 3.6339375,
+      "sample_start": 685440,
+      "speech_end_sample": 859869,
+      "sample_end": 917760,
+      "source_samples": 174429,
+      "frame_start": 357,
+      "frame_end": 478,
+      "alignment_padding_samples": 291,
+      "explicit_tail_samples": 57600,
+      "explicit_tail_seconds": 1.2,
+      "phrases": [
+        {
+          "start": 14.3244,
+          "end": 15.08,
+          "text": "我是啊子牙。",
+          "segment_id": "C02_P001"
+        },
+        {
+          "start": 15.28,
+          "end": 16.83,
+          "text": "想拿这次整理的资料，",
+          "segment_id": "C02_P001"
+        },
+        {
+          "start": 16.86,
+          "end": 17.84,
+          "text": "可以先关注我。",
+          "segment_id": "C02_P001"
+        }
+      ],
+      "time_stretch": false,
+      "edited_samples": 174429,
+      "internal_pause_samples": 0,
+      "internal_pauses": [],
+      "source_identity_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 174429,
+          "edited_start_sample": 0,
+          "edited_end_sample": 174429
+        }
+      ]
+    }
+  ],
+  "subtitles": [
+    {
+      "start": 0.04,
+      "end": 2.9,
+      "text": "萧山机场因为不明飞行物暂停起降，",
+      "time_basis": "actual_demo_WAV_unprompted_ASR_crosschecked_with_10ms_RMS_word_tail",
+      "segment_id": "C01_P001"
+    },
+    {
+      "start": 3.04,
+      "end": 4.76,
+      "text": "网友已经开始卖船票了。",
+      "time_basis": "actual_demo_WAV_unprompted_ASR_crosschecked_with_10ms_RMS_word_tail",
+      "segment_id": "C01_P001"
+    },
+    {
+      "start": 14.3244,
+      "end": 15.08,
+      "text": "我是啊子牙。",
+      "segment_id": "C02_P001"
+    },
+    {
+      "start": 15.28,
+      "end": 16.83,
+      "text": "想拿这次整理的资料，",
+      "segment_id": "C02_P001"
+    },
+    {
+      "start": 16.86,
+      "end": 17.84,
+      "text": "可以先关注我。",
+      "segment_id": "C02_P001"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "01",
+      "title": "真实原文与默认声音",
+      "start": 0.0,
+      "end": 6.28,
+      "sample_start": 0,
+      "sample_end": 301440,
+      "frame_start": 0,
+      "frame_end": 157,
+      "narration": "chapters/chapter_01_48k_mono.wav"
+    },
+    {
+      "id": "02",
+      "title": "星月动画独立重渲染",
+      "start": 6.28,
+      "end": 14.28,
+      "sample_start": 301440,
+      "sample_end": 685440,
+      "frame_start": 157,
+      "frame_end": 357,
+      "narration": "chapters/chapter_02_48k_mono.wav"
+    },
+    {
+      "id": "03",
+      "title": "完整姓名与作者片尾",
+      "start": 14.28,
+      "end": 19.12,
+      "sample_start": 685440,
+      "sample_end": 917760,
+      "frame_start": 357,
+      "frame_end": 478,
+      "narration": "chapters/chapter_03_48k_mono.wav"
+    }
+  ],
+  "music_sections": [
+    {
+      "id": "M001",
+      "chapter": "01",
+      "title": "真实原文与默认声音",
+      "music_mood": "comments",
+      "start": 0.0,
+      "end": 6.28
+    },
+    {
+      "id": "M002",
+      "chapter": "02",
+      "title": "星月动画独立重渲染",
+      "music_mood": "trace",
+      "start": 6.28,
+      "end": 14.28
+    },
+    {
+      "id": "M003",
+      "chapter": "03",
+      "title": "完整姓名与作者片尾",
+      "music_mood": "outro",
+      "start": 14.28,
+      "end": 19.12
+    }
+  ],
+  "music_cues": [],
+  "sound_cues": [],
+  "source_paragraphs_sha256": "fe133e729e8ea7b29b8b40f7a2cd623ce0a7908e18aca32c324aa48138ae8d67",
+  "layout_sha256": "941873e4c75e136365024718fd1ced98bef2ff95dffce77471ff829bf1f3f929",
+  "narration_sha256": "344703291097c4099b819e7dc5b40ba69a1b0252857aa67c4091959126bdebb1",
+  "visual_cues": [],
+  "observation_music_ducks": []
+}

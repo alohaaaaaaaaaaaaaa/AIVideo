@@ -1,0 +1,259 @@
+{
+  "status": "passed",
+  "source_root": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室",
+  "temporary_root": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室",
+  "python_executable": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/.venv/bin/python",
+  "host_platform": "macOS-15.7.5-arm64-arm-64bit-Mach-O",
+  "python_version": "3.13.16",
+  "scope": "同一台 macOS，工程复制至随机新路径；复用正式工作室既有 Python 依赖环境，不代表新机器或全新环境测试。",
+  "excluded_names": [
+    ".DS_Store",
+    ".venv",
+    "__pycache__",
+    "历史",
+    "缓存"
+  ],
+  "command": [
+    "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/.venv/bin/python",
+    "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/工具/重建验收样片.py"
+  ],
+  "reuse_animation": false,
+  "minimax_api_key_removed_from_child_environment": true,
+  "paid_calls_expected": 0,
+  "started_epoch": 1793018542.937383,
+  "cleaned_only_temporary_generated_outputs": true,
+  "tools": {
+    "工具/bootstrap.py": "d8c3d00fc6bfc08ef833904d17c3a87b59ebbaeb77aad58f40ad84599dfcce71",
+    "工具/重建验收样片.py": "d03212a4077fbaa3457a31d0d0db35cefbaa270ea0eed0c0f89d060e51a5a09c",
+    "工具/studio.py": "43999d16aa42ebb575a000ffbfad251e43aaa7c9215764d68ccdefbd8097734c",
+    "工具/声音/score_mix.py": "779abf5c3327f62255d15d4d96b0a3e4f34094e0f4e35d0c160b43bb1ae99b76",
+    "工具/声音/verify_assembly.py": "55c0fb3dd3519ea78537714b0af89ee5ae5a6e1e63ad83fe885121f7613223ac",
+    "工具/声音/bridge.py": "c28c5484199943ec290b3d1faae9185415fd4d223336e5f7e4157a409004e079",
+    "工具/声音/tts.py": "2544c4c201c298b3e34a269e5de6718566e6824f4cbf55ff652bce35f70ed6b6",
+    "工具/声音/assemble_voice.py": "16dffe99eb1f432d8d3af117b2e2093b7b83c21e0a2fceaea669c3af185e5178",
+    "工具/声音/midi_export.py": "0fd214fd565e2063070175d56508dd0cec062ddc94d38595eef244584c611b20",
+    "工具/声音/pause.py": "7a4a22c5c7f9b73d1bfb45d49ffd1598d528a07bec317d9dcfa56d885cabedfc",
+    "工具/声音/mix_helpers.py": "f99dbeb6bb2d5f1969295852a6b87a732052da14d1ccac006ffbca0db2e8d64b",
+    "工具/声音/prepare_voice.py": "6b2e4df887c182013952947b9adc0b8ba6cbdc36da7e399c0f008b7ec78c8804",
+    "工具/声音/sampler.py": "4d003d354bbdb2baab3728f4d8f0167346a70c3e0485ba18e8b8bf6a7c2d9164",
+    "工具/声音/verify_reference.py": "e79a3f01bdbde5af17b06c83067441fc6f2c104a4a0f8834f031a89eaf547e36",
+    "工具/媒体/audit_portability.py": "94dc1fa1bf746f0d90648e3206d4cbb5884abde4a639374e956ec4d4a03ac89d",
+    "工具/媒体/smoke_test.py": "96539043ef575bfc0224cfb26f3bde488bdb18ac8de750cba7b5cf1d5dcbd2f0",
+    "工具/媒体/studio_media.py": "51489e39e5a9125725c203d1e5bf5f0b7d747cb7dac02bd2f2ff71d51e159ad2",
+    "工具/媒体/evidence_highlight.py": "20d4093ec936b0e092537e82fed88a45bbf3d59ca02beefc7f8cd03b3c444874",
+    "工具/动画/汇聚范例.py": "a2f6dbece85aac227cdc14fce5e37fe8df183560c2b11356d167acc065dea315",
+    "工具/动画/星月范例.py": "7b84d4b54c2040345a9acb89df5a674e522b1a3a5ce910ee00f676d764f7ddc1",
+    "工具/动画/核验独立引擎.py": "7714d8aed368e38dcaadbb2e6d22c722d5b77b3a8bcc1bd88126784d01815ddc",
+    "工具/动画/核验动画数据.py": "8770e66f1e13e639b674d888bbada20e6591b7dc1f6580c46cd121ba7c265815",
+    "工具/动画/渲染范例.py": "c50ea1323999657197ec19dad316e32ac88a774c83e567f08faf08bd038fa0ea",
+    "工具/动画/雷达范例.py": "c27bebc23973904f57c47fbb91482b995a49f524f4d7a4395361dbcad99386d6",
+    "工具/动画/曝光范例.py": "c4fd7d911d4286d5c3887466eb08ad960d1b8aa0e624eee167328d412a3366f2",
+    "工具/动画/取回新题星历.py": "0d691b95c0a5600b8dd50bba263b6832da0d15a433d3fc02d8c5cecfd1944774",
+    "工具/动画/日期范例.py": "58609f89cdca49b73bc9c090200dfcac00ff768a174ce6664df4442d1e1bdbad",
+    "工具/生成/test_video_offline.py": "c39077e98d3a82fa54989f568342346d95f5b7493033ce76c3da602d12f8aee6",
+    "工具/生成/label_context.py": "f22554e6ec7b5c9818871643d4d199e2dd4d35582eb2d9c9c4f322c5328132d9",
+    "工具/生成/video.py": "798080349feb84cd8b187107d936685004347930e7062a01b9082bd46ca1254b"
+  },
+  "exit_code": 0,
+  "elapsed_seconds": 16.462,
+  "log_path": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/重建运行.log",
+  "correction": {
+    "reason": "首图修正为原片4.8秒真实船票评论完整高光，新增单处底部source_note",
+    "synced_files": [
+      {
+        "path": "工具/重建验收样片.py",
+        "sha256": "82ecf58e24033e31ce8187815484d66f3f7342bdce53ebd6b6b93dd7fec9118c"
+      },
+      {
+        "path": "参考库/全流程验收样片/manifest.json",
+        "sha256": "cfaaaa8490de3ae5efe141a10aeea157ef021d70886faac0a0a22b2a00ed4441"
+      },
+      {
+        "path": "参考库/全流程验收样片/输入/船票评论_真实采用画面.png",
+        "sha256": "918592ad8876a800c4f8888d35864692bf3ac7e4f977d139f035a5d4e4f42a31"
+      },
+      {
+        "path": "参考库/全流程验收样片/输入/评论画面来源.json",
+        "sha256": "0a5258668f0aafefc2386b5cd66199a697cc272fbf8b4c7175f2fea59f8ebbf2"
+      },
+      {
+        "path": "参考库/全流程验收样片/说明.md",
+        "sha256": "66f64204f73f8d111171593f025935fefe403a8224f00cb6d1012c14a4c38a0e"
+      }
+    ],
+    "command": [
+      "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/.venv/bin/python",
+      "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/工具/studio.py",
+      "render",
+      "all",
+      "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/参考库/全流程验收样片/manifest.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 7.968,
+    "log_path": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/评论源图修正重渲.log",
+    "animation_and_audio_regenerated_in_initial_full_run_only": true
+  },
+  "completed_epoch": 1793019148.345502,
+  "paid_api_calls": 0,
+  "api_commands_executed": [],
+  "versions": [
+    {
+      "version": "bili",
+      "path": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/参考库/全流程验收样片/导出/bili.mp4",
+      "sha256": "b4a28574abe83863a795531b37507c979c68dbca20308116db184776041c53ca",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "25/1",
+        "pixel_format": "yuv420p",
+        "codec": "h264",
+        "decoded_frames": 478,
+        "pts_start": 0.0,
+        "pts_last": 19.08,
+        "presentation_duration": 19.12,
+        "all_frame_pts_contiguous": true
+      },
+      "audio": {
+        "packet_sha256": "3b8673ca21f10ebe51d30d362f860579e1b88aadbbc49004b0eafb5f51d04ffe",
+        "packets": 898,
+        "packet_timestamps_sha256": "d927860a9e9ff1a2cfe28dcf48b44e7ec81b770a1f8f6d8117aa0e33358098d1",
+        "decoded_pcm_sha256": "53e174d5efde47c7237a6917d5e98f83cfec35205305a01373e49c6fe16855df",
+        "decoded_samples_per_channel": 917760
+      }
+    },
+    {
+      "version": "clean",
+      "path": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/参考库/全流程验收样片/导出/clean.mp4",
+      "sha256": "9e212b138330131bfea172c0fd37ab05f0d6bc3dc7065ac202d37ee81b4f8aaa",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "25/1",
+        "pixel_format": "yuv420p",
+        "codec": "h264",
+        "decoded_frames": 478,
+        "pts_start": 0.0,
+        "pts_last": 19.08,
+        "presentation_duration": 19.12,
+        "all_frame_pts_contiguous": true
+      },
+      "audio": {
+        "packet_sha256": "3b8673ca21f10ebe51d30d362f860579e1b88aadbbc49004b0eafb5f51d04ffe",
+        "packets": 898,
+        "packet_timestamps_sha256": "d927860a9e9ff1a2cfe28dcf48b44e7ec81b770a1f8f6d8117aa0e33358098d1",
+        "decoded_pcm_sha256": "53e174d5efde47c7237a6917d5e98f83cfec35205305a01373e49c6fe16855df",
+        "decoded_samples_per_channel": 917760
+      }
+    }
+  ],
+  "two_versions_same_audio_packets_and_timestamps_and_decoded_samples": true,
+  "animation": {
+    "size": [
+      1920,
+      1080
+    ],
+    "decoded_frames": 200,
+    "video_sha256": "a099dcbe010287ab85bebe7bb0322a9af941b7fbc5cc13f7f1868f75bae8bae0",
+    "recomputed": true
+  },
+  "full_rebuild_stages": [
+    "paragraph_assembly",
+    "offline_animation_render",
+    "local_music_composition_and_mix",
+    "bili_encode",
+    "clean_encode",
+    "final_media_verification"
+  ],
+  "report_files": {
+    "参考库/全流程验收样片/编排/assembly_verification.json": "2ad2ce13cfb129b89258cb1813988ccd79e2d8cf12ee947c2e208b6c2a320d52",
+    "参考库/全流程验收样片/混音/编曲记录.json": "429d54acda5b6d466095fb9a4ba439f3d9aa5e3a57a9799a903eeaeaa2b4c0d6",
+    "参考库/全流程验收样片/混音/混音核验.json": "1f0321a012e0035e0eb5eb46bd51c12827bda663690859a525a9bce379d200bc",
+    "参考库/全流程验收样片/导出/检查/交付核验.json": "edcb607a6742afbb3f6dc83ef698fb6e7fd304be374dbec21e720fbd29614938"
+  },
+  "all_runtime_project_inputs_from_temporary_copy": true,
+  "temporary_copy_retained": true,
+  "limitations": [
+    "同一台macOS且复用既有依赖环境；未声称在新电脑或纯净环境重装通过。",
+    "已保存的旁白素材被重新编排，没有调用TTS生成新语音。",
+    "首图根据root勘误同步后仅重渲媒体；动画和配乐此前已在随机新根重新生成。",
+    "技术解码与同轨检查不等于人工全片审听。"
+  ],
+  "watermark_correction": {
+    "reason": "第二镜水印改为[1664,880]，避开右上角20:40；字幕、配音、配乐和动画不变",
+    "synced_files": [
+      {
+        "path": "工具/重建验收样片.py",
+        "sha256": "ec12fc03ad86b91bcab2ff9c6532515c27db2436496a023638a8125d4aee59a3"
+      },
+      {
+        "path": "参考库/全流程验收样片/manifest.json",
+        "sha256": "ae71515925a675015b008a4ea1785396de2a2fdb1dcf93293aa40429318971f6"
+      }
+    ],
+    "command": [
+      "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/.venv/bin/python",
+      "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/工具/studio.py",
+      "render",
+      "all",
+      "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/参考库/全流程验收样片/manifest.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 7.956,
+    "log_path": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/星月水印避让重渲.log",
+    "only_media_render_repeated": true,
+    "audio_unchanged": true,
+    "clean_video_unchanged": true,
+    "actual_frame_path": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/迁移样片_星月水印避让实际帧.png",
+    "sampled_visual_review": "已目视实际解码第250帧：右上20:40完整可见，水印位于右下且未遮方位与当前字幕；此处为抽样布局检查。"
+  },
+  "versions_before_watermark_correction": [
+    {
+      "version": "bili",
+      "path": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/参考库/全流程验收样片/导出/bili.mp4",
+      "sha256": "92fe24504609b384d4b642fa55790e5438dadcc9a134c644c98a605f072ded9e",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "25/1",
+        "pixel_format": "yuv420p",
+        "codec": "h264",
+        "decoded_frames": 478,
+        "pts_start": 0.0,
+        "pts_last": 19.08,
+        "presentation_duration": 19.12,
+        "all_frame_pts_contiguous": true
+      },
+      "audio": {
+        "packet_sha256": "3b8673ca21f10ebe51d30d362f860579e1b88aadbbc49004b0eafb5f51d04ffe",
+        "packets": 898,
+        "packet_timestamps_sha256": "d927860a9e9ff1a2cfe28dcf48b44e7ec81b770a1f8f6d8117aa0e33358098d1",
+        "decoded_pcm_sha256": "53e174d5efde47c7237a6917d5e98f83cfec35205305a01373e49c6fe16855df",
+        "decoded_samples_per_channel": 917760
+      }
+    },
+    {
+      "version": "clean",
+      "path": "/var/folders/vm/7smq5km17sb303zcszj7z17m0000gn/T/aziyah-studio-migration-ayis4zeg/移动后的工作室/参考库/全流程验收样片/导出/clean.mp4",
+      "sha256": "9e212b138330131bfea172c0fd37ab05f0d6bc3dc7065ac202d37ee81b4f8aaa",
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "25/1",
+        "pixel_format": "yuv420p",
+        "codec": "h264",
+        "decoded_frames": 478,
+        "pts_start": 0.0,
+        "pts_last": 19.08,
+        "presentation_duration": 19.12,
+        "all_frame_pts_contiguous": true
+      },
+      "audio": {
+        "packet_sha256": "3b8673ca21f10ebe51d30d362f860579e1b88aadbbc49004b0eafb5f51d04ffe",
+        "packets": 898,
+        "packet_timestamps_sha256": "d927860a9e9ff1a2cfe28dcf48b44e7ec81b770a1f8f6d8117aa0e33358098d1",
+        "decoded_pcm_sha256": "53e174d5efde47c7237a6917d5e98f83cfec35205305a01373e49c6fe16855df",
+        "decoded_samples_per_channel": 917760
+      }
+    }
+  ]
+}

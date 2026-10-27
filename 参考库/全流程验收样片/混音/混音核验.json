@@ -1,0 +1,30 @@
+{
+  "duration": 19.12,
+  "narration": "参考库/全流程验收样片/编排/narration_48k_mono.wav",
+  "narration_sha256": "344703291097c4099b819e7dc5b40ba69a1b0252857aa67c4091959126bdebb1",
+  "music_sha256": "182fcec88c4b8bac4ed12225998e1b2c97d47b0311b1ad94e0e0d6b1b4e72012",
+  "voice_processing": "单声道等功率居中；立体声输入保持；不归一化、不变速、不削人声",
+  "music_eq": "HP105Hz; -4.5dB@1800Hz Q0.65; LP7000Hz",
+  "duck_attack_ms": 35,
+  "duck_release_ms": 480,
+  "lookahead_ms": 60,
+  "music_relative_db_median": -22.366073587967115,
+  "music_relative_db_max": -13.999999968939015,
+  "dialogue_addition_residual_peak": 5.551115123125783e-17,
+  "nonvoice_safety_gain": 1.0,
+  "final": {
+    "path": "参考库/全流程验收样片/混音/mix_48k_stereo.wav",
+    "sha256": "eef41692cdec205d8dba48a14a2af573bb2d1151fdb225f4fe275170cdb1afe3",
+    "duration": 19.12,
+    "sample_peak_dbfs": -4.551245071788406,
+    "clipped_samples": 0,
+    "integrated_lufs": -18.76,
+    "true_peak_dbtp": -4.55,
+    "loudness_range_lu": 6.1,
+    "complete_decode": true
+  },
+  "preserved_prefix_checks": [],
+  "loudness_near_accepted_reference": false,
+  "new_paid_calls": 0,
+  "listening_review": "技术核验；听感与画面结合由整片审阅确认"
+}

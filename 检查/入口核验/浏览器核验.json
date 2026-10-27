@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "homepage_media": {
+        "duration": 29.36,
+        "width": 1920,
+        "height": 1080,
+        "error": null
+      },
+      "missing_links": []
+    },
+    {
+      "mobile_horizontal_overflow": false
+    },
+    {
+      "three_way_reference_switch_preserves_time": true
+    },
+    {
+      "bili_clean_switch_preserves_time": true
+    },
+    {
+      "web_example_videos_readable": 6
+    }
+  ],
+  "javascript_errors": [],
+  "method": "actual local pages in headless Chromium",
+  "audio_review": "playability only, not human listening",
+  "paid_calls": 0
+}

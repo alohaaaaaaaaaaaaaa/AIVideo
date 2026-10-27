@@ -1,0 +1,59 @@
+{
+  "status": "rendered_requires_decode_and_visual_review",
+  "output": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/舟山报道点击/独立重渲染_4.36秒.mp4",
+  "sha256": "3c325afe9aa04e16efdc7ebacb37fc1b6a9f0ac492b7f423591880e56060b692",
+  "duration": 4.36,
+  "frames": 109,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "audio": false,
+  "mode": "cursor_click",
+  "source_pixels_retyped": false,
+  "input_signature": "dfb5816be21439c566247c66f29c43c3643d98e2c9e200f413ba49f2074bf607",
+  "inputs": [
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/舟山报道点击/制作配置.json",
+      "sha256": "f23779beced9a1a333096d10fc1a77d89bbf13e438fb0dbbdea5c0298f517a0a"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/工具/网页/animate_evidence.py",
+      "sha256": "0851d899c5d457bab257bd44f0d24f695c6c3904d4fa880e4da39b4f95b6d3e5"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/舟山报道点击/输入/标题日期高光.png",
+      "sha256": "4c57ef4d63b67444c3c542ae4335182be5fd1cf3d71e73f8961d6514f522ad74"
+    }
+  ],
+  "review_samples": [
+    {
+      "path": "独立重渲染_4.36秒_检查00_0.00s.png",
+      "time": 0,
+      "sha256": "3d4068f2f2cf55e56484dc06c8c67238b82655ec1f5a80bfd2eb2da75bcefd7e"
+    },
+    {
+      "path": "独立重渲染_4.36秒_检查01_1.40s.png",
+      "time": 1.4,
+      "sha256": "24dad27d99d20855140bca6e2065c9ab6c7a1abd02461ebe2f6163924f284810"
+    },
+    {
+      "path": "独立重渲染_4.36秒_检查02_2.84s.png",
+      "time": 2.84,
+      "sha256": "318998c9e7e09dc706965afe8e93c54fed45d276039dc035151fe8ddeef25740"
+    },
+    {
+      "path": "独立重渲染_4.36秒_检查03_3.40s.png",
+      "time": 3.4,
+      "sha256": "4048ee14acd642b990d0350ac062e1e0e93ac9808958923ed1be4827e8adf632"
+    },
+    {
+      "path": "独立重渲染_4.36秒_检查04_4.32s.png",
+      "time": 4.32,
+      "sha256": "4782213d302321ab264901728af5c2260a84883caa311ad5099a6acd080017f7"
+    }
+  ],
+  "font_used": "Hiragino Sans GB",
+  "editorial_ui_not_live_site_recording": true
+}

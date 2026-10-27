@@ -1,0 +1,46 @@
+{
+  "version": "six_sources_3d",
+  "phases": [
+    "intro",
+    "morphology",
+    "exposure",
+    "passenger",
+    "messages",
+    "converge",
+    "meaning",
+    "limits",
+    "verdict"
+  ],
+  "message_cues_default": [
+    3.0222,
+    6.1778,
+    8.8
+  ],
+  "sources": [
+    [
+      "目标形态",
+      "杭州日报 · 机场工作人员转述"
+    ],
+    [
+      "照片长曝光",
+      "麻世俊照片 · 白涛摄影分析"
+    ],
+    [
+      "乘客见闻",
+      "都市快报 · FM808途经乘客"
+    ],
+    [
+      "网友转述",
+      "岚隐溪畔 · 转述乘客的机组消息"
+    ],
+    [
+      "私人飞机留言",
+      "望洋之鱼 · 来自母亲的说法"
+    ],
+    [
+      "同期新闻",
+      "中新社 · 2010年7月8日"
+    ]
+  ],
+  "note": "Six material classes; paths are not actual flight tracks or proof of same-aircraft identity."
+}

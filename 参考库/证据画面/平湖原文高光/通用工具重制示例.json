@@ -1,0 +1,21 @@
+{
+  "source_image": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/证据画面/平湖原文高光/原始段落截图.png",
+  "source_sha256": "e6b80e0572ac377972f04f6beec10805677751f167d37af2a89e83d791230fb4",
+  "source_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+  "output_sha256": "b79b48931b7d211f9bdfcbed7b38ba08196927dd655558b5b0d2a6348038e708",
+  "source_pixels_rewritten": false,
+  "source_text_retyped": false,
+  "crop_original_coordinates": [
+    0,
+    0,
+    1845,
+    225
+  ],
+  "highlight_coordinates": "original screenshot pixels",
+  "native_label": true,
+  "footer_count": 1,
+  "top_editorial_badge_added": false,
+  "frames": 200,
+  "duration": 8,
+  "note": "裁切/缩放/色彩高光不等于网页原件；原件、URL、原文与截取记录均须保留。"
+}

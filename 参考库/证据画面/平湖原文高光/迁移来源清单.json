@@ -1,0 +1,44 @@
+[
+  {
+    "file": "原始段落截图.png",
+    "copied_from_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_quote_原页原像素.png",
+    "sha256": "e6b80e0572ac377972f04f6beec10805677751f167d37af2a89e83d791230fb4",
+    "bytes": 115349
+  },
+  {
+    "file": "原页环境截图.png",
+    "copied_from_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_quote_原页环境.png",
+    "sha256": "2612689b98f0c42a48cc393271e2752f1deee0369d7e82d9db8ed91b8b4ca109",
+    "bytes": 418246
+  },
+  {
+    "file": "已采用视觉参考.png",
+    "copied_from_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_quote.png",
+    "sha256": "526f619b3c83ae5d280b2807a069b922690493177af83c55f4d2648ba1cea95e",
+    "bytes": 632882
+  },
+  {
+    "file": "原项目声画预览_仅作参考.mp4",
+    "copied_from_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/后半/检查/平湖原文高光_实音预览.mp4",
+    "sha256": "c4f50add42d0191dae4f5cf76c64f1e1a0f05b6083843db2730f97103a651459",
+    "bytes": 1151592
+  },
+  {
+    "file": "央视节目实录_新浪转载.txt",
+    "copied_from_project_relative": "06_原始资料/新闻/E06_央视经济半小时_新浪转载.txt",
+    "sha256": "af1d50757b2541c125fd7816ba0ec991d7434e09d0f4c2de62edd3da4ba5a600",
+    "bytes": 11302
+  },
+  {
+    "file": "原项目捕获与高光记录.json",
+    "copied_from_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/后半/pinghu_sources.json",
+    "sha256": "80000cb57c7577ba5ccd9c11e84ac7b0d341a2c7dda106abd3c1ef061d729a64",
+    "bytes": 4346
+  },
+  {
+    "file": "原项目截图捕获源码_档案.py",
+    "copied_from_project_relative": "10_重新策划/全片终版/叙事优化制作/工具/画面后半/capture_pinghu.py",
+    "sha256": "fb19ff9b668d57ba0376dabb50edbb338a1ab33100a561948ead7a6ff8681187",
+    "bytes": 6482
+  }
+]

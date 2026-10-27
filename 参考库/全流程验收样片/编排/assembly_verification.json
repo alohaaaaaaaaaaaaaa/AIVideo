@@ -1,0 +1,71 @@
+{
+  "status": "sample_identical_all_paragraphs",
+  "samples": 917760,
+  "frames": 478,
+  "duration": 19.12,
+  "time_stretch": false,
+  "speech_trimmed_samples": 0,
+  "padding_samples": 291,
+  "explicit_tail_samples": 76800,
+  "paragraph_checks": [
+    {
+      "id": "C01_P001",
+      "sample_start": 0,
+      "samples": 282240,
+      "original_samples": 282240,
+      "inserted_pause_samples": 0,
+      "pcm_sha256": "c6b1cbd76590267c6212cdf638684bf75b483afaeae08bfbe0d6a411da26a31e",
+      "source_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 282240,
+          "edited_start_sample": 0,
+          "edited_end_sample": 282240
+        }
+      ],
+      "source_pcm_sha256": "c6b1cbd76590267c6212cdf638684bf75b483afaeae08bfbe0d6a411da26a31e",
+      "sample_identical": true
+    },
+    {
+      "id": "DEMO_ANIMATION",
+      "sample_start": 301440,
+      "samples": 384000,
+      "original_samples": 384000,
+      "inserted_pause_samples": 0,
+      "pcm_sha256": "626db8bea999709c8faead0ec9d60025604676fcc44130abe6c1168b90989b3b",
+      "source_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 384000,
+          "edited_start_sample": 0,
+          "edited_end_sample": 384000
+        }
+      ],
+      "source_pcm_sha256": "626db8bea999709c8faead0ec9d60025604676fcc44130abe6c1168b90989b3b",
+      "sample_identical": true
+    },
+    {
+      "id": "C02_P001",
+      "sample_start": 685440,
+      "samples": 174429,
+      "original_samples": 174429,
+      "inserted_pause_samples": 0,
+      "pcm_sha256": "05fad2f9850057eaa809e9d580937e7a176d62fbf75123063fd473ac807d2c75",
+      "source_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 174429,
+          "edited_start_sample": 0,
+          "edited_end_sample": 174429
+        }
+      ],
+      "source_pcm_sha256": "05fad2f9850057eaa809e9d580937e7a176d62fbf75123063fd473ac807d2c75",
+      "sample_identical": true
+    }
+  ],
+  "narration_sha256": "344703291097c4099b819e7dc5b40ba69a1b0252857aa67c4091959126bdebb1",
+  "paid_calls": 0,
+  "internal_pause_samples": 0,
+  "all_source_samples_preserved": true,
+  "subtitles_and_visual_cues_use_same_shift_map": true
+}

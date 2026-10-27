@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "duration": 3,
+  "music_rms_dbfs": -32.00000011194706,
+  "explicit_target_dbfs": -32,
+  "voice_is_original_digital_silence": true,
+  "claimed_voice_relative_level": false,
+  "paid_calls": 0,
+  "technical_fixture_not_listening_approval": true
+}

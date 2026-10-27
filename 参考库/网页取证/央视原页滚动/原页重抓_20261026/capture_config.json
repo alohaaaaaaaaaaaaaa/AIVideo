@@ -1,0 +1,71 @@
+{
+  "mode": "archived_html",
+  "html": "保存原始.html",
+  "content_type": "text/html; charset=gb18030",
+  "viewport": [
+    1440,
+    1080
+  ],
+  "device_scale_factor": 3,
+  "javascript_enabled": false,
+  "resources": [
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "path": "sina_master.css",
+      "content_type": "text/css; charset=gb18030"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "path": "sina_theme.css",
+      "content_type": "text/css; charset=gb18030"
+    }
+  ],
+  "limitations": [
+    "当前浏览器渲染保存原HTML，并非历史屏幕录像。",
+    "没有补造原站资源；远程未保存资源全部阻断。",
+    "制作配置的滚动或点击是后期阅读动作，不是原网站实际交互录屏。"
+  ],
+  "url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+  "regions": [
+    {
+      "id": "cctv_title",
+      "quote": "央视《经济半小时》：低空开放可淘金？",
+      "view": {
+        "x": 200,
+        "width": 720,
+        "height": 326.25
+      }
+    },
+    {
+      "id": "cctv_case",
+      "quote": "记者了解到， 2010年7月7日晚间杭州萧山机场出现了不明飞行物。最终，经有关部门证实不明飞行物是一架擅自非法飞行的小型私人飞机，与UFO事件没有任何关系，是一起典型的“黑飞”事件。",
+      "view": {
+        "x": 200,
+        "width": 720,
+        "height": 326.25
+      },
+      "marks": [
+        {
+          "id": "date",
+          "quote": "2010年7月7日"
+        },
+        {
+          "id": "airport",
+          "quote": "杭州萧山机场"
+        },
+        {
+          "id": "confirmation",
+          "quote": "经有关部门证实"
+        },
+        {
+          "id": "private_plane",
+          "quote": "小型私人飞机"
+        },
+        {
+          "id": "illegal_flight",
+          "quote": "典型的“黑飞”事件"
+        }
+      ]
+    }
+  ]
+}

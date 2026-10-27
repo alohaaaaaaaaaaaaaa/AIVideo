@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "type": "page",
+      "time": 6.34,
+      "anchor_segment_id": "CONCLUSION",
+      "duration": 0.16,
+      "rms_gain_db": -39.0,
+      "source": "本地程序合成，后期氛围/查阅音效，非当年现场录音"
+    }
+  ],
+  "output": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C01/音效_48k_stereo.wav",
+  "sha256": "9bb24fefbc5d744ebb04a4820ee86f6789d3c3dd0c6fc8ce88d16fee83d6d6cb",
+  "preserved_prefix": null,
+  "paid_api_calls": 0
+}

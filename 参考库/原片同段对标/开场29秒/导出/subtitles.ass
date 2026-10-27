@@ -1,0 +1,31 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Hiragino Sans GB,42,&H00F8F8F8,&H00FFFFFF,&H00101014,&H80000000,0,0,0,0,100,100,0,0,1,2.5,1,2,90,90,42,1
+Style: Source,Hiragino Sans GB,27,&H00F4EBE6,&H00FFFFFF,&H001A1410,&H001A1410,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.09,0:00:00.62,Main,,0,0,42,,“二〇一二，
+Dialogue: 0,0:00:00.67,0:00:01.73,Main,,0,0,42,,诺亚飞舟，
+Dialogue: 0,0:00:01.78,0:00:02.89,Main,,0,0,42,,试飞而已，
+Dialogue: 0,0:00:02.93,0:00:04.53,Main,,0,0,42,,要票的联系我啊。”
+Dialogue: 0,0:00:05.36,0:00:07.94,Main,,0,0,42,,萧山机场因为不明飞行物暂停起降，
+Dialogue: 0,0:00:07.99,0:00:09.90,Main,,0,0,42,,网友已经开始卖船票了。
+Dialogue: 0,0:00:11.24,0:00:12.22,Main,,0,0,42,,可另一条留言，
+Dialogue: 0,0:00:12.27,0:00:13.07,Main,,0,0,42,,突然认真了：
+Dialogue: 0,0:00:13.24,0:00:15.42,Main,,0,0,42,,“内部消息表示是私人飞机。”
+Dialogue: 0,0:00:16.24,0:00:17.00,Main,,0,0,42,,更值得查的是，
+Dialogue: 0,0:00:17.04,0:00:19.13,Main,,0,0,42,,四个月后的央视节目实录，
+Dialogue: 0,0:00:19.18,0:00:20.60,Main,,0,0,42,,也写到了私人飞机。
+Dialogue: 0,0:00:20.69,0:00:22.29,Main,,0,0,42,,它说的日期和机场，
+Dialogue: 0,0:00:22.33,0:00:23.44,Main,,0,0,42,,正是这一次。
+Dialogue: 0,0:00:24.12,0:00:24.75,Main,,0,0,42,,网友那句话，
+Dialogue: 0,0:00:24.79,0:00:26.12,Main,,0,0,42,,究竟有多少依据？
+Dialogue: 0,0:00:26.17,0:00:27.90,Main,,0,0,42,,我们把原文翻出来。

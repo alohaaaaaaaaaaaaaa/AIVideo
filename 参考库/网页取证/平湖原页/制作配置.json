@@ -1,0 +1,47 @@
+{
+  "mode": "capture_focus",
+  "capture": "抓取_20261026/capture.json",
+  "region": "pinghu",
+  "duration": 20.52,
+  "fps": 25,
+  "cues": [
+    {
+      "mark": "date",
+      "start": 0.0444,
+      "draw_duration": 0.52
+    },
+    {
+      "mark": "permit",
+      "start": 7.9111,
+      "draw_duration": 0.52
+    },
+    {
+      "mark": "flight",
+      "start": 10.2222,
+      "draw_duration": 0.52
+    },
+    {
+      "mark": "impact",
+      "start": 15.3289,
+      "draw_duration": 0.65
+    }
+  ],
+  "footer": {
+    "safe_area_confirmed": true,
+    "lines": [
+      "新浪转载央视《经济半小时》实录 | 2010-11-19 06:57 | 节目播出：11月18日",
+      "另一宗事件：2010年4月27日 · 浙江嘉兴平湖"
+    ]
+  },
+  "review_times": [
+    0,
+    0.3,
+    8.2,
+    10.5,
+    15.6,
+    16.2,
+    20.48
+  ],
+  "timing_basis": "实音时码依据.json / MiniMax_generated_audio_word_timestamps",
+  "not_new_narration": true
+}

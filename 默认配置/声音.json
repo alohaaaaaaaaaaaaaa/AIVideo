@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "name": "啊子牙_一起查案_南方小哥",
+  "policy": "除用户主动更换，所有选题默认沿用本音色、语速与已认可四乐器听感；随实际台词重新编排，不把旧成片BGM整条硬套。",
+  "tts": {
+    "model": "speech-2.8-hd",
+    "voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+    "speed": 0.96,
+    "vol": 1,
+    "pitch": 0,
+    "emotion": "neutral",
+    "sample_rate": 44100,
+    "bitrate": 256000,
+    "channel": 1,
+    "format": "mp3",
+    "language_boost": "Chinese"
+  },
+  "tts_execution": {
+    "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+    "credential_env": "MINIMAX_API_KEY",
+    "request_interval_seconds": 7,
+    "automatic_transport_retries": 0,
+    "uncertain_submission": "stop_and_reconcile",
+    "cache": "request_sha256",
+    "authorization_record": "Exact plan hash + real session authorization + current price evidence hash; verified cached success requires no new authorization"
+  },
+  "pronunciation": {
+    "display_name": "啊子牙",
+    "tts_name": "阿子牙",
+    "tone_dictionary": "阿子牙/(a1)(zi3)(ya2)",
+    "name_rule": "整个ID连读；修音重配整句/整段，不拼接三个字",
+    "p.o.l.i.c.e": "spoken as police; original quote typography stays unchanged"
+  },
+  "voice_processing": {
+    "edit_sample_rate": 48000,
+    "channel": 1,
+    "sample_format": "float32 WAV",
+    "target_voiced_median": 0.15936977416276932,
+    "target_voiced_median_dbfs": -15.951880855668536,
+    "peak_cap": 0.82,
+    "time_stretch": false,
+    "measure_window_ms": 250,
+    "level_match_lookahead_ms": 20,
+    "level_match_protection_ms": 50,
+    "level_match_smoothing_ms": 10
+  },
+  "music": {
+    "palette": "参考库/声音/音源/GeneralUser-GS.sf2",
+    "license": "参考库/声音/音源/GeneralUser-GS_LICENSE.txt",
+    "license_source": "https://schristiancollins.com/generaluser.php",
+    "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+    "sample_rate": 48000,
+    "instruments": {
+      "piano": {
+        "gm_program_zero_based": 0,
+        "relative_gain": 0.9,
+        "lowpass_hz": 4200
+      },
+      "strings": {
+        "gm_program_zero_based": 48,
+        "relative_gain": 0.31,
+        "lowpass_hz": 2400
+      },
+      "pizz": {
+        "gm_program_zero_based": 45,
+        "relative_gain": 0.55,
+        "lowpass_hz": 3600
+      },
+      "vibes": {
+        "gm_program_zero_based": 11,
+        "relative_gain": 0.2,
+        "lowpass_hz": 4600
+      }
+    },
+    "tempo_range_bpm": [
+      76,
+      90
+    ],
+    "harmonic_center": "A minor investigative extended/suspended chords; C major completion after actual final words",
+    "waveform_looping": false,
+    "paid_music_api": false
+  },
+  "mix": {
+    "voice": "mono equal-power centre, total power unchanged",
+    "music_eq": "HP105Hz; broad -4.5dB at1800Hz Q0.65; LP7000Hz",
+    "duck_attack_ms": 35,
+    "duck_release_ms": 480,
+    "lookahead_ms": 60,
+    "duck_active_gain": 0.25,
+    "music_relative_db_median_target": -21,
+    "music_relative_db_window_cap": -14,
+    "music_1_to_3khz_relative_db_cap": -9,
+    "sample_headroom_cap": 0.94,
+    "accepted_lufs_range": [
+      -18.5,
+      -15.5
+    ],
+    "delivery_true_peak_max_dbtp": -1.0
+  },
+  "editorial_cues": {
+    "conclusion_music_reduction_db": -2.5,
+    "conclusion_resolve_after_actual_word_end_seconds": 0.1,
+    "conclusion_tail_minimum_seconds": 2,
+    "accepted_example_tail_seconds": 2.88,
+    "bridge_overlap_seconds": [
+      0.5,
+      1.0
+    ],
+    "bridge_voice_change": false,
+    "pause_rule": "根据动作完成与台词呼吸逐处实测；不能全片统一加空白或拉长静帧",
+    "conclusion_requirement": "conclusion_cue bound to actual narration SHA, real word-tail review, scoped resolve preserves later outro"
+  },
+  "reference_final_mix": {
+    "duration_seconds": 1319.96,
+    "integrated_lufs": -16.83,
+    "true_peak_dbtp": -2.82,
+    "loudness_range_lu": 3.6,
+    "scope": "上一部已认可成片的实测参考值，不强制每条片子达到完全一样数值"
+  },
+  "tools": {
+    "score_mix": "工具/声音/score_mix.py",
+    "bridge": "工具/声音/bridge.py",
+    "tts": "工具/声音/tts.py",
+    "prepare_voice": "工具/声音/prepare_voice.py",
+    "timeline_schema": "工具/声音/timeline.schema.json",
+    "assemble_voice": "工具/声音/assemble_voice.py",
+    "assembly_schema": "工具/声音/assembly.schema.json",
+    "score_film": "工具/声音/score_film.py",
+    "editorial": "工具/声音/editorial.py",
+    "timing": "工具/声音/timing.py",
+    "rebuild_accepted_opening": "工具/声音/rebuild_opening_reference.py",
+    "verify_editorial": "工具/声音/verify_editorial.py",
+    "verify_tts_offline": "工具/声音/verify_tts_offline.py"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "status": "technical_checks_passed",
+  "paid_calls": 0,
+  "human_full_listening_claimed": false,
+  "checks": [
+    {
+      "check": "actual_render_voice_samples_preserved_equal_power",
+      "passed": true,
+      "samples": 900480,
+      "duration": 18.76,
+      "pcm_mix_residual_peak": 5.8906152844429016e-08
+    },
+    {
+      "check": "actual_chapter_bridge_preserved_original_voice",
+      "passed": true
+    },
+    {
+      "check": "real_cached_name_audio_provider_alignment",
+      "passed": true,
+      "duration": 3.6339375,
+      "samples": 174429,
+      "new_tts_calls": 0
+    },
+    {
+      "check": "actual_soundfont_sha_matches_approved_reference",
+      "passed": true,
+      "sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+    },
+    {
+      "check": "four_instrument_smf_plus_tempo_track",
+      "passed": true
+    },
+    {
+      "check": "paid_call_guards_no_network",
+      "cache_hit": true,
+      "budget_exceeded_stops_before_submit": true,
+      "uncertain_submit_blocks_retry": true,
+      "passed": true
+    }
+  ],
+  "mix_measurement": {
+    "duration": 18.76,
+    "sample_peak_dbfs": -4.548621716728235,
+    "clipped_samples": 0,
+    "integrated_lufs": -16.77,
+    "true_peak_dbtp": -4.53,
+    "loudness_range_lu": 3.2,
+    "complete_decode": true
+  },
+  "bridge_measurement": {
+    "frames": 900480,
+    "clipped_samples": 0,
+    "nonvoice_safety_gain_min": 1.0,
+    "sample_peak_dbfs": -4.548621716728235,
+    "integrated_lufs": -16.78,
+    "true_peak_dbtp": -4.53,
+    "loudness_range_lu": 3.2,
+    "complete_decode": true
+  },
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "soundfile": "0.14.0",
+    "imageio-ffmpeg": "0.6.0",
+    "requests": "2.34.2"
+  },
+  "libsndfile": "1.2.2"
+}

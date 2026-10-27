@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "status": "captured_coordinate_audit_required",
+  "captured_at_utc": "2026-10-26T14:00:11.762248+00:00",
+  "mode": "archived_html",
+  "requested_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+  "viewport_css": [
+    1440,
+    1080
+  ],
+  "device_scale_factor": 3,
+  "scripts_enabled": false,
+  "logged_in_profile_used": false,
+  "source_text_rewritten": false,
+  "css_override_injected": false,
+  "network_requests_sent": 0,
+  "resources": [
+    {
+      "url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "path": "原始资源/main_original.html",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "content_type": "text/html; charset=gb18030",
+      "bytes": 61925,
+      "role": "unchanged_saved_main_html"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "path": "原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "content_type": "text/css; charset=gb18030",
+      "bytes": 39319,
+      "role": "saved_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "path": "原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "content_type": "text/css; charset=gb18030",
+      "bytes": 9835,
+      "role": "saved_resource"
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef"
+    },
+    {
+      "url": "http://i0.sinaimg.cn/home/deco/2009/0330/con_logo_news.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i3.sinaimg.cn/dy/31/U868P1T31D193F479DT20051229065948_s.jpg",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://beacon.sina.com.cn/a.gif?noScript",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/c.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d1.sina.com.cn/iframe/5/2008/0714/5.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/gn/2009-03-30/163355.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0722/2.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0722/3.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/gn/2007-03-09/152915.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0723/5.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0722/1.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/2008/1023/1.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i1.sinaimg.cn/dy/news/2008/0708/con_bg_standard_001.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/dy/news/2008/0708/con_bg_standard_002.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/IT/deco/2009/0930/images/wbicon_cl_002.png",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i3.sinaimg.cn/dy/news/2008/0708/con_bg_standard_003.gif",
+      "action": "blocked_unavailable_archived_resource"
+    }
+  ],
+  "regions": [
+    {
+      "id": "mil_title",
+      "quote": "解放军发禁航通告 将在东海实弹射击",
+      "quote_text_sha256": "e960b1eddaf00e8a0440fbd823c3ce7d4bf83ae2ab14380e213d910de0dddf0c",
+      "selector": "body",
+      "context_text": "解放军发禁航通告 将在东海实弹射击",
+      "image": "原始截图/mil_title.png",
+      "image_sha256": "3b3de641482aa6b1f7dc6a4cee73656af5dd345c70df69ea0d0bdad50818ec27",
+      "clip_css": {
+        "x": 205.0,
+        "y": 18.875,
+        "width": 720.0,
+        "height": 326.25
+      },
+      "quote_rects_css_document": [
+        [
+          402.5,
+          171,
+          727.5,
+          193
+        ]
+      ],
+      "quote_rects_image_pixels": [
+        [
+          592.5,
+          456.375,
+          1567.5,
+          522.375
+        ]
+      ],
+      "focus_rect_image_pixels": [
+        592.5,
+        456.375,
+        1567.5,
+        522.375
+      ],
+      "marks": [],
+      "source_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "capture_mode": "archived_html"
+    },
+    {
+      "id": "mil_notice",
+      "quote": "6月24日，中国人民解放军九一七六五部队发布通告称，“我部定于2010年6月30日至7月5日，每日零时至18时，在舟山至台州以东（北纬29度54分、东经122度36分；北纬29度54分、东经123度30分；北纬28度25分、东经123度30分；北纬28度25分、东经122度14分；北纬28度50分、东经122度14分）5点连线海域，即在191、192、196、197、198、203、204、205渔区内进行实弹射击训练。训练期间，严禁各类船舶进入上述海域，并听从海军舰艇的指挥，以确保安全。”（温州晚报）",
+      "quote_text_sha256": "66f3f0484329fcbd41150554aba610039666fa5231fd322cfd76f39237c93048",
+      "selector": "body",
+      "context_text": "　　6月24日，中国人民解放军九一七六五部队发布通告称，“我部定于2010年6月30日至7月5日，每日零时至18时，在舟山至台州以东（北纬29度54分、东经122度36分；北纬29度54分、东经123度30分；北纬28度25分、东经123度30分；北纬28度25分、东经122度14分；北纬28度50分、东经122度14分）5点连线海域，即在191、192、196、197、198、203、204、205渔区内进行实弹射击训练。训练期间，严禁各类船舶进入上述海域，并听从海军舰艇的指挥，以确保安全。”（温州晚报）",
+      "image": "原始截图/mil_notice.png",
+      "image_sha256": "01448fe544622422a16da4dcd178c814ed986e108eb72fd8b3bb37de879fb04c",
+      "clip_css": {
+        "x": 203.5,
+        "y": 183.875,
+        "width": 720.0,
+        "height": 326.25
+      },
+      "quote_rects_css_document": [
+        [
+          308,
+          282,
+          846.21875,
+          297
+        ],
+        [
+          280,
+          305,
+          847,
+          320
+        ],
+        [
+          280,
+          328,
+          847,
+          343
+        ],
+        [
+          280,
+          351,
+          840,
+          366
+        ],
+        [
+          280,
+          374,
+          840,
+          389
+        ],
+        [
+          280,
+          397,
+          440.21875,
+          412
+        ]
+      ],
+      "quote_rects_image_pixels": [
+        [
+          313.5,
+          294.375,
+          1928.1562,
+          339.375
+        ],
+        [
+          229.5,
+          363.375,
+          1930.5,
+          408.375
+        ],
+        [
+          229.5,
+          432.375,
+          1930.5,
+          477.375
+        ],
+        [
+          229.5,
+          501.375,
+          1909.5,
+          546.375
+        ],
+        [
+          229.5,
+          570.375,
+          1909.5,
+          615.375
+        ],
+        [
+          229.5,
+          639.375,
+          710.1562,
+          684.375
+        ]
+      ],
+      "focus_rect_image_pixels": [
+        229.5,
+        294.375,
+        1930.5,
+        684.375
+      ],
+      "marks": [
+        {
+          "id": "dates",
+          "quote": "2010年6月30日至7月5日",
+          "rects_css_document": [
+            [
+              713.203125,
+              282,
+              846.21875,
+              297
+            ],
+            [
+              280,
+              305,
+              294,
+              320
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              1529.1094,
+              294.375,
+              1928.1562,
+              339.375
+            ],
+            [
+              229.5,
+              363.375,
+              271.5,
+              408.375
+            ]
+          ]
+        },
+        {
+          "id": "place",
+          "quote": "舟山至台州以东",
+          "rects_css_document": [
+            [
+              434,
+              305,
+              532,
+              320
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              691.5,
+              363.375,
+              985.5,
+              408.375
+            ]
+          ]
+        },
+        {
+          "id": "vessels",
+          "quote": "严禁各类船舶进入上述海域",
+          "rects_css_document": [
+            [
+              490,
+              374,
+              658,
+              389
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              859.5,
+              570.375,
+              1363.5,
+              615.375
+            ]
+          ]
+        }
+      ],
+      "source_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "capture_mode": "archived_html"
+    }
+  ],
+  "limitations": [
+    "当前浏览器渲染保存原HTML，并非历史屏幕录像。",
+    "没有补造原站资源；远程未保存资源全部阻断。",
+    "制作配置的滚动或点击是后期阅读动作，不是原网站实际交互录屏。",
+    "保存原HTML使用HTTP样式地址，离线渲染origin明确设为原HTTP版本，以避免HTTPS混合内容策略阻断原CSS；源登记URL仍保留HTTPS。全过程没有对外网络。"
+  ],
+  "archive_render_url": "http://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+  "archive_render_origin_differs_from_source": true,
+  "resolved_url": "http://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+  "title": "解放军发禁航通告 将在东海实弹射击_新闻中心_新浪网",
+  "browser": "151.0.7922.34",
+  "http_status": 200,
+  "document_size_css": {
+    "width": 1440,
+    "height": 1223
+  },
+  "page_metadata": {},
+  "responses": [],
+  "source_kind": "current_browser_rendering_of_unchanged_saved_html",
+  "current_capture_not_historical_screenshot": true,
+  "paid_api_calls": 0,
+  "authentication_bypassed": false,
+  "files": [
+    {
+      "path": "visible_full_text.txt",
+      "sha256": "b86ec0e0374aa8b900b73cf3ef9a41b9f70a4039275b7cb05960457fad6a16d5",
+      "bytes": 1406
+    },
+    {
+      "path": "capture_config.json",
+      "sha256": "60452d39cbd18460386e064bf79a0da8586b7271181afdbe4eb3595b202aa61a",
+      "bytes": 2421
+    },
+    {
+      "path": "rendered_dom.html",
+      "sha256": "723a0c9b4dba54d2641411cbb1ff6edc30d0139750d72d55a184c2859f4babdc",
+      "bytes": 63467
+    },
+    {
+      "path": "原始截图/viewport.png",
+      "sha256": "1b5fb2a2185db2dfc1196320f10bf0859efc9f69790c440b1ac77e0336bc5a98",
+      "bytes": 468732
+    },
+    {
+      "path": "原始截图/full_page.png",
+      "sha256": "8519c31ba5bade5e74e546b9e331399ccb5fcd809e74adda59706298e6e4d19c",
+      "bytes": 524315
+    },
+    {
+      "path": "原始截图/mil_title.png",
+      "sha256": "3b3de641482aa6b1f7dc6a4cee73656af5dd345c70df69ea0d0bdad50818ec27",
+      "bytes": 233499
+    },
+    {
+      "path": "原始截图/mil_notice.png",
+      "sha256": "01448fe544622422a16da4dcd178c814ed986e108eb72fd8b3bb37de879fb04c",
+      "bytes": 259988
+    },
+    {
+      "path": "原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "原始资源/main_original.html",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "bytes": 61925
+    },
+    {
+      "path": "原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    }
+  ]
+}

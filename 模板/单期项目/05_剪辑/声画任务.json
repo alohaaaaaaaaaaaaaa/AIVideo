@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "title": "待确定本期题名",
+  "timeline": "../03_声音/编排/timeline.json",
+  "timeline_sha256": "实际编排完成后填写SHA256",
+  "audio": "../03_声音/最终/mix_48k_stereo.wav",
+  "audio_sha256": "实际混音完成后填写SHA256",
+  "output_dir": "06_导出",
+  "delivery": {
+    "width": 1920,
+    "height": 1080,
+    "subtitle_style": {
+      "profile": "main"
+    }
+  },
+  "shots": [],
+  "instructions": "Codex依据实音填写每镜。先写观看任务和切镜原因，再绑定源文件SHA与段内剪点。完整实例见参考库/原片同段对标/开场29秒/声画任务.json。空模板不能渲染。"
+}

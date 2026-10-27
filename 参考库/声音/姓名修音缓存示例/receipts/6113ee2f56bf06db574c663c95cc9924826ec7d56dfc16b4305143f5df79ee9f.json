@@ -1,0 +1,10 @@
+{
+  "id": "C01_P001",
+  "cache_key": "6113ee2f56bf06db574c663c95cc9924826ec7d56dfc16b4305143f5df79ee9f",
+  "status": "completed",
+  "audio_file": "cache/6113ee2f56bf06db574c663c95cc9924826ec7d56dfc16b4305143f5df79ee9f.mp3",
+  "provider_subtitle_file": "cache/6113ee2f56bf06db574c663c95cc9924826ec7d56dfc16b4305143f5df79ee9f_words.json",
+  "audio_sha256": "ec6f7c74f3200fc9dd6f05360147c8a6190f8df2084c28331dd5a71598fe4e41",
+  "estimated_cost_cny": 0,
+  "origin": "历史已付费成功语音，复制用于离线复现；本轮新增付费为0"
+}

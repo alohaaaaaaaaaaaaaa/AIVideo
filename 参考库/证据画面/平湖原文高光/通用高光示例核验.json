@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "file": "通用工具重制示例.mp4",
+  "sha256": "b79b48931b7d211f9bdfcbed7b38ba08196927dd655558b5b0d2a6348038e708",
+  "decoded_frames": 200,
+  "fps": 25,
+  "duration": 8,
+  "size": [
+    1920,
+    1080
+  ],
+  "full_decode": true,
+  "manual_visual_checked": "首中尾静帧；高光正确覆盖真实原文，来源仅底部一处，无顶部重复备注",
+  "audio": "示例无音，实际接入以本期实音重定高光时码"
+}

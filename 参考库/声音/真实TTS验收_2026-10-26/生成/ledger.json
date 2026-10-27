@@ -1,0 +1,56 @@
+{
+  "plan_sha256": "45601abd450c243fc0d59f8065f60c4ae389551f0a5379ce2b7ad2e8b0b42f7e",
+  "budget_cap_cny": 1.0,
+  "attempts": 1,
+  "completed": 1,
+  "estimated_reserved_cny": 0.0245,
+  "billing_verified": false,
+  "records": [
+    {
+      "id": "CHECK001",
+      "cache_key": "6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d",
+      "plan_sha256": "45601abd450c243fc0d59f8065f60c4ae389551f0a5379ce2b7ad2e8b0b42f7e",
+      "authorization_sha256": "78c5583fcc993b0953bb7e846544914cc6d7431a57e33f3079c3973007480339",
+      "price_evidence_sha256": "27d1863b14907896ce91c282db2087c4612b994e43ff03fbf613c8593092c068",
+      "started_at": "2026-10-26T13:52:18.223703+00:00",
+      "status": "completed",
+      "estimated_cost_cny": 0.0245,
+      "request_without_secret": {
+        "model": "speech-2.8-hd",
+        "text": "我是阿子牙。今天我们顺着证据往下查，网友police留下的线索，到底能说明什么？",
+        "stream": false,
+        "voice_setting": {
+          "voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+          "speed": 0.96,
+          "vol": 1,
+          "pitch": 0,
+          "emotion": "neutral"
+        },
+        "audio_setting": {
+          "sample_rate": 44100,
+          "bitrate": 256000,
+          "format": "mp3",
+          "channel": 1
+        },
+        "language_boost": "Chinese",
+        "subtitle_enable": true,
+        "subtitle_type": "word",
+        "output_format": "hex",
+        "pronunciation_dict": {
+          "tone": [
+            "阿子牙/(a1)(zi3)(ya2)"
+          ]
+        }
+      },
+      "http_status": 200,
+      "status_code": 0,
+      "trace_id": "072e8e123abba4082d6fefc8d118d0ba",
+      "audio_sha256": "0f1be99351b110c8046e3ed7a32a68ed2449773ed4a346a45ea563aa6d26f752",
+      "audio_file": "cache/6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d.mp3",
+      "usage_characters": 70,
+      "completed_at": "2026-10-26T13:52:20.166557+00:00",
+      "provider_subtitle_file": "cache/6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d_words.json"
+    }
+  ],
+  "updated_at": "2026-10-26T13:52:20.788626+00:00"
+}

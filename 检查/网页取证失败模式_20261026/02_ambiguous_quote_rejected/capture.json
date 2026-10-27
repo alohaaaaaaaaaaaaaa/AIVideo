@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "failed_do_not_use_as_complete_evidence",
+  "captured_at_utc": "2026-10-26T14:02:28.198534+00:00",
+  "mode": "archived_html",
+  "requested_url": "http://offline.test/fixture",
+  "viewport_css": [
+    800,
+    600
+  ],
+  "device_scale_factor": 2,
+  "scripts_enabled": false,
+  "logged_in_profile_used": false,
+  "source_text_rewritten": false,
+  "css_override_injected": false,
+  "network_requests_sent": 0,
+  "resources": [
+    {
+      "url": "http://offline.test/fixture",
+      "path": "原始资源/main_original.html",
+      "sha256": "2bb8b0af943f676bd47b55ffd5c7263d52cdbf08331f38ce57655f20f066a2eb",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 260,
+      "role": "unchanged_saved_main_html"
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://offline.test/fixture",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "2bb8b0af943f676bd47b55ffd5c7263d52cdbf08331f38ce57655f20f066a2eb"
+    }
+  ],
+  "regions": [],
+  "limitations": [],
+  "archive_render_url": "http://offline.test/fixture",
+  "archive_render_origin_differs_from_source": false,
+  "resolved_url": "http://offline.test/fixture",
+  "title": "",
+  "browser": "151.0.7922.34",
+  "http_status": 200,
+  "document_size_css": {
+    "width": 800,
+    "height": 600
+  },
+  "page_metadata": {},
+  "error": "原文匹配必须唯一：'原文跨节点必须连贯保留'，找到 2 处；请给 selector/context 或显式 occurrence"
+}

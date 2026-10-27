@@ -1,0 +1,6 @@
+# Python 3.11–3.13；纯本地动画和 FFmpeg，无付费依赖。
+numpy>=1.26,<3
+Pillow>=10.4,<14
+imageio-ffmpeg>=0.5,<0.7
+scipy>=1.12,<2
+# av 仅历史汇聚模块自带 --preview 命令需要；统一渲染入口不需要 av。

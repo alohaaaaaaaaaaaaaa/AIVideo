@@ -1,0 +1,66 @@
+{
+  "status": "five_engines_render_and_sampled_visual_review_passed",
+  "runtime_python": "3.13.16",
+  "runtime_scope": "当前工作室路径解析",
+  "old_project_imports": 0,
+  "engines": [
+    {
+      "engine": "工具/动画/星月范例.py",
+      "sha256": "7b84d4b54c2040345a9acb89df5a674e522b1a3a5ce910ee00f676d764f7ddc1",
+      "status": "frame_rendered",
+      "size": [
+        1280,
+        720
+      ],
+      "image": "参考库/动画/检查/星月范例_独立调用.png"
+    },
+    {
+      "engine": "工具/动画/日期范例.py",
+      "sha256": "58609f89cdca49b73bc9c090200dfcac00ff768a174ce6664df4442d1e1bdbad",
+      "status": "frame_rendered",
+      "size": [
+        1280,
+        720
+      ],
+      "image": "参考库/动画/检查/日期范例_独立调用.png"
+    },
+    {
+      "engine": "工具/动画/曝光范例.py",
+      "sha256": "c4fd7d911d4286d5c3887466eb08ad960d1b8aa0e624eee167328d412a3366f2",
+      "status": "frame_rendered",
+      "size": [
+        1920,
+        1080
+      ],
+      "image": "参考库/动画/检查/曝光范例_独立调用.png"
+    },
+    {
+      "engine": "工具/动画/雷达范例.py",
+      "sha256": "c27bebc23973904f57c47fbb91482b995a49f524f4d7a4395361dbcad99386d6",
+      "status": "frame_rendered",
+      "size": [
+        1920,
+        1080
+      ],
+      "image": "参考库/动画/检查/雷达范例_独立调用.png"
+    },
+    {
+      "engine": "工具/动画/汇聚范例.py",
+      "sha256": "a2f6dbece85aac227cdc14fce5e37fe8df183560c2b11356d167acc065dea315",
+      "status": "frame_rendered",
+      "size": [
+        1920,
+        1080
+      ],
+      "image": "参考库/动画/检查/汇聚范例_独立调用.png"
+    }
+  ],
+  "visual_review": {
+    "images": "独立五引擎联系表.jpg；汇聚范例_空间结果.png",
+    "findings": [
+      "五种引擎均正常输出，原生标签可见，无合成层新增备注",
+      "时区拨针与来源原文、曝光线点、雷达问答、地平线下对象、六类空间路线分别可辨"
+    ],
+    "limit": "代表帧调用与布局核验，不是五段完整视频的连续播放核验。"
+  }
+}

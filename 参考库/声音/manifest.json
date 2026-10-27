@@ -1,0 +1,1549 @@
+{
+  "schema_version": 2,
+  "module": "声音",
+  "default_profile": "啊子牙_一起查案_南方小哥",
+  "updated_date": "2026-10-26",
+  "paid_calls_this_migration": 1,
+  "one_real_tts_request_authorized": true,
+  "usage_characters": 70,
+  "cost_at_verified_public_rate_cny": 0.0245,
+  "account_invoice_checked": false,
+  "old_project_required_for_runtime": false,
+  "credential_included": false,
+  "entrypoints": {
+    "listen": "参考库/声音/试听默认声音.html",
+    "guide": "文档/03_默认配音与配乐.md",
+    "config": "默认配置/声音.json",
+    "chapter_mix": "工具/声音/score_mix.py",
+    "film_mix": "工具/声音/score_film.py",
+    "assemble": "工具/声音/assemble_voice.py",
+    "bridge": "工具/声音/bridge.py",
+    "tts": "工具/声音/tts.py",
+    "prepare_voice": "工具/声音/prepare_voice.py",
+    "rebuild_original_opening": "工具/声音/rebuild_opening_reference.py",
+    "editorial_regression": "工具/声音/verify_editorial.py",
+    "offline_tts_regression": "工具/声音/verify_tts_offline.py",
+    "exact_opening": "参考库/声音/开场连续29秒对标/最终/开场29.36_默认混音_48k_stereo.wav",
+    "new_real_tts_mix": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/mix_48k_stereo.wav",
+    "current_audit": "检查/本轮对标/声音与节拍差异.json",
+    "mix_tool": "工具/声音/score_mix.py",
+    "bridge_tool": "工具/声音/bridge.py",
+    "tts_plan_execute": "工具/声音/tts.py",
+    "self_check": "工具/声音/verify_reference.py",
+    "schema": "工具/声音/timeline.schema.json",
+    "demo_timeline": "参考库/声音/离线复现样品/timeline.json",
+    "demo_voice": "参考库/声音/离线复现样品/voice_48k_mono.wav",
+    "demo_mix": "参考库/声音/开场连续29秒对标/最终/开场29.36_默认混音_48k_stereo.wav"
+  },
+  "file_count": 301,
+  "total_bytes": 682996035,
+  "files": [
+    {
+      "path": "参考库/声音/TTS授权记录示例.json",
+      "bytes": 719,
+      "sha256": "6be2f157342c693ea3d0d82fa379cccac0694d9e010ecf7f8052f82a2eff8c51"
+    },
+    {
+      "path": "参考库/声音/TTS离线执行核验.json",
+      "bytes": 472,
+      "sha256": "531d175638289702768478cf9dc513b80644ffc8dd16a15764a16cdd2b495653"
+    },
+    {
+      "path": "参考库/声音/TTS离线计划示例.json",
+      "bytes": 3110,
+      "sha256": "1b32cc5db2244f07374a31af7680695da6ce6c845c749c65ba4ccb61f1d38acc"
+    },
+    {
+      "path": "参考库/声音/TTS输入示例.json",
+      "bytes": 735,
+      "sha256": "f2a42eb08636f371ecbef0e0090d23b823f9debf3cc559a5dbd9b5ce2237990e"
+    },
+    {
+      "path": "参考库/声音/价格核验/2026-10-26_TTS官方定价摘录.txt",
+      "bytes": 1036,
+      "sha256": "27d1863b14907896ce91c282db2087c4612b994e43ff03fbf613c8593092c068"
+    },
+    {
+      "path": "参考库/声音/价格核验/参考价格记录.json",
+      "bytes": 531,
+      "sha256": "43abcdec06273d5066675fe45df8a6766f0dad04fa9c5b2b26c6efffeff1559c"
+    },
+    {
+      "path": "参考库/声音/原片_C01_编曲计划.json",
+      "bytes": 20618,
+      "sha256": "44273fbea8129c2ef7cd7a18426b292892859cb51da0302d5f2f95cf00da733f"
+    },
+    {
+      "path": "参考库/声音/原片_C11_编曲计划.json",
+      "bytes": 121915,
+      "sha256": "016cb6110b93b3b75e6f63dabf1810672dc79292376b03e549773049f04f5656"
+    },
+    {
+      "path": "参考库/声音/原片_C12_编曲计划.json",
+      "bytes": 31174,
+      "sha256": "cbdaf85762aa7a072c67666af60cad0e49868dc9b37cf09c4364807812155a16"
+    },
+    {
+      "path": "参考库/声音/原片_桥接与落拍实测.json",
+      "bytes": 21561,
+      "sha256": "ab191bbdfe922e7eef24227e311600c16ed076d546327dfc348fb410511d4d6e"
+    },
+    {
+      "path": "参考库/声音/原片选段/01_平稳调查/BGM_48k.flac",
+      "bytes": 1256135,
+      "sha256": "250710d3ff8ba0c7c6351638189741e3782f820576add855a58e31792c806162"
+    },
+    {
+      "path": "参考库/声音/原片选段/01_平稳调查/旁白_48k.flac",
+      "bytes": 1568514,
+      "sha256": "8484be12dcb56a167d18a0b6af8424e70d1cc4c7519e74206e36f3dfbc60389f"
+    },
+    {
+      "path": "参考库/声音/原片选段/01_平稳调查/混音_48k.flac",
+      "bytes": 2260461,
+      "sha256": "f75ab74806a27aa5a70d141aa6dc1a5c3b09f4ced0a6a8f0d892d527a035621a"
+    },
+    {
+      "path": "参考库/声音/原片选段/02_幕间音乐桥/BGM_48k.flac",
+      "bytes": 1074953,
+      "sha256": "08441afaefc26eab6741f138ae8022540b7fd7524c2280472356dd90f21a7ebc"
+    },
+    {
+      "path": "参考库/声音/原片选段/02_幕间音乐桥/旁白_48k.flac",
+      "bytes": 1301132,
+      "sha256": "8711a293b8fe6b50607fb88abdede6bd494edaa48823d08026cdfd819eced9c6"
+    },
+    {
+      "path": "参考库/声音/原片选段/02_幕间音乐桥/混音_48k.flac",
+      "bytes": 1905139,
+      "sha256": "7e5956f531e7975d4d52a7f37b2faebad4b380aed83be720f2158c8b64baae4a"
+    },
+    {
+      "path": "参考库/声音/原片选段/03_结论落拍/BGM_48k.flac",
+      "bytes": 1049188,
+      "sha256": "efd9bd69f37ce3d43704302c8e5ee83484034aa8a72d82111c05c75b6a3663f8"
+    },
+    {
+      "path": "参考库/声音/原片选段/03_结论落拍/旁白_48k.flac",
+      "bytes": 1068822,
+      "sha256": "4f6d7018b8e60563b66d438113bbaf111f9e7efcbfde96e928f76504ada76766"
+    },
+    {
+      "path": "参考库/声音/原片选段/03_结论落拍/混音_48k.flac",
+      "bytes": 1733447,
+      "sha256": "b1bbd4ef194310c3c1589f64e2d78706845b4220fbe4f68bb26af2158fd47770"
+    },
+    {
+      "path": "参考库/声音/原片选段/04_啊子牙姓名连读/BGM_48k.flac",
+      "bytes": 720113,
+      "sha256": "63f210fc944f44de6b45787dc244abbc91dbdb913126f636ab7bb71f33516638"
+    },
+    {
+      "path": "参考库/声音/原片选段/04_啊子牙姓名连读/旁白_48k.flac",
+      "bytes": 695274,
+      "sha256": "0ef43209e98f531add2779e37759df3a71767ca84a545434fd69d4d444b4b002"
+    },
+    {
+      "path": "参考库/声音/原片选段/04_啊子牙姓名连读/混音_48k.flac",
+      "bytes": 1165959,
+      "sha256": "a207c02c8712c23357d153441065880f7bd4a77a82fa846d646b4b4b7082b9a4"
+    },
+    {
+      "path": "参考库/声音/原片选段/索引.json",
+      "bytes": 4015,
+      "sha256": "aca55ff001bf8093f4e4e9f7d35e0aee9ab325a833a211f3902abfcabacb5e6e"
+    },
+    {
+      "path": "参考库/声音/姓名修音缓存示例/cache/6113ee2f56bf06db574c663c95cc9924826ec7d56dfc16b4305143f5df79ee9f.mp3",
+      "bytes": 119839,
+      "sha256": "ec6f7c74f3200fc9dd6f05360147c8a6190f8df2084c28331dd5a71598fe4e41"
+    },
+    {
+      "path": "参考库/声音/姓名修音缓存示例/cache/6113ee2f56bf06db574c663c95cc9924826ec7d56dfc16b4305143f5df79ee9f_words.json",
+      "bytes": 7738,
+      "sha256": "df9b8636e197a4e673daa58d0e1ac05a7209e04da1a0d37f0c2f24650f073888"
+    },
+    {
+      "path": "参考库/声音/姓名修音缓存示例/receipts/6113ee2f56bf06db574c663c95cc9924826ec7d56dfc16b4305143f5df79ee9f.json",
+      "bytes": 546,
+      "sha256": "cd9b7ffa90d250a400d5cf9674ba875ef470cdbc3cdda057fff4c8f9a8990e33"
+    },
+    {
+      "path": "参考库/声音/姓名离线复现/C01_P001.json",
+      "bytes": 1580,
+      "sha256": "70fd49b944a5b2ce8ff177d6eb46f94cca8dae7451c397cfb746299cc0f0c3da"
+    },
+    {
+      "path": "参考库/声音/姓名离线复现/C01_P001_48k_mono.srt",
+      "bytes": 170,
+      "sha256": "a034e23994fc42bb9a6eb005cf0321b58806b048f356c33251920a817bf14edf"
+    },
+    {
+      "path": "参考库/声音/姓名离线复现/C01_P001_48k_mono.wav",
+      "bytes": 697774,
+      "sha256": "3fdaff245a65dbf75741b09624f9e0aa8316c11a15782a4b32833fc991db05fc"
+    },
+    {
+      "path": "参考库/声音/姓名离线复现/paragraphs.json",
+      "bytes": 1680,
+      "sha256": "e8ead615b92dcaabb0fe8c793366dab46c6eb18e78a5c760da193f45b8750197"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/old_mix_48k.wav",
+      "bytes": 11274328,
+      "sha256": "16f8659eb598872a8a9e28405c982d36983ec2632f53ef0ec83a48abc23cb84d"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/old_music_48k.wav",
+      "bytes": 11274328,
+      "sha256": "fd83b004dc263fa503e79631c566d91c09e0ebf8b18e6e3252e484e610503db9"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/old_voice_stereo_48k.wav",
+      "bytes": 11274328,
+      "sha256": "4a1a12029dd80044834bb2188792778f470aa55cced36d28f09a0fdae1d435a7"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/timeline.json",
+      "bytes": 13370,
+      "sha256": "1bb44976ed4d5816c0b03390402eb944fe805e1b995f410bb0c278fd9c3fba38"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/voice_48k.wav",
+      "bytes": 5637200,
+      "sha256": "d5e5e7b120ffa260979c39a74c965a3cb2c05dba73db55b44a9c7bc3abf0e570"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/原C01逐音符.json",
+      "bytes": 20619,
+      "sha256": "28908d4dd2cc68da04443b0b3ab6d341ab8e2fa5ae9c9167a28a9567cfcec9ed"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/最终/原版逐样本对标.json",
+      "bytes": 1131,
+      "sha256": "11faf1b8fa737bfc4176eed21f289cc4e9add7c56882ef53c822239c4fa29b41"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/最终/开场29.36_原旁白_48k_stereo.wav",
+      "bytes": 11274328,
+      "sha256": "a9a31a9a835ae0544cd32d348d3a10f0e771f64be2568957df240577a9767a50"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/最终/开场29.36_音效_48k_stereo.wav",
+      "bytes": 11274328,
+      "sha256": "2dcdf6594016e1dad532c6c422c1801926d05fab12244baebc87d2df0e20eb9d"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/最终/开场29.36_默认BGM_48k_stereo.wav",
+      "bytes": 11274328,
+      "sha256": "1a29b75227f90a75984dc8e8f2902a7c62708c02c27e4c80ef5416599bb63179"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/最终/开场29.36_默认混音_48k_stereo.wav",
+      "bytes": 11274328,
+      "sha256": "186605812a725251c44367c4e0b62ff0025409b959f1f2b8e4aca1372e1b0abd"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/最终/开场29.36_默认混音_试听.mp3",
+      "bytes": 706220,
+      "sha256": "b63dce1cd18f1da8133984ec545df1fbcd0c34655ee2cc2b23bc2d27628bb3b8"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/最终/独立重建脚本实测.json",
+      "bytes": 753,
+      "sha256": "2e916366897b741dfef6916de0247652c7cedf64856769d3e40b0bb9285afc32"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/来源.json",
+      "bytes": 578,
+      "sha256": "a2d8ecec37ddbf6c40af8415306b6cd6a3e5ae52ebfb39af0cd200a6af1e65f0"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接timeline.json",
+      "bytes": 276,
+      "sha256": "614be2b64f34777d13a5f319890d5d40e8fd6c6636e01bc64be0b616dfd42d16"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/mix_48k_stereo.wav",
+      "bytes": 11274298,
+      "sha256": "0783537b9ff124cd9b4ba9f401b91b8961e6885d97937fc30f19d9aef190adae"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/mix_preview.mp3",
+      "bytes": 706220,
+      "sha256": "fc87ae4d88d629613d75084daa6f158c338a4b1ad806b0e7813fd15d840b992b"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/music_48k_stereo.wav",
+      "bytes": 11274298,
+      "sha256": "f7f5ebaf243ae9913c8ebb841de9755b5536fb13a4b5898255c6746610dbfd96"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/music_preview.mp3",
+      "bytes": 706220,
+      "sha256": "6d4f8d62dbf73387233dda776cd96f48d9a769b42ae9b630b269f8b9571532ba"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/music_score_48k_stereo.wav",
+      "bytes": 11274298,
+      "sha256": "e30284d1506406038d56ee9c76ae66c2f9711d7b0f3cbc673727e81dfcf7341a"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/score.mid",
+      "bytes": 1020,
+      "sha256": "b972454e32a00b45e8cd0c7152a433a9805f023b9e08371888ff96a7c22f9ac1"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/sfx_48k_stereo.wav",
+      "bytes": 11274298,
+      "sha256": "65874eaec538cf9a12ba2c4bc97a94e7035d8a7bb004625606bd30cb0ca14bc2"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/voice_48k_stereo.wav",
+      "bytes": 11274298,
+      "sha256": "d481bdc1f390c2912508e0e2b3d02f06ef6799eff571f630ea44df5dd41e8dd1"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/分轨_piano_48k_float.wav",
+      "bytes": 11274298,
+      "sha256": "95c0d10d8c48ed1cd335f08c163277ebddf167d3daddafa2d725ddfdb6e85f37"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/分轨_pizz_48k_float.wav",
+      "bytes": 11274298,
+      "sha256": "a4086204eee29e3b05a591b215b1d542783178bc84226c225490beee2f01daab"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/分轨_strings_48k_float.wav",
+      "bytes": 11274298,
+      "sha256": "45f461526a625cf8bbbe4d5dec38afc162bfb22feb496d7a603a0f28ff4ff5f2"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/分轨_vibes_48k_float.wav",
+      "bytes": 11274298,
+      "sha256": "6affc598d8847c489545fe303f352a653ae318655f167523a25a2da02b336bde"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/混音核验.json",
+      "bytes": 1409,
+      "sha256": "ed0c466ac459ef6c4df5c94c16f1d1248d5af65778cf704121b2a78f38851bae"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/编曲执行计划.json",
+      "bytes": 20913,
+      "sha256": "c03aa187a00500974fb10ab1abe67ef01c7b001ee35c1721e0812dd2297898f5"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/编曲记录.json",
+      "bytes": 23153,
+      "sha256": "21534586aaca11144ba18c99090088761a3ca13b12155ae76dd39d87079b19ad"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/音效_48k_stereo.wav",
+      "bytes": 11274298,
+      "sha256": "65874eaec538cf9a12ba2c4bc97a94e7035d8a7bb004625606bd30cb0ca14bc2"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C01/音效来源与时码.json",
+      "bytes": 304,
+      "sha256": "17786913087900285766d3fcd0175e1a74674e39308545d3af2be3522dd30fe1"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C02/music_48k_stereo.wav",
+      "bytes": 1536088,
+      "sha256": "dbcb2edd39fc1d58d24b38bac3989cccb775d268a41b0916af7262f2efd312bf"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C02/narration.wav",
+      "bytes": 768080,
+      "sha256": "4659169005f880dc54263536453f239bd72d5beb896fb8f34d0717a2db4d1b9e"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C02/sfx_48k_stereo.wav",
+      "bytes": 1536088,
+      "sha256": "9ad02f99c517378b7a694b48995b85d6bdaf5def0ab4980f9c7f0c704eeadcaf"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接上下文/C02/编曲执行计划.json",
+      "bytes": 53886,
+      "sha256": "d506684169f2705b5d4a01db3627cf3ed8e5b8866acf3665ce22a00b58e1c006"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接接口.json",
+      "bytes": 192,
+      "sha256": "673469f51787e6a64fbf7ce1afd65cbf3d365748d1fc64df68fd423f0e52e901"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/mix_48k_stereo.wav",
+      "bytes": 12810328,
+      "sha256": "b4345630603683e8bf3416199948794ace74b46342670bcdb240969731c9ab80"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/music_48k_stereo.wav",
+      "bytes": 12810328,
+      "sha256": "e1488d810cc3d21b67112f28d2a3550839db01f09ec458fdcf653f11cfb9965b"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/sfx_48k_stereo.wav",
+      "bytes": 12810328,
+      "sha256": "51404c55f38e6b06bf319ea01825ccf165c29dc08672eabc2c67a5cbd17bc944"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/voice_48k_stereo.wav",
+      "bytes": 12810328,
+      "sha256": "008682e3336e7d5910d89b1cc61ae5f28ee64db1c77ddbd41a5810b847fe2182"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/桥接_01_02.wav",
+      "bytes": 614488,
+      "sha256": "96f884e349a228db21f7c12dc1676f959130d03c60631aa586f336659197fdc5"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/衔接配乐核验.json",
+      "bytes": 4448,
+      "sha256": "558eeb3cfbb13aa637b398e281c7e48115a21d6ac28248a22257e44fb5e7bd7c"
+    },
+    {
+      "path": "参考库/声音/开场连续29秒对标/桥接重建/音乐桥执行计划.json",
+      "bytes": 949,
+      "sha256": "6e45079f98878cf6bdf981b1fa7ad82c09474e6d1ed7492b099af41436690a81"
+    },
+    {
+      "path": "参考库/声音/技术核验.json",
+      "bytes": 1769,
+      "sha256": "bfc0f7b0c13b729672b2efff14fe795049fe6ddb1c7088d6b5e2e8f2211f00a4"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/C01_P001_48k_mono.wav",
+      "bytes": 1129040,
+      "sha256": "398cbc775275dfa0496cd801ed2cd75dd271e26cf89bbe45917fa33d68a4bac8"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/C02_P001_48k_mono.wav",
+      "bytes": 697774,
+      "sha256": "3fdaff245a65dbf75741b09624f9e0aa8316c11a15782a4b32833fc991db05fc"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/layout.json",
+      "bytes": 414,
+      "sha256": "89cdbc7f47336e0aeacf074285e0449e0f646b44c622c1ed5b658d0c7bfb30d0"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/paragraphs.json",
+      "bytes": 2404,
+      "sha256": "2c37578c6775ebbea9c306804e82f301fe9c3ed802e0b2fedd90446d03938618"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/mix_48k_stereo.wav",
+      "bytes": 4270138,
+      "sha256": "d1fa6a8fdb66422807efff2087b59c178049816caf1dcc00777ba534d78fb296"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/mix_preview.mp3",
+      "bytes": 268460,
+      "sha256": "a6a6b025d05be7f76144a91d9d16a0fd1f5cf6611d1770ddfd9399a930cd4288"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/music_48k_stereo.wav",
+      "bytes": 4270138,
+      "sha256": "aa89f0f86ccbdacf7196c1eb77bdd39bb3c6be614014b8f0e761ddb96a6ddcf9"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/music_preview.mp3",
+      "bytes": 268460,
+      "sha256": "5935374a0ce487af0ce2a3fd3b127b38de066f0fc4cb94214a8cac4ec7050d1b"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/music_score_48k_stereo.wav",
+      "bytes": 4270138,
+      "sha256": "e229b03619f7796883adafe3a356ef1acda84572ed063a6bb5810e41b6e097c7"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/score.mid",
+      "bytes": 508,
+      "sha256": "91636302c662e333b85390a22c02be936fe83cb9744708e8e3799aafec4625bb"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/sfx_48k_stereo.wav",
+      "bytes": 4270138,
+      "sha256": "64fcf91ffd8fe5d91410c38f8852b879fe3cc83d50b9507e3920bbfbe7816d1f"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/voice_48k_stereo.wav",
+      "bytes": 4270138,
+      "sha256": "6cabb9d063732f46642172abd968dce69ef26ef4f95ca104df41f92c05760d74"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/分轨_piano_48k_float.wav",
+      "bytes": 4270138,
+      "sha256": "bdf9e0e443ecd57ed725dd064c967e6625ff6bb3546e8b987dda91d1cdfdd6e6"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/分轨_pizz_48k_float.wav",
+      "bytes": 4270138,
+      "sha256": "fc73324baf1fb0c2df609c3946f129fc23e25a1f5fe2da63951f184aedb9108e"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/分轨_strings_48k_float.wav",
+      "bytes": 4270138,
+      "sha256": "ae028aa3aede78e89027bbfd706c34d6adca285656e186787cf934251f17cd19"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/分轨_vibes_48k_float.wav",
+      "bytes": 4270138,
+      "sha256": "99a22936453467a8384cdadee04025b56463401e9ddfc4f3b3cc6d279710e20d"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/混音核验.json",
+      "bytes": 1325,
+      "sha256": "688b5fa51a1676dddd84417ba76276ba21bc98013d5118f66540a64998c4694a"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/编曲执行计划.json",
+      "bytes": 9644,
+      "sha256": "f402e6d5bf33722383ab8cc024c6c1ae01754ab9fd219d3f1f1424aef94d7596"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/编曲记录.json",
+      "bytes": 11490,
+      "sha256": "171432097379002f00f0d23bad45302ffbdbb5dea30210bde78d98d922e2ddd1"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/音效_48k_stereo.wav",
+      "bytes": 4270138,
+      "sha256": "64fcf91ffd8fe5d91410c38f8852b879fe3cc83d50b9507e3920bbfbe7816d1f"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/混音输出_实音字幕/音效来源与时码.json",
+      "bytes": 248,
+      "sha256": "e755db6700d87a3a8ec1b4b8ac14302a47a1d85f47fd7f79411a7653811ab8bc"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/编排输出_实音字幕/assembly_verification.json",
+      "bytes": 779,
+      "sha256": "1e5603df925da75e2e930d8b03dc78ebfb7995887e28ba15832f9ff1d4af16f4"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/编排输出_实音字幕/chapters/chapter_01_48k_mono.wav",
+      "bytes": 1205840,
+      "sha256": "05ddd62410e607bc654491a0f1d3fe6ef1c0c06b22260b60cbcc95aae4ac35b9"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/编排输出_实音字幕/chapters/chapter_02_48k_mono.wav",
+      "bytes": 929360,
+      "sha256": "b2267556122a3428958dbb49119e52c8540e948472dbc5bc64d5bd3dd24de299"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/编排输出_实音字幕/media_chapters.json",
+      "bytes": 141,
+      "sha256": "8df7ccc254649e511efc891089a495697c467cdbe656021dff81d6830f6fdffc"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/编排输出_实音字幕/narration_48k_mono.wav",
+      "bytes": 2135120,
+      "sha256": "69599258ae33893c413f1c430b5bd3aee01913bfbb154a20d0d507fe60134e8f"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/编排输出_实音字幕/subtitles.json",
+      "bytes": 473,
+      "sha256": "e2b0e68c440e530474a92a31f4c0a930e9573009670275a56f16dd091069dbe4"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/编排输出_实音字幕/subtitles.srt",
+      "bytes": 319,
+      "sha256": "73d95137ae4fba50f556f06d45c734abbde40114df5f255cf216e6fd84beced9"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/编排输出_实音字幕/timeline.json",
+      "bytes": 5231,
+      "sha256": "35370f334d250ccb7bbb10bb3110ce474d9c98c8bba6406d28f436d47ee33f90"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/联动核验.json",
+      "bytes": 1056,
+      "sha256": "7a5f7a80a46923fff04c71cd84af9a0d43ec8f2b097ccd7865ae98be98fef032"
+    },
+    {
+      "path": "参考库/声音/整段联动样品/范围说明.json",
+      "bytes": 452,
+      "sha256": "5262e56a6b2ef7c8caa3868bc79fd4ded866d5483ec1a3dbb051eae4d00cccc3"
+    },
+    {
+      "path": "参考库/声音/无旁白章节核验.json",
+      "bytes": 269,
+      "sha256": "dc6e51edfb110184d4da8b5d3edd62e39a4ca27a88050670580059bc364c90f6"
+    },
+    {
+      "path": "参考库/声音/来源迁移记录.json",
+      "bytes": 2241,
+      "sha256": "b44ee4ab449630a5e82eea29f1787dd4ee70824434767182986eb953cdb8de96"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/authorization.json",
+      "bytes": 1188,
+      "sha256": "78c5583fcc993b0953bb7e846544914cc6d7431a57e33f3079c3973007480339"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/input.json",
+      "bytes": 697,
+      "sha256": "a412165de488d9d79c8be3225a6e767e4f23098e223f9da171d24c4b96eb6cee"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/layout.json",
+      "bytes": 242,
+      "sha256": "9108762a41a27f7e9f4ecd3555d3d1e376912d4d0505a5e9661d6d120661e659"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/plan.json",
+      "bytes": 2290,
+      "sha256": "45601abd450c243fc0d59f8065f60c4ae389551f0a5379ce2b7ad2e8b0b42f7e"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/官方价格依据.txt",
+      "bytes": 1036,
+      "sha256": "27d1863b14907896ce91c282db2087c4612b994e43ff03fbf613c8593092c068"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/整理/CHECK001.json",
+      "bytes": 1861,
+      "sha256": "9efc6f11556fbee5825b7a93a503c925c1a13eac6ab9555f03f5f5f39dae2185"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/整理/CHECK001_48k_mono.srt",
+      "bytes": 248,
+      "sha256": "3ba60bfad56eaca8ea99c955c6a952b5d87520368ca1af1c899a216413c8ff9b"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/整理/CHECK001_48k_mono.wav",
+      "bytes": 1243906,
+      "sha256": "090e97457212ce278aa81edfabe0c6568e0a19e79bb798d4880456c26023009c"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/整理/paragraphs.json",
+      "bytes": 1975,
+      "sha256": "1633c5c2adb2a9723acb728bb12d91aec151d38dd89869b1a1dbb0e4531a0147"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/无提示独立ASR.json",
+      "bytes": 4655,
+      "sha256": "e439f1cc3e215a0d5890dec925baa14c1eb87eb58a0be1a0fdfd0513ac359239"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/mix_48k_stereo.wav",
+      "bytes": 2795578,
+      "sha256": "79f7febd452480cfb9a86040b106ad32da130e060321c46f58f90d56faa90b43"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/mix_preview.mp3",
+      "bytes": 176300,
+      "sha256": "f389fd7804ee2f69819fd9961431a68a0ebe7f096b6f7432da82f4ebe4ebc901"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/music_48k_stereo.wav",
+      "bytes": 2795578,
+      "sha256": "47044f76e3f1b61dcad108e0cbde8959a9517cbea2c92f9dcc4086ce6c029ebc"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/music_preview.mp3",
+      "bytes": 176300,
+      "sha256": "13d64feaa6d696cd7fe30cc76cb9456645c11299fc2edc0139919370ad03af94"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/music_score_48k_stereo.wav",
+      "bytes": 2795578,
+      "sha256": "02e3eafa66af055cc5df557f774eb618389d2c90c0561801a6cc5bb150efd787"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/narration.wav",
+      "bytes": 1397840,
+      "sha256": "1e9a8d39ee5ec226f42403b5b463642efe8a5a82b32aafdefbedd61c45e106bc"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/score.mid",
+      "bytes": 372,
+      "sha256": "ed7767acc524c2330e754aa3ac65f6298aa22b564d6c90df244a262f5b4f69c7"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/sfx_48k_stereo.wav",
+      "bytes": 2795578,
+      "sha256": "867dfd4c332d1806fb947528eff2295942c9d24e56d79d5c38f93ae51c524aac"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/timeline.json",
+      "bytes": 254,
+      "sha256": "7f2724f60c98d3324d198e532c2386a0827fcab30f73c576af57d5ad7302be5f"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/voice_48k_stereo.wav",
+      "bytes": 2795578,
+      "sha256": "52f755f7d5e6ebc062955bdc6204347c3c1b610f5d54b080c81e037bb3ab0ec9"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/分轨_piano_48k_float.wav",
+      "bytes": 2795578,
+      "sha256": "af136aa93492076aaf25d4b0d355a4abf5a4f7e22c687117b2c53b5fbd198edd"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/分轨_pizz_48k_float.wav",
+      "bytes": 2795578,
+      "sha256": "3a5a6328e9c847a3e07cbcc43f8bdc0175453c4c45de9590b3d268585928aab2"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/分轨_strings_48k_float.wav",
+      "bytes": 2795578,
+      "sha256": "2fbd7cf068a948f6d47cc0d0e39b3c7b2ed6ea50246f5050e4f7ede8dcdd3840"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/分轨_vibes_48k_float.wav",
+      "bytes": 2795578,
+      "sha256": "867dfd4c332d1806fb947528eff2295942c9d24e56d79d5c38f93ae51c524aac"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/混音核验.json",
+      "bytes": 1352,
+      "sha256": "f63642bc477a70b7b73f978810acf84622b1210f08407dbdf577861d2bbef16a"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/编曲执行计划.json",
+      "bytes": 6228,
+      "sha256": "4a039b93faab84987835e2568a7903c50bfc0b4434fee8b250a719150af5c067"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/编曲记录.json",
+      "bytes": 8197,
+      "sha256": "04c03f75035ac4536df3c39c3d46a43eb2ff8428821d45d34b96da25f57ca2fb"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/音效_48k_stereo.wav",
+      "bytes": 2795578,
+      "sha256": "867dfd4c332d1806fb947528eff2295942c9d24e56d79d5c38f93ae51c524aac"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/音效来源与时码.json",
+      "bytes": 250,
+      "sha256": "e12f76546115062ef0de07274de9b8f511ce44319ba09849f89c7e580f84a762"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/混音/film_audio_report.json",
+      "bytes": 927,
+      "sha256": "e8c16bcc38d42d17dd05c071b236dd24a4b7a584646e65bf97f10596c963220b"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/生成/cache/6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d.mp3",
+      "bytes": 210118,
+      "sha256": "0f1be99351b110c8046e3ed7a32a68ed2449773ed4a346a45ea563aa6d26f752"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/生成/cache/6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d_words.json",
+      "bytes": 10988,
+      "sha256": "995f3b75616a285b4201b9d629b1af905267dff2077ab5e8fe0f861c04dd1e25"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/生成/ledger.json",
+      "bytes": 2137,
+      "sha256": "853cf95e3bd5382df8e84cd47fb3ff26b7a568f84e7363ff9d8e3fc00e443a15"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/生成/receipts/6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d.json",
+      "bytes": 1672,
+      "sha256": "6fb35442bc0654be93aa2e4990630471abd09a3b13145f57d3e526b615a2fa81"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/真实接口验收.json",
+      "bytes": 1246,
+      "sha256": "def4b702a565c10d420a385a8a15f512a1fdb068476c10f6e8c8d3b845a0f77a"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/编排/assembly_verification.json",
+      "bytes": 1059,
+      "sha256": "3ca2a89e7fad9f84d67266dcbda53d5161d40826d6056c31135f730474ff8441"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/编排/chapters/chapter_01_48k_mono.wav",
+      "bytes": 1397840,
+      "sha256": "5bda98ad45800a2035ff22212fd3879ef0f5f8fd14bb0b5d708d1d5c60a8ab03"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/编排/media_chapters.json",
+      "bytes": 70,
+      "sha256": "52f13742cc49f5f172a2293f812396c6e30fa533f72902d9c462cbcc50249072"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/编排/narration_48k_mono.wav",
+      "bytes": 1397840,
+      "sha256": "5bda98ad45800a2035ff22212fd3879ef0f5f8fd14bb0b5d708d1d5c60a8ab03"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/编排/subtitles.json",
+      "bytes": 366,
+      "sha256": "0643b806356a7728e67e02627edf59ad6d558baa56c818f0bed5df3dd141cb4e"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/编排/subtitles.srt",
+      "bytes": 248,
+      "sha256": "3ba60bfad56eaca8ea99c955c6a952b5d87520368ca1af1c899a216413c8ff9b"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/编排/timeline.json",
+      "bytes": 4219,
+      "sha256": "6ffb8f3e8a0112661dd60ed2c1f886e8df3d30ddee2e37b37ddbb9b7a9c74db7"
+    },
+    {
+      "path": "参考库/声音/真实TTS验收_2026-10-26/编排/visual_cues.json",
+      "bytes": 216,
+      "sha256": "abc3eec8939b4ae2847deead40a6cda8b52fe0ed494ed7dca17a90fa9822fd3c"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/bridge_timeline.json",
+      "bytes": 288,
+      "sha256": "86eeb7e2036591887c0085c0ecde6695a359172faa7bf4c793349ba431d94955"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/bridge_transitions.json",
+      "bytes": 192,
+      "sha256": "a2895e161ab69b0517abde2b6f6a49dbc16b2cd527b1230c39c72e4395acaaba"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/timeline.json",
+      "bytes": 557,
+      "sha256": "a253053118c9d9881bfaf54dad41d76172ccca96a7728e0b6578be645c3d7337"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/voice_48k_mono.wav",
+      "bytes": 3602000,
+      "sha256": "aade179ee119ba815ab24da1fd343ce68f653849e5ebc703eb1cf47486f8126b"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输入/C01/music_48k_stereo.wav",
+      "bytes": 2258008,
+      "sha256": "0d019b012cf1490611feff564857e104a4c881953c1ca31223cfc81a04384b51"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输入/C01/narration.wav",
+      "bytes": 1129040,
+      "sha256": "671692d1cbaadd338b60f53e2f529ca1c7fccd078313dbe165a1a3ddbdbc7c78"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输入/C01/sfx_48k_stereo.wav",
+      "bytes": 2258008,
+      "sha256": "cc6cbc0660bf2d8a40f8cd07a04433a7472fbeb730af93d8cf9ef258be57d49f"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输入/C01/编曲执行计划.json",
+      "bytes": 549,
+      "sha256": "da945a26a91f2a5a251377e02a1838099eea1c62defae9e1086f3188f97d7806"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输入/C02/music_48k_stereo.wav",
+      "bytes": 4946008,
+      "sha256": "e3cdc8ed95b10cb2911a9ad90b5160a4bf4432a7776319c94122d1951fe460cc"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输入/C02/narration.wav",
+      "bytes": 2473040,
+      "sha256": "0d41c37c921ff8fd009687fbdc4c188d2b1bd78a098e8912825355add4622f7e"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输入/C02/sfx_48k_stereo.wav",
+      "bytes": 4946008,
+      "sha256": "4d76f53dd08a8878357a312566582a3913e1ceb4117606c7773e55a1f914ee4b"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输入/C02/编曲执行计划.json",
+      "bytes": 906,
+      "sha256": "b428342d063f21e509397d0fc402f4a046faa976ffde6c8bdbe5db260acd9d26"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输出/mix_48k_stereo.wav",
+      "bytes": 7203928,
+      "sha256": "58ebf418ca73490e4589c69bcae19267bc7fac3f5cddbf32fc7e97a9023a0195"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输出/music_48k_stereo.wav",
+      "bytes": 7203928,
+      "sha256": "6825991d67375a44fedbe22c3cddb05e8d18952cd12d7cd1d585c34bffcd2554"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输出/sfx_48k_stereo.wav",
+      "bytes": 7203928,
+      "sha256": "434f26bfa9fb1d148994e422ac435cb3884012b89989f108c44c5cae7b2b9797"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输出/voice_48k_stereo.wav",
+      "bytes": 7203928,
+      "sha256": "e06886075f7c489fad6295239b447f83789dc905a2cb0be6056c38ca73b47ba2"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输出/桥接_01_02.wav",
+      "bytes": 614488,
+      "sha256": "0b77aa9b49016d5b5cb973fb98d6971281d63b49d58e559d99c2aedb890b95ee"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输出/衔接配乐核验.json",
+      "bytes": 4293,
+      "sha256": "a49b7ad46060e4018723a62cb8c90aa36b71911eb6655bd6ee1ce8bf380b2b65"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/桥接输出/音乐桥执行计划.json",
+      "bytes": 846,
+      "sha256": "10f18f57c2453877d77b43f29c648113e3eb28aa5ea39760dc7ceb4bc2090694"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输入说明.json",
+      "bytes": 365,
+      "sha256": "db35e12a817a0eba12c659797a6412d5cc0e7dfc6dcc6e08b1d7fce6ace4bd9a"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/mix_48k_stereo.wav",
+      "bytes": 7203898,
+      "sha256": "aefffdcf584cbd0fd102954508d467112b43e9c1fd5a6c8ba8917c12206e8890"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/mix_preview.mp3",
+      "bytes": 451628,
+      "sha256": "279c38eee9348e8c0f9e2acac977bc6a385f8f0278b53f408028be0f39823f8b"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/music_48k_stereo.wav",
+      "bytes": 7203898,
+      "sha256": "9d20174d6732fde4e4f69967e3f5750ad0c4fab44d4b8bd43c1d219ca591229b"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/music_preview.mp3",
+      "bytes": 451628,
+      "sha256": "fff2f45512ed47c3815b6786a56fd494d392bcf381d0ab8d6565daae512d0c3a"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/music_score_48k_stereo.wav",
+      "bytes": 7203898,
+      "sha256": "63014fb28e033373518b75bc53f7a2ea7c9c97a21004cc32f4534895bc9aaeb2"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/score.mid",
+      "bytes": 734,
+      "sha256": "8f9e9cbfd8a0e39bc5fde1ebfd8769b3e5920972515989f00327777102184055"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/sfx_48k_stereo.wav",
+      "bytes": 7203898,
+      "sha256": "203e1aec9cada5ece7706822849bd61b2f842dc600314eaf9d93860de4242415"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/voice_48k_stereo.wav",
+      "bytes": 7203898,
+      "sha256": "655f9fc5591505caca740dd519a01f2503d51b15762f5aa1a8b183c0b3038a2d"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/分轨_piano_48k_float.wav",
+      "bytes": 7203898,
+      "sha256": "130e3be8f39c1a168cdfc7969dc1db415388e79616c5527dfba600fefba441a2"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/分轨_pizz_48k_float.wav",
+      "bytes": 7203898,
+      "sha256": "6fdfbea329e1432e83114b6a285b6ea461c9dcbe08b7690c737f6d515b5151a7"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/分轨_strings_48k_float.wav",
+      "bytes": 7203898,
+      "sha256": "39132892bb3bdf354b3726f1e0d375ce8d0ceb265c6d12ef2faae3accbea95b8"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/分轨_vibes_48k_float.wav",
+      "bytes": 7203898,
+      "sha256": "92c7c91d8c0d8b47c9d085cafc67b48e8faa5a8640ab7ae42585fa7a6de1ea56"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/混音核验.json",
+      "bytes": 1277,
+      "sha256": "7a75bdad19fe4da664cb0011a590820291542aa072ca54b838ab0683388dfd0c"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/编曲执行计划.json",
+      "bytes": 14852,
+      "sha256": "93dc1a995d091cfc6a4a276ff4baad4495d77c5549b3a00843ebb4b379f405e6"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/编曲记录.json",
+      "bytes": 16603,
+      "sha256": "ccc2724f4d7b2da1207f8b0e96e8e5cd5ee4d68f80705b489b73d8eca6f95379"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/音效_48k_stereo.wav",
+      "bytes": 7203898,
+      "sha256": "203e1aec9cada5ece7706822849bd61b2f842dc600314eaf9d93860de4242415"
+    },
+    {
+      "path": "参考库/声音/离线复现样品/输出/音效来源与时码.json",
+      "bytes": 229,
+      "sha256": "9d2ee8b6ff607a074a2dc864d7a12cabafc18ce6e9f82620ab0b15bfa4eb68ec"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/old_mix_48k.wav",
+      "bytes": 4746328,
+      "sha256": "fdfa6aabf48ed629e4223037ae61880a401a062a2ec4fdf04ba10ae1f843cca8"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/old_music_48k.wav",
+      "bytes": 4746328,
+      "sha256": "c55061a7ebedc89d3a1f6c9de7b95044ef9ceb97e9c2eb6f04ae03a7d61302df"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/old_voice_stereo_48k.wav",
+      "bytes": 4746328,
+      "sha256": "f5e0c1cbadd8b1df99892b983e9d93317e8221a7dd3b94165782a99f67c85dc0"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/timeline.json",
+      "bytes": 4770,
+      "sha256": "c4eb92211ca14263b0d5c47baca608132cbe187790afefaa296ea5112ae3c2f7"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/voice_48k.wav",
+      "bytes": 2373200,
+      "sha256": "fc2100743dbe1a5e24c01deb871b8da17f806a90ee471091c64873fdbb87ae30"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/原采用音乐事件.json",
+      "bytes": 7665,
+      "sha256": "c06cb367b406502bdec1f1123d329a4d58334b439af7a56b171f79cfea721775"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/完整结论A_B核验.json",
+      "bytes": 1988,
+      "sha256": "cae24f669f5e11e81b38b801d6ea4fb6330d1f645bf362cb6de90a07053f41cb"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/mix_48k_stereo.wav",
+      "bytes": 4746298,
+      "sha256": "498a681294e7c54ff331b97aeff0b3d4862ceb7eec84fc240865803bcb6fbd9e"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/mix_preview.mp3",
+      "bytes": 297836,
+      "sha256": "d9dc5e2ea7b41a907481da391b45035f2916a85a16934c077da42a26b70ad150"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/music_48k_stereo.wav",
+      "bytes": 4746298,
+      "sha256": "8b3f382d8b52264b5589759a69f14111b357dff4ed461c7b4e70db1965b7b2dd"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/music_preview.mp3",
+      "bytes": 297836,
+      "sha256": "6c74ba8698453820f1ca31ea17ccacc4b8b150bf661eb9a0e9e8de658795664e"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/music_score_48k_stereo.wav",
+      "bytes": 4746298,
+      "sha256": "3f67b80dec4e6861a9ad77434a7a3a0a75d1c83f4eea651a34127fdcf0a84743"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/score.mid",
+      "bytes": 389,
+      "sha256": "9e58a61fe6a325a595c9562e6662f66cdde8e97311988aa4597999c4e37e81b5"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/sfx_48k_stereo.wav",
+      "bytes": 4746298,
+      "sha256": "8994e4ea50d4970142e77c5151378f23ff9503949db61cadfaf22812e3df832d"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/voice_48k_stereo.wav",
+      "bytes": 4746298,
+      "sha256": "0a3ab6acc525d3651979d2bbff8972701ebad80ba69094b5cba6ab84f1eae05e"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/分轨_piano_48k_float.wav",
+      "bytes": 4746298,
+      "sha256": "494af92fa6f0f6c70e9349add4dd6b01ec31376c85ba5e8b1816ea8edb0a5a1e"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/分轨_pizz_48k_float.wav",
+      "bytes": 4746298,
+      "sha256": "d936ab24a22c623fa0525b60d1bcca4727c3ff361a1e5eacf2f98a1792376992"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/分轨_strings_48k_float.wav",
+      "bytes": 4746298,
+      "sha256": "c5d2b0ec3683f30115ffd7d31d0e7edd349f26b3a9ef0dc7b945712f534e0c64"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/分轨_vibes_48k_float.wav",
+      "bytes": 4746298,
+      "sha256": "8994e4ea50d4970142e77c5151378f23ff9503949db61cadfaf22812e3df832d"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/混音核验.json",
+      "bytes": 1395,
+      "sha256": "584bf260afdf4b3f86261c21ee34af57c3f256c8d74c7ad5993f01649423f35e"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/结论字尾核验.json",
+      "bytes": 453,
+      "sha256": "144a1b6dbe12b1ca51ff6bd21da0cc86d3f135e2edaa15e69ccaf85af945d409"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/编曲执行计划.json",
+      "bytes": 8543,
+      "sha256": "74a92a2f13f0af8f3a24bd98eda6073dbcf0690dde619f7be22903738d8c7f9e"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/编曲记录.json",
+      "bytes": 10737,
+      "sha256": "f558d60134c19762aa054dd50f3fadeb9d090ef27d9f647fcfa19754d85a5c6c"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/音效_48k_stereo.wav",
+      "bytes": 4746298,
+      "sha256": "8994e4ea50d4970142e77c5151378f23ff9503949db61cadfaf22812e3df832d"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/新工具重编/音效来源与时码.json",
+      "bytes": 295,
+      "sha256": "8a9b99800f950ad4b512fa8349dca509a94d73069f81a231ade6d959635c8153"
+    },
+    {
+      "path": "参考库/声音/结论落拍对标/来源.json",
+      "bytes": 549,
+      "sha256": "79f5ec94762bfee45769db6d72c017f0c8da1fbf182112e8a9a47d8ca52d30ec"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/layout.json",
+      "bytes": 1828,
+      "sha256": "c7d43940b97875889a3dfa1529da83485fb8b489ebb840ac6cc775cb019145fa"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/paragraphs.json",
+      "bytes": 3959,
+      "sha256": "c72fcd1f023cc10f91630a6a74c1c7faceefc8587d228d252765c62715a2a41f"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/回归核验.json",
+      "bytes": 1294,
+      "sha256": "b5bfb34aebc294aa9a1f4a9110d0081425958159d4026c9faec83f44373a428d"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/bridge_plan.json",
+      "bytes": 190,
+      "sha256": "12f7605b929a33288405fcfa2307e064b182b21fccc3785465f7d02eeb152564"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/bridge_timeline.json",
+      "bytes": 3711,
+      "sha256": "c503bd48c382216cb1329d4167d4fde72e15a14724b960fd21370b6685122a6d"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/mix_48k_stereo.wav",
+      "bytes": 4899898,
+      "sha256": "b5930ef67a7989faec3b4e673b65070a92ccdb515edb6e3549ab80ae9fedf736"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/mix_preview.mp3",
+      "bytes": 307628,
+      "sha256": "c481b7516814d8272404533c7e75369efe660f37e18db44e1d6aa35d039ca274"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/music_48k_stereo.wav",
+      "bytes": 4899898,
+      "sha256": "da4aba6150a906963fc1e49e5e535c880edaa686b23b76a1fadbcbfc628d04b8"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/music_preview.mp3",
+      "bytes": 307628,
+      "sha256": "2272681f9eeee9abf656460b692cce4dc639a3ff7928127f3d94efa5de90776f"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/music_score_48k_stereo.wav",
+      "bytes": 4899898,
+      "sha256": "a25b051b1b0c9b0ed359ab5f2f2e80776195899cfc10d8bf109ba754c0017a41"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/narration.wav",
+      "bytes": 2450000,
+      "sha256": "d8da23a76b835fef83e02392154112c02ab2373b8eb68da8835d258c38c0d341"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/score.mid",
+      "bytes": 389,
+      "sha256": "1a70466d4cb12d037f09c1020429203e23fc2e82d47a8564784f8999f758212c"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/sfx_48k_stereo.wav",
+      "bytes": 4899898,
+      "sha256": "d8a089bfd00ca46991aef287506cb29e978646a8cf6e782bc4ffa23b6982076a"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/timeline.json",
+      "bytes": 986,
+      "sha256": "b9fa2773bc9bd1d827b3903766a85ced542c29cd48ca14e14413fb1ee69fafb3"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/voice_48k_stereo.wav",
+      "bytes": 4899898,
+      "sha256": "de03246d64371a1ddae4d7e0ed14d70f0b3d2c8d7005b64006b9f3ee05c22b05"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/分轨_piano_48k_float.wav",
+      "bytes": 4899898,
+      "sha256": "5ad2343330927f5a26449cbbe9dd14a53ff6ab144dba1433d9ec9dc7c395c866"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/分轨_pizz_48k_float.wav",
+      "bytes": 4899898,
+      "sha256": "13885ae7948429aaada0cbd375e032f9f774f6915e14747390444a4d561b3c33"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/分轨_strings_48k_float.wav",
+      "bytes": 4899898,
+      "sha256": "d441b2bc7270ab6f83533cd5842a59f719ca6a8bc06d9347376603a32f086193"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/分轨_vibes_48k_float.wav",
+      "bytes": 4899898,
+      "sha256": "7bcaf396a96edc428498f539a8dcd778f6061fc42e3ae3d7f0deb08fcbdb78fa"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/混音核验.json",
+      "bytes": 1418,
+      "sha256": "bda01b2515ef91799bfdc55a25ae8a4522b517d7f6b141bdfb6b5bb3bc7c6a1c"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/编曲执行计划.json",
+      "bytes": 7929,
+      "sha256": "30c77b9a33a499f0b7b84d3d899b090ef9c42f777cdf707e291c446320fd6556"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/编曲记录.json",
+      "bytes": 10143,
+      "sha256": "9416da842941e1e81d4e0c157ff717805f42cf248853d4e47f399edce06b6dc0"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/音效_48k_stereo.wav",
+      "bytes": 4899898,
+      "sha256": "9bb24fefbc5d744ebb04a4820ee86f6789d3c3dd0c6fc8ce88d16fee83d6d6cb"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C01/音效来源与时码.json",
+      "bytes": 538,
+      "sha256": "67429f93219690c89ddb6c98117de110566ad285a7d763ec31c421a3ce25624f"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/mix_48k_stereo.wav",
+      "bytes": 1858618,
+      "sha256": "ca9baf4a04a2e68b72e4cadcbac44b6d0c5f31e637ba0f9a2f672a2fa49445c0"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/mix_preview.mp3",
+      "bytes": 117548,
+      "sha256": "2fb0223f4bf96f70966fb5dcfe4381a7eefea84cb6a890b9c249bbda4eed23af"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/music_48k_stereo.wav",
+      "bytes": 1858618,
+      "sha256": "ebedbef62a5855c9aab7a65eba18c1318dfeea35d9972ad4f805750367a5ecca"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/music_preview.mp3",
+      "bytes": 117548,
+      "sha256": "e6862f6ce50d31f154147a4f7463ebccb28c02b8a7d9570a6909be23688609b8"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/music_score_48k_stereo.wav",
+      "bytes": 1858618,
+      "sha256": "dcf973e6c3de9ea909667aa698c0b1db94dce94c734f81367f4dcbde717f82df"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/narration.wav",
+      "bytes": 929360,
+      "sha256": "c5f0f1854628d229f507fafc84ec32c653e5c191eba714899771f6f7abac5605"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/score.mid",
+      "bytes": 271,
+      "sha256": "d12f2b083e9278dbbec058b2da6b4a6e8288a1c5828e59ababad493db33f770a"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/sfx_48k_stereo.wav",
+      "bytes": 1858618,
+      "sha256": "9db038909dd9e246d2112a1c1349d62063aa676939a8655b8e2d6efc7a3ffb33"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/timeline.json",
+      "bytes": 261,
+      "sha256": "48952e7a87ebebd066647b8652caac66e3f0af0001871e47336c6b8c4abc2006"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/voice_48k_stereo.wav",
+      "bytes": 1858618,
+      "sha256": "ce49994ff1f1c3251d5712f01840bd9aaea64421693d6892cf61c2b01e30a376"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/分轨_piano_48k_float.wav",
+      "bytes": 1858618,
+      "sha256": "35941afb4b40538c14083c330eb3442144c498ef343b6516d23810e59e87f3cd"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/分轨_pizz_48k_float.wav",
+      "bytes": 1858618,
+      "sha256": "071cb6d477b1dae5b8732ccd731392a8af1f411691254ffe7544d0f1f76ad655"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/分轨_strings_48k_float.wav",
+      "bytes": 1858618,
+      "sha256": "294b5cde0408a2fd21874c9df9814ce50e9a174ade8f0f4df7c9af82a8dd2c7f"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/分轨_vibes_48k_float.wav",
+      "bytes": 1858618,
+      "sha256": "9db038909dd9e246d2112a1c1349d62063aa676939a8655b8e2d6efc7a3ffb33"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/混音核验.json",
+      "bytes": 1428,
+      "sha256": "93e78b2c61e82c85d3cf7229f5d6d3eb5cc3bcedb935417c257f6201dbb150d0"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/编曲执行计划.json",
+      "bytes": 4144,
+      "sha256": "2eb1154cac38c4a092c87204733c0dc02d0a70e63fcd2b7f9915a46b1eeca1f5"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/编曲记录.json",
+      "bytes": 6356,
+      "sha256": "b31af2bed75e182dcdd2b9b6252bd5424bdcff0980b0f89dbaadaedb1b2c5e27"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/音效_48k_stereo.wav",
+      "bytes": 1858618,
+      "sha256": "9db038909dd9e246d2112a1c1349d62063aa676939a8655b8e2d6efc7a3ffb33"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/chapters/C02/音效来源与时码.json",
+      "bytes": 299,
+      "sha256": "02a90359f2e0dffa459a649e191876867f964863242a38c2924b6139bc536eb4"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/film_audio_report.json",
+      "bytes": 1435,
+      "sha256": "467f4ae5b5258af3694a44374806fbaf29b5466d5316455d9de57a19b963cace"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/final/mix_48k_stereo.wav",
+      "bytes": 6758488,
+      "sha256": "84c7a246098196ef15b7e8a566528e65f9525e508e19b4f919e2c8b3d9d4d086"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/final/music_48k_stereo.wav",
+      "bytes": 6758488,
+      "sha256": "2ea89b87d089d3213ddcd3bab4b54de4e19da61706f493320d762dab97818086"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/final/sfx_48k_stereo.wav",
+      "bytes": 6758488,
+      "sha256": "a307c296f5c96313b4ef353bd34d52bf1c079a3adbf15035bc40c70677a48fd5"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/final/voice_48k_stereo.wav",
+      "bytes": 6758488,
+      "sha256": "3ba45afb7bbd381c44148cb58ac9ea21940946f3272f3fba725ebd43ee0ef9fc"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/final/桥接_01_02.wav",
+      "bytes": 614488,
+      "sha256": "c2fe924c40464435b04ee5666b795478ec763d96266319bb746d0d1ba6309546"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/final/衔接配乐核验.json",
+      "bytes": 4882,
+      "sha256": "509f47a26841a825d8048b3123ce472128db50e4242d79c267fb7972ce21fa79"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/混音/final/音乐桥执行计划.json",
+      "bytes": 4201,
+      "sha256": "b4fa5ea9235dc900b6328800d0ef7e5abf13aa04996ddc4ff69907bd6ace0126"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/assembly_verification.json",
+      "bytes": 1827,
+      "sha256": "aaedfd24983e63cdacd862f253aabf329d8d92afb83e34c8aa8f02de379569ed"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/chapters/chapter_01_48k_mono.wav",
+      "bytes": 2450000,
+      "sha256": "c81ebd7c85c9629a880c3be9bf747bd41f2e180aeaf58b6f5c2ab874efb7d2eb"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/chapters/chapter_02_48k_mono.wav",
+      "bytes": 929360,
+      "sha256": "cbb262b5e9e726f5bc70f2af9b83c3844f68105445a20ea0cc0890758fea3902"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/media_chapters.json",
+      "bytes": 136,
+      "sha256": "5be3564d2fec45c52aaf55259ca0290269d5ec6a931c8458b34566f86b41934f"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/narration_48k_mono.wav",
+      "bytes": 3379280,
+      "sha256": "8f8ceb754326406e6f04b70efac70c402ad7f98ca56ba5522a6beb4d923267c9"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/subtitles.json",
+      "bytes": 729,
+      "sha256": "63a34b8fc758a7864c2ccfadc2befd76fc55a7542ea8882107696058b033ab3b"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/subtitles.srt",
+      "bytes": 490,
+      "sha256": "42d07567407d8900a6add27ada3f01fb3eeabbf915de6daaae1420c2b15fd5f5"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/timeline.json",
+      "bytes": 11042,
+      "sha256": "15ece0146780e4ddfbc9ecb8871c7723acc9cf38d2759022f0f7ca5d38202421"
+    },
+    {
+      "path": "参考库/声音/节拍联动回归/编排/visual_cues.json",
+      "bytes": 593,
+      "sha256": "92aa69242e3f88d456398f708b944e911961013fa04e520739f2046c288b5768"
+    },
+    {
+      "path": "参考库/声音/试听默认声音.html",
+      "bytes": 5387,
+      "sha256": "e234173a03128262327be24cd613bbf8092e6c2836f9cd3d3e45183c258c275b"
+    },
+    {
+      "path": "参考库/声音/音乐留白实际执行核验.json",
+      "bytes": 260,
+      "sha256": "61bcbf91d706fec2a681306f20dacea9510794df106aa73c1aebeeea7b4365d7"
+    },
+    {
+      "path": "参考库/声音/音源/GeneralUser-GS.sf2",
+      "bytes": 32319396,
+      "sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+    },
+    {
+      "path": "参考库/声音/音源/GeneralUser-GS_LICENSE.txt",
+      "bytes": 2317,
+      "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be"
+    },
+    {
+      "path": "参考库/声音/音源/原始下载来源.json",
+      "bytes": 537,
+      "sha256": "e734156d587db580e2ba83fe7bfde58b1976aa800840dcb1da223a09ac06ab51"
+    },
+    {
+      "path": "参考库/声音/音源/音源校准.json",
+      "bytes": 632,
+      "sha256": "e314857eb04cddbf335caa36bc868b1b5feb90cc76ad000292060e449fa205fd"
+    },
+    {
+      "path": "工具/声音/assemble_voice.py",
+      "bytes": 9939,
+      "sha256": "f2a89da2aa5c5eab02bd43a5c99af659ea7b671b88da28922ef8835fa4348423"
+    },
+    {
+      "path": "工具/声音/assembly.schema.json",
+      "bytes": 5528,
+      "sha256": "96c613baa5c16e6f3b24b245ac387ba83e631b2afbd7f2dc462b09d1f59c2091"
+    },
+    {
+      "path": "工具/声音/bridge.py",
+      "bytes": 16366,
+      "sha256": "c28c5484199943ec290b3d1faae9185415fd4d223336e5f7e4157a409004e079"
+    },
+    {
+      "path": "工具/声音/editorial.py",
+      "bytes": 2743,
+      "sha256": "f94c3c3530c3ee196cc54816867b068de11455b051c88fb862023725ba52d28f"
+    },
+    {
+      "path": "工具/声音/midi_export.py",
+      "bytes": 1272,
+      "sha256": "0fd214fd565e2063070175d56508dd0cec062ddc94d38595eef244584c611b20"
+    },
+    {
+      "path": "工具/声音/mix_helpers.py",
+      "bytes": 1114,
+      "sha256": "f99dbeb6bb2d5f1969295852a6b87a732052da14d1ccac006ffbca0db2e8d64b"
+    },
+    {
+      "path": "工具/声音/pause.py",
+      "bytes": 1872,
+      "sha256": "7a4a22c5c7f9b73d1bfb45d49ffd1598d528a07bec317d9dcfa56d885cabedfc"
+    },
+    {
+      "path": "工具/声音/prepare_voice.py",
+      "bytes": 13467,
+      "sha256": "6b2e4df887c182013952947b9adc0b8ba6cbdc36da7e399c0f008b7ec78c8804"
+    },
+    {
+      "path": "工具/声音/rebuild_opening_reference.py",
+      "bytes": 2474,
+      "sha256": "3415f06eb2a7bb0026a70a5d81be2147a8f2e5bc3ed8b6f516325f5e4d596349"
+    },
+    {
+      "path": "工具/声音/sampler.py",
+      "bytes": 5890,
+      "sha256": "4d003d354bbdb2baab3728f4d8f0167346a70c3e0485ba18e8b8bf6a7c2d9164"
+    },
+    {
+      "path": "工具/声音/score_film.py",
+      "bytes": 5129,
+      "sha256": "a648f841b9eb2722334524e18e3199faa1a8615c213139ba20bb485c7e6533c1"
+    },
+    {
+      "path": "工具/声音/score_mix.py",
+      "bytes": 30248,
+      "sha256": "00f6022912f3373060608e299721fb2b0dd09bd534630a69b95b42ec1346c1e9"
+    },
+    {
+      "path": "工具/声音/timeline.schema.json",
+      "bytes": 5816,
+      "sha256": "b160e9e9cb4ea4c9b08c8eb6bcd9c1611284d94422c8800b2c138bdfcbd0360f"
+    },
+    {
+      "path": "工具/声音/timing.py",
+      "bytes": 2391,
+      "sha256": "741c193ef38b9ac201e623f5b541ce8caadca36ed0d81b117ec8f6d499b5ebc8"
+    },
+    {
+      "path": "工具/声音/tts.py",
+      "bytes": 13330,
+      "sha256": "54e4f57e4a932e8fbfd3c0fd4301d9a4baacb8cdf290384cf83c1e177ec7b0ba"
+    },
+    {
+      "path": "工具/声音/verify_assembly.py",
+      "bytes": 3397,
+      "sha256": "55c0fb3dd3519ea78537714b0af89ee5ae5a6e1e63ad83fe885121f7613223ac"
+    },
+    {
+      "path": "工具/声音/verify_editorial.py",
+      "bytes": 5547,
+      "sha256": "1b14eb6928802e5a7b89e3b0017f0703fd0ba392ab98384f00da865fae81a324"
+    },
+    {
+      "path": "工具/声音/verify_reference.py",
+      "bytes": 4247,
+      "sha256": "e79a3f01bdbde5af17b06c83067441fc6f2c104a4a0f8834f031a89eaf547e36"
+    },
+    {
+      "path": "工具/声音/verify_tts_offline.py",
+      "bytes": 3544,
+      "sha256": "f707a1d99071bacd47b5a127d75d7bff32d1ca1aa91597123231947e6e082d4a"
+    },
+    {
+      "path": "文档/03_默认配音与配乐.md",
+      "bytes": 25430,
+      "sha256": "b901a5609d44361326fba52fe31a30afea5178902b7f138ea882bc4fa814687b"
+    },
+    {
+      "path": "默认配置/声音.json",
+      "bytes": 4815,
+      "sha256": "31d6bf5487c2f6719b035a3dfee1a1a5bb3efb583166c25e2b233362b7f58533"
+    }
+  ],
+  "paid_calls": 1,
+  "old_project_required": false
+}

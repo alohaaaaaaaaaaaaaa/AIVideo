@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "method": "RGBA pixel comparison against source production PNGs",
+  "date": "2026-10-23",
+  "checks": [
+    {
+      "file": "透明PNG/啊子牙_悠哉_B站无账号_1080p.png",
+      "size": [
+        224,
+        70
+      ],
+      "rebuild_pixel_identical": true,
+      "source_sha256": "0df441dca5484d789c8c4433b2c3d38c4a61840b695825b8f05cb8245ff47a38",
+      "output_sha256": "0df441dca5484d789c8c4433b2c3d38c4a61840b695825b8f05cb8245ff47a38"
+    },
+    {
+      "file": "透明PNG/啊子牙_悠哉_B站无账号_4K.png",
+      "size": [
+        448,
+        140
+      ],
+      "rebuild_pixel_identical": true,
+      "source_sha256": "88ff16b6153731d5f4b2395f819bc139dd4ef11ef7a863015c4f28e66ee42cb1",
+      "output_sha256": "88ff16b6153731d5f4b2395f819bc139dd4ef11ef7a863015c4f28e66ee42cb1"
+    },
+    {
+      "file": "透明PNG/啊子牙_悠哉_B站无账号_高清母版.png",
+      "size": [
+        896,
+        280
+      ],
+      "rebuild_pixel_identical": true,
+      "source_sha256": "437860ca2bfcba99fa4a098200f07c9de795b0811a01fbc39c4d0fecc56c8269",
+      "output_sha256": "437860ca2bfcba99fa4a098200f07c9de795b0811a01fbc39c4d0fecc56c8269"
+    }
+  ]
+}

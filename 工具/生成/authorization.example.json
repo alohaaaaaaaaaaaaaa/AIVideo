@@ -1,0 +1,21 @@
+{
+  "approved": false,
+  "plan_sha256": "填写本期plan.json的SHA256",
+  "approval_reference": "引用本次会话中真实已有的生成授权，不虚构同意",
+  "scope": "本期已审定镜头N001，具体用途",
+  "approved_shot_ids": [
+    "N001"
+  ],
+  "budget_cap_cny": 0,
+  "max_new_tasks": 0,
+  "price_basis": {
+    "verified_for_this_plan": false,
+    "checked_at": "填写本期实际查询时间",
+    "source_url": "填写本期官方现价或账户可用型号的来源",
+    "evidence_file": "本期价格依据.md",
+    "evidence_sha256": "价格依据文件SHA256",
+    "unit_prices_cny": {
+      "N001": 0
+    }
+  }
+}

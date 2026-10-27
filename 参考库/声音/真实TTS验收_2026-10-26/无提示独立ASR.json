@@ -1,0 +1,186 @@
+{
+  "model": "faster-whisper-small",
+  "input_audio_sha256": "090e97457212ce278aa81edfabe0c6568e0a19e79bb798d4880456c26023009c",
+  "scope": "whole new real-API sentence",
+  "initial_prompt": null,
+  "language": "zh",
+  "asr_text": "我是阿子牙,今天我們順著證據往下查,網友police留下的線索到底能說明什麼",
+  "segments": [
+    {
+      "text": "我是阿子牙,今天我們順著證據往下查,網友police留下的線索到底能說明什麼",
+      "start": 0.0,
+      "end": 6.12,
+      "words": [
+        {
+          "word": "我是",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.9718825817108154
+        },
+        {
+          "word": "阿",
+          "start": 0.28,
+          "end": 0.48,
+          "probability": 0.9853936433792114
+        },
+        {
+          "word": "子",
+          "start": 0.48,
+          "end": 0.58,
+          "probability": 0.32749661803245544
+        },
+        {
+          "word": "牙,",
+          "start": 0.58,
+          "end": 0.82,
+          "probability": 0.6413244307041168
+        },
+        {
+          "word": "今天",
+          "start": 1.14,
+          "end": 1.36,
+          "probability": 0.978646457195282
+        },
+        {
+          "word": "我們",
+          "start": 1.36,
+          "end": 1.66,
+          "probability": 0.45287302136421204
+        },
+        {
+          "word": "順",
+          "start": 1.66,
+          "end": 1.86,
+          "probability": 0.9952178299427032
+        },
+        {
+          "word": "著",
+          "start": 1.86,
+          "end": 2.02,
+          "probability": 0.9647585153579712
+        },
+        {
+          "word": "證",
+          "start": 2.02,
+          "end": 2.18,
+          "probability": 0.9924522936344147
+        },
+        {
+          "word": "據",
+          "start": 2.18,
+          "end": 2.32,
+          "probability": 0.9973393082618713
+        },
+        {
+          "word": "往",
+          "start": 2.32,
+          "end": 2.46,
+          "probability": 0.9872345328330994
+        },
+        {
+          "word": "下",
+          "start": 2.46,
+          "end": 2.62,
+          "probability": 0.9967028498649597
+        },
+        {
+          "word": "查,",
+          "start": 2.62,
+          "end": 2.88,
+          "probability": 0.9977059364318848
+        },
+        {
+          "word": "網",
+          "start": 3.2,
+          "end": 3.48,
+          "probability": 0.9731032252311707
+        },
+        {
+          "word": "友",
+          "start": 3.48,
+          "end": 3.66,
+          "probability": 0.9958018660545349
+        },
+        {
+          "word": "pol",
+          "start": 3.66,
+          "end": 3.82,
+          "probability": 0.2382814735174179
+        },
+        {
+          "word": "ice",
+          "start": 3.82,
+          "end": 4.04,
+          "probability": 0.7148386240005493
+        },
+        {
+          "word": "留",
+          "start": 4.04,
+          "end": 4.24,
+          "probability": 0.8158208727836609
+        },
+        {
+          "word": "下",
+          "start": 4.24,
+          "end": 4.42,
+          "probability": 0.9920464754104614
+        },
+        {
+          "word": "的",
+          "start": 4.42,
+          "end": 4.52,
+          "probability": 0.9938659071922302
+        },
+        {
+          "word": "線",
+          "start": 4.52,
+          "end": 4.68,
+          "probability": 0.9916399717330933
+        },
+        {
+          "word": "索",
+          "start": 4.68,
+          "end": 4.96,
+          "probability": 0.9991650283336639
+        },
+        {
+          "word": "到底",
+          "start": 4.96,
+          "end": 5.34,
+          "probability": 0.7345364093780518
+        },
+        {
+          "word": "能",
+          "start": 5.34,
+          "end": 5.56,
+          "probability": 0.9923778772354126
+        },
+        {
+          "word": "說",
+          "start": 5.56,
+          "end": 5.74,
+          "probability": 0.9954582452774048
+        },
+        {
+          "word": "明",
+          "start": 5.74,
+          "end": 5.9,
+          "probability": 0.9990556836128235
+        },
+        {
+          "word": "什麼",
+          "start": 5.9,
+          "end": 6.12,
+          "probability": 0.9383255839347839
+        }
+      ]
+    }
+  ],
+  "duration": 6.478375,
+  "uses_existing_local_model_only_for_this_audit": true,
+  "normal_studio_runtime_requires_old_project": false,
+  "new_paid_calls": 0,
+  "human_listening_claimed": false,
+  "phonetic_tone_certification_claimed": false,
+  "name_and_english_judgment": "ASR and waveform are supporting checks, not proof of subjective naturalness or exact tones."
+}

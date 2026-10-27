@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "failed_do_not_use_as_complete_evidence",
+  "captured_at_utc": "2026-10-26T14:02:29.910878+00:00",
+  "mode": "public_url",
+  "requested_url": "http://127.0.0.1:60055/forbidden",
+  "viewport_css": [
+    800,
+    600
+  ],
+  "device_scale_factor": 2,
+  "scripts_enabled": false,
+  "logged_in_profile_used": false,
+  "source_text_rewritten": false,
+  "css_override_injected": false,
+  "network_requests_sent": 1,
+  "resources": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:60055/forbidden",
+      "method": "GET",
+      "action": "public_read_without_login"
+    }
+  ],
+  "regions": [],
+  "limitations": [],
+  "archive_render_url": null,
+  "archive_render_origin_differs_from_source": false,
+  "error": "页面拒绝访问/鉴权/限流；停止，不尝试绕过"
+}

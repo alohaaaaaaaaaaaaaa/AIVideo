@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "status": "captured_coordinate_audit_required",
+  "captured_at_utc": "2026-10-26T13:53:36.909493+00:00",
+  "mode": "archived_html",
+  "requested_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+  "viewport_css": [
+    1440,
+    1080
+  ],
+  "device_scale_factor": 3,
+  "scripts_enabled": false,
+  "logged_in_profile_used": false,
+  "source_text_rewritten": false,
+  "css_override_injected": false,
+  "network_requests_sent": 0,
+  "resources": [
+    {
+      "url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "path": "原始资源/main_original.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "content_type": "text/html; charset=gb18030",
+      "bytes": 84799,
+      "role": "unchanged_saved_main_html"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "path": "原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "content_type": "text/css; charset=gb18030",
+      "bytes": 39319,
+      "role": "saved_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "path": "原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "content_type": "text/css; charset=gb18030",
+      "bytes": 9835,
+      "role": "saved_resource"
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef"
+    },
+    {
+      "url": "http://i0.sinaimg.cn/home/deco/2009/0330/con_logo_news.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d3.sina.com.cn/litong/huangxu/zhongshi/xinwenny/zswm_zty_logo.jpg",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d1.sina.com.cn/201010/09/257222_pic1.jpg",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d4.sina.com.cn/201010/09/257224_pic2.jpg",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://beacon.sina.com.cn/a.gif?noScript",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/c.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d1.sina.com.cn/iframe/5/2008/0714/5.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/gn/2009-03-30/163355.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/contentpfp/blog/book.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/gn/2007-03-09/152915.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/1127/11.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/no/2010-08-31/1539111.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0722/3.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d4.sina.com.cn/iframe/2008/0829/1/serious.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0723/5.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d5.sina.com.cn/jianyu1/TaoBao/NB10110188/taobao_if_1115.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/2008/1023/1.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/gn/2009-08-14/194974.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0829/9.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d5.sina.com.cn/iframe/gn/2007-09-28/215322.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i1.sinaimg.cn/dy/news/2008/0708/con_bg_standard_001.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/dy/news/2008/0708/con_bg_standard_002.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/IT/deco/2009/0930/images/wbicon_cl_002.png",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i3.sinaimg.cn/dy/news/2008/0708/con_mj_001.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i3.sinaimg.cn/dy/news/2008/0708/con_bg_standard_003.gif",
+      "action": "blocked_unavailable_archived_resource"
+    }
+  ],
+  "regions": [
+    {
+      "id": "cctv_title",
+      "quote": "央视《经济半小时》：低空开放可淘金？",
+      "quote_text_sha256": "549677952fce128b4fd5af1c38a5c252dec383ea4d63621fcc6072445f9a7e99",
+      "selector": "body",
+      "context_text": "央视《经济半小时》：低空开放可淘金？",
+      "image": "原始截图/cctv_title.png",
+      "image_sha256": "1d0e57ccaed465ae7cceaf5fe6e41d9b041ec0e13f03e5ca4f0556970b5918d4",
+      "clip_css": {
+        "x": 200.0,
+        "y": 0,
+        "width": 720.0,
+        "height": 326.25
+      },
+      "quote_rects_css_document": [
+        [
+          385,
+          149,
+          745,
+          171
+        ]
+      ],
+      "quote_rects_image_pixels": [
+        [
+          555.0,
+          447,
+          1635.0,
+          513
+        ]
+      ],
+      "focus_rect_image_pixels": [
+        555.0,
+        447,
+        1635.0,
+        513
+      ],
+      "marks": [],
+      "source_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "capture_mode": "archived_html"
+    },
+    {
+      "id": "cctv_case",
+      "quote": "记者了解到， 2010年7月7日晚间杭州萧山机场出现了不明飞行物。最终，经有关部门证实不明飞行物是一架擅自非法飞行的小型私人飞机，与UFO事件没有任何关系，是一起典型的“黑飞”事件。",
+      "quote_text_sha256": "8cbe27b1292ec8ca43dc89fbf506f79ebc14f623bbb82bbb94e21f710f4df890",
+      "selector": "body",
+      "context_text": "　　记者了解到， 2010年7月7日晚间杭州萧山机场出现了不明飞行物。最终，经有关部门证实不明飞行物是一架擅自非法飞行的小型私人飞机，与UFO事件没有任何关系，是一起典型的“黑飞”事件。",
+      "image": "原始截图/cctv_case.png",
+      "image_sha256": "b80aa5e01e2f7c31cf7aa976e8e03ee18b3726eace0b9b3fe7bb1a1a7af6722c",
+      "clip_css": {
+        "x": 200.0,
+        "y": 349.375,
+        "width": 720.0,
+        "height": 326.25
+      },
+      "quote_rects_css_document": [
+        [
+          308,
+          482,
+          843.5,
+          497
+        ],
+        [
+          280,
+          505,
+          840.015625,
+          520
+        ],
+        [
+          280,
+          528,
+          376.4375,
+          543
+        ]
+      ],
+      "quote_rects_image_pixels": [
+        [
+          324.0,
+          397.875,
+          1930.5,
+          442.875
+        ],
+        [
+          240.0,
+          466.875,
+          1920.0469,
+          511.875
+        ],
+        [
+          240.0,
+          535.875,
+          529.3125,
+          580.875
+        ]
+      ],
+      "focus_rect_image_pixels": [
+        240.0,
+        397.875,
+        1930.5,
+        580.875
+      ],
+      "marks": [
+        {
+          "id": "date",
+          "quote": "2010年7月7日",
+          "rects_css_document": [
+            [
+              395.5,
+              482,
+              479.5,
+              497
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              586.5,
+              397.875,
+              838.5,
+              442.875
+            ]
+          ]
+        },
+        {
+          "id": "airport",
+          "quote": "杭州萧山机场",
+          "rects_css_document": [
+            [
+              507.5,
+              482,
+              591.5,
+              497
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              922.5,
+              397.875,
+              1174.5,
+              442.875
+            ]
+          ]
+        },
+        {
+          "id": "confirmation",
+          "quote": "经有关部门证实",
+          "rects_css_document": [
+            [
+              759.5,
+              482,
+              843.5,
+              497
+            ],
+            [
+              280,
+              505,
+              294,
+              520
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              1678.5,
+              397.875,
+              1930.5,
+              442.875
+            ],
+            [
+              240.0,
+              466.875,
+              282.0,
+              511.875
+            ]
+          ]
+        },
+        {
+          "id": "private_plane",
+          "quote": "小型私人飞机",
+          "rects_css_document": [
+            [
+              504,
+              505,
+              588,
+              520
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              912.0,
+              466.875,
+              1164.0,
+              511.875
+            ]
+          ]
+        },
+        {
+          "id": "illegal_flight",
+          "quote": "典型的“黑飞”事件",
+          "rects_css_document": [
+            [
+              812,
+              505,
+              840.015625,
+              520
+            ],
+            [
+              280,
+              528,
+              362.4375,
+              543
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              1836.0,
+              466.875,
+              1920.0469,
+              511.875
+            ],
+            [
+              240.0,
+              535.875,
+              487.3125,
+              580.875
+            ]
+          ]
+        }
+      ],
+      "source_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "capture_mode": "archived_html"
+    }
+  ],
+  "limitations": [
+    "当前浏览器渲染保存原HTML，并非历史屏幕录像。",
+    "没有补造原站资源；远程未保存资源全部阻断。",
+    "制作配置的滚动或点击是后期阅读动作，不是原网站实际交互录屏。"
+  ],
+  "resolved_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+  "title": "央视《经济半小时》：低空开放可淘金？_新闻中心_新浪网",
+  "browser": "151.0.7922.34",
+  "http_status": 200,
+  "document_size_css": {
+    "width": 1440,
+    "height": 3320
+  },
+  "page_metadata": {},
+  "responses": [],
+  "source_kind": "current_browser_rendering_of_unchanged_saved_html",
+  "current_capture_not_historical_screenshot": true,
+  "paid_api_calls": 0,
+  "authentication_bypassed": false,
+  "files": [
+    {
+      "path": "visible_full_text.txt",
+      "sha256": "1a12249a71dda5ab4a31f8f33305220a861ac8d0069039367b1dcdf6a4291108",
+      "bytes": 9687
+    },
+    {
+      "path": "capture_config.json",
+      "sha256": "6526785d62f404e497a533b138153fd41aa6dfeb35ecf3e9d39fc0faa0e0e9e0",
+      "bytes": 2014
+    },
+    {
+      "path": "rendered_dom.html",
+      "sha256": "39c4f0e42bcf2841d1a167a54eb3b5c92623e11231b2a2b4a5c02bc1a0b16667",
+      "bytes": 89273
+    },
+    {
+      "path": "原始截图/viewport.png",
+      "sha256": "44658baa937cbfa496149dbc44daf3bd2b568b78f4c7a96343a4a2d5a683b9bb",
+      "bytes": 1287666
+    },
+    {
+      "path": "原始截图/full_page.png",
+      "sha256": "f93e850fccddf13a799bbaa377c2cb6942379d3756c8356e13c2ead9cc1d22f6",
+      "bytes": 3563197
+    },
+    {
+      "path": "原始截图/cctv_case.png",
+      "sha256": "b80aa5e01e2f7c31cf7aa976e8e03ee18b3726eace0b9b3fe7bb1a1a7af6722c",
+      "bytes": 394055
+    },
+    {
+      "path": "原始截图/cctv_title.png",
+      "sha256": "1d0e57ccaed465ae7cceaf5fe6e41d9b041ec0e13f03e5ca4f0556970b5918d4",
+      "bytes": 287172
+    },
+    {
+      "path": "原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "原始资源/main_original.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "bytes": 84799
+    },
+    {
+      "path": "原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    }
+  ]
+}

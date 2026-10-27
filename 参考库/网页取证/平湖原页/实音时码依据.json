@@ -1,0 +1,156 @@
+{
+  "final_duration": 1319.96,
+  "global_start": 1097.56,
+  "global_end": 1118.08,
+  "paragraphs": [
+    {
+      "paragraph_index": 1,
+      "text": "二〇一〇年四月二十七日，浙江嘉兴平湖。九龙旅游度假山庄为了筹划飞行俱乐部，做了一次飞行表演。飞行员未经军民航批准，驾驶直升机升空飞行十分钟。",
+      "chapter": "11",
+      "id": "C11P001",
+      "start": 1097.56,
+      "end": 1110.8,
+      "duration": 13.24,
+      "audio_path": "/Users/elton/Documents/xsuvidio/xsufo/10_重新策划/全片终版/叙事优化制作/声音/段落/11/P001_48k_mono.wav",
+      "phrases": [
+        {
+          "text": "二〇一〇年四月二十七日，",
+          "start": 1097.6044,
+          "end": 1099.2044,
+          "tts_text": "二〇一〇年四月二十七日，",
+          "source_phrase_indices": [
+            0
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "浙江嘉兴平湖。",
+          "start": 1099.2489,
+          "end": 1100.6267,
+          "tts_text": "浙江嘉兴平湖。",
+          "source_phrase_indices": [
+            1
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "九龙旅游度假山庄为了筹划飞行俱乐部，",
+          "start": 1100.8044,
+          "end": 1103.96,
+          "tts_text": "九龙旅游度假山庄为了筹划飞行俱乐部，",
+          "source_phrase_indices": [
+            2
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "做了一次飞行表演。",
+          "start": 1104.0044,
+          "end": 1105.3822,
+          "tts_text": "做了一次飞行表演。",
+          "source_phrase_indices": [
+            3
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "飞行员未经军民航批准，",
+          "start": 1105.4711,
+          "end": 1107.7378,
+          "tts_text": "飞行员未经军民航批准，",
+          "source_phrase_indices": [
+            4
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "驾驶直升机升空飞行十分钟。",
+          "start": 1107.7822,
+          "end": 1110.2711,
+          "tts_text": "驾驶直升机升空飞行十分钟。",
+          "source_phrase_indices": [
+            5
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        }
+      ],
+      "added_pauses": [],
+      "cadence_edits": {
+        "internal": [],
+        "observation_tail": 0.0,
+        "chapter_breathing_tail": 0.0,
+        "source_duration": 13.24
+      }
+    },
+    {
+      "paragraph_index": 2,
+      "text": "报道写得很清楚：这次飞行，造成了上海浦东、虹桥两座机场的航班大面积延误。",
+      "chapter": "11",
+      "id": "C11P002",
+      "start": 1110.8,
+      "end": 1118.08,
+      "duration": 7.28,
+      "audio_path": "/Users/elton/Documents/xsuvidio/xsufo/10_重新策划/全片终版/叙事优化制作/声音/段落/11/P002_48k_mono.wav",
+      "phrases": [
+        {
+          "text": "报道写得很清楚：",
+          "start": 1110.8444,
+          "end": 1111.8667,
+          "tts_text": "报道写得很清楚：",
+          "source_phrase_indices": [
+            0
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "这次飞行，",
+          "start": 1112.0,
+          "end": 1112.8444,
+          "tts_text": "这次飞行，",
+          "source_phrase_indices": [
+            1
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "造成了上海浦东、虹桥两座机场的航班大面积延误。",
+          "start": 1112.8889,
+          "end": 1117.5556,
+          "tts_text": "造成了上海浦东、虹桥两座机场的航班大面积延误。",
+          "source_phrase_indices": [
+            2
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        }
+      ],
+      "added_pauses": [],
+      "cadence_edits": {
+        "internal": [],
+        "observation_tail": 0.0,
+        "chapter_breathing_tail": 0.0,
+        "source_duration": 7.28
+      }
+    }
+  ],
+  "copied_audio": [
+    {
+      "path": "输入/P001_48k_mono.wav",
+      "sha256": "7873cfc5c586055aa1a2786b86b8e4c7d9e345e458884a78734196c7af6cb4ac",
+      "source_sha256": "7873cfc5c586055aa1a2786b86b8e4c7d9e345e458884a78734196c7af6cb4ac"
+    },
+    {
+      "path": "输入/P002_48k_mono.wav",
+      "sha256": "30a1e82de4d58187ca421cdd761640c6dfc37eaecc950c2e04bfb39c13b3c02a",
+      "source_sha256": "30a1e82de4d58187ca421cdd761640c6dfc37eaecc950c2e04bfb39c13b3c02a"
+    }
+  ]
+}

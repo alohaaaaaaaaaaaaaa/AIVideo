@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "unique_real_submit_events": 1,
+  "artifact_hashes_match": true,
+  "label_review_complete": true,
+  "local_preview_links": 7,
+  "all_local_preview_links_exist": true,
+  "private_header_and_signed_url_absent_from_json": true,
+  "billing_unknown_preserved": true,
+  "video_py_compile": true,
+  "paid_calls_in_this_check": 0
+}

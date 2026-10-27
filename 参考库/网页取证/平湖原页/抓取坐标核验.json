@@ -1,0 +1,220 @@
+{
+  "status": "passed_with_visual_note",
+  "capture": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/平湖原页/抓取_20261026/capture.json",
+  "capture_sha256": "c03576e3e4128ffb1b4f8b1f7397c7624081b71663730a6325139b4e05782858",
+  "checks": [
+    {
+      "check": "capture_not_failed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_text_not_retyped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_css_injected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_network_in_archived_mode",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:visible_full_text.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:capture_config.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:rendered_dom.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/viewport.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/full_page.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/pinghu.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/002_sina_theme.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/main_original.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/001_sina_master.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:screenshot_dimensions",
+      "passed": true,
+      "detail": [
+        2160,
+        978
+      ]
+    },
+    {
+      "check": "pinghu:quoted_context_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:quote_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:full_quote:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:full_quote:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:full_quote:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:full_quote:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:full_quote:in_capture_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:full_quote:transform_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:full_quote:in_capture_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark_is_original:date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:date:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:date:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:date:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark_is_original:permit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:permit:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:permit:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:permit:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark_is_original:flight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:flight:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:flight:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:flight:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark_is_original:impact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:impact:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:impact:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:impact:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:impact:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pinghu:mark:impact:in_capture_1",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "visual_review": {
+    "performed": true,
+    "note": "已查看保存原页及编码20.48秒实际帧，全文三行完整，日期、许可、十分钟与跨行延误红线对准原字，单一底栏未遮有效正文。"
+  },
+  "scope": "Integrity and coordinate geometry. Does not independently prove the source claims or copyright ownership."
+}

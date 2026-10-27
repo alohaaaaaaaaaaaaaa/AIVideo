@@ -1,0 +1,312 @@
+{
+  "sources": [
+    {
+      "id": "M01",
+      "path": "10_重新策划/调查后续/来源缓存/M01_禁航报道.html",
+      "url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "original_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "encoding": "gb18030",
+      "viewport": 1280,
+      "label": "新浪转载 · 四川新闻网—成都商报 · 2010-06-29 05:17",
+      "limit": "新闻转引训练通告 · 6月30日至7月5日的船舶禁航，不是萧山机场禁飞",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "reused_styles": [
+        {
+          "requested_url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+          "path": "10_重新策划/调查后续/证据素材/走访与军事报道/原站样式/sina_master.css",
+          "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+          "fetch_record": {
+            "original_url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+            "file": "sina_master.css",
+            "success": true,
+            "used_cache": true,
+            "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+            "public_fetch_candidates": [
+              "https://news.sina.com.cn/iframe/87/new20080718/master.css"
+            ]
+          }
+        },
+        {
+          "requested_url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+          "path": "10_重新策划/调查后续/证据素材/走访与军事报道/原站样式/sina_theme.css",
+          "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+          "fetch_record": {
+            "original_url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+            "file": "sina_theme.css",
+            "success": true,
+            "used_cache": true,
+            "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+            "public_fetch_candidates": [
+              "https://news.sina.com.cn/iframe/87/20080708/theme_standard.css"
+            ]
+          }
+        }
+      ],
+      "blocked_resources": [
+        {
+          "url": "http://i0.sinaimg.cn/home/deco/2009/0330/con_logo_news.gif",
+          "kind": "image"
+        },
+        {
+          "url": "http://i3.sinaimg.cn/dy/31/U868P1T31D193F479DT20051229065948_s.jpg",
+          "kind": "image"
+        },
+        {
+          "url": "http://beacon.sina.com.cn/a.gif?noScript",
+          "kind": "image"
+        },
+        {
+          "url": "http://i2.sinaimg.cn/c.gif",
+          "kind": "image"
+        },
+        {
+          "url": "http://d1.sina.com.cn/iframe/5/2008/0714/5.html",
+          "kind": "document"
+        },
+        {
+          "url": "http://pfp.sina.com.cn/iframe/gn/2009-03-30/163355.html",
+          "kind": "document"
+        },
+        {
+          "url": "http://news.sina.com.cn/iframe/485/2008/0722/2.html",
+          "kind": "document"
+        },
+        {
+          "url": "http://news.sina.com.cn/iframe/485/2008/0722/3.html",
+          "kind": "document"
+        },
+        {
+          "url": "http://pfp.sina.com.cn/iframe/gn/2007-03-09/152915.html",
+          "kind": "document"
+        },
+        {
+          "url": "http://news.sina.com.cn/iframe/485/2008/0723/5.html",
+          "kind": "document"
+        },
+        {
+          "url": "http://news.sina.com.cn/iframe/485/2008/0722/1.html",
+          "kind": "document"
+        },
+        {
+          "url": "http://pfp.sina.com.cn/iframe/2008/1023/1.html",
+          "kind": "document"
+        },
+        {
+          "url": "http://i2.sinaimg.cn/IT/deco/2009/0930/images/wbicon_cl_002.png",
+          "kind": "image"
+        },
+        {
+          "url": "http://i1.sinaimg.cn/dy/deco/2008/1231/yocc081231img/qyfw_zty_001.gif",
+          "kind": "image"
+        },
+        {
+          "url": "http://i1.sinaimg.cn/dy/news/2008/0708/con_bg_standard_001.gif",
+          "kind": "image"
+        },
+        {
+          "url": "http://i2.sinaimg.cn/dy/news/2008/0708/con_bg_standard_002.gif",
+          "kind": "image"
+        },
+        {
+          "url": "http://i3.sinaimg.cn/dy/news/2008/0708/con_bg_standard_003.gif",
+          "kind": "image"
+        }
+      ],
+      "source_bytes_unchanged": true,
+      "local_render_url": "http://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "page_title": "解放军发禁航通告 将在东海实弹射击_新闻中心_新浪网",
+      "source_sha256_after_capture": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b"
+    }
+  ],
+  "assets": [
+    {
+      "id": "M01a_禁航报道标题日期",
+      "path": "M01a_禁航报道标题日期_标注.png",
+      "plain_path": "M01a_禁航报道标题日期_原页裁切.png",
+      "sha256": "4c57ef4d63b67444c3c542ae4335182be5fd1cf3d71e73f8961d6514f522ad74",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "raw_path": "原始截图/M01a_禁航报道标题日期.png",
+      "raw_sha256": "9ee95d6e70401232b1ef39dabf43cbc6ab3ea597f8ac863bbf79a7eb9332770f",
+      "raw_dimensions": [
+        2736,
+        1539
+      ],
+      "clip_css": {
+        "x": 29,
+        "y": 0,
+        "width": 912,
+        "height": 513.0
+      },
+      "source_id": "M01",
+      "source_sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "original_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "source_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "complete_quotes": [
+        "解放军发禁航通告 将在东海实弹射击",
+        "2010年06月29日05:17",
+        "四川新闻网-成都商报"
+      ],
+      "required_source_rectangles_css": [
+        {
+          "x": 200,
+          "y": 164,
+          "width": 570,
+          "height": 36
+        },
+        {
+          "x": 200,
+          "y": 200,
+          "width": 570,
+          "height": 24
+        }
+      ],
+      "required_source_rectangles_px": [
+        {
+          "x": 360.0,
+          "y": 345.2631578947368,
+          "width": 1200.0,
+          "height": 75.78947368421052
+        },
+        {
+          "x": 360.0,
+          "y": 421.05263157894734,
+          "width": 1200.0,
+          "height": 50.526315789473685
+        }
+      ],
+      "all_required_source_rectangles_inside_frame_and_above_850": true,
+      "source_text_modified": false,
+      "source_label": "新浪转载 · 四川新闻网—成都商报 · 2010-06-29 05:17",
+      "source_limit": "新闻转引训练通告 · 6月30日至7月5日的船舶禁航，不是萧山机场禁飞",
+      "notes": [],
+      "fixed_pixels_no_motion": true
+    },
+    {
+      "id": "M01b_日期海域船舶通告完整段",
+      "path": "M01b_日期海域船舶通告完整段_标注.png",
+      "plain_path": "M01b_日期海域船舶通告完整段_原页裁切.png",
+      "sha256": "cc86c43667274d31ff52d08cdf6a5af1a7b3e20dcdbf2fed49e59d6cb374e4ce",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "raw_path": "原始截图/M01b_日期海域船舶通告完整段.png",
+      "raw_sha256": "0670d30d0abed21d9ed8495151bda295f912d24e59d26e2a1fefe8b51705ae1f",
+      "raw_dimensions": [
+        2160,
+        1215
+      ],
+      "clip_css": {
+        "x": 123,
+        "y": 165,
+        "width": 720,
+        "height": 405.0
+      },
+      "source_id": "M01",
+      "source_sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "original_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "source_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "complete_quotes": [
+        "解放军日前发布通告称，将在东海进行实弹射击训练。",
+        "6月24日，中国人民解放军九一七六五部队发布通告称，“我部定于2010年6月30日至7月5日，每日零时至18时，在舟山至台州以东（北纬29度54分、东经122度36分；北纬29度54分、东经123度30分；北纬28度25分、东经123度30分；北纬28度25分、东经122度14分；北纬28度50分、东经122度14分）5点连线海域，即在191、192、196、197、198、203、204、205渔区内进行实弹射击训练。训练期间，严禁各类船舶进入上述海域，并听从海军舰艇的指挥，以确保安全。”（温州晚报）"
+      ],
+      "required_source_rectangles_css": [
+        {
+          "x": 228,
+          "y": 241,
+          "width": 336,
+          "height": 19
+        },
+        {
+          "x": 228,
+          "y": 279,
+          "width": 538.3125,
+          "height": 19
+        },
+        {
+          "x": 200,
+          "y": 302,
+          "width": 562.953125,
+          "height": 19
+        },
+        {
+          "x": 200,
+          "y": 325,
+          "width": 555.25,
+          "height": 19
+        },
+        {
+          "x": 200,
+          "y": 348,
+          "width": 555.25,
+          "height": 19
+        },
+        {
+          "x": 200,
+          "y": 371,
+          "width": 563.890625,
+          "height": 19
+        },
+        {
+          "x": 200,
+          "y": 394,
+          "width": 294,
+          "height": 19
+        }
+      ],
+      "required_source_rectangles_px": [
+        {
+          "x": 280.0,
+          "y": 202.66666666666666,
+          "width": 896.0,
+          "height": 50.666666666666664
+        },
+        {
+          "x": 280.0,
+          "y": 304.0,
+          "width": 1435.5,
+          "height": 50.666666666666664
+        },
+        {
+          "x": 205.33333333333331,
+          "y": 365.3333333333333,
+          "width": 1501.2083333333333,
+          "height": 50.666666666666664
+        },
+        {
+          "x": 205.33333333333331,
+          "y": 426.66666666666663,
+          "width": 1480.6666666666665,
+          "height": 50.666666666666664
+        },
+        {
+          "x": 205.33333333333331,
+          "y": 488.0,
+          "width": 1480.6666666666665,
+          "height": 50.666666666666664
+        },
+        {
+          "x": 205.33333333333331,
+          "y": 549.3333333333333,
+          "width": 1503.7083333333333,
+          "height": 50.666666666666664
+        },
+        {
+          "x": 205.33333333333331,
+          "y": 610.6666666666666,
+          "width": 784.0,
+          "height": 50.666666666666664
+        }
+      ],
+      "all_required_source_rectangles_inside_frame_and_above_850": true,
+      "source_text_modified": false,
+      "source_label": "新浪转载 · 四川新闻网—成都商报 · 2010-06-29 05:17",
+      "source_limit": "新闻转引训练通告 · 6月30日至7月5日的船舶禁航，不是萧山机场禁飞",
+      "notes": [],
+      "fixed_pixels_no_motion": true
+    }
+  ]
+}

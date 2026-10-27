@@ -1,0 +1,115 @@
+{
+  "status": "technical_checks_passed",
+  "input_timeline": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/bridge_timeline.json",
+  "input_timeline_sha256": "c503bd48c382216cb1329d4167d4fde72e15a14724b960fd21370b6685122a6d",
+  "transitions_file": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/bridge_plan.json",
+  "duration": 17.6,
+  "bridges": [
+    {
+      "after_chapter": "01",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "before_chapter": "02",
+      "old_boundary": 12.76,
+      "start": 12.76,
+      "end": 12.76,
+      "previous_last_chord": "C",
+      "next_first_chord": "Fmaj9",
+      "common_tone_pitches": [
+        60,
+        64
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 75.06492784639197,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -22.663794193694372,
+      "reference_peak_dbfs": -7.060204867195447,
+      "new_bridge_peak_dbfs": -10.697875769939259,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 11.96,
+      "region_end": 13.56,
+      "mixed_peak_dbfs": -18.673044504167212,
+      "original_music_peak_dbfs": -7.060204867195447,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    }
+  ],
+  "observation_ducks": [],
+  "narration_checks": [
+    {
+      "chapter": "01",
+      "narration_source": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C01/narration.wav",
+      "narration_source_sha256": "d8da23a76b835fef83e02392154112c02ab2373b8eb68da8835d258c38c0d341",
+      "source_stereo_samples_sha256": "e5e6c57109d7c51f6a8134036e0b8218c221b71cbb15180bb92d785a54b26b9a",
+      "source_frames": 612480,
+      "output_start_sample": 0,
+      "music_source": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C01/music_48k_stereo.wav",
+      "music_source_sha256": "da4aba6150a906963fc1e49e5e535c880edaa686b23b76a1fadbcbfc628d04b8",
+      "narration_sample_identical": true
+    },
+    {
+      "chapter": "02",
+      "narration_source": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C02/narration.wav",
+      "narration_source_sha256": "c5f0f1854628d229f507fafc84ec32c653e5c191eba714899771f6f7abac5605",
+      "source_stereo_samples_sha256": "a3503e213f23c985a834c1b4bc99f599818dc956501d0030f46e470cb91a8dc8",
+      "source_frames": 232320,
+      "output_start_sample": 612480,
+      "music_source": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C02/music_48k_stereo.wav",
+      "music_source_sha256": "ebedbef62a5855c9aab7a65eba18c1318dfeea35d9972ad4f805750367a5ecca",
+      "narration_sample_identical": true
+    }
+  ],
+  "voice_unstretched": true,
+  "voice_sample_identical": true,
+  "music_waveform_looped": false,
+  "paid_calls": 0,
+  "outputs": {
+    "voice": {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/final/voice_48k_stereo.wav",
+      "sha256": "3ba45afb7bbd381c44148cb58ac9ea21940946f3272f3fba725ebd43ee0ef9fc"
+    },
+    "music": {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/final/music_48k_stereo.wav",
+      "sha256": "2ea89b87d089d3213ddcd3bab4b54de4e19da61706f493320d762dab97818086"
+    },
+    "sfx": {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/final/sfx_48k_stereo.wav",
+      "sha256": "a307c296f5c96313b4ef353bd34d52bf1c079a3adbf15035bc40c70677a48fd5"
+    },
+    "mix": {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/final/mix_48k_stereo.wav",
+      "sha256": "84c7a246098196ef15b7e8a566528e65f9525e508e19b4f919e2c8b3d9d4d086"
+    }
+  },
+  "verification": {
+    "frames": 844800,
+    "clipped_samples": 0,
+    "nonvoice_safety_gain_min": 1.0,
+    "sample_peak_dbfs": -4.921633404324826,
+    "integrated_lufs": -17.06,
+    "true_peak_dbtp": -4.9,
+    "loudness_range_lu": 3.1,
+    "complete_decode": true
+  },
+  "listening_review": "技术核验；不声称已人工听完整片"
+}

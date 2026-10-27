@@ -1,0 +1,23 @@
+{
+  "duration": 7.28,
+  "chapters": 1,
+  "chapter_bridges": 0,
+  "added_seconds": 0,
+  "conclusion": null,
+  "final_mix": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/mix_48k_stereo.wav",
+  "final_mix_sha256": "79f7febd452480cfb9a86040b106ad32da130e060321c46f58f90d56faa90b43",
+  "paid_calls": 0,
+  "original_voice_samples_preserved": true,
+  "timeline_sha256": "6ffb8f3e8a0112661dd60ed2c1f886e8df3d30ddee2e37b37ddbb9b7a9c74db7",
+  "final_measurement": {
+    "path": "参考库/声音/真实TTS验收_2026-10-26/混音/chapters/C01/mix_48k_stereo.wav",
+    "sha256": "79f7febd452480cfb9a86040b106ad32da130e060321c46f58f90d56faa90b43",
+    "duration": 7.28,
+    "sample_peak_dbfs": -4.511193548440827,
+    "clipped_samples": 0,
+    "integrated_lufs": -16.27,
+    "true_peak_dbtp": -4.51,
+    "loudness_range_lu": 4.9,
+    "complete_decode": true
+  }
+}

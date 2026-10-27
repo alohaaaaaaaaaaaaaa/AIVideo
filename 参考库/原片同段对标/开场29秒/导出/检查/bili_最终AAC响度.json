@@ -1,0 +1,7 @@
+{
+  "integrated_lufs": -17.1,
+  "true_peak_dbtp": -4.42,
+  "recommended_max_dbtp": -1.0,
+  "true_peak_pass": true,
+  "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+}

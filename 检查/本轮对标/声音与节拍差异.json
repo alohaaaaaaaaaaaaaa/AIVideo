@@ -1,0 +1,231 @@
+{
+  "status": "passed_with_documented_editorial_differences",
+  "scope": "Audio and pacing audit against accepted 21:59.96 film; image/output review is separate",
+  "opening_29_36": {
+    "mix": {
+      "samples": 1409280,
+      "pcm_identical": true,
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "file_sha256": "186605812a725251c44367c4e0b62ff0025409b959f1f2b8e4aca1372e1b0abd"
+    },
+    "voice": {
+      "samples": 1409280,
+      "pcm_identical": true,
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "file_sha256": "a9a31a9a835ae0544cd32d348d3a10f0e771f64be2568957df240577a9767a50"
+    },
+    "music": {
+      "samples": 1409280,
+      "pcm_identical": true,
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "file_sha256": "1a29b75227f90a75984dc8e8f2902a7c62708c02c27e4c80ef5416599bb63179"
+    },
+    "source_voice_equal_power_sample_identical": true,
+    "source_voice_not_stretched": true,
+    "original_speech_and_chapter_pauses_preserved": true,
+    "original_chapter01_note_plan": "原C01逐音符.json",
+    "bridged_region": [
+      28.56,
+      29.36
+    ],
+    "music_generated_locally_from_original_notes_not_copied_recording": true,
+    "original_next_chapter_context": "Only first 4 seconds of native C02 music used for original bridge calibration",
+    "paid_calls": 0
+  },
+  "portable_opening_rebuild": {
+    "duration": 29.36,
+    "frames": 734,
+    "samples": 1409280,
+    "comparison": {
+      "mix": {
+        "sample_identical": true,
+        "maximum_absolute_difference": 0,
+        "sha256": "03cd1703d53e5caa4aaa66767e52d2eea74c00b5d29457b2a8583a0f2be5052e"
+      },
+      "voice": {
+        "sample_identical": true,
+        "maximum_absolute_difference": 0,
+        "sha256": "1ad11b05d4b6470b32867937960018e00b8e6bad17af203ed9d3033e196e199a"
+      },
+      "music": {
+        "sample_identical": true,
+        "maximum_absolute_difference": 0,
+        "sha256": "9cc77bb0ee421ffbfd55064e2d242ed929bd6b182ebd7b0fac896257b9e62dda"
+      }
+    },
+    "old_project_required": false,
+    "paid_calls": 0,
+    "music_from_notes": true,
+    "original_C02_stems_used_only_for_bridge_context": true
+  },
+  "complete_conclusion_ab": {
+    "scope": "Exact same complete 12.36-second conclusion paragraph, no sentence collage",
+    "original_film_window": [
+      1268.04,
+      1280.4
+    ],
+    "same_voice_samples": true,
+    "old_phrase_pause_after_my_conclusion_is_seconds": 0.56,
+    "source_pause_preserved": true,
+    "original_recorded_core_end": 9.38,
+    "waveform_5ms_rms_last_active": 9.465,
+    "original_resolve": 9.48,
+    "new_resolve": 9.565,
+    "resolve_difference_seconds": 0.085,
+    "original_tail_seconds": 2.88,
+    "new_tail_seconds": 2.795,
+    "original_music_is_continuation_of_chapter_seconds": 188.96,
+    "new_music_recomposed_as_short_excerpt": true,
+    "same_harmonic_phase_claimed": false,
+    "same_waveform_claimed": false,
+    "same_default_palette_and_ducking": true,
+    "cadence_piano_notes": 5,
+    "cadence_string_notes": 4,
+    "old_note_events": 35,
+    "new_note_events": 34,
+    "original_metrics": {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/结论落拍对标/old_mix_48k.wav",
+      "sha256": "fdfa6aabf48ed629e4223037ae61880a401a062a2ec4fdf04ba10ae1f843cca8",
+      "duration": 12.36,
+      "sample_peak_dbfs": -4.95704656335577,
+      "clipped_samples": 0,
+      "integrated_lufs": -17.84,
+      "true_peak_dbtp": -4.93,
+      "loudness_range_lu": 6.9,
+      "complete_decode": true
+    },
+    "new_metrics": {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/结论落拍对标/新工具重编/mix_48k_stereo.wav",
+      "sha256": "498a681294e7c54ff331b97aeff0b3d4862ceb7eec84fc240865803bcb6fbd9e",
+      "duration": 12.36,
+      "sample_peak_dbfs": -4.6441396379311355,
+      "clipped_samples": 0,
+      "integrated_lufs": -17.04,
+      "true_peak_dbtp": -4.62,
+      "loudness_range_lu": 2.3,
+      "complete_decode": true
+    },
+    "human_listening_claimed": false,
+    "rms_tail_not_semantic_certification": true,
+    "interpretation": "New anchor deliberately uses measurable release 85ms later; retain this explicit difference instead of claiming exact original rhythm."
+  },
+  "real_voice_pause_bridge_outro_regression": {
+    "status": "passed",
+    "test_scope": "real accepted voice; explicit additional 0.4-second pause is a regression fixture, not a proposed new edit of the approved film",
+    "duration": 17.6,
+    "frames": 440,
+    "inserted_pause_seconds": 0.4,
+    "all_source_speech_samples_identical": true,
+    "phrase_visual_music_sfx_and_conclusion_shifted_together": true,
+    "explicit_chapter_bridge_executed": true,
+    "final_voice_sample_identical": true,
+    "no_time_added_by_music_bridge": true,
+    "early_word_tail_refused": true,
+    "changed_source_or_syllable_pause_refused": true,
+    "scoped_conclusion_preserves_later_outro": true,
+    "complete_nine_note_cadence": true,
+    "actual_resolve": 9.965,
+    "final_measurement": {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/final/mix_48k_stereo.wav",
+      "sha256": "84c7a246098196ef15b7e8a566528e65f9525e508e19b4f919e2c8b3d9d4d086",
+      "duration": 17.6,
+      "sample_peak_dbfs": -4.921633404324826,
+      "clipped_samples": 0,
+      "integrated_lufs": -17.06,
+      "true_peak_dbtp": -4.9,
+      "loudness_range_lu": 3.1,
+      "complete_decode": true
+    },
+    "paid_calls": 0,
+    "listening_quality_not_inferred_from_metrics": true,
+    "scoped_conclusion_preserves_exact_later_outro_harmony_and_notes": true
+  },
+  "space_waveform_execution": {
+    "actual_render_test": true,
+    "music_notes_unchanged_for_envelope_test": true,
+    "space_gain": 0.5,
+    "middle_window_seconds": [
+      1.0,
+      1.6
+    ],
+    "stem_max_error_against_half_gain": 0.0,
+    "space_cue_executed_in_waveform": true,
+    "paid_calls": 0
+  },
+  "real_tts_validation": {
+    "status": "one_successful_real_request",
+    "submitted_requests": 1,
+    "repeat_requests": 0,
+    "model": "speech-2.8-hd",
+    "voice_setting": {
+      "voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+      "speed": 0.96,
+      "vol": 1,
+      "pitch": 0,
+      "emotion": "neutral"
+    },
+    "default_voice_unchanged": true,
+    "usage_characters_returned_by_provider": 70,
+    "official_rate_cny_per_10k": 3.5,
+    "cost_at_verified_rate_cny": 0.0245,
+    "account_invoice_or_credit_deduction_verified": false,
+    "account_cost_statement": "Provider usage confirmed; fee calculated from current public rate. Account cash/resource-pack debit was not inspected.",
+    "budget_cap_cny": 1,
+    "raw_audio": "cache/6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d.mp3",
+    "prepared_voice_duration": 6.478375,
+    "final_demo_mix_duration": 7.28,
+    "final_mix": "混音/chapters/C01/mix_48k_stereo.wav",
+    "asr_without_prompt": "我是阿子牙,今天我們順著證據往下查,網友police留下的線索到底能說明什麼",
+    "name_and_police_recognized": true,
+    "subjective_listening_or_tone_certification_claimed": false,
+    "complete_decode": true,
+    "integrated_lufs": -16.27,
+    "true_peak_dbtp": -4.51,
+    "new_calls_for_asr_mix_verification": 0
+  },
+  "offline_paid_state_machine": {
+    "status": "passed",
+    "actual_paid_requests": 0,
+    "fake_transport_only": true,
+    "missing_or_changed_approval_rejected_before_network": true,
+    "price_evidence_bound_to_plan_model_and_hash": true,
+    "budget_request_count_and_scope_enforced": true,
+    "mock_authorization_refuses_real_network": true,
+    "successful_cache_reused_without_reapproval_or_request": true,
+    "uncertain_submission_not_automatically_repeated": true,
+    "extended_Han_weighting_verified": true
+  },
+  "silent_chapter_explicit_music_level": {
+    "status": "passed",
+    "duration": 3,
+    "music_rms_dbfs": -32.00000011194706,
+    "explicit_target_dbfs": -32,
+    "voice_is_original_digital_silence": true,
+    "claimed_voice_relative_level": false,
+    "paid_calls": 0,
+    "technical_fixture_not_listening_approval": true
+  },
+  "defects_fixed": [
+    "Conclusion no longer deletes later outro notes or imposes conclusion harmony on the later outro.",
+    "Real conclusion word-tail cue binds actual edited WAV SHA; early subtitle boundary alone rejected.",
+    "Full-film score_film executes per-chapter mixing and every declared bridge; no second insertion of time.",
+    "Internal silent pauses preserve every source sample and shift subtitle/music/sfx/visual/conclusion events through one ledger; changed source or syllable cuts rejected.",
+    "TTS paid execution binds actual session authorization, current price evidence, plan hash, model, budget, paragraph scope and request count; successful cache bypasses new payment."
+  ],
+  "interfaces": {
+    "film_audio_cli": "工具/声音/score_film.py --timeline timeline.json --narration narration_48k_mono.wav --output new_directory",
+    "visual_cues": "assemble output visual_cues.json contains timeline_sha256, narration_sha256, duration, cues with actual full-film times. Picture must rebuild from these anchors, not silently retain old shot durations."
+  },
+  "limits": [
+    "5ms RMS and ASR do not certify naturalness or precise phonetic tones.",
+    "The fresh 12.36s conclusion starts its own harmonic progression, unlike the final 12.36s of an old long chapter; its resolve is deliberately 85ms later.",
+    "Independent ASR for this audit reused an existing offline model only; normal studio production tools do not require old project paths.",
+    "One actual TTS request only; usage and public-rate calculation known, account bill not inspected."
+  ],
+  "new_paid_tts_requests": 1,
+  "new_paid_tts_cost_public_rate_cny": 0.0245,
+  "private_key_logged_or_copied_into_project": false
+}

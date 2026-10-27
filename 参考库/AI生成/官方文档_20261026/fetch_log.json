@@ -1,0 +1,48 @@
+{
+  "client_date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "queried_at_utc": "2026-10-26T12:13:27.310434+00:00",
+  "paid_calls": 0,
+  "records": [
+    {
+      "file": "official_llms.txt",
+      "url": "https://platform.minimaxi.com/docs/llms.txt",
+      "final_url": "https://platform.minimax.cn/docs/llms.txt",
+      "status": 200,
+      "bytes": 27049,
+      "sha256": "6be8b534f20d5b26b316c70f2de53ac076e9d15d372e963e3f8df1a52d1fdc81"
+    },
+    {
+      "file": "video_t2v.md",
+      "url": "https://platform.minimaxi.com/docs/api-reference/video-generation-t2v.md",
+      "final_url": "https://platform.minimax.cn/docs/api-reference/video-generation-t2v.md",
+      "status": 200,
+      "bytes": 8201,
+      "sha256": "cf0a461b04259a227db2ea3ca31ec62086775736afce5cb6e8d0d42c5c8b74fa"
+    },
+    {
+      "file": "video_query.md",
+      "url": "https://platform.minimaxi.com/docs/api-reference/video-generation-query.md",
+      "final_url": "https://platform.minimax.cn/docs/api-reference/video-generation-query.md",
+      "status": 200,
+      "bytes": 3588,
+      "sha256": "bc6ab42c375be4125bfcbdb488e60199400fb856725e91ff5f5dc5a522e9ecf5"
+    },
+    {
+      "file": "video_download.md",
+      "url": "https://platform.minimaxi.com/docs/api-reference/video-generation-download.md",
+      "final_url": "https://platform.minimax.cn/docs/api-reference/video-generation-download.md",
+      "status": 200,
+      "bytes": 3525,
+      "sha256": "d05ce729c02f4997e676ad3f21e6cc39323c0c99f679b62c3fe63f84dd27110f"
+    },
+    {
+      "file": "pricing.md",
+      "url": "https://platform.minimaxi.com/docs/pricing/overview.md",
+      "final_url": "https://platform.minimax.cn/docs/pricing/overview.md",
+      "status": 200,
+      "bytes": 22862,
+      "sha256": "3717c069924367f47f078b0c84413f576fb48d510adbf4695c5b94ede1dbb6f7"
+    }
+  ]
+}

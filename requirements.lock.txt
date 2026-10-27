@@ -1,0 +1,21 @@
+# 本次macOS arm64 / Python 3.13实际版本；其他平台按requirements.txt适配。
+attrs==26.1.0
+av==19.0.2
+certifi==2026.10.23
+cffi==2.1.1
+charset-normalizer==3.5.2
+idna==3.20
+imageio-ffmpeg==0.6.0
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+numpy==2.5.4
+pillow==13.0.0
+pycparser==3.12
+PyYAML==6.0.3
+referencing==0.37.0
+requests==2.34.2
+rpds-py==2026.9.1
+scipy==1.18.1
+soundfile==0.14.0
+typing_extensions==4.16.0
+urllib3==2.8.0

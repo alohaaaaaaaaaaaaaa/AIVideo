@@ -1,0 +1,7 @@
+{
+  "folders": [{"path": "."}],
+  "settings": {
+    "files.exclude": {"**/__pycache__": true},
+    "search.exclude": {"**/.venv": true, "**/缓存": true}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "subtitle_count": 4,
+  "source_footer_count": 2,
+  "added_video_or_animation_labels": 0,
+  "subtitle_style": {
+    "font_size": 42.0,
+    "primary_colour": "&H00F8F8F8",
+    "secondary_colour": "&H00FFFFFF",
+    "outline_colour": "&H00101014",
+    "back_colour": "&H80000000",
+    "outline": 2.5,
+    "shadow": 1.0,
+    "margin_l": 90.0,
+    "margin_r": 90.0,
+    "font": "Hiragino Sans GB",
+    "margin_v": 42.0
+  },
+  "subtitle_rows": [
+    {
+      "start": 0,
+      "end": 1,
+      "margin_v": 42,
+      "font": "Hiragino Sans GB",
+      "font_size": 42.0
+    },
+    {
+      "start": 1,
+      "end": 2,
+      "margin_v": 74,
+      "font": "Hiragino Sans GB",
+      "font_size": 42.0
+    },
+    {
+      "start": 2,
+      "end": 3,
+      "margin_v": 42,
+      "font": "Hiragino Sans GB",
+      "font_size": 42.0
+    },
+    {
+      "start": 3,
+      "end": 4,
+      "margin_v": 42,
+      "font": "Hiragino Sans GB",
+      "font_size": 42.0
+    }
+  ],
+  "resolved_font": {
+    "family": "Hiragino Sans GB",
+    "file": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "sha256": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130",
+    "exact_reference_face": true,
+    "notice": null
+  },
+  "source_footer": {
+    "top": 870,
+    "height": 210,
+    "background_rgb": [
+      16,
+      20,
+      26
+    ],
+    "background_ass": "&H1A1410&",
+    "x": 32,
+    "first_y": 884,
+    "line_step": 42,
+    "font_sizes": [
+      27,
+      23
+    ],
+    "colours_ass": [
+      "&HF4EBE6&",
+      "&HB7A79A&"
+    ],
+    "max_lines": 2,
+    "safe_width": 1856
+  },
+  "ass_sha256": "cb783e9eb14db392cd4ac8a05c0025a402958c82c2ea3a7ebf2d58f243d601b9",
+  "srt_sha256": "282f3ef2ff4d7a5e7c50556d73c3f9cebe1f8d0dbd2094070203ecd675b25d8d"
+}

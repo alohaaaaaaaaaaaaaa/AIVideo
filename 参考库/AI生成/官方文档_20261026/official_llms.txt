@@ -1,0 +1,173 @@
+# MiniMax 开放平台文档中心
+
+- [概览](https://platform.minimaxi.com/docs/guides/models-intro.md): MiniMax 模型体系涵盖语言、视频、语音、图像与音乐五大方向，助力开发者高效构建智能应用。
+- [前置准备](https://platform.minimaxi.com/docs/guides/quickstart-preparation.md): 在开始使用 MiniMax API 之前，需要完成账户注册和 API Key 获取。
+- [通过 SDK 接入](https://platform.minimaxi.com/docs/guides/quickstart-sdk.md): 使用 Anthropic SDK 快速接入 MiniMax API，开始调用 MiniMax-M3 模型。
+- [模型调用](https://platform.minimaxi.com/docs/guides/text-generation.md): MiniMax 语言模型，支持多语言编程、Agent 工作流等复杂任务场景。
+- [Prompt 缓存](https://platform.minimaxi.com/docs/api-reference/text-prompt-caching.md): 通过 Prompt 缓存，可以有效降低延迟和成本。
+- [工具使用 & 交错思维链](https://platform.minimaxi.com/docs/guides/text-m3-function-call.md): MiniMax-M3.1-Flash 是一款 Agentic Model，具备优秀的工具使用 (Tool Use) 能力。
+- [服务端工具（Server Tools）](https://platform.minimaxi.com/docs/guides/server-tools.md)
+- [视频生成](https://platform.minimaxi.com/docs/guides/video-generation.md): 本文档介绍 MiniMax 视频生成服务（MiniMax H3、MiniMax H3 Max）的使用方法，助力高效创作视频内容。
+- [H3亮点功能示例](https://platform.minimaxi.com/docs/guides/video-prompt.md): 通过一组典型示例，展示 MiniMax H3 在原生多模态理解与生成、多模态精准编辑与控制、商用级多场景内容生成三大能力下的实际输出效果。
+- [语音识别](https://platform.minimaxi.com/docs/guides/speech-to-text.md): MiniMax ASR 将音频转写为文本，支持流式返回、说话人分离与字幕导出，可直接用于会议纪要、播客/视频转写、内容审核、通话质检等场景。
+- [音色快速复刻](https://platform.minimaxi.com/docs/guides/speech-voice-clone.md): MiniMax 语音模型提供良好的音色复刻能力，使用您的语料进行音色复刻，得到试听音频与 Voice ID（供后续正式语音合成使用）。
+- [同步语音合成](https://platform.minimaxi.com/docs/guides/speech-t2a-websocket.md): 同步语音合成支持基于文本到语音的同步生成，单次可处理最长 10,000 字符的文本。
+- [异步语音合成](https://platform.minimaxi.com/docs/guides/speech-t2a-async.md): MiniMax 提供异步语音合成 API，适用于长文本的音频合成任务，单个文件长度限制小于 10 万字符。
+- [系统音色列表](https://platform.minimaxi.com/docs/faq/system-voice-id.md): 本文档列举了MiniMax开放平台全部的系统音色，为您提供语音合成选择。参考以下表格的内容，可查阅目前全部的系统音色的ID(Voice ID)、名称及支持语言，方便开发者快速查询与调用。
+- [图片生成](https://platform.minimaxi.com/docs/guides/image-generation.md): 图片生成服务提供文生图（text-to-image）与图生图（image-to-image）两种核心功能。
+- [音乐生成](https://platform.minimaxi.com/docs/guides/music-generation.md): 通过 prompt 参数定义音乐的风格、情绪和场景，通过 lyrics 参数提供演唱的歌词内容。该功能可用于为视频、游戏或应用快速生成独特的背景音乐和主题曲。
+- [MiniMax MCP](https://platform.minimaxi.com/docs/guides/mcp-guide.md): 本文档介绍模型上下文协议（MCP）的原理与应用，提供 Python 与 JS 版本工具说明，支持语音合成、音色克隆、图像与视频生成等多模态能力，助力开发者高效集成 AI 功能。
+- [M Plan MCP](https://platform.minimaxi.com/docs/guides/token-plan-mcp-guide.md): M Plan MCP 提供了两个专属工具：**网络搜索** 和  **图片理解**，帮助开发者在编码过程中快速获取信息和理解图片内容。
+- [本地运行与自托管部署 MiniMax 开放模型](https://platform.minimaxi.com/docs/guides/local-deploy.md): 为 MiniMax-M3、MiniMax-M2.7、MiniMax Music 3 和 MiniMax H3 选择本地运行或自托管路径。
+- [自托管部署 MiniMax-M3](https://platform.minimaxi.com/docs/guides/local-deploy-m3.md): 运行 MiniMax-M3 的 SGLang 实验性基线，验证服务，并规划安全的自托管部署。
+- [部署 MiniMax-M2.7](https://platform.minimaxi.com/docs/guides/local-deploy-m2-7.md): 参考 SGLang Cookbook 部署 MiniMax-M2.7，并通过 OpenAI 兼容接口验证推理、思考内容和工具调用。
+- [自托管部署 MiniMax Music 3](https://platform.minimaxi.com/docs/guides/local-deploy-music-3.md): 使用固定版本的 SGLang-Omni 部署 MiniMax Music 3，并通过 Speech API 生成歌曲。
+- [本地运行与自托管部署 MiniMax H3](https://platform.minimaxi.com/docs/guides/local-deploy-h3.md): 使用 ComfyUI 本地运行 MiniMax H3，或通过 SGLang 部署可复现的 H3-Base 服务。
+- [模型列表](https://platform.minimaxi.com/docs/faq/models.md): 查看 MiniMax 开放平台当前支持的模型，以及已下线的历史模型。
+- [接口相关](https://platform.minimaxi.com/docs/faq/about-apis.md): 本文档解答 MiniMax 开放平台接口使用的核心问题，包括 API Key 获取与管理、资源保障提升方案及声音复刻服务使用条件。帮助开发者高效集成与调用平台API服务。
+- [账户相关](https://platform.minimaxi.com/docs/faq/about-account.md): 本文档解答MiniMax开放平台账户相关的常见问题，包括充值方式、发票申请、余额预警及资源包管理等关键内容。
+- [联系我们](https://platform.minimaxi.com/docs/faq/contact-us.md): 本页面提供 MiniMax 官方联系方式，涵盖微信、飞书渠道与邮件支持，方便您快速获取技术协助与业务咨询。
+- [用户协议](https://platform.minimaxi.com/docs/guides/terms-of-service.md)
+- [隐私条款](https://platform.minimaxi.com/docs/guides/privacy-policy.md)
+- [接口概览](https://platform.minimaxi.com/docs/api-reference/api-overview.md): MiniMax 开放平台 API 接口能力概览，包括语言、视频、语音、图像、音乐和文件管理等多模态能力。
+- [速率限制](https://platform.minimaxi.com/docs/guides/rate-limits.md): 为保证资源的高效使用，引入速率限制（Rate Limits），以确保服务的可用性、稳定性。
+- [错误码查询](https://platform.minimaxi.com/docs/api-reference/errorcode.md): 本文档汇总 MiniMax 接口常见错误码及对应解决方案，帮助开发者快速排查并解决调用问题。
+- [Anthropic SDK](https://platform.minimaxi.com/docs/api-reference/text-anthropic-api.md): 通过 Anthropic SDK 调用 MiniMax 模型
+- [OpenAI SDK](https://platform.minimaxi.com/docs/api-reference/text-openai-api.md): 通过 OpenAI SDK 调用 MiniMax 模型
+- [AI SDK](https://platform.minimaxi.com/docs/api-reference/text-ai-sdk.md): 通过 AI SDK 调用 MiniMax 模型
+- [消息生成](https://platform.minimaxi.com/docs/api-reference/text-chat-anthropic.md): 通过兼容 Anthropic Messages API 的接口调用 MiniMax 模型生成回复，支持流式与非流式。
+- [对话补全](https://platform.minimaxi.com/docs/api-reference/text-chat-openai.md): 通过兼容 OpenAI Chat Completions API 的接口调用 MiniMax 模型生成回复，支持流式与非流式。
+- [对话生成](https://platform.minimaxi.com/docs/api-reference/responses-create.md): OpenAI Responses API 兼容的主接口调用MiniMax 模型，生成模型回复，支持流式与非流式。
+- [Token 估算](https://platform.minimaxi.com/docs/api-reference/responses-input-tokens.md): 估算请求的输入 token 数，不真正调用模型生成。常用于在调用主接口前评估请求成本与是否触发上下文长度上限。
+- [创建视频生成任务](https://platform.minimaxi.com/docs/api-reference/video-generation-v2-create.md): 视频生成 V2 接口，通过多模态 content 数组输入（文本 / 图片 / 视频 / 音频），可通过 `model` 字段切换 MiniMax H3、MiniMax H3 Highspeed、MiniMax H3 Lite 与 MiniMax H3 Max，覆盖文生视频、图生视频（首尾帧）、多模态参考生视频，最高 2K 输出。<br /><br />提示：若需要使用 MiniMax H3、MiniMax H3 Highspeed、MiniMax H3 Lite 或 MiniMax H3 Max，请点击 [按量购买 API](https://platform.minimax.cn/docs/…
+- [查询任务](https://platform.minimaxi.com/docs/api-reference/video-generation-v2-query.md): 按 task_id 查询最近 7 天内单个视频生成、H3-Context-IR 或视频再生成任务的状态与结果。
+- [查询任务列表](https://platform.minimaxi.com/docs/api-reference/video-generation-v2-list.md): 分页查询最近 7 天内的任务列表，支持按状态、任务 ID、模型和任务类型过滤。
+- [取消或删除任务](https://platform.minimaxi.com/docs/api-reference/video-generation-v2-delete.md): 按任务当前状态取消排队中的任务，或删除成功和失败的视频生成、H3-Context-IR 及视频再生成任务记录。
+- [创建 H3-Context-IR 任务](https://platform.minimaxi.com/docs/api-reference/video-generation-v2-h3-context-ir.md): 深度理解多模态上下文，并生成结构化、语义更丰富的视频提示词。
+- [创建视频再生成任务](https://platform.minimaxi.com/docs/api-reference/video-generation-v2-regeneration.md): 对符合 MiniMax-H3 768P 输出规格的源视频再生成为 2K 视频。
+- [文生视频生成任务](https://platform.minimaxi.com/docs/api-reference/video-generation-t2v.md): 使用本接口输入文本内容，创建视频生成任务。
+- [图生视频任务](https://platform.minimaxi.com/docs/api-reference/video-generation-i2v.md): 使用本接口输入图片及文本内容，创建视频生成任务。
+- [首尾帧生成视频](https://platform.minimaxi.com/docs/api-reference/video-generation-fl2v.md): 使用本接口上传首尾帧图片及文本内容，创建视频生成任务。
+- [主体参考视频生成任务](https://platform.minimaxi.com/docs/api-reference/video-generation-s2v.md): 使用本接口上传人物主体图片及文本内容，创建视频生成任务。
+- [查询视频生成任务状态](https://platform.minimaxi.com/docs/api-reference/video-generation-query.md): 使用本接口查询视频生成的任务状态。
+- [视频下载](https://platform.minimaxi.com/docs/api-reference/video-generation-download.md): 通过本接口进行生成视频文件下载。
+- [语音识别](https://platform.minimaxi.com/docs/api-reference/speech-to-text.md): 使用本接口，将音频文件转写为文本，支持流式返回、说话人分离与字幕导出。
+- [同步语音合成](https://platform.minimaxi.com/docs/api-reference/speech-t2a-http.md): 通过 HTTP 请求一次提交完整文本并返回合成音频，支持流式输出。
+- [同步语音合成](https://platform.minimaxi.com/docs/api-reference/speech-t2a-websocket.md): 通过 WebSocket 连接由客户端按句发送文本，流式返回合成音频，适合低延迟的实时播报。
+- [双向流式语音合成](https://platform.minimaxi.com/docs/api-reference/speech-t2a-websocket-bidi.md): 通过 WebSocket 连接按任意粒度（含逐字）流式发送文本，由服务端自动攒句合成，适合对接大模型流式输出。
+- [创建异步语音合成任务](https://platform.minimaxi.com/docs/api-reference/speech-t2a-async-create.md): 使用本接口，创建异步语音合成任务。
+- [查询语音生成任务状态](https://platform.minimaxi.com/docs/api-reference/speech-t2a-async-query.md): 使用本接口，查询异步语音合成任务状态。
+- [上传复刻音频](https://platform.minimaxi.com/docs/api-reference/voice-cloning-uploadcloneaudio.md): 使用本接口上传用于复刻的音频文件。
+- [上传示例音频](https://platform.minimaxi.com/docs/api-reference/voice-cloning-uploadprompt.md): 使用本接口上传示例音频文件，使用示例音频将有助于增强语音合成的音色相似度和稳定性。
+- [音色快速复刻](https://platform.minimaxi.com/docs/api-reference/voice-cloning-clone.md): 使用本接口进行音色快速复刻。 复刻得到的音色若 7 天内未正式调用，则系统会删除该音色。 调用本接口前，请先完成个人或企业认证。
+- [音色设计](https://platform.minimaxi.com/docs/api-reference/voice-design-design.md): 使用本接口，输入文本内容，进行音色设计。
+- [查询可用音色ID](https://platform.minimaxi.com/docs/api-reference/voice-management-get.md): 使用本接口支持查询不同分类下的音色信息。
+- [删除音色 ](https://platform.minimaxi.com/docs/api-reference/voice-management-delete.md): 使用本接口，对于生成的部分音色进行删除。
+- [文生图](https://platform.minimaxi.com/docs/api-reference/image-generation-t2i.md): 使用本接口，输出文本内容，进行图片生成。
+- [图生图](https://platform.minimaxi.com/docs/api-reference/image-generation-i2i.md): 使用本接口，上传图片内容，进行图片生成。
+- [音乐生成 (Music Generation)](https://platform.minimaxi.com/docs/api-reference/music-generation.md): 使用本接口，输入歌词和歌曲描述，进行歌曲生成。
+- [翻唱前处理 (Music Cover Preprocess)](https://platform.minimaxi.com/docs/api-reference/music-cover-preprocess.md): 对参考音频进行预处理，提取音频特征和歌词，用于两步翻唱流程。
+- [歌词生成 (Lyrics Generation)](https://platform.minimaxi.com/docs/api-reference/lyrics-generation.md): 使用本接口生成歌词，支持完整歌曲创作和歌词编辑/续写。
+- [文件上传](https://platform.minimaxi.com/docs/api-reference/file-management-upload.md): 使用本接口，在 MiniMax 开放平台，上传所需文件。
+- [文件列出](https://platform.minimaxi.com/docs/api-reference/file-management-list.md): 使用本接口，列出不同分类下的文件。
+- [文件检索](https://platform.minimaxi.com/docs/api-reference/file-management-retrieve.md): 使用本接口，检索 MiniMax 开放平台上的文件。
+- [文件下载](https://platform.minimaxi.com/docs/api-reference/file-management-retrieve-content.md): 使用本接口，下载模型生成的文件。
+- [文件删除](https://platform.minimaxi.com/docs/api-reference/file-management-delete.md): 使用本接口，删除 MiniMax 开放平台上的相关文件。
+- [获取模型列表](https://platform.minimaxi.com/docs/api-reference/models/openai/list-models.md): 获取平台支持的所有模型列表，兼容 OpenAI API 规范
+- [获取单个模型详情](https://platform.minimaxi.com/docs/api-reference/models/openai/retrieve-model.md): 获取指定模型的详细信息，兼容 OpenAI API 规范。
+- [获取模型列表](https://platform.minimaxi.com/docs/api-reference/models/anthropic/list-models.md): 获取平台支持的所有模型列表，兼容 Anthropic API 规范。
+- [获取单个模型详情](https://platform.minimaxi.com/docs/api-reference/models/anthropic/retrieve-model.md): 获取指定模型的详细信息，兼容 Anthropic API 规范。
+- [M Plan 概览](https://platform.minimaxi.com/docs/m-plan/intro.md): 了解 M Plan 的档位、可用模型、用量与支持的产品。
+- [常见问题](https://platform.minimaxi.com/docs/m-plan/faq.md): 了解 M Plan 套餐、用量、API Key 与使用规则的常见问题。
+- [用量说明](https://platform.minimaxi.com/docs/m-plan/usage-rules.md): 了解额度何时刷新、如何查看用量，以及额度用尽后可以怎么做。
+- [升级与取消](https://platform.minimaxi.com/docs/m-plan/change-plan.md): 了解如何在网页端升级套餐、管理自动续费与取消订阅。
+- [发票](https://platform.minimaxi.com/docs/m-plan/billing.md): 了解如何获取发票及可开票金额。
+- [开通订阅](https://platform.minimaxi.com/docs/m-plan/quickstart.md): 订阅 M Plan，获取订阅 Key，并测试 API 调用。
+- [MiniMax Code](https://platform.minimaxi.com/docs/m-plan/minimax-code.md): 在 MiniMax Code 中使用最新的 MiniMax M 系列模型。
+- [Claude Code](https://platform.minimaxi.com/docs/m-plan/claude-code.md): 在 Claude Code 中使用最新的 MiniMax M 系列模型。
+- [Codex](https://platform.minimaxi.com/docs/m-plan/codex.md): 在 Codex 中使用最新的 MiniMax M 系列模型。
+- [Cursor](https://platform.minimaxi.com/docs/m-plan/cursor.md): 在 Cursor 中使用最新的 MiniMax M 系列模型。
+- [OpenCode](https://platform.minimaxi.com/docs/m-plan/opencode.md): 在 OpenCode 中使用最新的 MiniMax M 系列模型。
+- [Pi](https://platform.minimaxi.com/docs/m-plan/pi.md): 在 Pi 中使用最新的 MiniMax M 系列模型。
+- [Hermes Agent](https://platform.minimaxi.com/docs/m-plan/hermes-agent.md): 在 Hermes Agent 中使用最新的 MiniMax M 系列模型。
+- [OpenClaw](https://platform.minimaxi.com/docs/m-plan/openclaw.md): 在 OpenClaw 中使用最新的 MiniMax M 系列模型。
+- [其他工具](https://platform.minimaxi.com/docs/m-plan/other-tools.md): 在其他 AI 工具中使用最新的 MiniMax M 系列模型。
+- [网络搜索 MCP](https://platform.minimaxi.com/docs/m-plan/mcp-guide.md): 通过 MCP 为 AI 工具接入网络搜索能力。
+- [MiniMax CLI](https://platform.minimaxi.com/docs/m-plan/minimax-cli.md): 安装 MiniMax CLI，在终端或 AI Agent 中调用 MiniMax 的多模态与搜索能力。
+- [M Plan 月付首月五折](https://platform.minimaxi.com/docs/m-plan/monthly-offer.md): 了解活动时间与活动规则。
+- [Token Plan 老用户](https://platform.minimaxi.com/docs/m-plan/token-plan-notice.md): 了解升级到 M Plan 或继续订阅 Token Plan 的相关安排。
+- [Token Plan 概要](https://platform.minimaxi.com/docs/token-plan/intro.md): Token Plan 的订阅和使用概要
+- [快速接入](https://platform.minimaxi.com/docs/token-plan/quickstart.md): 快速了解 Token Plan 订阅及接入
+- [常见问题](https://platform.minimaxi.com/docs/token-plan/faq.md): 参考文档，了解关于 Token Plan 订阅套餐的相关问题
+- [订阅套餐产品升级公告](https://platform.minimaxi.com/docs/token-plan/announcements.md)
+- [Claude Code](https://platform.minimaxi.com/docs/token-plan/claude-code.md): 在 Claude Code 中使用最新的 MiniMax M 系列模型进行 AI 编程。
+- [Codex](https://platform.minimaxi.com/docs/token-plan/codex.md): 在 Codex 桌面客户端中使用最新的 MiniMax M 系列模型进行 AI 编程。
+- [Cursor](https://platform.minimaxi.com/docs/token-plan/cursor.md): 在 Cursor 中使用最新的 MiniMax M 系列模型进行 AI 编程。
+- [TRAE](https://platform.minimaxi.com/docs/token-plan/trae.md): 在 TRAE 中使用最新的 MiniMax M 系列模型进行 AI 编程。
+- [Hermes Agent](https://platform.minimaxi.com/docs/token-plan/hermes-agent.md): 在 Hermes Agent 中使用最新的 MiniMax M 系列模型进行自主 AI 编程。
+- [OpenClaw](https://platform.minimaxi.com/docs/token-plan/openclaw.md): 在 OpenClaw 中使用最新的 MiniMax M 系列模型。
+- [Pi](https://platform.minimaxi.com/docs/token-plan/pi.md): 在 Pi 开源终端编程 Agent 中使用最新的 MiniMax M 系列模型。
+- [其他工具](https://platform.minimaxi.com/docs/token-plan/other-tools.md): 在任意支持自定义 OpenAI 兼容或 Anthropic 兼容端点的 AI 编程工具中接入最新的 MiniMax M 系列模型。
+- [网络搜索 MCP](https://platform.minimaxi.com/docs/token-plan/mcp-guide.md): **Token Plan MCP** 提供 **网络搜索** 工具，帮助开发者在编码过程中快速获取信息。
+- [MiniMax CLI ](https://platform.minimaxi.com/docs/token-plan/minimax-cli.md): [mmx-cli](https://github.com/MiniMax-AI/cli)：一句话，帮你的 Agent 助手用上 MiniMax
+- [一键安装向导](https://platform.minimaxi.com/docs/token-plan/agent-setup.md)
+- [定价概览](https://platform.minimaxi.com/docs/pricing/overview.md)
+- [模型发布](https://platform.minimaxi.com/docs/release-notes/models.md): 本文档汇总MiniMax开放平台最新模型发布动态，覆盖语言、视频、声音、图像、音乐等模态模型信息，帮助开发者了解平台最新模型能力。
+- [功能更新](https://platform.minimaxi.com/docs/release-notes/apis.md): 本文档汇总MiniMax开放平台接口更新动态，助力开发者了解平台最新能力，提升应用体验。
+- [Claude Code setup](https://platform.minimaxi.com/docs/ai-tools/claude-code.md): Configure Claude Code for your documentation workflow
+- [Cursor setup](https://platform.minimaxi.com/docs/ai-tools/cursor.md): Configure Cursor for your documentation workflow
+- [Windsurf setup](https://platform.minimaxi.com/docs/ai-tools/windsurf.md): Configure Windsurf for your documentation workflow
+- [文本合成](https://platform.minimaxi.com/docs/api-reference/text-post.md): 使用本接口，调用语言模型创建对话补全。
+- [创建视频Agent任务](https://platform.minimaxi.com/docs/api-reference/video-agent-create.md): 使用本接口创建视频Agent任务。
+- [查询视频Agent任务状态](https://platform.minimaxi.com/docs/api-reference/video-agent-query.md): 使用本接口查询使用视频Agent生成视频的任务状态。
+- [视频模板列表](https://platform.minimaxi.com/docs/faq/video-agent-templates.md): 本文档提供MiniMax开放平台视频 Agent 接口的全部官方模板。参考以下表格可查询全部可用视频模板的ID、功能说明及输入参数、模板示例，方便开发者快速查询与调用。
+- [即刻体验（调试台）](https://platform.minimaxi.com/docs/guides/playground.md)
+- [对话模型](https://platform.minimaxi.com/docs/guides/text-chat.md): M2-her 对话模型，专为角色扮演、多轮对话等场景设计。
+- [使用模板生成视频](https://platform.minimaxi.com/docs/guides/video-agent.md): 使用视频模板进行视频生成服务，可将图片或文本等素材填充至预设的视频模板中，快速生成风格统一的视频。
+- [AI 播客生成：多模态 AI 应用实战](https://platform.minimaxi.com/docs/solutions/aipodcast.md): <Note> 本教程将带您使用 MiniMax 语音模型 & 语言模型  构建一个完整的 AI 播客生成应用，实现从用户输入到播客成品的全流程自动化。 </Note>
+- [使用多智能体完成复杂任务](https://platform.minimaxi.com/docs/solutions/eigent.md): <Note> 本教程将指导您如何在 Eigent 的 Multi-Agent 框架中接入 MiniMax 语言模型，完成复杂的多步骤任务。 </Note>
+- [Cookbook](https://platform.minimaxi.com/docs/solutions/index.md): 探索 MiniMax API 的实际应用案例和解决方案，助您快速构建 AI 应用。
+- [Mini-Agent：构建您的第一个智能助手](https://platform.minimaxi.com/docs/solutions/mini-agent.md): <Note> 本教程将带您了解 Mini-Agent 的核心架构，并指导您如何接入 MiniMax M2.1 模型构建自己的智能 Agent。 </Note>
+- [5 分钟开发「羊了个羊」小游戏](https://platform.minimaxi.com/docs/solutions/monkeycode-sheep.md): <Note> 本教程将指导您如何通过 MiniMax Code 设计精准开发提示词，在 MonkeyCode 平台接入 MiniMax M2.1 模型，快速开发一款具备完整玩法的 Web 端「羊了个羊」风格三消休闲游戏。 </Note>
+- [在 OpenClaw 中接入 MiniMax 模型](https://platform.minimaxi.com/docs/solutions/openclaw.md): <Note> 本教程将指导您如何在 OpenClaw（原 clawdbot）中配置 MiniMax M2.7 模型，并通过 iMessage 或飞书与 AI 助手进行对话。 </Note>
+- [MiniMax × OpenClaw 应用 Demo 集合](https://platform.minimaxi.com/docs/solutions/openclaw-demo.md): <Note>本系列收录把 OpenClaw 接到真实硬件、外部服务和复杂工作流中的实际 demo。所有 demo 默认以 MiniMax M3 作为底层模型，假设你已完成 [OpenClaw 接入指南](/docs/token-plan/openclaw)中的基础配置。</Note>
+- [用对话指挥机械臂：让机器人听懂你说的话](https://platform.minimaxi.com/docs/solutions/robot-agent.md): <Note> 本教程将带您使用 MiniMax 语言模型 & MCP 视觉理解，构建一个能够理解自然语言指令并执行复杂机械臂操作任务的智能机器人。 </Note>
+- [音色复刻抽卡工具](https://platform.minimaxi.com/docs/solutions/voice-id-lucky-draw.md): <Note> 本案例介绍 Voice ID Lucky Draw：一个把音色复刻从「一次出一个结果」升级为「批量生成 6 个候选并试听筛选」的开箱即用 Web 工具，基于 MiniMax 音色复刻与 T2A 接口构建。 </Note>
+
+## OpenAPI Specs
+
+- [openapi](/docs/api-reference/file/management/api/openapi.json)
+- [image-to-image](/docs/api-reference/image/generation/api/image-to-image.json)
+- [openapi](/docs/api-reference/image/generation/api/openapi.json)
+- [text-to-image](/docs/api-reference/image/generation/api/text-to-image.json)
+- [list-models](/docs/api-reference/models/anthropic/api/list-models.json)
+- [retrieve-model](/docs/api-reference/models/anthropic/api/retrieve-model.json)
+- [list-models](/docs/api-reference/models/openai/api/list-models.json)
+- [retrieve-model](/docs/api-reference/models/openai/api/retrieve-model.json)
+- [openapi](/docs/api-reference/music/api/openapi.json)
+- [openapi](/docs/api-reference/music/lyrics/api/openapi.json)
+- [openapi](/docs/api-reference/speech/speech-to-text/api/openapi.json)
+- [openapi](/docs/api-reference/speech/t2a-async/api/openapi.json)
+- [openapi](/docs/api-reference/speech/t2a/api/openapi.json)
+- [openapi](/docs/api-reference/speech/voice-cloning/api/openapi.json)
+- [upload-file](/docs/api-reference/speech/voice-cloning/api/upload-file.json)
+- [upload-prompt](/docs/api-reference/speech/voice-cloning/api/upload-prompt.json)
+- [openapi](/docs/api-reference/speech/voice-design/api/openapi.json)
+- [openapi](/docs/api-reference/speech/voice-management/api/openapi.json)
+- [openapi-chat-anthropic](/docs/api-reference/text/api/openapi-chat-anthropic.json)
+- [openapi-chat-openai](/docs/api-reference/text/api/openapi-chat-openai.json)
+- [openapi-chat](/docs/api-reference/text/api/openapi-chat.json)
+- [openapi-responses](/docs/api-reference/text/api/openapi-responses.json)
+- [openapi](/docs/api-reference/text/api/openapi.json)
+- [openapi](/docs/api-reference/video/agent/api/openapi.json)
+- [image-to-video](/docs/api-reference/video/generation/api/image-to-video.json)
+- [openapi](/docs/api-reference/video/generation/api/openapi.json)
+- [start-end-to-video](/docs/api-reference/video/generation/api/start-end-to-video.json)
+- [subject-reference-to-video](/docs/api-reference/video/generation/api/subject-reference-to-video.json)
+- [text-to-video](/docs/api-reference/video/generation/api/text-to-video.json)
+- [v2-video-generation](/docs/api-reference/video/generation/api/v2-video-generation.json)
+
+## AsyncAPI Specs
+
+- [asyncapi-bidi](/docs/api-reference/speech/t2a/api/asyncapi-bidi.json)
+- [asyncapi](/docs/api-reference/speech/t2a/api/asyncapi.json)

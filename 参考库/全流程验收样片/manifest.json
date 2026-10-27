@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "title": "啊子牙视频工作室 · 19秒工程演示（非叙事质量样片）",
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "output_dir": "导出",
+  "shots": [
+    {
+      "id": "DEMO_001",
+      "path": "输入/船票评论_真实采用画面.png",
+      "kind": "image",
+      "native_label": false,
+      "duration": 6.28,
+      "source_note": "来源：天涯社区原帖归档，第12页；回复日期：2010-07-11",
+      "source_note_safe_area": true,
+      "layout": {
+        "mode": "fullframe"
+      }
+    },
+    {
+      "id": "DEMO_002",
+      "path": "输入/星月转身_8秒.mp4",
+      "kind": "animation",
+      "native_label": true,
+      "duration": 8.0,
+      "watermark_position": [
+        1664,
+        880
+      ]
+    },
+    {
+      "id": "DEMO_003",
+      "path": "输入/片尾啊子牙.png",
+      "kind": "image",
+      "native_label": true,
+      "duration": 4.84
+    }
+  ],
+  "audio": {
+    "path": "混音/mix_48k_stereo.wav"
+  },
+  "subtitles": [
+    {
+      "start": 0.04,
+      "end": 2.9,
+      "text": "萧山机场因为不明飞行物暂停起降，"
+    },
+    {
+      "start": 3.04,
+      "end": 4.76,
+      "text": "网友已经开始卖船票了。"
+    },
+    {
+      "start": 14.3244,
+      "end": 15.08,
+      "text": "我是啊子牙。"
+    },
+    {
+      "start": 15.28,
+      "end": 16.83,
+      "text": "想拿这次整理的资料，"
+    },
+    {
+      "start": 16.86,
+      "end": 17.84,
+      "text": "可以先关注我。"
+    }
+  ],
+  "chapters": [
+    {
+      "start": 0.0,
+      "title": "真实原文与默认声音"
+    },
+    {
+      "start": 6.28,
+      "title": "星月动画独立重渲染"
+    },
+    {
+      "start": 14.28,
+      "title": "完整姓名与作者片尾"
+    }
+  ],
+  "subtitle_style": {
+    "profile": "main"
+  },
+  "watermark": {
+    "path": "../品牌/B站/透明PNG/啊子牙_悠哉_B站无账号_1080p.png",
+    "width": 224,
+    "x": 1664,
+    "y": 40,
+    "opacity": 1
+  },
+  "versions": [
+    {
+      "id": "bili",
+      "label": "B站水印版",
+      "watermark": true
+    },
+    {
+      "id": "clean",
+      "label": "无个人水印版",
+      "watermark": false
+    }
+  ]
+}

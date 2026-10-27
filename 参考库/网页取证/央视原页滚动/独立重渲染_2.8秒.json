@@ -1,0 +1,63 @@
+{
+  "status": "rendered_requires_decode_and_visual_review",
+  "output": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/央视原页滚动/独立重渲染_2.8秒.mp4",
+  "sha256": "0b797de744a2d237637eb49e2adc56e92634fed67abf0ee765db2e320902f2ce",
+  "duration": 2.8,
+  "frames": 70,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "audio": false,
+  "mode": "page_scroll",
+  "source_pixels_retyped": false,
+  "input_signature": "d93dd22fbe1f10633f7eb3f7c7ff65b8e4684ea35354093ca198eaace68aa2ca",
+  "inputs": [
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/央视原页滚动/制作配置.json",
+      "sha256": "bbfabbfb90bd977182885cb5ec6073ba34651222b948518e6a151c4fe26bc54c"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/工具/网页/animate_evidence.py",
+      "sha256": "0851d899c5d457bab257bd44f0d24f695c6c3904d4fa880e4da39b4f95b6d3e5"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/央视原页滚动/输入/原页连续条.png",
+      "sha256": "9e80334800e6c077dc048835a52cdc7ba5a471eb97e9162436e04194c59a4cc3"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/央视原页滚动/输入/涉案原文高光.png",
+      "sha256": "66108af1f079c3d277621645050943190f3e9126fc12b6773d1b3d7c74cbc59e"
+    }
+  ],
+  "review_samples": [
+    {
+      "path": "独立重渲染_2.8秒_检查00_0.00s.png",
+      "time": 0,
+      "sha256": "7bad7f6ac8e4959dd3ee776a9cf6366795ba5a0c920a376c65d1382e96eb027b"
+    },
+    {
+      "path": "独立重渲染_2.8秒_检查01_0.64s.png",
+      "time": 0.64,
+      "sha256": "ceead14aae345fd368797b0ecb73519e3b6523a7fba2f7713c69334719406abc"
+    },
+    {
+      "path": "独立重渲染_2.8秒_检查02_1.50s.png",
+      "time": 1.5,
+      "sha256": "6bb15214b2db5fa536250e1452a08634fb84c82f405f72c8c437a578a6441fb4"
+    },
+    {
+      "path": "独立重渲染_2.8秒_检查03_2.40s.png",
+      "time": 2.4,
+      "sha256": "7cdd1dae9fa3c956e5270613e1e78cca66d056219826b9b3dbdef5fefc95e1e1"
+    },
+    {
+      "path": "独立重渲染_2.8秒_检查04_2.76s.png",
+      "time": 2.76,
+      "sha256": "fc1f3b7d15fdd2fd86eeee8124be4ef9b7463a0a3a807fba8473435656b765a9"
+    }
+  ],
+  "font_used": "Hiragino Sans GB",
+  "editorial_ui_not_live_site_recording": true
+}

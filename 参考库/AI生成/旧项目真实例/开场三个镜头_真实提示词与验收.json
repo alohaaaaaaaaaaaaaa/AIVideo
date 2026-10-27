@@ -1,0 +1,54 @@
+{
+  "origin": "10_重新策划/开场样片/待审批任务单.json",
+  "notes": "只保存提示词、目的、验收，不迁移旧机器输出路径；旧题材不能直接当作新题材证据。",
+  "shots": [
+    {
+      "id": "N01",
+      "position": "A01a",
+      "seconds": 6,
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "action": "一次缓慢稳定前移，远处匿名旅客自然经过，普通候机环境",
+      "prompt": "A single continuous 6-second cinematic documentary establishing shot, 16:9. A modest Chinese civil airport waiting lounge at night, visually compatible with the early 2010s: rows of ordinary metal airport seats, a few anonymous adult passengers seen only from behind or at a distance, luggage resting naturally, large windows looking onto a dark quiet apron. Cool exterior darkness and restrained warm interior practical lights, natural contrast, realistic neutral colors, believable scale, no futuristic architecture. The camera makes one extremely slow and stable forward dolly of about one step. One distant passenger walks naturally across a small part of the frame while others wait. A calm ordinary travel atmosphere. No visible faces in close-up, no readable signs, no airline logos, no flight information displays, no rain, no storm, no aircraft incident, no aircraft taking off, no strange light, no UFO, no emergency, no text overlays, no subtitles, no cuts, no handheld shake.",
+      "acceptance": [
+        "座椅建筑稳定",
+        "人物不增殖穿模",
+        "无伪标牌或假航班号",
+        "无异常光点和雨",
+        "6秒完整动作，无需变速掩盖缺陷"
+      ]
+    },
+    {
+      "id": "N02",
+      "position": "A03a",
+      "seconds": 6,
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "action": "匿名旅客已坐着，仅缓慢靠回椅背，行李静止，固定低机位",
+      "prompt": "A single continuous 6-second cinematic documentary detail shot, 16:9, realistic early-2010s civil airport waiting area at night. Low camera position slightly behind and to the side of one anonymous adult traveler already seated on a row of ordinary airport seats. Frame the shoulder, back and knees with a plain upright small suitcase beside the seat; keep the face entirely outside the frame. The traveler makes one small natural movement, slowly settling back into the seat, with both hands resting comfortably and the suitcase remaining still. Warm practical light on fabric and luggage, softly out-of-focus terminal background, restrained colors, natural material detail. Locked-off camera, stable perspective, no focus pumping. No standing up, no walking, no looking toward the sky, no visible faces, no speaking, no dramatic gestures, no phone screen, no ticket text, no logos, no emergency, no text overlays, no subtitles, no cuts.",
+      "acceptance": [
+        "单一动作连续",
+        "人体行李不变形",
+        "不暗示旅客目击目标",
+        "景别与N01明显不同",
+        "完整6秒且只使用一次"
+      ]
+    },
+    {
+      "id": "N03",
+      "position": "A04d",
+      "seconds": 6,
+      "resolution": "1080p",
+      "aspect_ratio": "16:9",
+      "action": "机场外围远景，塔台在远处偏侧，镜头稳定横移一步，建筑与栏杆产生细微视差",
+      "prompt": "A single continuous 6-second realistic cinematic documentary exterior shot of a modest generic civil airport at night, compatible with early-2010s architecture, 16:9. View from outside the airport perimeter at normal human height. A low quiet terminal and a small conventional air traffic control tower stand far away, off-center; a simple perimeter railing is in the near foreground. Sparse steady ordinary building lights, dark empty sky, natural exposure with readable architectural forms, realistic neutral colors. The camera makes a very slow smooth lateral dolly of one small step, creating subtle parallax between the foreground railing and distant buildings. Calm ordinary nighttime space, no emergency. No aircraft, no vehicles, no people, no radar screen, no radar beam, no flashing beacon, no unusual light, no light trail, no UFO, no readable signage, no logo, no rain, no fog, no text overlay, no subtitles, no cuts, no shake.",
+      "acceptance": [
+        "建筑栏杆稳定",
+        "无目标与雷达扫描",
+        "不冒充真实萧山机位",
+        "区别于两条内景",
+        "完整6秒只用一次"
+      ]
+    }
+  ]
+}

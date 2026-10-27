@@ -1,0 +1,50 @@
+{
+  "status": "completed_local_delivery",
+  "updated_at": "2026-10-24T00:40:24+08:00",
+  "duration": 1319.96,
+  "frames": 32999,
+  "chapters": 12,
+  "paragraphs": 167,
+  "subtitle_phrases": 692,
+  "outputs": [
+    {
+      "path": "导出/萧山机场事件_叙事优化版_无水印_1080p.mp4",
+      "bytes": 151022257,
+      "sha256": "985ea1e3a2b200959a3d2ea3407675597dcc5f0d69387a582e6ea665f914684b",
+      "duration": 1319.96,
+      "frames": 32999
+    },
+    {
+      "path": "导出/萧山机场事件_叙事优化版_B站_啊子牙水印_1080p.mp4",
+      "bytes": 156838445,
+      "sha256": "543ecf8f80329c979c236ba8b69449d7887130ecbc9a640ae7f4dc56622cc355",
+      "duration": 1319.96,
+      "frames": 32999
+    }
+  ],
+  "player": "播放新版完整版.html",
+  "same_audio": true,
+  "author_endcard_in_both_versions": "啊子牙",
+  "name_spoken_as_one_name": true,
+  "bili_watermark": "啊子牙（无抖音号）",
+  "clean_has_persistent_personal_watermark": false,
+  "inserted_AI_clips": 16,
+  "additional_AI_context_labels": 0,
+  "static_source_footer_additions": 21,
+  "radar_removed_empty_seconds": 9.52,
+  "estimated_voice_cost_cny": 4.3995,
+  "actual_billing_verified": false,
+  "approved_script_sha256": "2166b77583162d3eb40ff488ff93312d4ede70aa5068bb6212ab2b447eefb731",
+  "current_review_reports": [
+    "检查/当前前半终审/最终成片核验.json",
+    "检查/后半与片尾最终成片核验.json",
+    "检查/最终啊子牙音轨/最终姓名连读成片核验.json",
+    "检查/最终police音轨/最终police成片核验.json",
+    "检查/播放器核验.json",
+    "检查/最终配乐衔接核验.json",
+    "检查/AI片段与标注.json",
+    "检查/截图来源补齐核验.json"
+  ],
+  "externally_published": false,
+  "human_full_length_listening_claimed": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "template_fill_before_production",
+  "topic": "待填",
+  "question_viewer_can_answer": "这段画面要让观众看明白哪一个具体问题",
+  "model": "ENU天空 / 日期时区 / 物理机制 / 请求回应 / 资金流 / 线索汇合 / 其他",
+  "why_animation": "为什么一张原文截图不能讲清楚",
+  "facts_and_sources": [],
+  "uncertainties": [],
+  "teaching_assumptions": [],
+  "editorial_markers_not_observations": [],
+  "native_labels": [],
+  "safe_subtitle_zone": "根据整片既有字幕样式核对，不随意移动",
+  "action_beats": [
+    {"state": "建立问题与位置", "voice_anchor": "待填", "duration": null},
+    {"state": "完整动作", "voice_anchor": "待填", "duration": null},
+    {"state": "结果观察与下一句", "voice_anchor": "待填", "duration": null}
+  ],
+  "music_plan": "默认沿用声音规范；与动作和结论落点同步，不覆盖关键词",
+  "checks": ["输入单位/时区/方向", "原文与计算复核", "开始中间结束动作", "真实旁白同步", "原生标注不重复", "最终MP4解码与连续播放"],
+  "historical_reference_only": "萧山的数据、日期、飞机结论不可直接作为此题事实"
+}

@@ -1,0 +1,160 @@
+{
+  "status": "failed",
+  "capture": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/检查/网页取证失败模式_20261026/07_tamper_fixture/capture.json",
+  "capture_sha256": "d98115ee572d8988116b521ed71a99647076ee6ac2788f8a5709c274e168fb75",
+  "checks": [
+    {
+      "check": "capture_not_failed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_text_not_retyped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_css_injected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_network_in_archived_mode",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:visible_full_text.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:capture_config.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:rendered_dom.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/viewport.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/full_page.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/test.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/main_original.html",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "check": "test:screenshot_dimensions",
+      "passed": true,
+      "detail": [
+        432,
+        372
+      ]
+    },
+    {
+      "check": "test:quoted_context_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:quote_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:in_capture_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:transform_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:in_capture_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:transform_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:full_quote:in_capture_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:mark_is_original:across",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:mark:across:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:mark:across:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:mark:across:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:mark:across:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test:mark:across:in_capture_1",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "visual_review": {
+    "performed": false,
+    "note": "Review actual captured and encoded images before production."
+  },
+  "scope": "Integrity and coordinate geometry. Does not independently prove the source claims or copyright ownership."
+}

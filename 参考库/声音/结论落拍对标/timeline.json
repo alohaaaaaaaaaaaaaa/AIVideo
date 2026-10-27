@@ -1,0 +1,160 @@
+{
+  "duration": 12.36,
+  "fps": 25,
+  "chapters": [
+    {
+      "id": "01",
+      "title": "完整结论",
+      "start": 0,
+      "end": 12.36,
+      "narration": "voice_48k.wav"
+    }
+  ],
+  "music_sections": [
+    {
+      "id": "judgment",
+      "title": "结论字尾落定",
+      "start": 0,
+      "end": 12.36,
+      "music_mood": "judgment"
+    }
+  ],
+  "subtitles": [
+    {
+      "text": "所以，",
+      "start": 0.0444,
+      "end": 0.3556,
+      "tts_text": "所以，",
+      "source_phrase_indices": [
+        0
+      ],
+      "timing_source": "MiniMax_generated_audio_word_timestamps",
+      "timing_not_allocated_by_character_count": true
+    },
+    {
+      "text": "综合前面的线索和央视针对本案的后续报道，",
+      "start": 0.4,
+      "end": 3.7778,
+      "tts_text": "综合前面的线索和央视针对本案的后续报道，",
+      "source_phrase_indices": [
+        1
+      ],
+      "timing_source": "MiniMax_generated_audio_word_timestamps",
+      "timing_not_allocated_by_character_count": true
+    },
+    {
+      "text": "我的结论是：",
+      "start": 4.18,
+      "end": 5.12,
+      "tts_text": "我的结论是：",
+      "source_phrase_indices": [
+        2
+      ],
+      "timing_source": "waveform_and_independent_ASR_boundary_review",
+      "timing_not_allocated_by_character_count": true
+    },
+    {
+      "text": "萧山机场这次事件，",
+      "start": 5.94,
+      "end": 7.1378,
+      "tts_text": "萧山机场这次事件，",
+      "source_phrase_indices": [
+        3
+      ],
+      "timing_source": "waveform_and_independent_ASR_boundary_review_with_silence_shift",
+      "timing_not_allocated_by_character_count": true,
+      "editing_shift_seconds": 0.56
+    },
+    {
+      "text": "是一起私人飞机黑飞事件。",
+      "start": 7.1822,
+      "end": 9.46,
+      "tts_text": "是一起私人飞机黑飞事件。",
+      "source_phrase_indices": [
+        4
+      ],
+      "timing_source": "MiniMax_generated_audio_word_timestamps",
+      "timing_not_allocated_by_character_count": true,
+      "editing_shift_seconds": 0.56
+    }
+  ],
+  "segments": [
+    {
+      "id": "CONCLUSION",
+      "start": 0,
+      "end": 12.36,
+      "text": "所以，综合前面的线索和央视针对本案的后续报道，我的结论是：萧山机场这次事件，是一起私人飞机黑飞事件。",
+      "phrases": [
+        {
+          "text": "所以，",
+          "start": 0.0444,
+          "end": 0.3556,
+          "tts_text": "所以，",
+          "source_phrase_indices": [
+            0
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "综合前面的线索和央视针对本案的后续报道，",
+          "start": 0.4,
+          "end": 3.7778,
+          "tts_text": "综合前面的线索和央视针对本案的后续报道，",
+          "source_phrase_indices": [
+            1
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "我的结论是：",
+          "start": 4.18,
+          "end": 5.12,
+          "tts_text": "我的结论是：",
+          "source_phrase_indices": [
+            2
+          ],
+          "timing_source": "waveform_and_independent_ASR_boundary_review",
+          "timing_not_allocated_by_character_count": true
+        },
+        {
+          "text": "萧山机场这次事件，",
+          "start": 5.94,
+          "end": 7.1378,
+          "tts_text": "萧山机场这次事件，",
+          "source_phrase_indices": [
+            3
+          ],
+          "timing_source": "waveform_and_independent_ASR_boundary_review_with_silence_shift",
+          "timing_not_allocated_by_character_count": true,
+          "editing_shift_seconds": 0.56
+        },
+        {
+          "text": "是一起私人飞机黑飞事件。",
+          "start": 7.1822,
+          "end": 9.46,
+          "tts_text": "是一起私人飞机黑飞事件。",
+          "source_phrase_indices": [
+            4
+          ],
+          "timing_source": "MiniMax_generated_audio_word_timestamps",
+          "timing_not_allocated_by_character_count": true,
+          "editing_shift_seconds": 0.56
+        }
+      ]
+    }
+  ],
+  "conclusion_cue": {
+    "core_start": 5.94,
+    "core_end": 9.465,
+    "scope_end": 12.36,
+    "post_word_delay": 0.1,
+    "narration_sha256": "fc2100743dbe1a5e24c01deb871b8da17f806a90ee471091c64873fdbb87ae30",
+    "verification_method": "waveform_and_independent_asr",
+    "original_approved_core_end": 9.38,
+    "original_approved_resolve": 9.48
+  },
+  "music_cues": [],
+  "sound_cues": []
+}

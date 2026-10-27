@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checks": {
+    "valid_adopted_opening": {
+      "passed": true,
+      "blocked_reason": null
+    },
+    "custom_mark_paths": {
+      "passed": true,
+      "blocked_reason": null
+    },
+    "scaled_default_mark": {
+      "passed": true,
+      "blocked_reason": null
+    },
+    "stale_timeline": {
+      "passed": true,
+      "blocked_reason": "实音时间线已改变；重新决定剪点，不能继续用旧分镜秒数"
+    },
+    "asset_replaced": {
+      "passed": true,
+      "blocked_reason": "素材换版但分镜未重新核对: F01_00_00"
+    },
+    "shot_gap": {
+      "passed": true,
+      "blocked_reason": "镜头空洞或重叠: F01_00_00"
+    },
+    "no_viewer_task": {
+      "passed": true,
+      "blocked_reason": "缺少观众在此镜需要看什么: F01_00_00"
+    },
+    "video_too_short": {
+      "passed": true,
+      "blocked_reason": "视频不足，禁止静帧/循环补齐: F01_03_00"
+    },
+    "ai_acceptance_old": {
+      "passed": true,
+      "blocked_reason": "验收记录丢失: F01_01_00"
+    },
+    "current_cue_bound": {
+      "passed": true,
+      "blocked_reason": null
+    },
+    "stale_animation": {
+      "passed": true,
+      "blocked_reason": "动画成片尚未用当前触发点重渲染: F01_00_00"
+    },
+    "stale_cues": {
+      "passed": true,
+      "blocked_reason": "动画触发点仍绑定旧时间线"
+    }
+  },
+  "scope": "actual opening plan with deliberately stale inputs; no aesthetic claim"
+}

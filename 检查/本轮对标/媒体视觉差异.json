@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "reference_duration": 1319.96,
+  "reference_final_sha256": "985ea1e3a2b200959a3d2ea3407675597dcc5f0d69387a582e6ea665f914684b",
+  "visual_defaults_sha256": "e7c7c6b4025f60e8dacd7bcd7df68768bfd6b30a90fa24a9bdaf9a8daabcd9ad",
+  "reference_main_ass_style": "Style: Main,Hiragino Sans GB,42,&H00F8F8F8,&H00FFFFFF,&H00101014,&H80000000,0,0,0,0,100,100,0,0,1,2.5,1,2,90,90,42,1",
+  "current_main_ass_style": "Style: Main,Hiragino Sans GB,42,&H00F8F8F8,&H00FFFFFF,&H00101014,&H80000000,0,0,0,0,100,100,0,0,1,2.5,1,2,90,90,42,1",
+  "font": {
+    "family": "Hiragino Sans GB",
+    "file": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "sha256": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130",
+    "exact_reference_face": true,
+    "notice": null
+  },
+  "results": [
+    {
+      "id": "comment",
+      "reference_time": 3.6,
+      "active_subtitles": [
+        {
+          "start": 2.93,
+          "end": 4.53,
+          "margin_v": 42,
+          "text": "要票的联系我啊。”"
+        }
+      ],
+      "source_note": "天涯原帖归档 · peace1989 · 2010-07-11 18:29:19",
+      "whole_frame_mae_0_255": 0.2074151234567901,
+      "upper_picture_mae": 0.23846384099616857,
+      "source_footer_mae": 0.10460262345679013,
+      "subtitle_bright_glyph_iou": 0.9926017262638718,
+      "composition_same": true,
+      "contact_sheet": "检查/本轮对标/媒体/comment_同画面对照.jpg"
+    },
+    {
+      "id": "science",
+      "reference_time": 320.0,
+      "active_subtitles": [
+        {
+          "start": 319.19,
+          "end": 320.66,
+          "margin_v": 74,
+          "text": "快门开着的时候，"
+        }
+      ],
+      "source_note": null,
+      "whole_frame_mae_0_255": 0.32645608281893,
+      "upper_picture_mae": 0.25690513250319286,
+      "source_footer_mae": 0.6146141975308642,
+      "subtitle_bright_glyph_iou": 0.9849246231155779,
+      "composition_same": true,
+      "contact_sheet": "检查/本轮对标/媒体/science_同画面对照.jpg"
+    },
+    {
+      "id": "source_two_lines",
+      "reference_time": 685.0,
+      "active_subtitles": [
+        {
+          "start": 684.76,
+          "end": 686.36,
+          "margin_v": 42,
+          "text": "可到了华东管理局办公室，"
+        }
+      ],
+      "source_note": "京沪民间联合调查报告｜2010年7月14—15日走访｜UFO研究网后续转载\n现存论坛页发表于2015年；报告转述接待答复，非机组原始笔录或政府结案文件",
+      "whole_frame_mae_0_255": 0.6615629822530864,
+      "upper_picture_mae": 0.7842875957854406,
+      "source_footer_mae": 0.18241898148148147,
+      "subtitle_bright_glyph_iou": 0.9857633775159549,
+      "composition_same": true,
+      "contact_sheet": "检查/本轮对标/媒体/source_two_lines_同画面对照.jpg"
+    },
+    {
+      "id": "endcard",
+      "reference_time": 1312.0,
+      "active_subtitles": [
+        {
+          "start": 1311.86,
+          "end": 1312.84,
+          "margin_v": 42,
+          "text": "可以先关注我。"
+        }
+      ],
+      "source_note": null,
+      "whole_frame_mae_0_255": 0.44756783693415636,
+      "upper_picture_mae": 0.32796575670498085,
+      "source_footer_mae": 0.9144560185185185,
+      "subtitle_bright_glyph_iou": 0.9644670050761421,
+      "composition_same": true,
+      "contact_sheet": "检查/本轮对标/媒体/endcard_同画面对照.jpg"
+    }
+  ],
+  "fixes": [
+    "去掉source_note隐式缩图，fullframe全幅不加边不裁切",
+    "字体恢复Hiragino并记录实际libass选择和字体hash",
+    "主字幕42/科学74按profile；描边阴影颜色左右边距对齐原片",
+    "来源底栏870/884/926位置、27/23字体和原配色恢复",
+    "来源与字幕文字检查实际字宽，防静默出屏",
+    "原页长图显式evidence_region，contain必须用途说明"
+  ],
+  "paid_calls": 0,
+  "limits": [
+    "同画面使用原无字幕母片冻结帧，仅比较布局字形与编码误差，不代替运动/声音审片",
+    "系统Hiragino不复制分发；跨机Noto回退必须披露为不同字形"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "duration": 17.6,
+  "chapters": 2,
+  "chapter_bridges": 1,
+  "added_seconds": 0,
+  "conclusion": {
+    "core_start": 6.34,
+    "core_end": 9.865,
+    "rms_last_active_seconds": 9.865,
+    "rms_window_ms": 5,
+    "rms_threshold_dbfs": -43,
+    "resolve": 9.965,
+    "word_to_resolve_seconds": 0.1,
+    "scope_end": 12.76,
+    "tail_seconds": 2.795,
+    "narration_sha256": "8f8ceb754326406e6f04b70efac70c402ad7f98ca56ba5522a6beb4d923267c9",
+    "verification_method": "approved_original_waveform_review",
+    "subtitle_end_used_as_word_tail": false,
+    "narration_changed": false
+  },
+  "final_mix": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/final/mix_48k_stereo.wav",
+  "final_mix_sha256": "84c7a246098196ef15b7e8a566528e65f9525e508e19b4f919e2c8b3d9d4d086",
+  "paid_calls": 0,
+  "original_voice_samples_preserved": true,
+  "timeline_sha256": "15ece0146780e4ddfbc9ecb8871c7723acc9cf38d2759022f0f7ca5d38202421",
+  "final_measurement": {
+    "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/final/mix_48k_stereo.wav",
+    "sha256": "84c7a246098196ef15b7e8a566528e65f9525e508e19b4f919e2c8b3d9d4d086",
+    "duration": 17.6,
+    "sample_peak_dbfs": -4.921633404324826,
+    "clipped_samples": 0,
+    "integrated_lufs": -17.06,
+    "true_peak_dbtp": -4.9,
+    "loudness_range_lu": 3.1,
+    "complete_decode": true
+  }
+}

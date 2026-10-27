@@ -1,0 +1,73 @@
+{
+  "status": "rendered_requires_decode_and_visual_review",
+  "output": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/平湖原页/原文高光与实音划线_20.52秒.mp4",
+  "sha256": "2f500b84997aa6f91c224cd7a7220acb3b751307dafd1ac222d569319b793e1c",
+  "duration": 20.52,
+  "frames": 513,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "audio": false,
+  "mode": "capture_focus",
+  "source_pixels_retyped": false,
+  "input_signature": "080d346ecb495f932c00d8b1c7db19c63467cb65c4519c8f3965d027ddf2764e",
+  "inputs": [
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/平湖原页/制作配置.json",
+      "sha256": "a2dca0deb6cb993cf9d9da5e5743b67883b9ef258e814b40994dbd38d994191e"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/工具/网页/animate_evidence.py",
+      "sha256": "0851d899c5d457bab257bd44f0d24f695c6c3904d4fa880e4da39b4f95b6d3e5"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/平湖原页/抓取_20261026/capture.json",
+      "sha256": "c03576e3e4128ffb1b4f8b1f7397c7624081b71663730a6325139b4e05782858"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/平湖原页/抓取_20261026/原始截图/pinghu.png",
+      "sha256": "2612689b98f0c42a48cc393271e2752f1deee0369d7e82d9db8ed91b8b4ca109"
+    }
+  ],
+  "review_samples": [
+    {
+      "path": "原文高光与实音划线_20.52秒_检查00_0.00s.png",
+      "time": 0,
+      "sha256": "08b895935ace8ee6d4fac580e1fc5ee34043b19814447ac6a66685565f2de3cb"
+    },
+    {
+      "path": "原文高光与实音划线_20.52秒_检查01_0.30s.png",
+      "time": 0.3,
+      "sha256": "d35acc911ccd9d37006bf42dd69078a0af0ac5a6ff0a4d137ebf59643890ccf8"
+    },
+    {
+      "path": "原文高光与实音划线_20.52秒_检查02_8.20s.png",
+      "time": 8.2,
+      "sha256": "a22819ad8b38c28c8700e8675588400d98478fb0b122d08f0fe31df5b03447f1"
+    },
+    {
+      "path": "原文高光与实音划线_20.52秒_检查03_10.50s.png",
+      "time": 10.5,
+      "sha256": "fb9cc78499d2f8291e84d7d7c892c52dae9a3ca7e74092977be2021a2a87a78a"
+    },
+    {
+      "path": "原文高光与实音划线_20.52秒_检查04_15.60s.png",
+      "time": 15.6,
+      "sha256": "6ad544eeb100ac1a543852fec5bb9ba23714da83bcda53065409dbd1612a3803"
+    },
+    {
+      "path": "原文高光与实音划线_20.52秒_检查05_16.20s.png",
+      "time": 16.2,
+      "sha256": "35be118f5392a16b2e5cc743ef882db54dd2438dcdece8f8c351fb1e0c7252d4"
+    },
+    {
+      "path": "原文高光与实音划线_20.52秒_检查06_20.48s.png",
+      "time": 20.48,
+      "sha256": "35be118f5392a16b2e5cc743ef882db54dd2438dcdece8f8c351fb1e0c7252d4"
+    }
+  ],
+  "font_used": "Hiragino Sans GB",
+  "editorial_ui_not_live_site_recording": false
+}

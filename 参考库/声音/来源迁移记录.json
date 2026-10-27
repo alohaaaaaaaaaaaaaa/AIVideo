@@ -1,0 +1,47 @@
+{
+  "scope": "来源追溯记录；这些路径不是依赖，新项目运行无需旧项目。",
+  "source_project": "xsufo",
+  "migrated_on": "2026-10-26",
+  "sources": [
+    {
+      "historical_relative_path": "10_重新策划/开场样片/风格试片_v2/BGM/编曲渲染.py",
+      "sha256": "1704a1ab8a5641caa3a02b028fad6dbc2f731138b5420ee1c1b0a41346216d31"
+    },
+    {
+      "historical_relative_path": "10_重新策划/开场样片/风格试片_v2/BGM/混入背景音乐.py",
+      "sha256": "50b0ceb641b45e95c14a8e07661bed04de21c7c05f146142a899d983765b4ab3"
+    },
+    {
+      "historical_relative_path": "10_重新策划/最后一幕_重新整理/制作/工具/制作配乐.py",
+      "sha256": "6d972662753f88f74e68d5e45dbe03a6a5564d86b638937698fe872615f5cf29"
+    },
+    {
+      "historical_relative_path": "10_重新策划/全片终版/叙事优化制作/工具/制作新版配乐.py",
+      "sha256": "dba88b5c87a7b7368a3f4e7847578b1f15918c8f81c3bdd864c4b4d42a44f43f"
+    },
+    {
+      "historical_relative_path": "10_重新策划/全片终版/叙事优化制作/工具/衔接配乐.py",
+      "sha256": "abec9ca542666b15828690b2d231bd84fb4046eaf2a700fa8dd4ade8a2f92d66"
+    },
+    {
+      "historical_relative_path": "10_重新策划/全片终版/叙事优化制作/工具/配音/姓名啊子牙局部修音.py",
+      "sha256": "80b60c24b397817520839d250e62d13cb1b05ba43ab19ca78899d7b5221c5c8c"
+    },
+    {
+      "historical_relative_path": "10_重新策划/全片终版/叙事优化制作/工具/配音/整理段落时码.py",
+      "sha256": "e7e9c56ab87a1aec4d1d95cb8eed632efd061fff9e81169ce5ffd5285e62b0b4"
+    },
+    {
+      "historical_relative_path": "10_重新策划/照片与雷达调查/工具/整理旁白.py",
+      "sha256": "ce04346d10e2e537761cc0b960aabacc031f0d24a984776a7e2c68f803622159"
+    }
+  ],
+  "port_changes": [
+    "所有运行时路径指向新项目自身",
+    "删除萧山专属关键词推断，music_mood和结论时码显式输入",
+    "保留四音色与电平/避让算法，加入可编辑MIDI输出",
+    "TTS只读环境变量，离线计划与预算付费执行分开",
+    "已成功姓名语音缓存可离线重现",
+    "所有新增验证与样品都为本地零付费"
+  ]
+}

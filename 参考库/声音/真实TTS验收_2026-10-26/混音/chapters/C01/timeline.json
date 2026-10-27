@@ -1,0 +1,15 @@
+{
+  "duration": 7.28,
+  "music_sections": [
+    {
+      "id": "M001",
+      "chapter": "01",
+      "title": "新短句真实API验收",
+      "music_mood": "trace",
+      "start": 0.0,
+      "end": 7.28
+    }
+  ],
+  "music_cues": [],
+  "sound_cues": []
+}

@@ -1,0 +1,8 @@
+{
+  "source_project": "xsufo",
+  "source_project_relative": "10_重新策划/全片终版/叙事优化制作/缓存/全片_无字幕无声_1080p.mp4",
+  "frame_time_seconds": 4.8,
+  "destination": "参考库/全流程验收样片/输入/船票评论_真实采用画面.png",
+  "sha256": "918592ad8876a800c4f8888d35864692bf3ac7e4f977d139f035a5d4e4f42a31",
+  "note": "一次性从采用版无声无字幕母片提取真实评论画面；运行不读取旧项目。"
+}

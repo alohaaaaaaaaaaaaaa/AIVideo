@@ -1,0 +1,47 @@
+{
+  "duration": 12.76,
+  "music_sections": [
+    {
+      "id": "M001",
+      "chapter": "01",
+      "title": "完整结论与精确字尾",
+      "music_mood": "judgment",
+      "start": 0.0,
+      "end": 12.76
+    }
+  ],
+  "music_cues": [
+    {
+      "type": "space",
+      "start": 5.1,
+      "end": 6.3,
+      "gain": 0.5,
+      "anchor_segment_id": "CONCLUSION"
+    },
+    {
+      "type": "space",
+      "role": "conclusion_duck",
+      "start": 5.99,
+      "end": 9.865,
+      "gain": 0.7498942093324559,
+      "reason": "Let the complete core judgment finish before the cadence"
+    },
+    {
+      "type": "resolve",
+      "time": 9.965,
+      "scope_end": 12.76,
+      "core_start": 6.34,
+      "core_end": 9.865,
+      "audio_verified": true,
+      "reason": "Resolve after actual word tail; preserve music in later sections"
+    }
+  ],
+  "sound_cues": [
+    {
+      "type": "page",
+      "time": 6.34,
+      "anchor_segment_id": "CONCLUSION",
+      "duration": 0.16
+    }
+  ]
+}

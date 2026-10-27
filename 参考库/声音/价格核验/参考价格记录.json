@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-26T13:47:57.678346+00:00",
+  "source_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo",
+  "model": "speech-2.8-hd",
+  "rate_cny_per_10000_weighted_characters": 3.5,
+  "han_character_weight": 2,
+  "other_character_weight": 1,
+  "evidence_file": "2026-10-26_TTS官方定价摘录.txt",
+  "evidence_sha256": "27d1863b14907896ce91c282db2087c4612b994e43ff03fbf613c8593092c068",
+  "note": "This is a dated reference, not authorization for any new paid job; recheck current price per new plan."
+}

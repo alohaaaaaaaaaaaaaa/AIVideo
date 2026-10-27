@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "date_local": "2026-10-26",
+  "seven_bodies_twenty_minute_nodes": [
+    {
+      "body": "Sun",
+      "raw_nodes_matched": 7
+    },
+    {
+      "body": "Moon",
+      "raw_nodes_matched": 7
+    },
+    {
+      "body": "Mercury",
+      "raw_nodes_matched": 7
+    },
+    {
+      "body": "Venus",
+      "raw_nodes_matched": 7
+    },
+    {
+      "body": "Mars",
+      "raw_nodes_matched": 7
+    },
+    {
+      "body": "Jupiter",
+      "raw_nodes_matched": 7
+    },
+    {
+      "body": "Saturn",
+      "raw_nodes_matched": 7
+    }
+  ],
+  "venus_coordinate_conversion": {
+    "az_deg": 280.4588600081255,
+    "alt_deg": 10.241917990960802,
+    "difference_from_printed_jpl_az": 1.255102688446641e-10,
+    "difference_from_printed_jpl_alt": -3.9197090018205927e-11,
+    "unit_vector_squared": 0.9999999999999997
+  },
+  "one_minute_nodes": "historical_fetch_failed_not_used",
+  "network_calls": 0,
+  "paid_api_calls": 0,
+  "source_files_modified": false,
+  "limitation": "同一星历打印输入的计算一致性；不是现场观测精度，不是独立重新求解天体轨道。"
+}

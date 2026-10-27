@@ -1,0 +1,76 @@
+{
+  "mode": "page_scroll",
+  "source": "输入/原页连续条.png",
+  "target": "输入/涉案原文高光.png",
+  "duration": 2.8,
+  "fps": 25,
+  "scroll": {
+    "x": 0,
+    "from_y": 10,
+    "to_y": 346,
+    "width": 720,
+    "height": 405,
+    "dpr": 3,
+    "start": 0.8,
+    "duration": 1.55
+  },
+  "target_transition": {
+    "start": 2.4,
+    "duration": 0.4
+  },
+  "editorial_find_overlay": {
+    "text": "萧山",
+    "character_times": [
+      0.3,
+      0.6
+    ],
+    "until": 2.55
+  },
+  "marks": {
+    "xiaoshan": [
+      [
+        841.04,
+        412.0,
+        1065.08,
+        412.0
+      ]
+    ]
+  },
+  "cues": [
+    {
+      "mark": "xiaoshan",
+      "start": 2.3,
+      "draw_duration": 0.5,
+      "width": 4,
+      "color": [
+        206,
+        145,
+        57
+      ],
+      "ease": true
+    }
+  ],
+  "footer": {
+    "safe_area_confirmed": true,
+    "font_sizes": [
+      26,
+      22
+    ],
+    "lines": [
+      "新浪转载央视《经济半小时》实录 · 2010-11-19",
+      "原页查找“萧山”；节目于11月18日播出"
+    ]
+  },
+  "review_times": [
+    0,
+    0.64,
+    1.5,
+    2.4,
+    2.76
+  ],
+  "adopted_final_time": [
+    194.2,
+    197.0
+  ],
+  "editorial_overlay_disclosure": "查找框、输入与滚动动作由PIL后期制作，底图是保存原HTML连续像素；不是当年屏幕录像，也不是网站原生搜索框。"
+}

@@ -1,0 +1,397 @@
+{
+  "copied_at_local": "2026-10-26",
+  "source_project": "xsufo",
+  "files": [
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/工具/制作天空动画.py",
+      "new_project_relative": "参考库/动画/01_星月与日期/历史源码/制作天空动画.py",
+      "sha256": "7180157e02aac6c3058ff893a7b4d9541ba442c085dab1401b2ba20b7ba9ba33",
+      "bytes": 23703
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/工具/制作日期动画.py",
+      "new_project_relative": "参考库/动画/01_星月与日期/历史源码/制作日期动画.py",
+      "sha256": "04e467251a5cbbf509462c91ede5104f99941ef53d23f867386d370dc6feec39",
+      "bytes": 15368
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/工具/天空动画接口.md",
+      "new_project_relative": "参考库/动画/01_星月与日期/历史源码/天空动画接口.md",
+      "sha256": "7198d192835229951a1039f9567a03fd913b2212fd6475aa7070082f8fae674a",
+      "bytes": 3113
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/工具/合成调查段.py",
+      "new_project_relative": "参考库/动画/01_星月与日期/历史源码/合成调查段.py",
+      "sha256": "c662afcb35aac0368069f9bdff96ae167bdc8f861184262dd89118cc8466438f",
+      "bytes": 7672
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/工具/编排动作成片.py",
+      "new_project_relative": "参考库/动画/01_星月与日期/历史源码/编排动作成片.py",
+      "sha256": "f78d4bb0ba17ad43cc5903ac5ca39e2b0d1d33de8312962b4341765fdbbd6439",
+      "bytes": 9326
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/取回每分钟星历.py",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/取回每分钟星历.py",
+      "sha256": "1a5d4b1ea57d3f8b95ac14621085eabcc65a55179e16515cbf7a4ab3a7640e41",
+      "bytes": 4766
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/核对金星计算演示.py",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/核对金星计算演示.py",
+      "sha256": "f2b106f4dd7de4f686795e0afce6dfa5626a2600c92456b3c06f8081dc26e5fc",
+      "bytes": 3802
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/金星计算演示.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/金星计算演示.json",
+      "sha256": "659bdb5493acedc87b184deea8253752d6ceb24903db320fc2d0b3d0d47a08a8",
+      "bytes": 10521
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/天空每分钟位置.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/天空每分钟位置.json",
+      "sha256": "72da256fe2ad781cca60d5d1272780a81f309542d72698ed676f40ac7b880595",
+      "bytes": 11296
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/JPL_一分钟/Sun_参数与取回记录.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/JPL_一分钟/Sun_参数与取回记录.json",
+      "sha256": "0ba6eec7931c1eef56dde8c7163abae7ac160abd426d67c5b59a97ce370dcc16",
+      "bytes": 1096
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/JPL_一分钟/Mercury_参数与取回记录.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/JPL_一分钟/Mercury_参数与取回记录.json",
+      "sha256": "f75e8609307f352e5b562c7690f1c1c0e03404944074cf2bab4eacd8751f5bcd",
+      "bytes": 1102
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/JPL_一分钟/Saturn_参数与取回记录.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/JPL_一分钟/Saturn_参数与取回记录.json",
+      "sha256": "93a1ed8019b968019ec6e4628e0ddf0e60ccb5a2a1886f08280f1240ba9498f7",
+      "bytes": 1101
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/JPL_一分钟/Mars_参数与取回记录.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/JPL_一分钟/Mars_参数与取回记录.json",
+      "sha256": "10a5d7287e5a22e4e83afa1a51a62a3ab90b8cae6cc6f3ed35429c73960150b0",
+      "bytes": 1099
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/JPL_一分钟/Jupiter_参数与取回记录.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/JPL_一分钟/Jupiter_参数与取回记录.json",
+      "sha256": "dbe2f7683293d2b68e14de1d5f279aebeaaf11a648f8c6bee80490a817c6e357",
+      "bytes": 1102
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/JPL_一分钟/Venus_参数与取回记录.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/JPL_一分钟/Venus_参数与取回记录.json",
+      "sha256": "cd83c9e60f6ef73b1c86edba2818c1501a16204b90c109c3d78bd266f62a73f2",
+      "bytes": 1100
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/JPL_一分钟/Moon_参数与取回记录.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/JPL_一分钟/Moon_参数与取回记录.json",
+      "sha256": "e496eb3acfb9cfb0d564363c0f73f47dc5fb18fe93bd59d4e1c5f344ab9280b1",
+      "bytes": 1099
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/数据/JPL_一分钟/fetch_log.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/历史失败请求/JPL_一分钟/fetch_log.json",
+      "sha256": "22926bc4da71a849d08e63104a5516309c5ef4c0f539c742dda0212e1e7036ae",
+      "bytes": 8047
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/数据/sky_positions.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/sky_positions.json",
+      "sha256": "55e6cadbb0c259529a6d1e582ad5db1ab7d95154acc24b513be2be4062a30ac5",
+      "bytes": 31181
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Mars_返回正文.txt",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Mars_返回正文.txt",
+      "sha256": "00210a6c9d85544dc5d837b3a515235fb28fbeac521f441df28725a1538690b3",
+      "bytes": 9661
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Mars_原始返回.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Mars_原始返回.json",
+      "sha256": "7b9cde2e3f45e11be11fe0ddf0e138a6b0732e32bd42ace8e17a42759de6b219",
+      "bytes": 9930
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Jupiter_参数.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Jupiter_参数.json",
+      "sha256": "3c026597ec58c3fcc13b196c10402e87062f7f0bf0ae18f5fb64227ad77be6da",
+      "bytes": 1498
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Venus_参数.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Venus_参数.json",
+      "sha256": "6ae3871988b6a79ac8a638b80ae305c5500a4e4cf688c31779f6d7fed167c2b4",
+      "bytes": 1494
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Horizons_API官方说明_正文.txt",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Horizons_API官方说明_正文.txt",
+      "sha256": "7559eceeefd2f6d325e53f265535bc1b90cc2cdcb4ba4522902b8cad170acdbb",
+      "bytes": 48933
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Saturn_原始返回.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Saturn_原始返回.json",
+      "sha256": "add8335ec7a88507082e4c176bd6d7a57fc6aa5186e8cf34b56aeca6cd674e4e",
+      "bytes": 9857
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/astro_horizons_jpl.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/astro_horizons_jpl.json",
+      "sha256": "8b899982a77c9a48a15414b235760e3edf8ed20ccfa668e6f661f4902ad62ea3",
+      "bytes": 58458
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Jupiter_原始返回.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Jupiter_原始返回.json",
+      "sha256": "4f78d38b0f0a8ad59483ee8fb857c445ff2aa5c624af383968dab57ed493843e",
+      "bytes": 9893
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Moon_返回正文.txt",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Moon_返回正文.txt",
+      "sha256": "7d9502388db78e0721c2217050f8c4a965590bbad096b8cda4c5404adf377154",
+      "bytes": 9689
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Mars_参数.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Mars_参数.json",
+      "sha256": "3acf44221f00d779c5a4e22965ffbe9a8d91f0899b26075752d292c7ae6abf95",
+      "bytes": 1492
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Horizons_官方手册_正文.txt",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Horizons_官方手册_正文.txt",
+      "sha256": "ec19fbd0b91a9160d66e7f5cf2036fb7d6e18f187b9e66e6e960cb4813ce89fc",
+      "bytes": 179849
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Jupiter_返回正文.txt",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Jupiter_返回正文.txt",
+      "sha256": "617d471f0599908048a021108a7ffff810747f110e8685d613ebc7f55ca0d7dc",
+      "bytes": 9626
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Mercury_原始返回.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Mercury_原始返回.json",
+      "sha256": "62f2facaf4b807472229acadd90f51fc001eecb6cfe4475713d592d0b8db1aab",
+      "bytes": 9831
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Mercury_参数.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Mercury_参数.json",
+      "sha256": "e947aae07fd78bb028638db5c795408963161f61b4a1830f6ebe68c3a74c156d",
+      "bytes": 1498
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Saturn_返回正文.txt",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Saturn_返回正文.txt",
+      "sha256": "c2f47633636582f59774ce8f9b06286b089dc9f9abee4c53a5d363631bd86878",
+      "bytes": 9590
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Moon_参数.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Moon_参数.json",
+      "sha256": "8db36087fc182dceb23ca9767f5d9d9a1fe6ac020fa88aa125a82946b024d176",
+      "bytes": 1492
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Venus_原始返回.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Venus_原始返回.json",
+      "sha256": "b0b6385148c0d10fd99c417b94da228cf09128b5caf1c2f9069f7b9e9d1431d3",
+      "bytes": 9820
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Saturn_参数.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Saturn_参数.json",
+      "sha256": "9159ee276c538da0637505b21e37bd6945ddf5728300cc48d0fc5c7127661ea8",
+      "bytes": 1496
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Mercury_返回正文.txt",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Mercury_返回正文.txt",
+      "sha256": "61fdbbb6815d2c419c239cb47a6bec55594fc41dcb1de43e15b19926ccd01769",
+      "bytes": 9564
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Venus_返回正文.txt",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Venus_返回正文.txt",
+      "sha256": "a0d386082909510a5e43d34de0d6944555db5f39f67370e8881d586c48758ebe",
+      "bytes": 9553
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/astro_venus_horizons_jpl.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/astro_venus_horizons_jpl.json",
+      "sha256": "5e19aafc86ad0a82e5499de0d70abff16c97c5f0e033677d44456a345b853eb1",
+      "bytes": 9550
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/ERFA_hd2ae_时角赤纬转方位高度.c",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/ERFA_hd2ae_时角赤纬转方位高度.c",
+      "sha256": "a4db03223e5d04de3f431c9bc59efb0745bc2b0eb99626a19f1211df48c07944",
+      "bytes": 5936
+    },
+    {
+      "source_project_relative": "06_原始资料/天文/JPL_Moon_原始返回.json",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/原始JPL/JPL_Moon_原始返回.json",
+      "sha256": "ccfc582a0d48891fef288f1b63add67b2383617e036b7e0dcf4b148ff935f115",
+      "bytes": 9957
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/证据素材/NASA_context.png",
+      "new_project_relative": "参考库/动画/01_星月与日期/证据/NASA_context.png",
+      "sha256": "b65ce4406eb8fc044ad8176831a841ce76b9b17c73fe52f93424f3789ddfcbab",
+      "bytes": 574923
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/证据素材/NASA_date.png",
+      "new_project_relative": "参考库/动画/01_星月与日期/证据/NASA_date.png",
+      "sha256": "e7be8d9b90fe81e2bd566432d870a0e47ef0352ceb63d6bf28ee6db44b83cd9b",
+      "bytes": 354874
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/证据素材/NASA_date_focus.png",
+      "new_project_relative": "参考库/动画/01_星月与日期/证据/NASA_date_focus.png",
+      "sha256": "18a4471b65ee1956acb77febdf5a60e2a4e3e5108f8e4ded76570aef9bb3aeb9",
+      "bytes": 301392
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/核验/发射与评论核对.md",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/发射与评论核对.md",
+      "sha256": "a59a5036367ffaa6c5e24b0dcee9f7e52b3cd1fa8b79303dfeb00e84b57ddd94",
+      "bytes": 2694
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/核验/天文核对.md",
+      "new_project_relative": "参考库/动画/01_星月与日期/数据/天文核对.md",
+      "sha256": "56f5815415b8d80d80414ed79d2f664071d7943d02527dab254189115c09fe3f",
+      "bytes": 2633
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/视觉预演/三维天空推演_无旁白.mp4",
+      "new_project_relative": "参考库/动画/01_星月与日期/成片参考/星月完整预演_46秒.mp4",
+      "sha256": "a400ddc4adb245661378b29cc161c10a7716412604f73da7d77a0e51a963e824",
+      "bytes": 4286590
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/日期动画/日期查证_动作演示_35秒_720p.mp4",
+      "new_project_relative": "参考库/动画/01_星月与日期/成片参考/纸页日期核对_35秒.mp4",
+      "sha256": "d42b9d137b50b347981981305d65e3b1ac776f56764f57893545c6619be95c95",
+      "bytes": 2309928
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/缓存/K04.mp4",
+      "new_project_relative": "参考库/动画/01_星月与日期/成片参考/K04_正式采用镜头.mp4",
+      "sha256": "ac7ff447da1f277d178f46c69afee16ab849734d9b304236f6f24c5f83ad7924",
+      "bytes": 774754
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/缓存/K06.mp4",
+      "new_project_relative": "参考库/动画/01_星月与日期/成片参考/K06_正式采用镜头.mp4",
+      "sha256": "3977ba1efe02cb9516cf9732e6aff9a11fd83cd510d48005b9844287b9604355",
+      "bytes": 1867825
+    },
+    {
+      "source_project_relative": "10_重新策划/天空与发射调查/动作版/缓存/K07.mp4",
+      "new_project_relative": "参考库/动画/01_星月与日期/成片参考/K07_正式采用镜头.mp4",
+      "sha256": "2a125e9ec12f92b7042f0ee878a4c6a7a489a2e4034ed5c9586cf29d4d0fc260",
+      "bytes": 1158850
+    },
+    {
+      "source_project_relative": "10_重新策划/照片与雷达调查/工具/制作长曝光动画.py",
+      "new_project_relative": "参考库/动画/02_曝光与雷达/历史源码/制作长曝光动画.py",
+      "sha256": "321a400338a8f528ed1b95e59dbdf1a68b484fd4a3142bea7f6917d2f837bb20",
+      "bytes": 19018
+    },
+    {
+      "source_project_relative": "10_重新策划/照片与雷达调查/工具/制作雷达动作.py",
+      "new_project_relative": "参考库/动画/02_曝光与雷达/历史源码/制作雷达动作.py",
+      "sha256": "b5578e96958640421ece2c63616e4104037dc62c6f6a62da2124709fe4e7df07",
+      "bytes": 8013
+    },
+    {
+      "source_project_relative": "10_重新策划/照片与雷达调查/工具/合成本环.py",
+      "new_project_relative": "参考库/动画/02_曝光与雷达/历史源码/合成本环.py",
+      "sha256": "f90514c729116de6fd6a4a8edaaaa3844fbaa8ef26a87e85cc48ddaa0a534e34",
+      "bytes": 12959
+    },
+    {
+      "source_project_relative": "10_重新策划/照片与雷达调查/缓存/A03.mp4",
+      "new_project_relative": "参考库/动画/02_曝光与雷达/成片参考/A03_正式采用镜头.mp4",
+      "sha256": "4e86afcd5c1ffce53d91e66be8c6446ec159d8f0b3d01848d3984cf18bfe3b15",
+      "bytes": 334079
+    },
+    {
+      "source_project_relative": "10_重新策划/照片与雷达调查/缓存/R04.mp4",
+      "new_project_relative": "参考库/动画/02_曝光与雷达/成片参考/R04_正式采用镜头.mp4",
+      "sha256": "3ac4011b04dc36c2c23cf31463a056000c282fec59841496c88c87dceeaa5f49",
+      "bytes": 148382
+    },
+    {
+      "source_project_relative": "10_重新策划/全片终版/叙事优化制作/雷达收紧修订/R05_完整询问回复_6.80秒.mp4",
+      "new_project_relative": "参考库/动画/02_曝光与雷达/成片参考/R05_已去空等_6.80秒.mp4",
+      "sha256": "3f0c6cac5800459695e65af43809d2c39359fc7484c2e5db34dbfd80176ca49a",
+      "bytes": 1204161
+    },
+    {
+      "source_project_relative": "10_重新策划/全片终版/叙事优化制作/工具/线索汇聚动画.py",
+      "new_project_relative": "参考库/动画/03_六路汇聚/历史源码/线索汇聚动画.py",
+      "sha256": "5ce571ab5bdeaf445a4b1f548e943f5d6e2dc6dd998fa2326c714579bf98f9f5",
+      "bytes": 15450
+    },
+    {
+      "source_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/线索汇聚/六路线索_三维镜头预览.mp4",
+      "new_project_relative": "参考库/动画/03_六路汇聚/成片参考/六路线索_三维镜头预览.mp4",
+      "sha256": "4641d9173c69b6284360d8ca159907d6c47d6092fda8ae373926034787e48bb8",
+      "bytes": 4936903
+    },
+    {
+      "source_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/线索汇聚/三维镜头_实际解码联系表.jpg",
+      "new_project_relative": "参考库/动画/03_六路汇聚/成片参考/三维镜头_实际解码联系表.jpg",
+      "sha256": "96d9684413bec31482df46a4346017e2349160855a2711a19ec5ac45f4ec8608",
+      "bytes": 247474
+    },
+    {
+      "source_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/线索汇聚/接口_空间版.json",
+      "new_project_relative": "参考库/动画/03_六路汇聚/成片参考/接口_空间版.json",
+      "sha256": "99be0190ba29c0fb8eef7d6a68f1044d86c4959a06c895fcee5ee38fc06b0791",
+      "bytes": 873
+    },
+    {
+      "source_project_relative": "10_重新策划/全片终版/叙事优化制作/素材/线索汇聚/空间动画核验.json",
+      "new_project_relative": "参考库/动画/03_六路汇聚/成片参考/空间动画核验.json",
+      "sha256": "c2068bdcdbf423c6b2328bbf8e51728ce08f2244074bc582f2307d2e0944aabf",
+      "bytes": 365
+    },
+    {
+      "source_project_relative": "10_重新策划/最后一幕_重新整理/证据素材/人物与后续/三条原评论/COMMENT_C02_NINGBO_完整楼层高光1080.png",
+      "new_project_relative": "参考库/动画/03_六路汇聚/证据/COMMENT_C02_NINGBO_完整楼层高光1080.png",
+      "sha256": "4c0c50721e53e3a7f1e1db0415d59b26db89b8e8bdeff2b96481cc5a1431876f",
+      "bytes": 460577
+    },
+    {
+      "source_project_relative": "10_重新策划/最后一幕_重新整理/证据素材/人物与后续/三条原评论/COMMENT_C01_PRIVATE_完整楼层高光1080.png",
+      "new_project_relative": "参考库/动画/03_六路汇聚/证据/COMMENT_C01_PRIVATE_完整楼层高光1080.png",
+      "sha256": "0ebe688ee059fdf671829ec793d0f66bbee40280a4e2a7b02039335eac3f73a0",
+      "bytes": 288754
+    },
+    {
+      "source_project_relative": "10_重新策划/最后一幕_重新整理/证据素材/早期新闻/E04b_中新社署名与匿名人士完整首段_高光1080.png",
+      "new_project_relative": "参考库/动画/03_六路汇聚/证据/E04b_中新社署名与匿名人士完整首段_高光1080.png",
+      "sha256": "c8fcff63f098b234a6850548fdaa9c1dce55672a2d30962e8c3165a793c19af8",
+      "bytes": 419763
+    }
+  ],
+  "note": "原文件只读副本；历史源码路径未改，不承诺直接运行；独立可运行版见工具/动画。"
+}

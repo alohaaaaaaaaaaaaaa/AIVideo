@@ -1,0 +1,25 @@
+{
+  "config": {
+    "provider": "minimax-v1",
+    "base_url": "https://api.minimax.cn",
+    "model": "MiniMax-Hailuo-02",
+    "duration": 6,
+    "resolution": "1080P",
+    "prompt_optimizer": false,
+    "aigc_watermark": false
+  },
+  "shots": [
+    {
+      "id": "N001",
+      "purpose": "匿名机房环境建立镜头；仅情境，不证明某次黑客行为",
+      "prompt": "A single continuous 6-second realistic documentary shot, 16:9. A generic modest server room with ordinary locked racks and steady indicator lights. No readable screens, company logos, identifiable people or specific location. One slow stable lateral camera movement creates subtle depth. Restrained neutral lighting, credible scale and stable geometry. No dramatic red alarms, no floating code, no attacks depicted, no text overlays, no subtitles, no cuts, no shake.",
+      "context_label": "情境示意",
+      "acceptance": [
+        "机柜结构与灯光全程稳定",
+        "没有虚构公司标志、数据内容或黑客攻击画面",
+        "一个镜头一个动作，原速6秒完整",
+        "后期仅添加一处情境说明"
+      ]
+    }
+  ]
+}

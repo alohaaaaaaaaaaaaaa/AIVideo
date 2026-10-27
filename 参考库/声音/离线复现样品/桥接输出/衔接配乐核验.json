@@ -1,0 +1,115 @@
+{
+  "status": "technical_checks_passed",
+  "input_timeline": "参考库/声音/离线复现样品/bridge_timeline.json",
+  "input_timeline_sha256": "86eeb7e2036591887c0085c0ecde6695a359172faa7bf4c793349ba431d94955",
+  "transitions_file": "参考库/声音/离线复现样品/bridge_transitions.json",
+  "duration": 18.76,
+  "bridges": [
+    {
+      "after_chapter": "01",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "before_chapter": "02",
+      "old_boundary": 5.88,
+      "start": 5.88,
+      "end": 5.88,
+      "previous_last_chord": "Am7",
+      "next_first_chord": "Am9",
+      "common_tone_pitches": [
+        60,
+        64
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 10.155413750958873,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -40.038583181621085,
+      "reference_peak_dbfs": -21.900530806964348,
+      "new_bridge_peak_dbfs": -28.072664317533963,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 5.08,
+      "region_end": 6.68,
+      "mixed_peak_dbfs": -25.226599213944382,
+      "original_music_peak_dbfs": -21.900530806964348,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    }
+  ],
+  "observation_ducks": [],
+  "narration_checks": [
+    {
+      "chapter": "01",
+      "narration_source": "参考库/声音/离线复现样品/桥接输入/C01/narration.wav",
+      "narration_source_sha256": "671692d1cbaadd338b60f53e2f529ca1c7fccd078313dbe165a1a3ddbdbc7c78",
+      "source_stereo_samples_sha256": "56a4f474515c31b19ebecaee3068b380ab85dccd108cec5bba6eef96ce16ade7",
+      "source_frames": 282240,
+      "output_start_sample": 0,
+      "music_source": "参考库/声音/离线复现样品/桥接输入/C01/music_48k_stereo.wav",
+      "music_source_sha256": "0d019b012cf1490611feff564857e104a4c881953c1ca31223cfc81a04384b51",
+      "narration_sample_identical": true
+    },
+    {
+      "chapter": "02",
+      "narration_source": "参考库/声音/离线复现样品/桥接输入/C02/narration.wav",
+      "narration_source_sha256": "0d41c37c921ff8fd009687fbdc4c188d2b1bd78a098e8912825355add4622f7e",
+      "source_stereo_samples_sha256": "f25aac1711a28271cb9e76c3f5fac47e28ef04d471d2cfa3b7d1c9c363544f9c",
+      "source_frames": 618240,
+      "output_start_sample": 282240,
+      "music_source": "参考库/声音/离线复现样品/桥接输入/C02/music_48k_stereo.wav",
+      "music_source_sha256": "e3cdc8ed95b10cb2911a9ad90b5160a4bf4432a7776319c94122d1951fe460cc",
+      "narration_sample_identical": true
+    }
+  ],
+  "voice_unstretched": true,
+  "voice_sample_identical": true,
+  "music_waveform_looped": false,
+  "paid_calls": 0,
+  "outputs": {
+    "voice": {
+      "path": "参考库/声音/离线复现样品/桥接输出/voice_48k_stereo.wav",
+      "sha256": "e06886075f7c489fad6295239b447f83789dc905a2cb0be6056c38ca73b47ba2"
+    },
+    "music": {
+      "path": "参考库/声音/离线复现样品/桥接输出/music_48k_stereo.wav",
+      "sha256": "6825991d67375a44fedbe22c3cddb05e8d18952cd12d7cd1d585c34bffcd2554"
+    },
+    "sfx": {
+      "path": "参考库/声音/离线复现样品/桥接输出/sfx_48k_stereo.wav",
+      "sha256": "434f26bfa9fb1d148994e422ac435cb3884012b89989f108c44c5cae7b2b9797"
+    },
+    "mix": {
+      "path": "参考库/声音/离线复现样品/桥接输出/mix_48k_stereo.wav",
+      "sha256": "58ebf418ca73490e4589c69bcae19267bc7fac3f5cddbf32fc7e97a9023a0195"
+    }
+  },
+  "verification": {
+    "frames": 900480,
+    "clipped_samples": 0,
+    "nonvoice_safety_gain_min": 1.0,
+    "sample_peak_dbfs": -4.548621716728235,
+    "integrated_lufs": -16.78,
+    "true_peak_dbtp": -4.53,
+    "loudness_range_lu": 3.2,
+    "complete_decode": true
+  },
+  "listening_review": "技术核验；不声称已人工听完整片"
+}

@@ -1,0 +1,288 @@
+{
+  "status": "passed_with_visual_note",
+  "capture": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/央视原页滚动/原页重抓_20261026/capture.json",
+  "capture_sha256": "d1e49d62ed5a0bc3daa7ad1d04c8219fec6886af4f5ec1b634549898ff4b71cc",
+  "checks": [
+    {
+      "check": "capture_not_failed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_text_not_retyped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_css_injected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_network_in_archived_mode",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:visible_full_text.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:capture_config.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:rendered_dom.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/viewport.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/full_page.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/cctv_case.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始截图/cctv_title.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/002_sina_theme.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/main_original.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "file_hash:原始资源/001_sina_master.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_title:screenshot_dimensions",
+      "passed": true,
+      "detail": [
+        2160,
+        978
+      ]
+    },
+    {
+      "check": "cctv_title:quoted_context_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_title:quote_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_title:full_quote:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_title:full_quote:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_title:full_quote:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:screenshot_dimensions",
+      "passed": true,
+      "detail": [
+        2160,
+        978
+      ]
+    },
+    {
+      "check": "cctv_case:quoted_context_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:quote_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:full_quote:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:full_quote:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:full_quote:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:full_quote:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:full_quote:in_capture_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:full_quote:transform_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:full_quote:in_capture_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark_is_original:date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:date:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:date:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:date:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark_is_original:airport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:airport:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:airport:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:airport:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark_is_original:confirmation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:confirmation:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:confirmation:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:confirmation:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:confirmation:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:confirmation:in_capture_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark_is_original:private_plane",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:private_plane:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:private_plane:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:private_plane:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark_is_original:illegal_flight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:illegal_flight:same_box_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:illegal_flight:transform_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:illegal_flight:in_capture_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:illegal_flight:transform_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cctv_case:mark:illegal_flight:in_capture_1",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "visual_review": {
+    "performed": true,
+    "note": "已查看原页涉案完整段截图与独立重渲染实际帧联系表，完整原句保留、查阅动作停止后保持可读。新重抓为当前浏览器字形，不冒称原历史截图像素一致。"
+  },
+  "scope": "Integrity and coordinate geometry. Does not independently prove the source claims or copyright ownership."
+}

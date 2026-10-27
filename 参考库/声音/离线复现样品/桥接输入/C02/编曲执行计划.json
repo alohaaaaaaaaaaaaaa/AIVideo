@@ -1,0 +1,49 @@
+{
+  "bars": [
+    {
+      "time": 0.12,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "Am9",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 2.9771,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "Cmaj7",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 5.8343,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "Fmaj9",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 8.6914,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "C6",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 11.5486,
+      "section": "S02",
+      "role": "discovery",
+      "chord": "Dm9",
+      "bpm": 84,
+      "resolved": false,
+      "coda_variant": null
+    }
+  ]
+}

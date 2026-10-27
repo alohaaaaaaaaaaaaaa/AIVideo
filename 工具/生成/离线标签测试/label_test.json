@@ -1,0 +1,13 @@
+{
+  "input_sha256": "a0057430d525fcf64f8e1046ffb79056b63c830ac1f8182ac0d671a06d3e4c0a",
+  "output_sha256": "5f898f0fa11f7de6eacecba3d896142bb50ed26a7c31cfab66c069b772e96da4",
+  "native_label": true,
+  "label_text": "情境示意",
+  "label_full_duration": true,
+  "source_frame_count": 25,
+  "duration": 1.0,
+  "source_speed_changed": false,
+  "confirmed_unlabeled_before_add": true,
+  "needs_actual_visual_review": true,
+  "middle_frame_exported": "标签核验.png"
+}

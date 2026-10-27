@@ -1,0 +1,728 @@
+{
+  "duration": 1319.96,
+  "bridges": [
+    {
+      "after_chapter": "01",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "钩子→同一条原评论；保留评论不做假切换，轻轻落半拍就接“先看刚才那条”。",
+      "before_chapter": "02",
+      "old_boundary": 29.36,
+      "start": 29.36,
+      "end": 29.36,
+      "previous_last_chord": "Cmaj7",
+      "next_first_chord": "Am9",
+      "common_tone_pitches": [
+        60,
+        64
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 9.172279133960757,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -40.92299036621738,
+      "reference_peak_dbfs": -25.387993678638576,
+      "new_bridge_peak_dbfs": -28.12742593631063,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 28.56,
+      "region_end": 30.16,
+      "mixed_peak_dbfs": -26.14717912920066,
+      "original_music_peak_dbfs": -25.387993678638576,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "02",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "新闻原句→滑行飞机AI情境；先给当晚问题一个落点，随后硬切正常播放完整AI视频。AI首帧不能延长或重复。",
+      "before_chapter": "03",
+      "old_boundary": 113.04,
+      "start": 113.04,
+      "end": 113.04,
+      "previous_last_chord": "Em7",
+      "next_first_chord": "Am7",
+      "common_tone_pitches": [
+        64,
+        67
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 67,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 11.777392328522552,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -37.86516605552892,
+      "reference_peak_dbfs": -18.37340693741918,
+      "new_bridge_peak_dbfs": -25.716977741519397,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 112.24,
+      "region_end": 113.84,
+      "mixed_peak_dbfs": -25.71720521479733,
+      "original_music_peak_dbfs": -18.37340693741918,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "03",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "事实问题→央视实录；两侧是同一标题页，无需溶解。让“什么判断”落下、观众看清节目标题日期再读正文。",
+      "before_chapter": "04",
+      "old_boundary": 191.12,
+      "start": 191.12,
+      "end": 191.12,
+      "previous_last_chord": "Esus",
+      "next_first_chord": "Am9",
+      "common_tone_pitches": [
+        64,
+        69
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 69,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 18.247484812323354,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -33.016116389531135,
+      "reference_peak_dbfs": -14.22475007199158,
+      "new_bridge_peak_dbfs": -24.625751570299677,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 190.32,
+      "region_end": 191.92,
+      "mixed_peak_dbfs": -25.291876495739967,
+      "original_music_peak_dbfs": -14.22475007199158,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "04",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "已有约2.97秒语音空档，照片已经先出现；保持同图，让观众看光迹，不再加静帧。",
+      "before_chapter": "05",
+      "old_boundary": 288.88,
+      "start": 288.88,
+      "end": 288.88,
+      "previous_last_chord": "Dm9",
+      "next_first_chord": "Am7",
+      "common_tone_pitches": [
+        60,
+        69
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 69,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 39.305848966505316,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -26.439198599583147,
+      "reference_peak_dbfs": -9.72663691886174,
+      "new_bridge_peak_dbfs": -16.466961011176565,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 288.08,
+      "region_end": 289.68,
+      "mixed_peak_dbfs": -21.76504504295393,
+      "original_music_peak_dbfs": -9.72663691886174,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "05",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "已有约3.74秒语音空档，雷达AI正常播完后报告标题已进场；不要继续延长空白。",
+      "before_chapter": "06",
+      "old_boundary": 421.08,
+      "start": 421.08,
+      "end": 421.08,
+      "previous_last_chord": "Dm9",
+      "next_first_chord": "Am9",
+      "common_tone_pitches": [
+        60,
+        69
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 69,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 29.39676207583783,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -29.233887851550104,
+      "reference_peak_dbfs": -11.850466185834406,
+      "new_bridge_peak_dbfs": -18.8759324529899,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 420.28,
+      "region_end": 421.88,
+      "mixed_peak_dbfs": -23.00051875510402,
+      "original_music_peak_dbfs": -11.850466185834406,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "06",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "已有约5.55秒语音空档用于时间动画；完整播放后切天球。不能再额外停五秒。",
+      "before_chapter": "07",
+      "old_boundary": 488.36,
+      "start": 488.36,
+      "end": 488.36,
+      "previous_last_chord": "Fmaj9",
+      "next_first_chord": "Am7",
+      "common_tone_pitches": [
+        60,
+        64
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 99.2123735270591,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -20.106078165026815,
+      "reference_peak_dbfs": -2.8259767878857245,
+      "new_bridge_peak_dbfs": -8.330207503296428,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 487.56,
+      "region_end": 489.16,
+      "mixed_peak_dbfs": -15.25467474050979,
+      "original_music_peak_dbfs": -2.8259767878857245,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "07",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "天文排查→军机支线，末镜为飞扬军事原文，下一镜为调查走廊AI。停在军机原句后直接切完整AI，不定格AI首帧。",
+      "before_chapter": "08",
+      "old_boundary": 670.48,
+      "start": 670.48,
+      "end": 670.48,
+      "previous_last_chord": "Am9",
+      "next_first_chord": "Am7",
+      "common_tone_pitches": [
+        60,
+        64
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 12.102244088770572,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -37.52193573210616,
+      "reference_peak_dbfs": -16.663003705999277,
+      "new_bridge_peak_dbfs": -26.095864814704626,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 669.68,
+      "region_end": 671.28,
+      "mixed_peak_dbfs": -27.1216957407726,
+      "original_music_peak_dbfs": -16.663003705999277,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "08",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "军机调查→杭州网友评论，两侧同一评论页。留出阅读与情绪换挡，接“这位自称身在杭州”。",
+      "before_chapter": "09",
+      "old_boundary": 858.52,
+      "start": 858.52,
+      "end": 858.52,
+      "previous_last_chord": "Fmaj9",
+      "next_first_chord": "Cmaj7",
+      "common_tone_pitches": [
+        60,
+        64
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 21.05978130979706,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -33.86359498797362,
+      "reference_peak_dbfs": -17.119477934177812,
+      "new_bridge_peak_dbfs": -21.648181804725006,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 857.72,
+      "region_end": 859.32,
+      "mixed_peak_dbfs": -17.495548906451273,
+      "original_music_peak_dbfs": -17.119477934177812,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "09",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "地面留言→FM808途经乘客，两侧同一采访页；问题落稳后再把航班身份读清。实际本章不是人名处罚段。",
+      "before_chapter": "10",
+      "old_boundary": 1017.8,
+      "start": 1017.8,
+      "end": 1017.8,
+      "previous_last_chord": "Dm9",
+      "next_first_chord": "Am9",
+      "common_tone_pitches": [
+        60,
+        69
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 69,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 11.802969125656178,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -37.754185049094865,
+      "reference_peak_dbfs": -17.92332913157849,
+      "new_bridge_peak_dbfs": -26.433261181845342,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 1017.0,
+      "region_end": 1018.6,
+      "mixed_peak_dbfs": -26.12950109322487,
+      "original_music_peak_dbfs": -17.92332913157849,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "10",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "乘客形态→央视另案例证，先让“普通飞机影响航班”问题停一下，再短溶到央视标题，给标题0.6秒预读。",
+      "before_chapter": "11",
+      "old_boundary": 1091.44,
+      "start": 1091.44,
+      "end": 1091.44,
+      "previous_last_chord": "Dm9",
+      "next_first_chord": "Am7",
+      "common_tone_pitches": [
+        60,
+        69
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 69,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 38.51434235183546,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -27.913726586717452,
+      "reference_peak_dbfs": -9.191794015463135,
+      "new_bridge_peak_dbfs": -16.547087218424245,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 1090.64,
+      "region_end": 1092.24,
+      "mixed_peak_dbfs": -20.52204096871176,
+      "original_music_peak_dbfs": -9.191794015463135,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    },
+    {
+      "after_chapter": "11",
+      "duration": 0.0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8,
+      "reason": "明确结论→评论彩蛋。新增2.2秒全部计入11章段尾，保留“私人飞机黑飞”空间画面；之后切评论，不能另生成2.2秒重复空隙。",
+      "before_chapter": "12",
+      "old_boundary": 1280.4,
+      "start": 1280.4,
+      "end": 1280.4,
+      "previous_last_chord": "C6",
+      "next_first_chord": "C6",
+      "common_tone_pitches": [
+        60,
+        64
+      ],
+      "notes": [
+        {
+          "instrument": "strings",
+          "pitch": 60,
+          "time": 0.0,
+          "duration": 0.9500000000000001,
+          "velocity": 23
+        },
+        {
+          "instrument": "strings",
+          "pitch": 64,
+          "time": 0.025,
+          "duration": 0.925,
+          "velocity": 23
+        }
+      ],
+      "waveform_looped": false,
+      "initial_level_gain": 38.11728961431049,
+      "peak_cap_gain": 1,
+      "reference_local_rms_dbfs": -28.498000754890253,
+      "reference_peak_dbfs": -12.35666249140789,
+      "new_bridge_peak_dbfs": -16.686021702244634,
+      "duck_attack_ms": 35,
+      "duck_release_ms": 480,
+      "lookahead_ms": 60,
+      "region_start": 1279.6,
+      "region_end": 1281.2,
+      "mixed_peak_dbfs": -21.319721499465597,
+      "original_music_peak_dbfs": -12.35666249140789,
+      "crossfade": "raised-cosine convex (weights sum to 1); original voice is not faded",
+      "boundary_sample_step_start": 0.0,
+      "boundary_sample_step_end": 0.0
+    }
+  ],
+  "observation_ducks": [
+    {
+      "start": 318.08,
+      "end": 318.88,
+      "gain_db": -2.0,
+      "reason": "C05P003 观察完成态",
+      "old_start": 318.08,
+      "old_end": 318.88,
+      "region_start": 317.73,
+      "region_end": 319.43,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 323.944687,
+      "end": 324.464687,
+      "gain_db": -3.0,
+      "reason": "C05P004 观察/分组留拍",
+      "old_start": 323.944687,
+      "old_end": 324.464687,
+      "region_start": 323.5946875,
+      "region_end": 325.0146875,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 444.76,
+      "end": 445.36,
+      "gain_db": -3.0,
+      "reason": "C06P002 观察/分组留拍",
+      "old_start": 444.76,
+      "old_end": 445.36,
+      "region_start": 444.41,
+      "region_end": 445.91,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 520.017396,
+      "end": 521.977396,
+      "gain_db": -3.0,
+      "reason": "C07P003 观察/分组留拍",
+      "old_start": 520.017396,
+      "old_end": 521.977396,
+      "region_start": 519.6673958333333,
+      "region_end": 522.5273958333333,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 617.939938,
+      "end": 620.339938,
+      "gain_db": -3.0,
+      "reason": "C07P015 观察/分组留拍",
+      "old_start": 617.939938,
+      "old_end": 620.339938,
+      "region_start": 617.5899375,
+      "region_end": 620.8899375,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 1153.16,
+      "end": 1153.76,
+      "gain_db": -2.0,
+      "reason": "C11P006 观察完成态",
+      "old_start": 1153.16,
+      "old_end": 1153.76,
+      "region_start": 1152.81,
+      "region_end": 1154.31,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 1164.16,
+      "end": 1164.48,
+      "gain_db": -2.0,
+      "reason": "C11P007 观察完成态",
+      "old_start": 1164.16,
+      "old_end": 1164.48,
+      "region_start": 1163.81,
+      "region_end": 1165.03,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 1178.6,
+      "end": 1178.92,
+      "gain_db": -2.0,
+      "reason": "C11P008 观察完成态",
+      "old_start": 1178.6,
+      "old_end": 1178.92,
+      "region_start": 1178.25,
+      "region_end": 1179.47,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 1186.6,
+      "end": 1187.0,
+      "gain_db": -2.0,
+      "reason": "C11P009 观察完成态",
+      "old_start": 1186.6,
+      "old_end": 1187.0,
+      "region_start": 1186.25,
+      "region_end": 1187.55,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 1193.178729,
+      "end": 1193.578729,
+      "gain_db": -3.0,
+      "reason": "C11P010 观察/分组留拍",
+      "old_start": 1193.178729,
+      "old_end": 1193.578729,
+      "region_start": 1192.8287291666666,
+      "region_end": 1194.1287291666667,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 1196.196458,
+      "end": 1196.596458,
+      "gain_db": -3.0,
+      "reason": "C11P010 观察/分组留拍",
+      "old_start": 1196.196458,
+      "old_end": 1196.596458,
+      "region_start": 1195.8464583333334,
+      "region_end": 1197.1464583333334,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 1212.52,
+      "end": 1213.08,
+      "gain_db": -2.0,
+      "reason": "C11P011 观察完成态",
+      "old_start": 1212.52,
+      "old_end": 1213.08,
+      "region_start": 1212.17,
+      "region_end": 1213.63,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    },
+    {
+      "start": 1273.291229,
+      "end": 1273.851229,
+      "gain_db": -3.0,
+      "reason": "C11P018 观察/分组留拍",
+      "old_start": 1273.291229,
+      "old_end": 1273.851229,
+      "region_start": 1272.9412291666667,
+      "region_end": 1274.4012291666666,
+      "attack": 0.35,
+      "release": 0.55,
+      "voice_changed": false
+    }
+  ],
+  "verification": {
+    "frames": 63358080,
+    "clipped_samples": 0,
+    "nonvoice_safety_gain_min": 1.0,
+    "sample_peak_dbfs": -2.8259767878857245,
+    "integrated_lufs": -16.83,
+    "true_peak_dbtp": -2.82,
+    "loudness_range_lu": 3.6,
+    "complete_decode": true
+  },
+  "voice_sample_identical": true,
+  "music_waveform_looped": false,
+  "paid_calls": 0
+}

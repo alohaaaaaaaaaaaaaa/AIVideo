@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "title": "本期标题",
+  "fps": 25,
+  "width": 1920,
+  "height": 1080,
+  "output_dir": "导出",
+  "shots": [
+    {
+      "id": "S001",
+      "path": "素材/证据截图.png",
+      "duration": 5,
+      "kind": "image",
+      "native_label": false,
+      "source_note": "来源：媒体名称，文章日期",
+      "layout": {
+        "mode": "fullframe"
+      },
+      "source_note_safe_area": true
+    }
+  ],
+  "audio": {
+    "path": "声音/全片混音.wav"
+  },
+  "subtitles": [
+    {
+      "start": 0.2,
+      "end": 4.6,
+      "text": "经过审定并与实音对齐的一句话。"
+    }
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "开场"
+    }
+  ],
+  "watermark": {
+    "path": "../../参考库/品牌/B站/透明PNG/啊子牙_悠哉_B站无账号_1080p.png",
+    "width": 224,
+    "x": 1664,
+    "y": 40
+  },
+  "versions": [
+    {
+      "id": "clean",
+      "label": "无水印版",
+      "watermark": false
+    },
+    {
+      "id": "bili",
+      "label": "B站水印版",
+      "watermark": true
+    }
+  ],
+  "subtitle_style": {
+    "profile": "main"
+  }
+}

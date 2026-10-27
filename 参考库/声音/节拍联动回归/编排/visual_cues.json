@@ -1,0 +1,25 @@
+{
+  "timeline_sha256": "15ece0146780e4ddfbc9ecb8871c7723acc9cf38d2759022f0f7ca5d38202421",
+  "narration_sha256": "8f8ceb754326406e6f04b70efac70c402ad7f98ca56ba5522a6beb4d923267c9",
+  "duration": 17.6,
+  "cues": [
+    {
+      "id": "judgment_card",
+      "start": 0.0,
+      "end": 12.76,
+      "reveal": false,
+      "anchor_segment_id": "CONCLUSION"
+    },
+    {
+      "id": "judgment_reveal",
+      "time": 6.34,
+      "anchor_segment_id": "CONCLUSION"
+    },
+    {
+      "id": "author_outro",
+      "start": 12.76,
+      "end": 16.3939375,
+      "anchor_segment_id": "C02_P001"
+    }
+  ]
+}

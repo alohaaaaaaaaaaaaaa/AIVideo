@@ -1,0 +1,18 @@
+[
+  {
+    "name": "pricing_current.md",
+    "url": "https://platform.minimax.cn/docs/pricing/overview.md",
+    "final_url": "https://platform.minimax.cn/docs/pricing/overview.md",
+    "http_status": 200,
+    "sha256": "4e761390e9f6e0371d59c3595efcdd0d74b91a488b93a5837126f912102a4d1d",
+    "checked_at": "2026-10-26T13:47:14.041259+00:00"
+  },
+  {
+    "name": "video_t2v_current.md",
+    "url": "https://platform.minimax.cn/docs/api-reference/video-generation-t2v.md",
+    "final_url": "https://platform.minimax.cn/docs/api-reference/video-generation-t2v.md",
+    "http_status": 200,
+    "sha256": "cf0a461b04259a227db2ea3ca31ec62086775736afce5cb6e8d0d42c5c8b74fa",
+    "checked_at": "2026-10-26T13:47:14.725228+00:00"
+  }
+]

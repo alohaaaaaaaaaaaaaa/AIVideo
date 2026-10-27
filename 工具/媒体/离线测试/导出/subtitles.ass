@@ -1,0 +1,19 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 640
+PlayResY: 360
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Hiragino Sans GB,20,&H00F8F8F8,&H00FFFFFF,&H00101014,&H80000000,0,0,0,0,100,100,0,0,1,0.833333,0.333333,2,30,30,25,1
+Style: Source,Hiragino Sans GB,9,&H00F4EBE6,&H00FFFFFF,&H001A1410,&H001A1410,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.32,0:00:01.68,Main,,0,0,25,,字幕应可读，不能贴底
+Dialogue: 0,0:00:02.12,0:00:03.72,Main,,0,0,25,,原生说明不重复添加
+Dialogue: 0,0:00:04.24,0:00:05.68,Main,,0,0,25,,名字保留，水印可切换
+Dialogue: -2,0:00:00.00,0:00:02.00,Source,,0,0,0,,{\an7\pos(0,290)\p1\c&H1A1410&}m 0 0 l 640 0 640 70 0 70{\p0}
+Dialogue: -1,0:00:00.00,0:00:02.00,Source,,0,0,0,,{\an7\pos(11,295)\fs9\c&HF4EBE6&}来源：自制技术测试图

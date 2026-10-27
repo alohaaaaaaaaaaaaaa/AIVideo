@@ -1,0 +1,14 @@
+{
+  "duplicate_submit_new_paid_calls": 0,
+  "query_does_not_submit": true,
+  "wrong_resolution_rejected": true,
+  "cdn_receives_no_authorization": true,
+  "mock_download_full_decode": true,
+  "uncertain_submission_blocks_resubmit": true,
+  "budget_cap_enforced": true,
+  "unverified_current_price_blocks_submit": true,
+  "status": "passed",
+  "real_network_calls": 0,
+  "real_paid_calls": 0,
+  "credentials_read": false
+}

@@ -1,0 +1,16 @@
+{
+  "mode": "archived_html",
+  "url": "http://offline.test/fixture",
+  "html": "fixture.html",
+  "viewport": [
+    800,
+    600
+  ],
+  "device_scale_factor": 2,
+  "regions": [
+    {
+      "id": "test",
+      "quote": "不存在的引文"
+    }
+  ]
+}

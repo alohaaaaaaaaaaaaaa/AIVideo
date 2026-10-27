@@ -1,0 +1,52 @@
+{
+  "status": "technical_pass_manual_review_required",
+  "manifest_sha256": "03a16aa83f7bb0e53c4e16928d220f346d31e350cfc9c5f7bd58493068a97053",
+  "same_audio": true,
+  "outputs": [
+    {
+      "id": "bili",
+      "sha256": "225035920837d88c2ecacfa79123d15c396b38d664edce15f40921adfbbb74c8",
+      "decoded_frames": 478,
+      "duration": 19.12,
+      "decoded_audio_samples": 917760,
+      "audio_duration": 19.12,
+      "audio_packet_sha256": "e064e5931750e1372ba89e267754d8d6836f15df36cfdf443294379158e2bae0",
+      "peak_dbfs": -4.556972700241889,
+      "loudness": {
+        "integrated_lufs": -18.75,
+        "true_peak_dbtp": -4.56,
+        "recommended_max_dbtp": -1.0,
+        "true_peak_pass": true,
+        "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+      },
+      "clipped_samples": 0,
+      "complete_decode": true
+    },
+    {
+      "id": "clean",
+      "sha256": "78bcb321c5659d81f3bda3c370b8dd7a9289b6ba11e5bed7d5634bacb59ffc38",
+      "decoded_frames": 478,
+      "duration": 19.12,
+      "decoded_audio_samples": 917760,
+      "audio_duration": 19.12,
+      "audio_packet_sha256": "e064e5931750e1372ba89e267754d8d6836f15df36cfdf443294379158e2bae0",
+      "peak_dbfs": -4.556972700241889,
+      "loudness": {
+        "integrated_lufs": -18.75,
+        "true_peak_dbtp": -4.56,
+        "recommended_max_dbtp": -1.0,
+        "true_peak_pass": true,
+        "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+      },
+      "clipped_samples": 0,
+      "complete_decode": true
+    }
+  ],
+  "manual_review": [
+    "逐镜头核验字幕遮挡、原文高光与来源真实性",
+    "AI/动画原生标识首中尾可读且仅一处",
+    "水印不遮挡证据并在镜头内静止",
+    "试听专名及停顿，核对音乐落点",
+    "抽帧不等于完整视听审片"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "scope": [
+    "工具/媒体",
+    "工具/生成",
+    "文档/05_剪辑字幕标注与交付.md",
+    "文档/06_AI画面与任务管理.md",
+    "参考库/证据画面",
+    "参考库/AI生成"
+  ],
+  "paid_calls": 0,
+  "api_generation_calls": 0,
+  "actual_credentials_read": false,
+  "checks": [
+    {
+      "name": "moved_existing_exports_verify",
+      "passed": true,
+      "exit_code": 0,
+      "output_tail": "完整视频/音频解码、帧数、PTS、音轨一致性、章节数核验通过；仍须实际视听审片。\n",
+      "error_tail": ""
+    },
+    {
+      "name": "fresh_media_render_decode",
+      "passed": true,
+      "exit_code": 0,
+      "output_tail": "镜头 1/3 S01\n镜头 2/3 S02\n镜头 3/3 S03\n导出完成 clean\n导出完成 bili\n完整视频/音频解码、帧数、PTS、音轨一致性、章节数核验通过；仍须实际视听审片。\n/private<MOVED_ROOT>/工具/媒体/离线测试/离线测试结果.json\n",
+      "error_tail": ""
+    },
+    {
+      "name": "video_mock_state_machine",
+      "passed": true,
+      "exit_code": 0,
+      "output_tail": "eives_no_authorization\": true,\n  \"mock_download_full_decode\": true,\n  \"uncertain_submission_blocks_resubmit\": true,\n  \"budget_cap_enforced\": true,\n  \"unverified_current_price_blocks_submit\": true,\n  \"status\": \"passed\",\n  \"real_network_calls\": 0,\n  \"real_paid_calls\": 0,\n  \"credentials_read\": false\n}\n",
+      "error_tail": ""
+    },
+    {
+      "name": "context_label_without_symlinks",
+      "passed": true,
+      "exit_code": 0,
+      "output_tail": "工具/生成/离线标签测试/moved_label.mp4\n",
+      "error_tail": ""
+    },
+    {
+      "name": "evidence_highlight_relative_paths",
+      "passed": true,
+      "exit_code": 0,
+      "output_tail": "/private<MOVED_ROOT>/参考库/证据画面/平湖原文高光/通用工具重制示例.mp4\n",
+      "error_tail": ""
+    }
+  ],
+  "notes": [
+    "Archive source files may mention historical xsufo relative paths; these are provenance, not runtime imports.",
+    "Existing check reports may record absolute source paths; rerender regenerates them, and verify compares content hashes after relocation.",
+    "Windows lock and font fallbacks implemented but not executed on Windows in this macOS session.",
+    "Secrets scan checked suspicious filenames only, did not read credential contents.",
+    "Input examples intentionally contain not-yet-created episode asset placeholders; they are schema examples, not adopted manifests."
+  ],
+  "runtime_old_root_paths": [],
+  "credential_filenames_in_project": [],
+  "markdown_link_targets_checked": [
+    "工具/媒体/manifest.schema.json",
+    "工具/媒体/manifest.example.json",
+    "工具/媒体/离线测试/manifest.json"
+  ],
+  "broken_links": [],
+  "critical_references": [
+    {
+      "path": "工具/生成/video.py",
+      "exists": true
+    },
+    {
+      "path": "工具/生成/label_context.py",
+      "exists": true
+    },
+    {
+      "path": "工具/生成/shots.schema.json",
+      "exists": true
+    },
+    {
+      "path": "工具/生成/shots.example.json",
+      "exists": true
+    },
+    {
+      "path": "工具/生成/authorization.example.json",
+      "exists": true
+    },
+    {
+      "path": "工具/生成/plan.example.json",
+      "exists": true
+    },
+    {
+      "path": "参考库/AI生成/旧项目真实例/开场三个镜头_真实提示词与验收.json",
+      "exists": true
+    },
+    {
+      "path": "参考库/AI生成/官方文档_20261026/fetch_log.json",
+      "exists": true
+    },
+    {
+      "path": "参考库/证据画面/平湖原文高光/高光示例配置.json",
+      "exists": true
+    },
+    {
+      "path": "参考库/动画/字体/NotoSansCJKsc-Regular.otf",
+      "exists": true
+    },
+    {
+      "path": "参考库/品牌/B站/透明PNG/啊子牙_悠哉_B站无账号_1080p.png",
+      "exists": true
+    }
+  ],
+  "relocation_test": "Actual independent copy under random temporary path with spaces and Chinese characters; no old-root symlink; MINIMAX_API_KEY removed from child environment",
+  "authorization_boundary": {
+    "plan_offline": true,
+    "submit_requires_plan_hash_bound_actual_authorization": true,
+    "submit_requires_verified_current_price_evidence": true,
+    "amount_and_task_caps": true,
+    "uncertain_submission_never_auto_retried": true,
+    "query_download_do_not_create_generation": "covered by offline mock",
+    "cdn_has_no_authorization": "covered by offline mock",
+    "mock_authorization_refused_for_real_api": true,
+    "actual_provider_paid_availability": "not tested; current legacy price not verified"
+  }
+}

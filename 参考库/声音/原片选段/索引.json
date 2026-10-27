@@ -1,0 +1,102 @@
+{
+  "source": "萧山UFO_2026-10-24最终声音交付_21分59.96秒",
+  "source_mix_sha256": "2ff889b0811bc77fe1bab40870a4cb33326d44df529e0b6cd4ceac42ca5c997a",
+  "clips": [
+    {
+      "name": "01_平稳调查",
+      "original_film_start": 5.32,
+      "original_film_end": 24.08,
+      "duration": 18.76,
+      "encoding": "FLAC PCM24 extracted from final FLOAT stems; no EQ, gain, speed, or fade added",
+      "files": {
+        "混音": {
+          "path": "参考库/声音/原片选段/01_平稳调查/混音_48k.flac",
+          "sha256": "f75ab74806a27aa5a70d141aa6dc1a5c3b09f4ced0a6a8f0d892d527a035621a",
+          "frames": 900480
+        },
+        "旁白": {
+          "path": "参考库/声音/原片选段/01_平稳调查/旁白_48k.flac",
+          "sha256": "8484be12dcb56a167d18a0b6af8424e70d1cc4c7519e74206e36f3dfbc60389f",
+          "frames": 900480
+        },
+        "BGM": {
+          "path": "参考库/声音/原片选段/01_平稳调查/BGM_48k.flac",
+          "sha256": "250710d3ff8ba0c7c6351638189741e3782f820576add855a58e31792c806162",
+          "frames": 900480
+        }
+      }
+    },
+    {
+      "name": "02_幕间音乐桥",
+      "original_film_start": 23.36,
+      "original_film_end": 39.36,
+      "duration": 16.0,
+      "encoding": "FLAC PCM24 extracted from final FLOAT stems; no EQ, gain, speed, or fade added",
+      "files": {
+        "混音": {
+          "path": "参考库/声音/原片选段/02_幕间音乐桥/混音_48k.flac",
+          "sha256": "7e5956f531e7975d4d52a7f37b2faebad4b380aed83be720f2158c8b64baae4a",
+          "frames": 768000
+        },
+        "旁白": {
+          "path": "参考库/声音/原片选段/02_幕间音乐桥/旁白_48k.flac",
+          "sha256": "8711a293b8fe6b50607fb88abdede6bd494edaa48823d08026cdfd819eced9c6",
+          "frames": 768000
+        },
+        "BGM": {
+          "path": "参考库/声音/原片选段/02_幕间音乐桥/BGM_48k.flac",
+          "sha256": "08441afaefc26eab6741f138ae8022540b7fd7524c2280472356dd90f21a7ebc",
+          "frames": 768000
+        }
+      }
+    },
+    {
+      "name": "03_结论落拍",
+      "original_film_start": 1268.04,
+      "original_film_end": 1283.04,
+      "duration": 15.0,
+      "encoding": "FLAC PCM24 extracted from final FLOAT stems; no EQ, gain, speed, or fade added",
+      "files": {
+        "混音": {
+          "path": "参考库/声音/原片选段/03_结论落拍/混音_48k.flac",
+          "sha256": "b1bbd4ef194310c3c1589f64e2d78706845b4220fbe4f68bb26af2158fd47770",
+          "frames": 720000
+        },
+        "旁白": {
+          "path": "参考库/声音/原片选段/03_结论落拍/旁白_48k.flac",
+          "sha256": "4f6d7018b8e60563b66d438113bbaf111f9e7efcbfde96e928f76504ada76766",
+          "frames": 720000
+        },
+        "BGM": {
+          "path": "参考库/声音/原片选段/03_结论落拍/BGM_48k.flac",
+          "sha256": "efd9bd69f37ce3d43704302c8e5ee83484034aa8a72d82111c05c75b6a3663f8",
+          "frames": 720000
+        }
+      }
+    },
+    {
+      "name": "04_啊子牙姓名连读",
+      "original_film_start": 1309.28,
+      "original_film_end": 1319.96,
+      "duration": 10.68,
+      "encoding": "FLAC PCM24 extracted from final FLOAT stems; no EQ, gain, speed, or fade added",
+      "files": {
+        "混音": {
+          "path": "参考库/声音/原片选段/04_啊子牙姓名连读/混音_48k.flac",
+          "sha256": "a207c02c8712c23357d153441065880f7bd4a77a82fa846d646b4b4b7082b9a4",
+          "frames": 512640
+        },
+        "旁白": {
+          "path": "参考库/声音/原片选段/04_啊子牙姓名连读/旁白_48k.flac",
+          "sha256": "0ef43209e98f531add2779e37759df3a71767ca84a545434fd69d4d444b4b002",
+          "frames": 512640
+        },
+        "BGM": {
+          "path": "参考库/声音/原片选段/04_啊子牙姓名连读/BGM_48k.flac",
+          "sha256": "63f210fc944f44de6b45787dc244abbc91dbdb913126f636ab7bb71f33516638",
+          "frames": 512640
+        }
+      }
+    }
+  ]
+}

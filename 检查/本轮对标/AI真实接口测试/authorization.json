@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "plan_sha256": "06a88f914011cb2ae23934e54b58c79b93003f87115712b0c1d23f6e13b61455",
+  "approval_reference": "用户原话（本会话由主代理确认并分派）：如果需要，你可以调用api测试...任何细节都不能忽视...",
+  "scope": "仅 1 条中性匿名空机房，MiniMax-Hailuo-02 文生视频、6秒、1080P 实际接口测试；不新建第二任务，不自动重试，不切换模型。",
+  "approved_shot_ids": [
+    "N001"
+  ],
+  "budget_cap_cny": 20,
+  "max_new_tasks": 1,
+  "recorded_at": "2026-10-26T13:50:51.752959+00:00",
+  "price_basis": {
+    "verified_for_this_plan": true,
+    "checked_at": "2026-10-26T13:47:14.041259+00:00",
+    "source_url": "https://platform.minimax.cn/docs/pricing/overview.md",
+    "evidence_file": "现价核验.md",
+    "evidence_sha256": "31dafba59aefd91645d71112fef7278b6c56b6001ce06329b53eda64660956ea",
+    "unit_prices_cny": {
+      "N001": 3.5
+    }
+  }
+}

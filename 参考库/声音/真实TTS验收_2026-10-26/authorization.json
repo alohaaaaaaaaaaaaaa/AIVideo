@@ -1,0 +1,23 @@
+{
+  "approved": true,
+  "plan_sha256": "45601abd450c243fc0d59f8065f60c4ae389551f0a5379ce2b7ad2e8b0b42f7e",
+  "approval_reference": "2026-10-26 本轮用户明确授权由 root 转达：“如果需要可以调用API测试，高级通用项目任何细节不忽视”。root 指定：必要少量默认音色测试，限定1次提交、≤1元，状态不明不重发。",
+  "scope": "单次默认南方小哥短句验收：啊子牙ID整读、police按单词读；不换模型/音色，不抽卡",
+  "approved_paragraph_ids": [
+    "CHECK001"
+  ],
+  "budget_cap_cny": 1,
+  "max_new_requests": 1,
+  "price_basis": {
+    "checked_at": "2026-10-26T13:47:57.678346+00:00",
+    "source_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo",
+    "model": "speech-2.8-hd",
+    "rate_cny_per_10000_weighted_characters": 3.5,
+    "han_character_weight": 2,
+    "other_character_weight": 1,
+    "evidence_file": "官方价格依据.txt",
+    "evidence_sha256": "27d1863b14907896ce91c282db2087c4612b994e43ff03fbf613c8593092c068",
+    "note": "This is a dated reference, not authorization for any new paid job; recheck current price per new plan.",
+    "verified_for_this_plan": true
+  }
+}

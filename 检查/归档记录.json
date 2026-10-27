@@ -1,0 +1,11 @@
+{
+  "archive": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室_原片标准复核_2026-10-26.zip",
+  "archive_sha256": "2db0b5a969c139abb06f2cdb218465da42817b8702a063cb7314357fda06d675",
+  "archive_bytes": 808425922,
+  "files": 1160,
+  "uncompressed_bytes": 1108977425,
+  "zip_crc": "passed",
+  "credentials_included": false,
+  "venv_included": false,
+  "embedded_inventory": "归档文件清单.json"
+}

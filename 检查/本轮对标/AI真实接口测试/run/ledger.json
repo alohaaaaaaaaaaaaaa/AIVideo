@@ -1,0 +1,148 @@
+{
+  "plan_sha256": "06a88f914011cb2ae23934e54b58c79b93003f87115712b0c1d23f6e13b61455",
+  "budget_cap_cny": 20.0,
+  "attempts": 1,
+  "estimated_reserved_cny": 3.5,
+  "billing_verified": false,
+  "records": [
+    {
+      "id": "N001",
+      "cache_key": "9ade7c5e4f13cae2b2370767db7276f2bca6b2879b04e89b36f0fcc930213cac",
+      "config": {
+        "provider": "minimax-v1",
+        "base_url": "https://api.minimax.cn"
+      },
+      "plan_sha256": "06a88f914011cb2ae23934e54b58c79b93003f87115712b0c1d23f6e13b61455",
+      "authorization_sha256": "91d634db99fc65f2de2c4dda0d0407c9606b9976c3efc2bc3dfff90cc38d492d",
+      "started_at": "2026-10-26T13:50:51.866653+00:00",
+      "status": "downloaded",
+      "estimated_cost_cny": 3.5,
+      "request_without_secret": {
+        "model": "MiniMax-Hailuo-02",
+        "duration": 6,
+        "resolution": "1080P",
+        "prompt_optimizer": false,
+        "aigc_watermark": false,
+        "prompt": "A single continuous six-second realistic documentary shot, widescreen 16:9. A small generic empty server room with two orderly rows of plain dark equipment racks, viewed from the aisle at eye level. Nobody is present. A few tiny green status LEDs glow steadily. The camera makes one very slow, smooth forward move of less than half a metre; no pan, no zoom, no cuts. Neutral soft overhead white lighting, natural materials, restrained contrast, believable scale. This is a generic context illustration, not footage of any real location or incident. No company logos, no readable labels, no screens displaying text or data, no human faces or hands, no sparks, no smoke, no warning lights, no dramatic event, no holograms, no floating graphics, no subtitles, no text overlays, no watermarks. Keep the rack edges, shelves, floor and cables geometrically stable."
+      },
+      "context_label": "情境示意",
+      "http_status": 200,
+      "api_events": [
+        {
+          "phase": "submit",
+          "at": "2026-10-26T13:50:52.559485+00:00",
+          "http_status": 200,
+          "sanitized_response": {
+            "task_id": "456579998466281",
+            "base_resp": {
+              "status_code": 0,
+              "status_msg": "success"
+            }
+          }
+        },
+        {
+          "phase": "query",
+          "at": "2026-10-26T13:51:31.466920+00:00",
+          "http_status": 200,
+          "sanitized_response": {
+            "task_id": "456579998466281",
+            "status": "Processing",
+            "file_id": "",
+            "video_width": 0,
+            "video_height": 0,
+            "base_resp": {
+              "status_code": 0,
+              "status_msg": "success"
+            }
+          }
+        },
+        {
+          "phase": "query",
+          "at": "2026-10-26T13:53:24.244891+00:00",
+          "http_status": 200,
+          "sanitized_response": {
+            "task_id": "456579998466281",
+            "status": "Processing",
+            "file_id": "",
+            "video_width": 0,
+            "video_height": 0,
+            "base_resp": {
+              "status_code": 0,
+              "status_msg": "success"
+            }
+          }
+        },
+        {
+          "phase": "query",
+          "at": "2026-10-26T13:54:32.764687+00:00",
+          "http_status": 200,
+          "sanitized_response": {
+            "task_id": "456579998466281",
+            "status": "Success",
+            "file_id": "456580613890281",
+            "video_width": 1920,
+            "video_height": 1080,
+            "base_resp": {
+              "status_code": 0,
+              "status_msg": "success"
+            }
+          }
+        },
+        {
+          "phase": "retrieve",
+          "at": "2026-10-26T13:54:42.952854+00:00",
+          "http_status": 200,
+          "sanitized_response": {
+            "base_resp": {
+              "status_code": 0,
+              "status_msg": "success"
+            },
+            "file": {
+              "file_id": 456580613890281,
+              "bytes": 0,
+              "filename": "output_aigc.mp4",
+              "purpose": "video_generation"
+            }
+          }
+        }
+      ],
+      "provider_status_code": 0,
+      "task_id": "456579998466281",
+      "last_query_at": "2026-10-26T13:54:32.765722+00:00",
+      "provider_task_status": "Success",
+      "file_id": "456580613890281",
+      "provider_size": [
+        1920,
+        1080
+      ],
+      "completed_at": "2026-10-26T13:54:45.425570+00:00",
+      "output_file": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/AI生成/本轮实测/N001_空机房_生成原片.mp4",
+      "output_sha256": "74fac6ce9d500d46612e39dcbd4bcd7a3db8912047b7312eb1ab2a8f8a0f1861",
+      "download_bytes": 1207881,
+      "download_host": "public-cdn-video-data-algeng.oss-cn-wulanchabu.aliyuncs.com",
+      "decode": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "duration": 5.875,
+        "timeline_duration": 5.875,
+        "frames": 141,
+        "full_decode": true,
+        "monotonic_pts": true,
+        "uniform_frame_timing": true,
+        "requested_resolution_verified": true,
+        "requested_duration_seconds": 6,
+        "duration_difference_seconds": -0.125,
+        "accepted_duration_tolerance_seconds": 0.2
+      },
+      "native_label_verified": true,
+      "needs_context_label": true,
+      "source_has_context_label": false,
+      "adopted_file": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/AI生成/本轮实测/N001_空机房_情境示意.mp4",
+      "adopted_sha256": "88ecfbc6e7c8aaab4d29293ef623ebe94f0455c83f392ef08f11a8a16be72bc6",
+      "adopted_has_one_context_label": true,
+      "reviewed_at": "2026-10-26T14:03:32.421690+00:00"
+    }
+  ],
+  "updated_at": "2026-10-26T14:03:32.421690+00:00"
+}

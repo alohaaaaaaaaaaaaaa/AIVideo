@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-26T12:21:04.764592+00:00",
+  "source_filename": "shots.example.json",
+  "source_sha256": "3a45efa299a7b1d16715b9811a10d732e64f11317b5dc4806dc9d2b35f70dbf4",
+  "config": {
+    "provider": "minimax-v1",
+    "base_url": "https://api.minimax.cn"
+  },
+  "shots": [
+    {
+      "id": "N001",
+      "purpose": "匿名机房环境建立镜头；仅情境，不证明某次黑客行为",
+      "acceptance": [
+        "机柜结构与灯光全程稳定",
+        "没有虚构公司标志、数据内容或黑客攻击画面",
+        "一个镜头一个动作，原速6秒完整",
+        "后期仅添加一处情境说明"
+      ],
+      "context_label": "情境示意",
+      "request": {
+        "model": "MiniMax-Hailuo-02",
+        "duration": 6,
+        "resolution": "1080P",
+        "prompt_optimizer": false,
+        "aigc_watermark": false,
+        "prompt": "A single continuous 6-second realistic documentary shot, 16:9. A generic modest server room with ordinary locked racks and steady indicator lights. No readable screens, company logos, identifiable people or specific location. One slow stable lateral camera movement creates subtle depth. Restrained neutral lighting, credible scale and stable geometry. No dramatic red alarms, no floating code, no attacks depicted, no text overlays, no subtitles, no cuts, no shake."
+      },
+      "cache_key": "290c10e5c8235a26ef9db3ca372cb6eec10015064fb07f375c149c912b18327e",
+      "estimated_cost_cny": 3.5
+    }
+  ],
+  "estimated_total_cny": 3.5,
+  "price_basis": "Historical MiniMax-Hailuo-02 1080P6s estimate 3.5 CNY from prior project; not current quotation. Current 2026-10-26 price page does not list this legacy rate.",
+  "billing_verified": false,
+  "paid_calls": 0
+}

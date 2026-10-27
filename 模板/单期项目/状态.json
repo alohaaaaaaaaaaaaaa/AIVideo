@@ -1,0 +1,12 @@
+{
+  "phase": "awaiting_topic",
+  "completed": [],
+  "next_action": "用户给出选题后做资料调查和选题判断",
+  "confirmed_script": null,
+  "accepted_previews": [],
+  "pending_tasks": [],
+  "running_tasks": [],
+  "latest_deliverables": [],
+  "paid_calls": 0,
+  "last_user_direction": null
+}

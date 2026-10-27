@@ -1,0 +1,35 @@
+{
+  "config": {
+    "provider": "minimax-v1",
+    "base_url": "https://api.minimax.cn",
+    "model": "MiniMax-Hailuo-02",
+    "duration": 6,
+    "resolution": "1080P",
+    "prompt_optimizer": false,
+    "aigc_watermark": false
+  },
+  "price_basis": {
+    "kind": "official_current_page_checked",
+    "checked_at": "2026-10-26T13:47:14.041259+00:00",
+    "source_url": "https://platform.minimax.cn/docs/pricing/overview.md",
+    "evidence_file": "现价核验.md",
+    "evidence_sha256": "31dafba59aefd91645d71112fef7278b6c56b6001ce06329b53eda64660956ea",
+    "unit_price_cny": 3.5,
+    "billing_verified": false
+  },
+  "shots": [
+    {
+      "id": "N001",
+      "purpose": "单条真实接口闭环验证；匿名空机房情境镜头，不承担事实证据作用",
+      "prompt": "A single continuous six-second realistic documentary shot, widescreen 16:9. A small generic empty server room with two orderly rows of plain dark equipment racks, viewed from the aisle at eye level. Nobody is present. A few tiny green status LEDs glow steadily. The camera makes one very slow, smooth forward move of less than half a metre; no pan, no zoom, no cuts. Neutral soft overhead white lighting, natural materials, restrained contrast, believable scale. This is a generic context illustration, not footage of any real location or incident. No company logos, no readable labels, no screens displaying text or data, no human faces or hands, no sparks, no smoke, no warning lights, no dramatic event, no holograms, no floating graphics, no subtitles, no text overlays, no watermarks. Keep the rack edges, shelves, floor and cables geometrically stable.",
+      "context_label": "情境示意",
+      "acceptance": [
+        "单一连续镜头，1920×1080，约6秒",
+        "无人、无可识别公司/地点、无假数据文字",
+        "无切镜、严重几何漂移、闪烁、穿模",
+        "原片没有情境标签时才在后期加一处"
+      ],
+      "estimated_cost_cny": 3.5
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "mode": "archived_html",
+  "html": "E06_保存原始.html",
+  "url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+  "content_type": "text/html; charset=gb18030",
+  "viewport": [
+    1440,
+    1080
+  ],
+  "device_scale_factor": 3,
+  "javascript_enabled": false,
+  "resources": [
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "path": "sina_master.css",
+      "content_type": "text/css; charset=gb18030"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "path": "sina_theme.css",
+      "content_type": "text/css; charset=gb18030"
+    }
+  ],
+  "regions": [
+    {
+      "id": "pinghu",
+      "quote": "记者了解到，今年4月27日九龙旅游度假山庄为了筹划飞行俱乐部做了一次飞行表演，在未经军民航批准的情况下，飞行员擅自驾驶直升机升空飞行10分钟，结果造成了上海浦东、虹桥国际机场航班大面积延误，目前相关监管部门对此事件正在处理之中。",
+      "selector": "body",
+      "view": {
+        "x": 200,
+        "width": 720,
+        "height": 326.25
+      },
+      "marks": [
+        {
+          "id": "date",
+          "quote": "4月27日"
+        },
+        {
+          "id": "permit",
+          "quote": "未经军民航批准"
+        },
+        {
+          "id": "flight",
+          "quote": "直升机升空飞行10分钟"
+        },
+        {
+          "id": "impact",
+          "quote": "上海浦东、虹桥国际机场航班大面积延误"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "本次在当前Chromium渲染保存HTML，不是2010年拍摄的屏幕。",
+    "原站CSS保留，远程广告、脚本及未保存资源被阻断；这些缺失可能影响整体页面外观。",
+    "这是另一宗平湖事件，不据此证明萧山事件的具体人员、处罚或机型。"
+  ]
+}

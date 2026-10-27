@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "claims": [],
+  "record_fields": ["id", "statement", "source_ids", "source_independence", "supports", "contradictions", "limits", "confidence_wording", "status"]
+}

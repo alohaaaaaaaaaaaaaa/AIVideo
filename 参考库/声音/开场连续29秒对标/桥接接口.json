@@ -1,0 +1,12 @@
+{
+  "transitions": [
+    {
+      "after_chapter": "01",
+      "duration": 0,
+      "overlap_before": 0.8,
+      "overlap_after": 0.8
+    }
+  ],
+  "new_duration": 33.36,
+  "pause_events": []
+}

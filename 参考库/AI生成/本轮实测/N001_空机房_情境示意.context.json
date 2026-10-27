@@ -1,0 +1,21 @@
+{
+  "input_sha256": "74fac6ce9d500d46612e39dcbd4bcd7a3db8912047b7312eb1ab2a8f8a0f1861",
+  "output_sha256": "88ecfbc6e7c8aaab4d29293ef623ebe94f0455c83f392ef08f11a8a16be72bc6",
+  "native_label": true,
+  "label_text": "情境示意",
+  "label_full_duration": true,
+  "source_frame_count": 141,
+  "duration": 5.875,
+  "source_speed_changed": false,
+  "confirmed_unlabeled_before_add": true,
+  "needs_actual_visual_review": false,
+  "visual_review": {
+    "reviewed_at": "2026-10-26T14:03:32.421690+00:00",
+    "source_check": "15 distributed frames across full source plus full-resolution start/end",
+    "adopted_check": "first/middle/last and enlarged label area",
+    "context_label_count": 1,
+    "context_label_readable": true,
+    "no_second_label_added_in_assembly": true,
+    "result": "accepted_as_generic_context_only"
+  }
+}

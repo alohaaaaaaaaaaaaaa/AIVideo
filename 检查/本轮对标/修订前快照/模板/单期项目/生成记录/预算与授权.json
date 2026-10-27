@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "production_authorized": false,
+  "authorization_reference": null,
+  "approved_cap_cny": null,
+  "operational_review_threshold_cny": null,
+  "retry_scope": "本期同一已授权批次累计，不按每镜重置",
+  "extra_attempt_limit": null,
+  "current_price_evidence": [],
+  "estimated_initial_cny": null,
+  "reserved_cny": 0,
+  "actual_billing_verified": false,
+  "paid_calls": 0,
+  "entries": []
+}

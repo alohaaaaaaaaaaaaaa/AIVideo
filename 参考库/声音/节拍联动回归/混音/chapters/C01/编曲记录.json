@@ -1,0 +1,401 @@
+{
+  "duration": 12.76,
+  "sections": [
+    {
+      "id": "M001",
+      "title": "完整结论与精确字尾",
+      "start": 0.0,
+      "end": 12.76,
+      "role": "judgment"
+    }
+  ],
+  "music_cues": [
+    {
+      "type": "space",
+      "start": 5.1,
+      "end": 6.3,
+      "gain": 0.5,
+      "anchor_segment_id": "CONCLUSION"
+    },
+    {
+      "type": "space",
+      "role": "conclusion_duck",
+      "start": 5.99,
+      "end": 9.865,
+      "gain": 0.7498942093324559,
+      "reason": "Let the complete core judgment finish before the cadence"
+    },
+    {
+      "type": "resolve",
+      "time": 9.965,
+      "scope_end": 12.76,
+      "core_start": 6.34,
+      "core_end": 9.865,
+      "audio_verified": true,
+      "reason": "Resolve after actual word tail; preserve music in later sections"
+    }
+  ],
+  "bars": [
+    {
+      "time": 0.12,
+      "section": "M001",
+      "role": "judgment",
+      "chord": "Fmaj9",
+      "bpm": 82,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 3.0468,
+      "section": "M001",
+      "role": "judgment",
+      "chord": "Dm9",
+      "bpm": 82,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 5.9737,
+      "section": "M001",
+      "role": "judgment",
+      "chord": "G6",
+      "bpm": 82,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 8.9005,
+      "section": "M001",
+      "role": "judgment",
+      "chord": "Cmaj7",
+      "bpm": 82,
+      "resolved": false,
+      "coda_variant": null
+    },
+    {
+      "time": 11.8273,
+      "section": "M001",
+      "role": "judgment",
+      "chord": "C",
+      "bpm": 82,
+      "resolved": true,
+      "coda_variant": null
+    }
+  ],
+  "notes": [
+    {
+      "track": "strings",
+      "time": 0.12,
+      "pitch": 57,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 0.145,
+      "pitch": 60,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 0.155,
+      "pitch": 53,
+      "duration": 1.82927,
+      "velocity": 30,
+      "purpose": "稀疏低音支点"
+    },
+    {
+      "track": "strings",
+      "time": 0.17,
+      "pitch": 64,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 0.195,
+      "pitch": 67,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 0.69928,
+      "pitch": 76,
+      "duration": 0.87805,
+      "velocity": 33,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "piano",
+      "time": 1.76083,
+      "pitch": 71,
+      "duration": 0.87805,
+      "velocity": 36,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "pizz",
+      "time": 2.09561,
+      "pitch": 57,
+      "duration": 0.29268,
+      "velocity": 26,
+      "purpose": "查阅推进或轻巧尾奏"
+    },
+    {
+      "track": "strings",
+      "time": 3.04683,
+      "pitch": 57,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 3.07183,
+      "pitch": 60,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 3.09683,
+      "pitch": 62,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 3.12183,
+      "pitch": 65,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 3.78181,
+      "pitch": 74,
+      "duration": 0.87805,
+      "velocity": 33,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "piano",
+      "time": 5.02939,
+      "pitch": 69,
+      "duration": 0.87805,
+      "velocity": 36,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "strings",
+      "time": 5.97366,
+      "pitch": 55,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 5.99866,
+      "pitch": 59,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 6.00866,
+      "pitch": 55,
+      "duration": 1.82927,
+      "velocity": 30,
+      "purpose": "稀疏低音支点"
+    },
+    {
+      "track": "strings",
+      "time": 6.02366,
+      "pitch": 62,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 6.04866,
+      "pitch": 64,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 6.78425,
+      "pitch": 72,
+      "duration": 0.87805,
+      "velocity": 33,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "piano",
+      "time": 7.94928,
+      "pitch": 76,
+      "duration": 0.87805,
+      "velocity": 36,
+      "purpose": "已认可问句动机的逐段发展"
+    },
+    {
+      "track": "strings",
+      "time": 8.90049,
+      "pitch": 55,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 8.92549,
+      "pitch": 59,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 8.95049,
+      "pitch": 60,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "strings",
+      "time": 8.97549,
+      "pitch": 64,
+      "duration": 2.96341,
+      "velocity": 26,
+      "purpose": "延展和声，避免压迫人声"
+    },
+    {
+      "track": "piano",
+      "time": 9.965,
+      "pitch": 48,
+      "duration": 2.4,
+      "velocity": 34,
+      "purpose": "结论字尾后的温和C大调终止式"
+    },
+    {
+      "track": "strings",
+      "time": 9.965,
+      "pitch": 55,
+      "duration": 2.745,
+      "velocity": 27,
+      "purpose": "已经结束调查的完成感"
+    },
+    {
+      "track": "strings",
+      "time": 9.985,
+      "pitch": 60,
+      "duration": 2.725,
+      "velocity": 27,
+      "purpose": "已经结束调查的完成感"
+    },
+    {
+      "track": "strings",
+      "time": 10.005,
+      "pitch": 64,
+      "duration": 2.705,
+      "velocity": 27,
+      "purpose": "已经结束调查的完成感"
+    },
+    {
+      "track": "piano",
+      "time": 10.02,
+      "pitch": 60,
+      "duration": 2.4,
+      "velocity": 38,
+      "purpose": "结论字尾后的温和C大调终止式"
+    },
+    {
+      "track": "strings",
+      "time": 10.025,
+      "pitch": 67,
+      "duration": 2.685,
+      "velocity": 27,
+      "purpose": "已经结束调查的完成感"
+    },
+    {
+      "track": "piano",
+      "time": 10.075,
+      "pitch": 64,
+      "duration": 2.4,
+      "velocity": 38,
+      "purpose": "结论字尾后的温和C大调终止式"
+    },
+    {
+      "track": "piano",
+      "time": 10.13,
+      "pitch": 67,
+      "duration": 2.4,
+      "velocity": 38,
+      "purpose": "结论字尾后的温和C大调终止式"
+    },
+    {
+      "track": "piano",
+      "time": 10.185,
+      "pitch": 72,
+      "duration": 2.4,
+      "velocity": 38,
+      "purpose": "结论字尾后的温和C大调终止式"
+    }
+  ],
+  "old_waveform_loop_used": false,
+  "paid_api_calls": 0,
+  "sample_rate": 48000,
+  "master_gain": 1.0,
+  "stems": {
+    "piano": {
+      "program": 0,
+      "notes": 13,
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C01/分轨_piano_48k_float.wav",
+      "sha256": "5ad2343330927f5a26449cbbe9dd14a53ff6ab144dba1433d9ec9dc7c395c866",
+      "preserved_prefix": null
+    },
+    "strings": {
+      "program": 48,
+      "notes": 20,
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C01/分轨_strings_48k_float.wav",
+      "sha256": "d441b2bc7270ab6f83533cd5842a59f719ca6a8bc06d9347376603a32f086193",
+      "preserved_prefix": null
+    },
+    "pizz": {
+      "program": 45,
+      "notes": 1,
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C01/分轨_pizz_48k_float.wav",
+      "sha256": "13885ae7948429aaada0cbd375e032f9f774f6915e14747390444a4d561b3c33",
+      "preserved_prefix": null
+    },
+    "vibes": {
+      "program": 11,
+      "notes": 0,
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C01/分轨_vibes_48k_float.wav",
+      "sha256": "7bcaf396a96edc428498f539a8dcd778f6061fc42e3ae3d7f0deb08fcbdb78fa",
+      "preserved_prefix": null
+    }
+  },
+  "preserved_prefix": null,
+  "output": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/节拍联动回归/混音/chapters/C01/music_score_48k_stereo.wav",
+  "output_sha256": "a25b051b1b0c9b0ed359ab5f2f2e80776195899cfc10d8bf109ba754c0017a41",
+  "soundfont": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/音源/GeneralUser-GS.sf2",
+  "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "license": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/音源/GeneralUser-GS_LICENSE.txt",
+  "license_source_url": "https://schristiancollins.com/generaluser.php",
+  "composition": "本幕按实音重新编曲；沿用已认可乐器音源和两音问句动机，不复制或循环已有音乐录音。"
+}

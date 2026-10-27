@@ -1,0 +1,74 @@
+{
+  "assets": [
+    {
+      "id": "NASA_context",
+      "path": "NASA_context.png",
+      "plain_path": "NASA_context.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "NASA · 2010-07-01文章 / 网页归档",
+      "source_id": "NASA_progress",
+      "focus_regions": [
+        {
+          "label": "07.01.10",
+          "box": [
+            108.0,
+            300.0,
+            220.12,
+            333.6
+          ]
+        },
+        {
+          "label": "The ISS Progress 38 cargo carrier launched from the Baikonur Cosmodrome in Kazakhstan on June 30 at 11:35 a.m. EDT.",
+          "box": [
+            236.62,
+            794.4,
+            1798.5,
+            828.0
+          ]
+        }
+      ],
+      "clip_css": {
+        "x": 120.0,
+        "y": 209.0,
+        "width": 800,
+        "height": 450.0
+      },
+      "source_sha256": "4958dbf6a6598ca52219026eea4eb804895e0e2c30d205974d494ff22e3e019a",
+      "notes": [
+        "NASA文章2010-07-01；HTML归档2016-03-03；已取回原站2016主样式及对应Progress发射缩图，部分界面资源未加载",
+        "07.01.10是发文日期，发射看正文June 30。"
+      ]
+    },
+    {
+      "id": "NASA_date",
+      "path": "NASA_date_focus.png",
+      "plain_path": "NASA_date.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "NASA · 2010-07-01文章 / 网页归档",
+      "source_id": "NASA_progress",
+      "focus_regions": [
+        {
+          "label": "June 30 at 11:35 a.m. EDT",
+          "box": [
+            593.64,
+            410.27,
+            1326.37,
+            482.92
+          ]
+        }
+      ],
+      "clip_css": {
+        "x": 610.445,
+        "y": 460.938,
+        "width": 370,
+        "height": 208.125
+      },
+      "source_sha256": "4958dbf6a6598ca52219026eea4eb804895e0e2c30d205974d494ff22e3e019a",
+      "notes": [
+        "配合完整引句使用；画面时间仍是EDT，换算字幕应明确北京时间6/30 23:35。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "CHECK001",
+    "text": "我是啊子牙。今天我们顺着证据往下查，网友p.o.l.i.c.e留下的线索，到底能说明什么？",
+    "audio": "CHECK001_48k_mono.wav",
+    "audio_sha256": "090e97457212ce278aa81edfabe0c6568e0a19e79bb798d4880456c26023009c",
+    "duration": 6.478375,
+    "sample_rate": 48000,
+    "samples": 310962,
+    "phrases": [
+      {
+        "text": "我是啊子牙。",
+        "tts_text": "我是阿子牙。",
+        "start": 0.0444,
+        "end": 0.7111,
+        "time_basis": "provider_actual_word_timestamps"
+      },
+      {
+        "text": "今天我们顺着证据往下查，",
+        "tts_text": "今天我们顺着证据往下查，",
+        "start": 0.8,
+        "end": 2.7111,
+        "time_basis": "provider_actual_word_timestamps"
+      },
+      {
+        "text": "网友p.o.l.i.c.e留下的线索，",
+        "tts_text": "网友police留下的线索，",
+        "start": 2.7556,
+        "end": 4.7556,
+        "time_basis": "provider_actual_word_timestamps"
+      },
+      {
+        "text": "到底能说明什么？",
+        "tts_text": "到底能说明什么？",
+        "start": 4.8,
+        "end": 6.1333,
+        "time_basis": "provider_actual_word_timestamps"
+      }
+    ],
+    "level_match": {
+      "linear_gain": 3.6231564769964635,
+      "gain_db": 11.181741815267722,
+      "raw_peak_dbfs": -12.1081863163659,
+      "raw_voiced_median_dbfs": -27.13362267093626,
+      "reference_voiced_median_dbfs": -15.951880855668536,
+      "processed_voiced_median_dbfs": -15.951880449600825,
+      "processed_peak_dbfs": -1.7237230280894764,
+      "limiter_max_reduction_db": -0.7972789385868011,
+      "fraction_limited": 0.07593532328708974,
+      "limiter_method": "same 20ms peak lookahead / 50ms protection / 10ms smoothing as accepted opening",
+      "time_stretch": false
+    },
+    "time_stretch": false,
+    "independent_asr": "not_yet_run",
+    "listening_review": "not_yet_reviewed"
+  }
+]

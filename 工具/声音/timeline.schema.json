@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "啊子牙配乐时间线",
+  "type": "object",
+  "required": [
+    "duration",
+    "music_sections"
+  ],
+  "properties": {
+    "duration": {
+      "type": "number",
+      "minimum": 1
+    },
+    "music_sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "start",
+          "end",
+          "music_mood"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "start": {
+            "type": "number",
+            "minimum": 0
+          },
+          "end": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "music_mood": {
+            "enum": [
+              "discovery",
+              "trace",
+              "mismatch",
+              "early",
+              "comments",
+              "window",
+              "recap",
+              "judgment",
+              "resolved",
+              "coda",
+              "outro"
+            ]
+          }
+        }
+      }
+    },
+    "music_cues": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "start",
+              "end",
+              "gain"
+            ],
+            "properties": {
+              "type": {
+                "const": "space"
+              },
+              "start": {
+                "type": "number",
+                "minimum": 0
+              },
+              "end": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "gain": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "time"
+            ],
+            "properties": {
+              "type": {
+                "const": "resolve"
+              },
+              "time": {
+                "type": "number",
+                "minimum": 0
+              },
+              "reason": {
+                "type": "string"
+              },
+              "scope_end": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Retain later outro music; only conclusion scope loses normal accompaniment."
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sound_cues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "time"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "page",
+              "search",
+              "cabin",
+              "airport"
+            ]
+          },
+          "time": {
+            "type": "number",
+            "minimum": 0
+          },
+          "duration": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "gain_db": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "conclusion_cue": {
+      "type": "object",
+      "required": [
+        "narration_sha256",
+        "core_start",
+        "core_end",
+        "scope_end",
+        "verification_method"
+      ],
+      "properties": {
+        "segment_id": {
+          "type": "string"
+        },
+        "source_audio_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "core_start": {
+          "type": "number",
+          "minimum": 0
+        },
+        "core_end": {
+          "type": "number",
+          "minimum": 0
+        },
+        "scope_end": {
+          "type": "number",
+          "minimum": 0
+        },
+        "post_word_delay": {
+          "type": "number",
+          "minimum": 0.08,
+          "maximum": 0.25
+        },
+        "verification_method": {
+          "enum": [
+            "waveform_and_independent_asr",
+            "waveform_and_listening",
+            "approved_original_waveform_review"
+          ]
+        },
+        "narration_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "chapter_music_strategy": {
+      "type": "object",
+      "required": [
+        "mode",
+        "transitions"
+      ],
+      "properties": {
+        "mode": {
+          "const": "explicit_bridges"
+        },
+        "transitions": {
+          "type": "array",
+          "description": "One entry per chapter seam, duration=0 (all pauses are already in the voice ledger)",
+          "items": {
+            "type": "object",
+            "required": [
+              "after_chapter",
+              "duration"
+            ],
+            "properties": {
+              "after_chapter": {
+                "type": "string"
+              },
+              "duration": {
+                "const": 0
+              },
+              "overlap_before": {
+                "type": "number",
+                "minimum": 0.5,
+                "maximum": 1
+              },
+              "overlap_after": {
+                "type": "number",
+                "minimum": 0.5,
+                "maximum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "silent_music_rms_dbfs": {
+      "type": "number",
+      "minimum": -50,
+      "maximum": -20,
+      "description": "Explicit BGM RMS target only for wholly unvoiced chapters; choose from adjacent real music context."
+    }
+  },
+  "$comment": "运行时另验证段落无缝覆盖全时长、结论后留足2秒、实音长度相等。所有时间均为本次渲染的本地秒。"
+}

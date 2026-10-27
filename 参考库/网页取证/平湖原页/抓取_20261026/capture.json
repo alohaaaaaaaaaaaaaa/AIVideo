@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "status": "captured_coordinate_audit_required",
+  "captured_at_utc": "2026-10-26T13:42:11.288179+00:00",
+  "mode": "archived_html",
+  "requested_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+  "viewport_css": [
+    1440,
+    1080
+  ],
+  "device_scale_factor": 3,
+  "scripts_enabled": false,
+  "logged_in_profile_used": false,
+  "source_text_rewritten": false,
+  "css_override_injected": false,
+  "network_requests_sent": 0,
+  "resources": [
+    {
+      "url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "path": "原始资源/main_original.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "content_type": "text/html; charset=gb18030",
+      "bytes": 84799,
+      "role": "unchanged_saved_main_html"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "path": "原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "content_type": "text/css; charset=gb18030",
+      "bytes": 39319,
+      "role": "saved_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "path": "原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "content_type": "text/css; charset=gb18030",
+      "bytes": 9835,
+      "role": "saved_resource"
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef"
+    },
+    {
+      "url": "http://i0.sinaimg.cn/home/deco/2009/0330/con_logo_news.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d3.sina.com.cn/litong/huangxu/zhongshi/xinwenny/zswm_zty_logo.jpg",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d1.sina.com.cn/201010/09/257222_pic1.jpg",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d4.sina.com.cn/201010/09/257224_pic2.jpg",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://beacon.sina.com.cn/a.gif?noScript",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/c.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d1.sina.com.cn/iframe/5/2008/0714/5.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/gn/2009-03-30/163355.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/contentpfp/blog/book.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/gn/2007-03-09/152915.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/1127/11.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/no/2010-08-31/1539111.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0722/3.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d4.sina.com.cn/iframe/2008/0829/1/serious.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0723/5.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d5.sina.com.cn/jianyu1/TaoBao/NB10110188/taobao_if_1115.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/2008/1023/1.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://pfp.sina.com.cn/iframe/gn/2009-08-14/194974.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/485/2008/0829/9.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://d5.sina.com.cn/iframe/gn/2007-09-28/215322.html",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i1.sinaimg.cn/dy/news/2008/0708/con_bg_standard_001.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/dy/news/2008/0708/con_bg_standard_002.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i2.sinaimg.cn/IT/deco/2009/0930/images/wbicon_cl_002.png",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i3.sinaimg.cn/dy/news/2008/0708/con_mj_001.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "http://i3.sinaimg.cn/dy/news/2008/0708/con_bg_standard_003.gif",
+      "action": "blocked_unavailable_archived_resource"
+    }
+  ],
+  "regions": [
+    {
+      "id": "pinghu",
+      "quote": "记者了解到，今年4月27日九龙旅游度假山庄为了筹划飞行俱乐部做了一次飞行表演，在未经军民航批准的情况下，飞行员擅自驾驶直升机升空飞行10分钟，结果造成了上海浦东、虹桥国际机场航班大面积延误，目前相关监管部门对此事件正在处理之中。",
+      "quote_text_sha256": "3e72e06b51399718b9defb6c0eb6ddd375b47f393298800d22ee570df1f3196c",
+      "selector": "body",
+      "context_text": "　　记者了解到，今年4月27日九龙旅游度假山庄为了筹划飞行俱乐部做了一次飞行表演，在未经军民航批准的情况下，飞行员擅自驾驶直升机升空飞行10分钟，结果造成了上海浦东、虹桥国际机场航班大面积延误，目前相关监管部门对此事件正在处理之中。",
+      "image": "原始截图/pinghu.png",
+      "image_sha256": "2612689b98f0c42a48cc393271e2752f1deee0369d7e82d9db8ed91b8b4ca109",
+      "clip_css": {
+        "x": 200.0,
+        "y": 1089.375,
+        "width": 720.0,
+        "height": 326.25
+      },
+      "quote_rects_css_document": [
+        [
+          308,
+          1222,
+          847,
+          1237
+        ],
+        [
+          280,
+          1245,
+          840,
+          1260
+        ],
+        [
+          280,
+          1268,
+          742,
+          1283
+        ]
+      ],
+      "quote_rects_image_pixels": [
+        [
+          324.0,
+          397.875,
+          1941.0,
+          442.875
+        ],
+        [
+          240.0,
+          466.875,
+          1920.0,
+          511.875
+        ],
+        [
+          240.0,
+          535.875,
+          1626.0,
+          580.875
+        ]
+      ],
+      "focus_rect_image_pixels": [
+        240.0,
+        397.875,
+        1941.0,
+        580.875
+      ],
+      "marks": [
+        {
+          "id": "date",
+          "quote": "4月27日",
+          "rects_css_document": [
+            [
+              420,
+              1222,
+              469,
+              1237
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              660.0,
+              397.875,
+              807.0,
+              442.875
+            ]
+          ]
+        },
+        {
+          "id": "permit",
+          "quote": "未经军民航批准",
+          "rects_css_document": [
+            [
+              280,
+              1245,
+              378,
+              1260
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              240.0,
+              466.875,
+              534.0,
+              511.875
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "quote": "直升机升空飞行10分钟",
+          "rects_css_document": [
+            [
+              546,
+              1245,
+              686,
+              1260
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              1038.0,
+              466.875,
+              1458.0,
+              511.875
+            ]
+          ]
+        },
+        {
+          "id": "impact",
+          "quote": "上海浦东、虹桥国际机场航班大面积延误",
+          "rects_css_document": [
+            [
+              770,
+              1245,
+              840,
+              1260
+            ],
+            [
+              280,
+              1268,
+              462,
+              1283
+            ]
+          ],
+          "rects_image_pixels": [
+            [
+              1710.0,
+              466.875,
+              1920.0,
+              511.875
+            ],
+            [
+              240.0,
+              535.875,
+              786.0,
+              580.875
+            ]
+          ]
+        }
+      ],
+      "source_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+      "capture_mode": "archived_html"
+    }
+  ],
+  "limitations": [
+    "本次在当前Chromium渲染保存HTML，不是2010年拍摄的屏幕。",
+    "原站CSS保留，远程广告、脚本及未保存资源被阻断；这些缺失可能影响整体页面外观。",
+    "这是另一宗平湖事件，不据此证明萧山事件的具体人员、处罚或机型。"
+  ],
+  "resolved_url": "http://news.sina.com.cn/c/sd/2010-11-19/065721497404.shtml",
+  "title": "央视《经济半小时》：低空开放可淘金？_新闻中心_新浪网",
+  "browser": "151.0.7922.34",
+  "http_status": 200,
+  "document_size_css": {
+    "width": 1440,
+    "height": 3320
+  },
+  "page_metadata": {},
+  "responses": [],
+  "source_kind": "current_browser_rendering_of_unchanged_saved_html",
+  "current_capture_not_historical_screenshot": true,
+  "paid_api_calls": 0,
+  "authentication_bypassed": false,
+  "files": [
+    {
+      "path": "visible_full_text.txt",
+      "sha256": "1a12249a71dda5ab4a31f8f33305220a861ac8d0069039367b1dcdf6a4291108",
+      "bytes": 9687
+    },
+    {
+      "path": "capture_config.json",
+      "sha256": "80746b9322fc44ca52b1db4a6f3b44009985b71d540de6efbb1aa8f9c10732ea",
+      "bytes": 1905
+    },
+    {
+      "path": "rendered_dom.html",
+      "sha256": "39c4f0e42bcf2841d1a167a54eb3b5c92623e11231b2a2b4a5c02bc1a0b16667",
+      "bytes": 89273
+    },
+    {
+      "path": "原始截图/viewport.png",
+      "sha256": "44658baa937cbfa496149dbc44daf3bd2b568b78f4c7a96343a4a2d5a683b9bb",
+      "bytes": 1287666
+    },
+    {
+      "path": "原始截图/full_page.png",
+      "sha256": "f93e850fccddf13a799bbaa377c2cb6942379d3756c8356e13c2ead9cc1d22f6",
+      "bytes": 3563197
+    },
+    {
+      "path": "原始截图/pinghu.png",
+      "sha256": "2612689b98f0c42a48cc393271e2752f1deee0369d7e82d9db8ed91b8b4ca109",
+      "bytes": 418246
+    },
+    {
+      "path": "原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "path": "原始资源/main_original.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "bytes": 84799
+    },
+    {
+      "path": "原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    }
+  ]
+}

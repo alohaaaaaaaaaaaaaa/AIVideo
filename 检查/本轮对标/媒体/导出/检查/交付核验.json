@@ -1,0 +1,33 @@
+{
+  "status": "technical_pass_manual_review_required",
+  "manifest_sha256": "6e936f2c3e5dc2a014ebd3b118f44340360c25f4ee8ea174de2fb4c983ec9d24",
+  "same_audio": true,
+  "outputs": [
+    {
+      "id": "clean",
+      "sha256": "5cf78dcf51f4b9476f4f4dd11023e7441e370afe08ef5bd51cd790c4a427aec1",
+      "decoded_frames": 100,
+      "duration": 4.0,
+      "decoded_audio_samples": 192000,
+      "audio_duration": 4.0,
+      "audio_packet_sha256": "8e80e04504356723dae4bccc32384e51ffd92c552decb4c394ab80ec5691a591",
+      "peak_dbfs": -33.52763853249734,
+      "loudness": {
+        "integrated_lufs": -34.96,
+        "true_peak_dbtp": -33.53,
+        "recommended_max_dbtp": -1.0,
+        "true_peak_pass": true,
+        "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+      },
+      "clipped_samples": 0,
+      "complete_decode": true
+    }
+  ],
+  "manual_review": [
+    "逐镜头核验字幕遮挡、原文高光与来源真实性",
+    "AI/动画原生标识首中尾可读且仅一处",
+    "水印不遮挡证据并在镜头内静止",
+    "试听专名及停顿，核对音乐落点",
+    "抽帧不等于完整视听审片"
+  ]
+}

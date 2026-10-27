@@ -1,0 +1,63 @@
+{
+  "mode": "archived_html",
+  "html": "保存原始.html",
+  "content_type": "text/html; charset=gb18030",
+  "viewport": [
+    1440,
+    1080
+  ],
+  "device_scale_factor": 3,
+  "javascript_enabled": false,
+  "resources": [
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "path": "sina_master.css",
+      "content_type": "text/css; charset=gb18030"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "path": "sina_theme.css",
+      "content_type": "text/css; charset=gb18030"
+    }
+  ],
+  "limitations": [
+    "当前浏览器渲染保存原HTML，并非历史屏幕录像。",
+    "没有补造原站资源；远程未保存资源全部阻断。",
+    "制作配置的滚动或点击是后期阅读动作，不是原网站实际交互录屏。"
+  ],
+  "url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+  "regions": [
+    {
+      "id": "mil_title",
+      "quote": "解放军发禁航通告 将在东海实弹射击",
+      "view": {
+        "x": 200,
+        "width": 720,
+        "height": 326.25
+      }
+    },
+    {
+      "id": "mil_notice",
+      "quote": "6月24日，中国人民解放军九一七六五部队发布通告称，“我部定于2010年6月30日至7月5日，每日零时至18时，在舟山至台州以东（北纬29度54分、东经122度36分；北纬29度54分、东经123度30分；北纬28度25分、东经123度30分；北纬28度25分、东经122度14分；北纬28度50分、东经122度14分）5点连线海域，即在191、192、196、197、198、203、204、205渔区内进行实弹射击训练。训练期间，严禁各类船舶进入上述海域，并听从海军舰艇的指挥，以确保安全。”（温州晚报）",
+      "view": {
+        "x": 200,
+        "width": 720,
+        "height": 326.25
+      },
+      "marks": [
+        {
+          "id": "dates",
+          "quote": "2010年6月30日至7月5日"
+        },
+        {
+          "id": "place",
+          "quote": "舟山至台州以东"
+        },
+        {
+          "id": "vessels",
+          "quote": "严禁各类船舶进入上述海域"
+        }
+      ]
+    }
+  ]
+}

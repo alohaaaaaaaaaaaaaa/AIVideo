@@ -1,0 +1,36 @@
+{
+  "status": "technical_checks_passed",
+  "scope": "real paragraph PCM → frame-aligned ledger → score/mix; media rendering is checked by the media integration separately",
+  "duration": 11.12,
+  "frames": 278,
+  "samples": 533760,
+  "paragraphs": [
+    {
+      "id": "C01_P001",
+      "all_speech_samples_identical": true,
+      "padding_is_silent": true,
+      "actual_phrase_offsets_preserved": true
+    },
+    {
+      "id": "C02_P001",
+      "all_speech_samples_identical": true,
+      "padding_is_silent": true,
+      "actual_phrase_offsets_preserved": true
+    }
+  ],
+  "alignment_padding_samples": 291,
+  "explicit_tail_samples": 76800,
+  "speech_trimmed_samples": 0,
+  "time_stretch": false,
+  "partial_prepare_preserves_other_rows": true,
+  "invalid_nonfinite_budget_and_price_rejected": true,
+  "implicit_old_V01_airport_sound_removed": true,
+  "mix_metrics": {
+    "integrated_lufs": -17.09,
+    "true_peak_dbtp": -4.55,
+    "clipped_samples": 0,
+    "complete_decode": true
+  },
+  "paid_calls": 0,
+  "human_full_listening_claimed": false
+}

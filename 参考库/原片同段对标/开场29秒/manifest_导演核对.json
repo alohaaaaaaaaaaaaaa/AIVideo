@@ -1,0 +1,165 @@
+{
+  "status": "timing_and_assets_bound_visual_review_still_required",
+  "plan_sha256": "6022cc2a662685785bc455387d15d3c59d7715816e05f99490965237f3bee78c",
+  "timeline_sha256": "54e759c19896c085381c1349e171ab4afb65d964f2e5fe6b9ab23baf560c10e1",
+  "manifest_sha256": "f4ecb927e2491c9e4058fddc681c43d10acc3cb63c75559916ee344561d6b434",
+  "shots": [
+    {
+      "id": "F01_00_00",
+      "paragraph_id": "C01P000",
+      "start": 0.0,
+      "end": 5.32,
+      "viewer_task": "读出作者、日期与船票包袱；红线跟随诺亚飞舟和要票原词",
+      "transition_reason": "以真实笑评兑现标题中的当年网友",
+      "source_ids": [
+        "天涯评论归档"
+      ],
+      "asset_sha256": "6462231e0dae9f361ae7e4697610847c141dfe02c4f9f33574804960b184b535",
+      "acceptance_record": null,
+      "manual_review_required": [
+        "动作/旁白意义一致",
+        "来源及限定词可读",
+        "字幕/水印不遮关键内容",
+        "无任务空等与章间衔接"
+      ]
+    },
+    {
+      "id": "F01_01_00",
+      "paragraph_id": "C01P001",
+      "start": 5.32,
+      "end": 11.2,
+      "viewer_task": "看到机场夜景，听懂停航与卖票笑话的反差",
+      "transition_reason": "从玩笑回到事件背景；情境示意只保留原生一处",
+      "source_ids": [
+        "AI情境"
+      ],
+      "asset_sha256": "6936556feb6a4af836ea14d0cb354b53c31a89e16cbe52935d81c4abad595ba2",
+      "acceptance_record": "输入/机场情境_采用核对.json",
+      "manual_review_required": [
+        "动作/旁白意义一致",
+        "来源及限定词可读",
+        "字幕/水印不遮关键内容",
+        "无任务空等与章间衔接"
+      ],
+      "acceptance_record_sha256": "157c280ae365d25479e4eb5680a3483a43dff9b36bb16999d8e142e05e1500c9"
+    },
+    {
+      "id": "F01_02_00",
+      "paragraph_id": "C01P002",
+      "start": 11.2,
+      "end": 16.2,
+      "viewer_task": "读出另一位网友声称私人飞机；看到转述尚未独立证实",
+      "transition_reason": "从笑评转到可追查但尚不能采信的说法",
+      "source_ids": [
+        "天涯评论归档"
+      ],
+      "asset_sha256": "87a7176d2b9434530c3c1d7edeb5b421e4a55eb615052d3dc22f54a6392b73c8",
+      "acceptance_record": null,
+      "manual_review_required": [
+        "动作/旁白意义一致",
+        "来源及限定词可读",
+        "字幕/水印不遮关键内容",
+        "无任务空等与章间衔接"
+      ]
+    },
+    {
+      "id": "F01_03_00",
+      "paragraph_id": "C01P003",
+      "start": 16.2,
+      "end": 19.28,
+      "viewer_task": "认出央视经济半小时转载标题、日期与原文来源",
+      "transition_reason": "说明调查还找到另一层材料，不能把留言当报道",
+      "source_ids": [
+        "央视节目实录_新浪转载"
+      ],
+      "asset_sha256": "230f91887b62b35fee4f04738a5b987a8dc8bcbc32b86967b7c7f64980f76c98",
+      "acceptance_record": null,
+      "manual_review_required": [
+        "动作/旁白意义一致",
+        "来源及限定词可读",
+        "字幕/水印不遮关键内容",
+        "无任务空等与章间衔接"
+      ]
+    },
+    {
+      "id": "F01_03_01",
+      "paragraph_id": "C01P003",
+      "start": 19.28,
+      "end": 22.08,
+      "viewer_task": "看到网页查找定位动作，不把动效当证据本身",
+      "transition_reason": "从来源身份进入相关报道段落",
+      "source_ids": [
+        "央视节目实录_新浪转载"
+      ],
+      "asset_sha256": "b5b68cc89a9662f8a352e9162711620e76e649bada749e0e375e1b1882aa3e6e",
+      "acceptance_record": null,
+      "manual_review_required": [
+        "动作/旁白意义一致",
+        "来源及限定词可读",
+        "字幕/水印不遮关键内容",
+        "无任务空等与章间衔接"
+      ]
+    },
+    {
+      "id": "F01_03_02",
+      "paragraph_id": "C01P003",
+      "start": 22.08,
+      "end": 24.08,
+      "viewer_task": "同时辨认日期、机场与私人飞机原文上下文",
+      "transition_reason": "核对它谈的是不是同一事件",
+      "source_ids": [
+        "央视节目实录_新浪转载"
+      ],
+      "asset_sha256": "9ad33ded22a5ec8dca06596c123233ea8662ed60cff44362c6efedcd302eceb2",
+      "acceptance_record": null,
+      "manual_review_required": [
+        "动作/旁白意义一致",
+        "来源及限定词可读",
+        "字幕/水印不遮关键内容",
+        "无任务空等与章间衔接"
+      ]
+    },
+    {
+      "id": "F01_04_00",
+      "paragraph_id": "C01P004",
+      "start": 24.08,
+      "end": 28.96,
+      "viewer_task": "回看留言并听清接下来要查什么",
+      "transition_reason": "让观众带着问题进入下一章",
+      "source_ids": [
+        "天涯评论归档"
+      ],
+      "asset_sha256": "cea5dbc7eff2e8c43f5a9acca9886ff8c30e06fdc7b2f5ea0d33972006d441c0",
+      "acceptance_record": null,
+      "manual_review_required": [
+        "动作/旁白意义一致",
+        "来源及限定词可读",
+        "字幕/水印不遮关键内容",
+        "无任务空等与章间衔接"
+      ]
+    },
+    {
+      "id": "F01_04_TAIL",
+      "paragraph_id": "C01P004",
+      "start": 28.96,
+      "end": 29.36,
+      "viewer_task": "短留拍承接下一章音乐；不新增无任务动作",
+      "transition_reason": "保留原采用版章尾0.4秒和跨章音乐桥尾",
+      "source_ids": [
+        "天涯评论归档"
+      ],
+      "asset_sha256": "8d5f9dd5b2ff96094ce0749ae3b62b6cb66b5c5facb828d559b6c13ada0a4adc",
+      "acceptance_record": null,
+      "manual_review_required": [
+        "动作/旁白意义一致",
+        "来源及限定词可读",
+        "字幕/水印不遮关键内容",
+        "无任务空等与章间衔接"
+      ]
+    }
+  ],
+  "frames": 734,
+  "visual_cues_sha256": null,
+  "semantic_review": "viewing tasks are written editorial decisions, not automated aesthetic approval",
+  "paid_calls": 0
+}

@@ -1,0 +1,59 @@
+{
+  "status": "rendered_requires_decode_and_visual_review",
+  "output": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/开场评论/首镜5.32秒_实音划线_完整来源.mp4",
+  "sha256": "6462231e0dae9f361ae7e4697610847c141dfe02c4f9f33574804960b184b535",
+  "duration": 5.32,
+  "frames": 133,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "audio": false,
+  "mode": "fullframe",
+  "source_pixels_retyped": false,
+  "input_signature": "608575e77e545e40f3436533a0016c909d65472fb06da01c01f698bfa0c8899e",
+  "inputs": [
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/开场评论/制作配置.json",
+      "sha256": "b05dd872660095553ab4b88bba102aaa6eaf2ca1506ab0ed41ea08890e18c4b9"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/工具/网页/animate_evidence.py",
+      "sha256": "0851d899c5d457bab257bd44f0d24f695c6c3904d4fa880e4da39b4f95b6d3e5"
+    },
+    {
+      "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/网页取证/开场评论/原始未划线.png",
+      "sha256": "226d343a394c3c7c5d05118a453dc35bab0b0cb844d9da136aede3c2e0f26348"
+    }
+  ],
+  "review_samples": [
+    {
+      "path": "首镜5.32秒_实音划线_完整来源_检查00_0.00s.png",
+      "time": 0,
+      "sha256": "69bdeccb68d84680992cbb43b7fbb5480777ace75051fc914d2a54e9c6b4f9bf"
+    },
+    {
+      "path": "首镜5.32秒_实音划线_完整来源_检查01_0.84s.png",
+      "time": 0.84,
+      "sha256": "adb83e72baa27a47dca50491fa88a896058ce06b5e104d6bd0af8c7999c52a41"
+    },
+    {
+      "path": "首镜5.32秒_实音划线_完整来源_检查02_1.20s.png",
+      "time": 1.2,
+      "sha256": "ae26dfa991672e707fb63cde87b643845f60ef1753754df8dae4dd968d361cd9"
+    },
+    {
+      "path": "首镜5.32秒_实音划线_完整来源_检查03_3.12s.png",
+      "time": 3.12,
+      "sha256": "903233692a6d56b00684200421498354be016950936ddafa6a8c9669517502a7"
+    },
+    {
+      "path": "首镜5.32秒_实音划线_完整来源_检查04_4.80s.png",
+      "time": 4.8,
+      "sha256": "2db8096903013f3879b624be4d28d7795702f2285891e42bc570b75e4fe104b5"
+    }
+  ],
+  "font_used": "Hiragino Sans GB",
+  "editorial_ui_not_live_site_recording": false
+}

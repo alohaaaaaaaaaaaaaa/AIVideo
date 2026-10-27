@@ -1,0 +1,18 @@
+{
+  "status": "applied",
+  "duration": 1319.96,
+  "removed_seconds": 9.52,
+  "removed_global_interval": [
+    452.16,
+    461.68
+  ],
+  "deleted_narration_samples": 456960,
+  "deleted_nonzero_samples": 0,
+  "all_speech_kept": true,
+  "query_reply_original_speed": true,
+  "R05_retained_seconds": 6.8,
+  "reply_complete_local": 6.4,
+  "next_explanation_frame": 6.76,
+  "AI_clips_modified": false,
+  "paid_calls": 0
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "archive": {
+    "archive": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室_Git精简版_2026-10-26.zip",
+    "archive_sha256": "62668cc7c8cf5d95466cbbea7b55e0ac5604bb3583af68843f3ac7c45dec2179",
+    "archive_bytes": 581510963,
+    "files": 1141,
+    "uncompressed_bytes": 586775358,
+    "zip_crc": "passed",
+    "credentials_included": false,
+    "venv_included": false,
+    "embedded_inventory": "归档文件清单.json"
+  },
+  "zip_inventory_files_sha_checked": 1141,
+  "restored_from_zip": {
+    "status": "passed",
+    "files": 1168,
+    "objects_fully_decoded": 384,
+    "present_original_hashes_matched": 1168,
+    "required_full_restore": true,
+    "mismatches": []
+  },
+  "git_restore_checked": "检查/精简交付核验.json",
+  "no_lossy_conversion": true
+}

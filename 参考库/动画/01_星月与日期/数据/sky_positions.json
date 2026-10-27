@@ -1,0 +1,743 @@
+{
+  "schema_version": "1.0",
+  "generated_for": "天空与发射调查",
+  "paths_relative_to": "项目根目录",
+  "primary_beijing_time": "2010-07-07T20:40:00+08:00",
+  "observer": {
+    "longitude_east_deg": 120.3,
+    "geodetic_latitude_north_deg": 30.2,
+    "height_km": 0.01,
+    "role": "萧山附近地面参考点；不是实际机组观察坐标"
+  },
+  "conventions": {
+    "azimuth": "North=0, East=90, South=180, West=270 degrees; clockwise viewed from above",
+    "altitude": "target-center AIRLESS altitude relative to local ellipsoidal horizon; positive above",
+    "time_zone": "Asia/Shanghai UTC+08:00 in 2010",
+    "refraction": "AIRLESS",
+    "screen_map_hint": "北上南下平面图：x=sin(az), y=-cos(az)；高度另用alt_deg。朝天空全景的左右与地图不同，必须标方位避免误解。",
+    "precision_note": "6或9位小数为保存返回的打印精度；成片显示2位，不是实际目击精度。"
+  },
+  "times_beijing": [
+    "2010-07-07T20:00:00+08:00",
+    "2010-07-07T20:20:00+08:00",
+    "2010-07-07T20:40:00+08:00",
+    "2010-07-07T21:00:00+08:00",
+    "2010-07-07T21:20:00+08:00",
+    "2010-07-07T21:40:00+08:00",
+    "2010-07-07T22:00:00+08:00"
+  ],
+  "objects": [
+    {
+      "id": "Sun",
+      "name": "太阳",
+      "role": "补充筛查",
+      "primary": {
+        "az_deg": 311.052002,
+        "alt_deg": -18.065651,
+        "source": "06_原始资料/天文/astro_horizons_jpl.json",
+        "raw_row": " 2010-Jul-07 12:40, , , 311.052002,   -18.065651,",
+        "method": "saved_JPL_quantity_4_row_only",
+        "time_beijing": "2010-07-07T20:40:00+08:00",
+        "display_az": "311.05°",
+        "display_alt": "-18.07°",
+        "above_geometric_horizon": false
+      },
+      "nodes": [
+        {
+          "index": 0,
+          "time_utc": "2010-07-07T12:00:00Z",
+          "time_beijing": "2010-07-07T20:00:00+08:00",
+          "label": "20:00",
+          "az_deg": 304.627217,
+          "alt_deg": -11.235834,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:00,N, , 304.627217,   -11.235834,"
+        },
+        {
+          "index": 1,
+          "time_utc": "2010-07-07T12:20:00Z",
+          "time_beijing": "2010-07-07T20:20:00+08:00",
+          "label": "20:20",
+          "az_deg": 307.730129,
+          "alt_deg": -14.724869,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:20,A, , 307.730129,   -14.724869,"
+        },
+        {
+          "index": 2,
+          "time_utc": "2010-07-07T12:40:00Z",
+          "time_beijing": "2010-07-07T20:40:00+08:00",
+          "label": "20:40",
+          "az_deg": 311.052002,
+          "alt_deg": -18.065651,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:40, , , 311.052002,   -18.065651,"
+        },
+        {
+          "index": 3,
+          "time_utc": "2010-07-07T13:00:00Z",
+          "time_beijing": "2010-07-07T21:00:00+08:00",
+          "label": "21:00",
+          "az_deg": 314.616207,
+          "alt_deg": -21.235897,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:00, , , 314.616207,   -21.235897,"
+        },
+        {
+          "index": 4,
+          "time_utc": "2010-07-07T13:20:00Z",
+          "time_beijing": "2010-07-07T21:20:00+08:00",
+          "label": "21:20",
+          "az_deg": 318.44481,
+          "alt_deg": -24.210341,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:20, , , 318.444810,   -24.210341,"
+        },
+        {
+          "index": 5,
+          "time_utc": "2010-07-07T13:40:00Z",
+          "time_beijing": "2010-07-07T21:40:00+08:00",
+          "label": "21:40",
+          "az_deg": 322.556769,
+          "alt_deg": -26.960709,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:40, , , 322.556769,   -26.960709,"
+        },
+        {
+          "index": 6,
+          "time_utc": "2010-07-07T14:00:00Z",
+          "time_beijing": "2010-07-07T22:00:00+08:00",
+          "label": "22:00",
+          "az_deg": 326.965469,
+          "alt_deg": -29.45596,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 14:00, , , 326.965469,   -29.455960,"
+        }
+      ],
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%27120.3%2C30.2%2C0.01%27&START_TIME=%272010-07-07+12%3A00%27&STOP_TIME=%272010-07-07+14%3A00%27&STEP_SIZE=%2720+m%27&QUANTITIES=%274%27&CSV_FORMAT=%27YES%27&APPARENT=%27AIRLESS%27&COMMAND=%2710%27",
+      "direction_label_20_40": "地平线下，不以方位作可见性结论"
+    },
+    {
+      "id": "Moon",
+      "name": "月亮",
+      "role": "补充筛查",
+      "primary": {
+        "az_deg": 11.688930478,
+        "alt_deg": -38.051833221,
+        "source": "06_原始资料/天文/JPL_Moon_原始返回.json",
+        "raw_row": " 2010-Jul-07 12:40, , ,  45.846530271,  20.880124593,    11.688930478,     -38.051833221,  15.7118641102,",
+        "method": "saved_JPL_quantities_2_4_7_row; agrees_with_existing_coordinate_conversion",
+        "time_beijing": "2010-07-07T20:40:00+08:00",
+        "display_az": "11.69°",
+        "display_alt": "-38.05°",
+        "above_geometric_horizon": false
+      },
+      "nodes": [
+        {
+          "index": 0,
+          "time_utc": "2010-07-07T12:00:00Z",
+          "time_beijing": "2010-07-07T20:00:00+08:00",
+          "label": "20:00",
+          "az_deg": 0.398899,
+          "alt_deg": -39.004201,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:00,N, ,   0.398899,   -39.004201,"
+        },
+        {
+          "index": 1,
+          "time_utc": "2010-07-07T12:20:00Z",
+          "time_beijing": "2010-07-07T20:20:00+08:00",
+          "label": "20:20",
+          "az_deg": 6.091201,
+          "alt_deg": -38.729908,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:20,A, ,   6.091201,   -38.729908,"
+        },
+        {
+          "index": 2,
+          "time_utc": "2010-07-07T12:40:00Z",
+          "time_beijing": "2010-07-07T20:40:00+08:00",
+          "label": "20:40",
+          "az_deg": 11.68893,
+          "alt_deg": -38.051833,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:40, , ,  11.688930,   -38.051833,"
+        },
+        {
+          "index": 3,
+          "time_utc": "2010-07-07T13:00:00Z",
+          "time_beijing": "2010-07-07T21:00:00+08:00",
+          "label": "21:00",
+          "az_deg": 17.121629,
+          "alt_deg": -36.985435,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:00, , ,  17.121629,   -36.985435,"
+        },
+        {
+          "index": 4,
+          "time_utc": "2010-07-07T13:20:00Z",
+          "time_beijing": "2010-07-07T21:20:00+08:00",
+          "label": "21:20",
+          "az_deg": 22.33276,
+          "alt_deg": -35.553414,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:20, , ,  22.332760,   -35.553414,"
+        },
+        {
+          "index": 5,
+          "time_utc": "2010-07-07T13:40:00Z",
+          "time_beijing": "2010-07-07T21:40:00+08:00",
+          "label": "21:40",
+          "az_deg": 27.282404,
+          "alt_deg": -33.78352,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:40, , ,  27.282404,   -33.783520,"
+        },
+        {
+          "index": 6,
+          "time_utc": "2010-07-07T14:00:00Z",
+          "time_beijing": "2010-07-07T22:00:00+08:00",
+          "label": "22:00",
+          "az_deg": 31.947297,
+          "alt_deg": -31.706273,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 14:00, , ,  31.947297,   -31.706273,"
+        }
+      ],
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%27120.3%2C30.2%2C0.01%27&START_TIME=%272010-07-07+12%3A00%27&STOP_TIME=%272010-07-07+14%3A00%27&STEP_SIZE=%2720+m%27&QUANTITIES=%274%27&CSV_FORMAT=%27YES%27&APPARENT=%27AIRLESS%27&COMMAND=%27301%27",
+      "direction_label_20_40": "地平线下，不以方位作可见性结论"
+    },
+    {
+      "id": "Mercury",
+      "name": "水星",
+      "role": "五行星主线",
+      "primary": {
+        "az_deg": 303.934447041,
+        "alt_deg": -10.009559887,
+        "source": "06_原始资料/天文/JPL_Mercury_原始返回.json",
+        "raw_row": " 2010-Jul-07 12:40, , , 118.099281077,  22.811537298,   303.934447041,     -10.009559887,  15.7118641102,",
+        "method": "saved_JPL_quantities_2_4_7_row; agrees_with_existing_coordinate_conversion",
+        "time_beijing": "2010-07-07T20:40:00+08:00",
+        "display_az": "303.93°",
+        "display_alt": "-10.01°",
+        "above_geometric_horizon": false
+      },
+      "nodes": [
+        {
+          "index": 0,
+          "time_utc": "2010-07-07T12:00:00Z",
+          "time_beijing": "2010-07-07T20:00:00+08:00",
+          "label": "20:00",
+          "az_deg": 298.424298,
+          "alt_deg": -2.631467,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:00,N, , 298.424298,    -2.631467,"
+        },
+        {
+          "index": 1,
+          "time_utc": "2010-07-07T12:20:00Z",
+          "time_beijing": "2010-07-07T20:20:00+08:00",
+          "label": "20:20",
+          "az_deg": 301.096828,
+          "alt_deg": -6.373942,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:20,A, , 301.096828,    -6.373942,"
+        },
+        {
+          "index": 2,
+          "time_utc": "2010-07-07T12:40:00Z",
+          "time_beijing": "2010-07-07T20:40:00+08:00",
+          "label": "20:40",
+          "az_deg": 303.934447,
+          "alt_deg": -10.00956,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:40, , , 303.934447,   -10.009560,"
+        },
+        {
+          "index": 3,
+          "time_utc": "2010-07-07T13:00:00Z",
+          "time_beijing": "2010-07-07T21:00:00+08:00",
+          "label": "21:00",
+          "az_deg": 306.959249,
+          "alt_deg": -13.522282,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:00, , , 306.959249,   -13.522282,"
+        },
+        {
+          "index": 4,
+          "time_utc": "2010-07-07T13:20:00Z",
+          "time_beijing": "2010-07-07T21:20:00+08:00",
+          "label": "21:20",
+          "az_deg": 310.194072,
+          "alt_deg": -16.893657,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:20, , , 310.194072,   -16.893657,"
+        },
+        {
+          "index": 5,
+          "time_utc": "2010-07-07T13:40:00Z",
+          "time_beijing": "2010-07-07T21:40:00+08:00",
+          "label": "21:40",
+          "az_deg": 313.661886,
+          "alt_deg": -20.102555,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:40, , , 313.661886,   -20.102555,"
+        },
+        {
+          "index": 6,
+          "time_utc": "2010-07-07T14:00:00Z",
+          "time_beijing": "2010-07-07T22:00:00+08:00",
+          "label": "22:00",
+          "az_deg": 317.384773,
+          "alt_deg": -23.124965,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 14:00, , , 317.384773,   -23.124965,"
+        }
+      ],
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%27120.3%2C30.2%2C0.01%27&START_TIME=%272010-07-07+12%3A00%27&STOP_TIME=%272010-07-07+14%3A00%27&STEP_SIZE=%2720+m%27&QUANTITIES=%274%27&CSV_FORMAT=%27YES%27&APPARENT=%27AIRLESS%27&COMMAND=%27199%27",
+      "direction_label_20_40": "地平线下，不以方位作可见性结论"
+    },
+    {
+      "id": "Venus",
+      "name": "金星",
+      "role": "五行星主线",
+      "primary": {
+        "az_deg": 280.458860008,
+        "alt_deg": 10.241917991,
+        "source": "06_原始资料/天文/JPL_Venus_原始返回.json",
+        "raw_row": " 2010-Jul-07 12:40, , , 149.450761382,  14.112744594,   280.458860008,      10.241917991,  15.7118641102,",
+        "method": "saved_JPL_quantities_2_4_7_row; agrees_with_existing_coordinate_conversion",
+        "time_beijing": "2010-07-07T20:40:00+08:00",
+        "display_az": "280.46°",
+        "display_alt": "+10.24°",
+        "above_geometric_horizon": true
+      },
+      "nodes": [
+        {
+          "index": 0,
+          "time_utc": "2010-07-07T12:00:00Z",
+          "time_beijing": "2010-07-07T20:00:00+08:00",
+          "label": "20:00",
+          "az_deg": 275.747156,
+          "alt_deg": 18.799354,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:00,N, , 275.747156,    18.799354,"
+        },
+        {
+          "index": 1,
+          "time_utc": "2010-07-07T12:20:00Z",
+          "time_beijing": "2010-07-07T20:20:00+08:00",
+          "label": "20:20",
+          "az_deg": 278.101473,
+          "alt_deg": 14.508154,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:20,A, , 278.101473,    14.508154,"
+        },
+        {
+          "index": 2,
+          "time_utc": "2010-07-07T12:40:00Z",
+          "time_beijing": "2010-07-07T20:40:00+08:00",
+          "label": "20:40",
+          "az_deg": 280.45886,
+          "alt_deg": 10.241918,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:40, , , 280.458860,    10.241918,"
+        },
+        {
+          "index": 3,
+          "time_utc": "2010-07-07T13:00:00Z",
+          "time_beijing": "2010-07-07T21:00:00+08:00",
+          "label": "21:00",
+          "az_deg": 282.844653,
+          "alt_deg": 6.008072,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 13:00, , , 282.844653,     6.008072,"
+        },
+        {
+          "index": 4,
+          "time_utc": "2010-07-07T13:20:00Z",
+          "time_beijing": "2010-07-07T21:20:00+08:00",
+          "label": "21:20",
+          "az_deg": 285.283337,
+          "alt_deg": 1.814588,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 13:20, , , 285.283337,     1.814588,"
+        },
+        {
+          "index": 5,
+          "time_utc": "2010-07-07T13:40:00Z",
+          "time_beijing": "2010-07-07T21:40:00+08:00",
+          "label": "21:40",
+          "az_deg": 287.799424,
+          "alt_deg": -2.329734,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:40, ,s, 287.799424,    -2.329734,"
+        },
+        {
+          "index": 6,
+          "time_utc": "2010-07-07T14:00:00Z",
+          "time_beijing": "2010-07-07T22:00:00+08:00",
+          "label": "22:00",
+          "az_deg": 290.418208,
+          "alt_deg": -6.41496,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 14:00, , , 290.418208,    -6.414960,"
+        }
+      ],
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27299%27&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%27120.3%2C30.2%2C0.01%27&START_TIME=%272010-07-07+12%3A00%27&STOP_TIME=%272010-07-07+14%3A00%27&STEP_SIZE=%2720+m%27&QUANTITIES=%274%27&CSV_FORMAT=%27YES%27&APPARENT=%27AIRLESS%27",
+      "direction_label_20_40": "西偏北"
+    },
+    {
+      "id": "Mars",
+      "name": "火星",
+      "role": "五行星主线",
+      "primary": {
+        "az_deg": 263.794365393,
+        "alt_deg": 22.315092618,
+        "source": "06_原始资料/天文/JPL_Mars_原始返回.json",
+        "raw_row": " 2010-Jul-07 12:40, , , 168.045974199,   6.002257870,   263.794365393,      22.315092618,  15.7118641102,",
+        "method": "saved_JPL_quantities_2_4_7_row; agrees_with_existing_coordinate_conversion",
+        "time_beijing": "2010-07-07T20:40:00+08:00",
+        "display_az": "263.79°",
+        "display_alt": "+22.32°",
+        "above_geometric_horizon": true
+      },
+      "nodes": [
+        {
+          "index": 0,
+          "time_utc": "2010-07-07T12:00:00Z",
+          "time_beijing": "2010-07-07T20:00:00+08:00",
+          "label": "20:00",
+          "az_deg": 258.070822,
+          "alt_deg": 30.861979,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:00,N, , 258.070822,    30.861979,"
+        },
+        {
+          "index": 1,
+          "time_utc": "2010-07-07T12:20:00Z",
+          "time_beijing": "2010-07-07T20:20:00+08:00",
+          "label": "20:20",
+          "az_deg": 261.017779,
+          "alt_deg": 26.605436,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:20,A, , 261.017779,    26.605436,"
+        },
+        {
+          "index": 2,
+          "time_utc": "2010-07-07T12:40:00Z",
+          "time_beijing": "2010-07-07T20:40:00+08:00",
+          "label": "20:40",
+          "az_deg": 263.794365,
+          "alt_deg": 22.315093,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:40, , , 263.794365,    22.315093,"
+        },
+        {
+          "index": 3,
+          "time_utc": "2010-07-07T13:00:00Z",
+          "time_beijing": "2010-07-07T21:00:00+08:00",
+          "label": "21:00",
+          "az_deg": 266.445993,
+          "alt_deg": 18.002547,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 13:00, , , 266.445993,    18.002547,"
+        },
+        {
+          "index": 4,
+          "time_utc": "2010-07-07T13:20:00Z",
+          "time_beijing": "2010-07-07T21:20:00+08:00",
+          "label": "21:20",
+          "az_deg": 269.011179,
+          "alt_deg": 13.677753,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 13:20, , , 269.011179,    13.677753,"
+        },
+        {
+          "index": 5,
+          "time_utc": "2010-07-07T13:40:00Z",
+          "time_beijing": "2010-07-07T21:40:00+08:00",
+          "label": "21:40",
+          "az_deg": 271.523623,
+          "alt_deg": 9.349622,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 13:40, , , 271.523623,     9.349622,"
+        },
+        {
+          "index": 6,
+          "time_utc": "2010-07-07T14:00:00Z",
+          "time_beijing": "2010-07-07T22:00:00+08:00",
+          "label": "22:00",
+          "az_deg": 274.013846,
+          "alt_deg": 5.026492,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 14:00, , , 274.013846,     5.026492,"
+        }
+      ],
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%27120.3%2C30.2%2C0.01%27&START_TIME=%272010-07-07+12%3A00%27&STOP_TIME=%272010-07-07+14%3A00%27&STEP_SIZE=%2720+m%27&QUANTITIES=%274%27&CSV_FORMAT=%27YES%27&APPARENT=%27AIRLESS%27&COMMAND=%27499%27",
+      "direction_label_20_40": "西偏南"
+    },
+    {
+      "id": "Jupiter",
+      "name": "木星",
+      "role": "五行星主线",
+      "primary": {
+        "az_deg": 68.850727734,
+        "alt_deg": -31.826776748,
+        "source": "06_原始资料/天文/JPL_Jupiter_原始返回.json",
+        "raw_row": " 2010-Jul-07 12:40, , ,   3.265976175,  -0.018579817,    68.850727734,     -31.826776748,  15.7118641102,",
+        "method": "saved_JPL_quantities_2_4_7_row; agrees_with_existing_coordinate_conversion",
+        "time_beijing": "2010-07-07T20:40:00+08:00",
+        "display_az": "68.85°",
+        "display_alt": "-31.83°",
+        "above_geometric_horizon": false
+      },
+      "nodes": [
+        {
+          "index": 0,
+          "time_utc": "2010-07-07T12:00:00Z",
+          "time_beijing": "2010-07-07T20:00:00+08:00",
+          "label": "20:00",
+          "az_deg": 61.157486,
+          "alt_deg": -39.682839,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:00,N, ,  61.157486,   -39.682839,"
+        },
+        {
+          "index": 1,
+          "time_utc": "2010-07-07T12:20:00Z",
+          "time_beijing": "2010-07-07T20:20:00+08:00",
+          "label": "20:20",
+          "az_deg": 65.194499,
+          "alt_deg": -35.815911,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:20,A, ,  65.194499,   -35.815911,"
+        },
+        {
+          "index": 2,
+          "time_utc": "2010-07-07T12:40:00Z",
+          "time_beijing": "2010-07-07T20:40:00+08:00",
+          "label": "20:40",
+          "az_deg": 68.850728,
+          "alt_deg": -31.826777,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 12:40, , ,  68.850728,   -31.826777,"
+        },
+        {
+          "index": 3,
+          "time_utc": "2010-07-07T13:00:00Z",
+          "time_beijing": "2010-07-07T21:00:00+08:00",
+          "label": "21:00",
+          "az_deg": 72.200395,
+          "alt_deg": -27.74193,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:00, , ,  72.200395,   -27.741930,"
+        },
+        {
+          "index": 4,
+          "time_utc": "2010-07-07T13:20:00Z",
+          "time_beijing": "2010-07-07T21:20:00+08:00",
+          "label": "21:20",
+          "az_deg": 75.30565,
+          "alt_deg": -23.582363,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:20, , ,  75.305650,   -23.582363,"
+        },
+        {
+          "index": 5,
+          "time_utc": "2010-07-07T13:40:00Z",
+          "time_beijing": "2010-07-07T21:40:00+08:00",
+          "label": "21:40",
+          "az_deg": 78.218728,
+          "alt_deg": -19.364982,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 13:40, , ,  78.218728,   -19.364982,"
+        },
+        {
+          "index": 6,
+          "time_utc": "2010-07-07T14:00:00Z",
+          "time_beijing": "2010-07-07T22:00:00+08:00",
+          "label": "22:00",
+          "az_deg": 80.984054,
+          "alt_deg": -15.103693,
+          "above_geometric_horizon": false,
+          "raw_row": " 2010-Jul-07 14:00, , ,  80.984054,   -15.103693,"
+        }
+      ],
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%27120.3%2C30.2%2C0.01%27&START_TIME=%272010-07-07+12%3A00%27&STOP_TIME=%272010-07-07+14%3A00%27&STEP_SIZE=%2720+m%27&QUANTITIES=%274%27&CSV_FORMAT=%27YES%27&APPARENT=%27AIRLESS%27&COMMAND=%27599%27",
+      "direction_label_20_40": "地平线下，不以方位作可见性结论"
+    },
+    {
+      "id": "Saturn",
+      "name": "土星",
+      "role": "五行星主线",
+      "primary": {
+        "az_deg": 253.41609584,
+        "alt_deg": 30.589981723,
+        "source": "06_原始资料/天文/JPL_Saturn_原始返回.json",
+        "raw_row": " 2010-Jul-07 12:40, , , 180.007334050,   2.500722735,   253.416095840,      30.589981723,  15.7118641102,",
+        "method": "saved_JPL_quantities_2_4_7_row; agrees_with_existing_coordinate_conversion",
+        "time_beijing": "2010-07-07T20:40:00+08:00",
+        "display_az": "253.42°",
+        "display_alt": "+30.59°",
+        "above_geometric_horizon": true
+      },
+      "nodes": [
+        {
+          "index": 0,
+          "time_utc": "2010-07-07T12:00:00Z",
+          "time_beijing": "2010-07-07T20:00:00+08:00",
+          "label": "20:00",
+          "az_deg": 246.297618,
+          "alt_deg": 38.726081,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:00,N, , 246.297618,    38.726081,"
+        },
+        {
+          "index": 1,
+          "time_utc": "2010-07-07T12:20:00Z",
+          "time_beijing": "2010-07-07T20:20:00+08:00",
+          "label": "20:20",
+          "az_deg": 250.022599,
+          "alt_deg": 34.704086,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:20,A, , 250.022599,    34.704086,"
+        },
+        {
+          "index": 2,
+          "time_utc": "2010-07-07T12:40:00Z",
+          "time_beijing": "2010-07-07T20:40:00+08:00",
+          "label": "20:40",
+          "az_deg": 253.416096,
+          "alt_deg": 30.589982,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 12:40, , , 253.416096,    30.589982,"
+        },
+        {
+          "index": 3,
+          "time_utc": "2010-07-07T13:00:00Z",
+          "time_beijing": "2010-07-07T21:00:00+08:00",
+          "label": "21:00",
+          "az_deg": 256.54829,
+          "alt_deg": 26.405329,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 13:00, , , 256.548290,    26.405329,"
+        },
+        {
+          "index": 4,
+          "time_utc": "2010-07-07T13:20:00Z",
+          "time_beijing": "2010-07-07T21:20:00+08:00",
+          "label": "21:20",
+          "az_deg": 259.47696,
+          "alt_deg": 22.167269,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 13:20, , , 259.476960,    22.167269,"
+        },
+        {
+          "index": 5,
+          "time_utc": "2010-07-07T13:40:00Z",
+          "time_beijing": "2010-07-07T21:40:00+08:00",
+          "label": "21:40",
+          "az_deg": 262.250312,
+          "alt_deg": 17.889758,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 13:40, , , 262.250312,    17.889758,"
+        },
+        {
+          "index": 6,
+          "time_utc": "2010-07-07T14:00:00Z",
+          "time_beijing": "2010-07-07T22:00:00+08:00",
+          "label": "22:00",
+          "az_deg": 264.909359,
+          "alt_deg": 13.584491,
+          "above_geometric_horizon": true,
+          "raw_row": " 2010-Jul-07 14:00, , , 264.909359,    13.584491,"
+        }
+      ],
+      "source_url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&EPHEM_TYPE=%27OBSERVER%27&CENTER=%27coord%40399%27&COORD_TYPE=%27GEODETIC%27&SITE_COORD=%27120.3%2C30.2%2C0.01%27&START_TIME=%272010-07-07+12%3A00%27&STOP_TIME=%272010-07-07+14%3A00%27&STEP_SIZE=%2720+m%27&QUANTITIES=%274%27&CSV_FORMAT=%27YES%27&APPARENT=%27AIRLESS%27&COMMAND=%27699%27",
+      "direction_label_20_40": "西偏南"
+    }
+  ],
+  "limitations": [
+    "观察点为东经120.3°、北纬30.2°、海拔10米的地面参考点；不是机场精确坐标，也不是未知的机组观察位置。",
+    "高度为目标中心相对当地参考椭球法线水平面的无折射位置，未含地形遮挡、云况、地平俯角或机组高度与姿态；几何地平线以上不等于当时实际肉眼可见。",
+    "报道的机场东南面是区域描述，不是机组实测135°方位。若为画面示意东南扇区，需明确扇区只是方向文字示意，不是误差范围或实测边界。",
+    "太阳/月亮与五行星是本段覆盖的七对象，不等于筛查全部恒星、卫星、流星或所有自然现象。太阳/月亮是补充核对，不虚构有人曾将它们列为嫌疑。",
+    "20:40是参考计算时刻，不能说成唯一或精确目击时刻；20:00–22:00七节点仅每20分钟保存一条，不伪称逐秒历史观测。",
+    "金星几何高度在21:20为正、21:40为负；只能据现有离散节点把越过几何地平线的时间界定在两者之间，不报精确落下时刻。",
+    "位置图的星点大小、亮度、背景星空不来自这组数据。若添加装饰星空，要避免让其冒充实测星图；本段不据此讨论视星等或闪烁程度。",
+    "主时刻六对象已存独立坐标转换核对；本轮只逐条核对源数据和派生结果，没有重新计算天体轨道，也没有新增联网星历请求。"
+  ],
+  "animation_policy": {
+    "approved_data_mode": "show_discrete_20_minute_nodes",
+    "optional_interpolation": "如插值只做视觉过渡，标明示意插值；数值标签在原始节点显示，不以插值报真实落下时间。",
+    "render_as": "计算位置示意；不是当晚现场影像",
+    "reported_direction": {
+      "label": "报道：机场东南面",
+      "measured_azimuth_deg": null,
+      "measured_angular_bounds": null
+    }
+  },
+  "source_files": [
+    {
+      "path": "04_计算与排除/01_天文计算.json",
+      "sha256": "76d279c833fd77a343de501ac1dda497a22540eb8e758b036527f792800fb87d"
+    },
+    {
+      "path": "06_原始资料/天文/astro_horizons_jpl.json",
+      "sha256": "8b899982a77c9a48a15414b235760e3edf8ed20ccfa668e6f661f4902ad62ea3"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Moon_原始返回.json",
+      "sha256": "ccfc582a0d48891fef288f1b63add67b2383617e036b7e0dcf4b148ff935f115"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Moon_参数.json",
+      "sha256": "8db36087fc182dceb23ca9767f5d9d9a1fe6ac020fa88aa125a82946b024d176"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Mercury_原始返回.json",
+      "sha256": "62f2facaf4b807472229acadd90f51fc001eecb6cfe4475713d592d0b8db1aab"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Mercury_参数.json",
+      "sha256": "e947aae07fd78bb028638db5c795408963161f61b4a1830f6ebe68c3a74c156d"
+    },
+    {
+      "path": "06_原始资料/天文/astro_venus_horizons_jpl.json",
+      "sha256": "5e19aafc86ad0a82e5499de0d70abff16c97c5f0e033677d44456a345b853eb1"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Venus_原始返回.json",
+      "sha256": "b0b6385148c0d10fd99c417b94da228cf09128b5caf1c2f9069f7b9e9d1431d3"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Venus_参数.json",
+      "sha256": "6ae3871988b6a79ac8a638b80ae305c5500a4e4cf688c31779f6d7fed167c2b4"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Mars_原始返回.json",
+      "sha256": "7b9cde2e3f45e11be11fe0ddf0e138a6b0732e32bd42ace8e17a42759de6b219"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Mars_参数.json",
+      "sha256": "3acf44221f00d779c5a4e22965ffbe9a8d91f0899b26075752d292c7ae6abf95"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Jupiter_原始返回.json",
+      "sha256": "4f78d38b0f0a8ad59483ee8fb857c445ff2aa5c624af383968dab57ed493843e"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Jupiter_参数.json",
+      "sha256": "3c026597ec58c3fcc13b196c10402e87062f7f0bf0ae18f5fb64227ad77be6da"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Saturn_原始返回.json",
+      "sha256": "add8335ec7a88507082e4c176bd6d7a57fc6aa5186e8cf34b56aeca6cd674e4e"
+    },
+    {
+      "path": "06_原始资料/天文/JPL_Saturn_参数.json",
+      "sha256": "9159ee276c538da0637505b21e37bd6945ddf5728300cc48d0fc5c7127661ea8"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "status": "failed_do_not_use_as_complete_evidence",
+  "captured_at_utc": "2026-10-26T13:53:36.909487+00:00",
+  "mode": "archived_html",
+  "requested_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+  "viewport_css": [
+    1440,
+    1080
+  ],
+  "device_scale_factor": 3,
+  "scripts_enabled": false,
+  "logged_in_profile_used": false,
+  "source_text_rewritten": false,
+  "css_override_injected": false,
+  "network_requests_sent": 0,
+  "resources": [
+    {
+      "url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "path": "原始资源/main_original.html",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "content_type": "text/html; charset=gb18030",
+      "bytes": 61925,
+      "role": "unchanged_saved_main_html"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/new20080718/master.css",
+      "path": "原始资源/001_sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "content_type": "text/css; charset=gb18030",
+      "bytes": 39319,
+      "role": "saved_resource"
+    },
+    {
+      "url": "http://news.sina.com.cn/iframe/87/20080708/theme_standard.css",
+      "path": "原始资源/002_sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "content_type": "text/css; charset=gb18030",
+      "bytes": 9835,
+      "role": "saved_resource"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+      "action": "fulfilled_from_unchanged_saved_bytes",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b"
+    },
+    {
+      "url": "https://beacon.sina.com.cn/a.gif?noScript",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "https://i2.sinaimg.cn/c.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "https://i0.sinaimg.cn/home/deco/2009/0330/con_logo_news.gif",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "https://i3.sinaimg.cn/dy/31/U868P1T31D193F479DT20051229065948_s.jpg",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "https://i2.sinaimg.cn/IT/deco/2009/0930/images/wbicon_cl_002.png",
+      "action": "blocked_unavailable_archived_resource"
+    },
+    {
+      "url": "https://i1.sinaimg.cn/dy/deco/2008/1231/yocc081231img/qyfw_zty_001.gif",
+      "action": "blocked_unavailable_archived_resource"
+    }
+  ],
+  "regions": [],
+  "limitations": [
+    "当前浏览器渲染保存原HTML，并非历史屏幕录像。",
+    "没有补造原站资源；远程未保存资源全部阻断。",
+    "制作配置的滚动或点击是后期阅读动作，不是原网站实际交互录屏。"
+  ],
+  "resolved_url": "https://news.sina.com.cn/c/2010-06-29/051717723846s.shtml",
+  "title": "解放军发禁航通告 将在东海实弹射击_新闻中心_新浪网",
+  "browser": "151.0.7922.34",
+  "http_status": 200,
+  "document_size_css": {
+    "width": 1440,
+    "height": 2806
+  },
+  "page_metadata": {},
+  "error": "选区不能裁断引用全文"
+}

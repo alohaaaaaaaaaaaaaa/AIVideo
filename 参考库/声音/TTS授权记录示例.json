@@ -1,0 +1,20 @@
+{
+  "approved": false,
+  "plan_sha256": "填写本期声音计划的SHA256",
+  "approval_reference": "引用用户已给出的真实授权，不虚构批准，也不重复索要已授权事项",
+  "scope": "本期经审定旁白段落",
+  "approved_paragraph_ids": [
+    "C01_P001"
+  ],
+  "budget_cap_cny": 0,
+  "max_new_requests": 0,
+  "price_basis": {
+    "verified_for_this_plan": false,
+    "checked_at": "本次实际查询时间（带时区）",
+    "source_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo",
+    "model": "speech-2.8-hd",
+    "rate_cny_per_10000_weighted_characters": 3.5,
+    "evidence_file": "本期实际价格依据.txt",
+    "evidence_sha256": "价格证据文件SHA256"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-26T23:39:00+08:00",
+  "scope": "private Git upload candidates using current .gitignore; no real repo initialized/staged/pushed",
+  "candidate_files": 1141,
+  "candidate_bytes": 586775124,
+  "text_files_scanned": 603,
+  "known_credential_value_check_available": true,
+  "secret_values_logged": false,
+  "findings": [],
+  "files_over_50MiB": [],
+  "essential_examples_included": [
+    "工具/声音/tts.py",
+    "参考库/声音/音源/GeneralUser-GS_LICENSE.txt",
+    "参考库/品牌/B站/字体/Yozai-OFL.txt",
+    "参考库/网页取证/央视原页滚动/输入/保存原始.html",
+    "参考库/原片同段对标/开场29秒/导出/bili.mp4"
+  ],
+  "lfs_installed": false,
+  "limits": "Known credential and selected token patterns only; no claim of exhaustive secret detection. Private remote not yet selected.",
+  "status": "passed"
+}

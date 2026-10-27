@@ -1,0 +1,389 @@
+{
+  "status": "passed_with_demo_phrase_timing_corrected",
+  "review_date": "2026-10-26",
+  "default_voice_comparison": {
+    "model": {
+      "new": "speech-2.8-hd",
+      "accepted": "speech-2.8-hd",
+      "same": true
+    },
+    "voice_id": {
+      "new": "Chinese (Mandarin)_Southern_Young_Man",
+      "accepted": "Chinese (Mandarin)_Southern_Young_Man",
+      "same": true
+    },
+    "speed": {
+      "new": 0.96,
+      "accepted": 0.96,
+      "same": true
+    },
+    "vol": {
+      "new": 1,
+      "accepted": 1,
+      "same": true
+    },
+    "pitch": {
+      "new": 0,
+      "accepted": 0,
+      "same": true
+    },
+    "emotion": {
+      "new": "neutral",
+      "accepted": "neutral",
+      "same": true
+    },
+    "sample_rate": {
+      "new": 44100,
+      "accepted": 44100,
+      "same": true
+    },
+    "bitrate": {
+      "new": 256000,
+      "accepted": 256000,
+      "same": true
+    },
+    "channel": {
+      "new": 1,
+      "accepted": 1,
+      "same": true
+    },
+    "format": {
+      "new": "mp3",
+      "accepted": "mp3",
+      "same": true
+    },
+    "language_boost": {
+      "new": "Chinese",
+      "accepted": "Chinese",
+      "same": true
+    }
+  },
+  "music_comparison": {
+    "same_approved_soundfont_bytes": true,
+    "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+    "same_chord_voicings": true,
+    "same_role_tempos_and_progressions": true,
+    "same_instrument_program_gain_filter_configs": true,
+    "default_identity_changes_require_user_request": true,
+    "new_score_notes_adapt_to_actual_new_timeline": true,
+    "copied_old_music_waveform_loops": false
+  },
+  "independence": {
+    "reviewed_runtime_modules": [
+      "工具/声音/assemble_voice.py",
+      "工具/声音/bridge.py",
+      "工具/声音/midi_export.py",
+      "工具/声音/mix_helpers.py",
+      "工具/声音/pause.py",
+      "工具/声音/prepare_voice.py",
+      "工具/声音/sampler.py",
+      "工具/声音/score_mix.py",
+      "工具/声音/tts.py",
+      "工具/声音/verify_assembly.py",
+      "工具/声音/verify_reference.py"
+    ],
+    "old_project_runtime_references": [],
+    "old_project_needed_for_normal_production": false,
+    "review_only_asr": "Previously installed faster-whisper-small was used offline solely for this audit; not a new studio runtime dependency",
+    "new_paid_calls": 0,
+    "new_network_calls": 0
+  },
+  "path_review": {
+    "entry_doc": "文档/03_默认配音与配乐.md",
+    "separate_audio_README_required_by_links": false,
+    "checked_links": [
+      {
+        "reference": "离线复现样品/输出/mix_preview.mp3",
+        "exists": true
+      },
+      {
+        "reference": "离线复现样品/输出/music_preview.mp3",
+        "exists": true
+      },
+      {
+        "reference": "离线复现样品/输出/score.mid",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/01_平稳调查/混音_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/01_平稳调查/旁白_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/01_平稳调查/BGM_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/02_幕间音乐桥/混音_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/02_幕间音乐桥/旁白_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/02_幕间音乐桥/BGM_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/03_结论落拍/混音_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/03_结论落拍/旁白_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/03_结论落拍/BGM_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/04_啊子牙姓名连读/混音_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/04_啊子牙姓名连读/旁白_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "原片选段/04_啊子牙姓名连读/BGM_48k.flac",
+        "exists": true
+      },
+      {
+        "reference": "技术核验.json",
+        "exists": true
+      },
+      {
+        "reference": "../../文档/03_默认配音与配乐.md",
+        "exists": true
+      },
+      {
+        "reference": "文档/03_默认配音与配乐.md",
+        "exists": true
+      },
+      {
+        "reference": "工具/声音/assembly.schema.json",
+        "exists": true
+      },
+      {
+        "reference": "工具/声音/timeline.schema.json",
+        "exists": true
+      },
+      {
+        "reference": "参考库/声音/manifest.json",
+        "exists": true
+      },
+      {
+        "reference": "参考库/声音/整段联动样品/联动核验.json",
+        "exists": true
+      }
+    ]
+  },
+  "demo_subtitle_review": {
+    "input_audio": "参考库/全流程验收样片/输入/C01_P001_48k_mono.wav",
+    "audio_sha256": "398cbc775275dfa0496cd801ed2cd75dd271e26cf89bbe45917fa33d68a4bac8",
+    "duration": 5.88,
+    "samples": 282240,
+    "speech_last_sample_above_0_005_seconds": 4.684395833333333,
+    "digital_zero_5_to_5_88": true,
+    "why_not_extend_subtitle_to_5_88": "The clip includes intentional tail silence. Original provider timings ended before audible word tails; fix to real words, not whole container duration.",
+    "first_sentence_tail_rms_support": "Last voiced first sentence energy through about2.89s; next onset about3.07s.",
+    "second_sentence_tail_rms_support": "10ms RMS>0.01 until4.68s; low-level release decays to4.76s.",
+    "asr": {
+      "model": "faster-whisper-small",
+      "initial_prompt": null,
+      "network": false,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.82,
+          "text": "肖山机场因为不明飞行物暂停起降",
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.22,
+              "word": "肖",
+              "probability": 0.5966009721159935
+            },
+            {
+              "start": 0.22,
+              "end": 0.4,
+              "word": "山",
+              "probability": 0.9980108141899109
+            },
+            {
+              "start": 0.4,
+              "end": 0.56,
+              "word": "机",
+              "probability": 0.8828530311584473
+            },
+            {
+              "start": 0.56,
+              "end": 0.78,
+              "word": "场",
+              "probability": 0.991371750831604
+            },
+            {
+              "start": 0.78,
+              "end": 1.04,
+              "word": "因为",
+              "probability": 0.8959465622901917
+            },
+            {
+              "start": 1.04,
+              "end": 1.32,
+              "word": "不",
+              "probability": 0.9788660407066345
+            },
+            {
+              "start": 1.32,
+              "end": 1.48,
+              "word": "明",
+              "probability": 0.9434789419174194
+            },
+            {
+              "start": 1.48,
+              "end": 1.66,
+              "word": "飞",
+              "probability": 0.9731945693492889
+            },
+            {
+              "start": 1.66,
+              "end": 1.82,
+              "word": "行",
+              "probability": 0.9977595806121826
+            },
+            {
+              "start": 1.82,
+              "end": 1.98,
+              "word": "物",
+              "probability": 0.9048562049865723
+            },
+            {
+              "start": 1.98,
+              "end": 2.2,
+              "word": "暂",
+              "probability": 0.9959635138511658
+            },
+            {
+              "start": 2.2,
+              "end": 2.38,
+              "word": "停",
+              "probability": 0.9997339844703674
+            },
+            {
+              "start": 2.38,
+              "end": 2.6,
+              "word": "起",
+              "probability": 0.8918676972389221
+            },
+            {
+              "start": 2.6,
+              "end": 2.82,
+              "word": "降",
+              "probability": 0.9539852738380432
+            }
+          ]
+        },
+        {
+          "start": 2.82,
+          "end": 4.66,
+          "text": "网友已经开始卖船票了",
+          "words": [
+            {
+              "start": 2.82,
+              "end": 3.18,
+              "word": "网",
+              "probability": 0.9537012279033661
+            },
+            {
+              "start": 3.18,
+              "end": 3.34,
+              "word": "友",
+              "probability": 0.9653797149658203
+            },
+            {
+              "start": 3.34,
+              "end": 3.54,
+              "word": "已经",
+              "probability": 0.9915989637374878
+            },
+            {
+              "start": 3.54,
+              "end": 3.84,
+              "word": "开始",
+              "probability": 0.9911076426506042
+            },
+            {
+              "start": 3.84,
+              "end": 4.08,
+              "word": "卖",
+              "probability": 0.9919464886188507
+            },
+            {
+              "start": 4.08,
+              "end": 4.28,
+              "word": "船",
+              "probability": 0.7623679041862488
+            },
+            {
+              "start": 4.28,
+              "end": 4.46,
+              "word": "票",
+              "probability": 0.9996141195297241
+            },
+            {
+              "start": 4.46,
+              "end": 4.66,
+              "word": "了",
+              "probability": 0.9924863576889038
+            }
+          ]
+        }
+      ]
+    },
+    "change": {
+      "before": [
+        {
+          "start": 0.0444,
+          "end": 2.6222,
+          "text": "萧山机场因为不明飞行物暂停起降，",
+          "time_basis": "actual_approved_film_phrase_timestamps"
+        },
+        {
+          "start": 2.6667,
+          "end": 4.5778,
+          "text": "网友已经开始卖船票了。",
+          "time_basis": "actual_approved_film_phrase_timestamps"
+        }
+      ],
+      "after": [
+        {
+          "start": 0.04,
+          "end": 2.9,
+          "text": "萧山机场因为不明飞行物暂停起降，",
+          "time_basis": "actual_demo_WAV_unprompted_ASR_crosschecked_with_10ms_RMS_word_tail"
+        },
+        {
+          "start": 3.04,
+          "end": 4.76,
+          "text": "网友已经开始卖船票了。",
+          "time_basis": "actual_demo_WAV_unprompted_ASR_crosschecked_with_10ms_RMS_word_tail"
+        }
+      ],
+      "paragraphs_sha256": "fe133e729e8ea7b29b8b40f7a2cd623ce0a7908e18aca32c324aa48138ae8d67"
+    },
+    "only_modified": "参考库/全流程验收样片/输入/paragraphs.json: C01_P001.phrases",
+    "audio_or_duration_changed": false,
+    "other_paragraphs_changed": false,
+    "follow_up": "Re-run assemble/audio and use regenerated global subtitles; then render and verify actual MP4."
+  },
+  "limits": [
+    "No claim of human full-film listening",
+    "ASR homophone 肖山 does not change formal source text 萧山",
+    "The historical source project was read only to compare approved parameters and for offline audit ASR; delivery tools do not import it"
+  ]
+}

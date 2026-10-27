@@ -1,0 +1,51 @@
+{
+  "scope": "Exact same complete 12.36-second conclusion paragraph, no sentence collage",
+  "original_film_window": [
+    1268.04,
+    1280.4
+  ],
+  "same_voice_samples": true,
+  "old_phrase_pause_after_my_conclusion_is_seconds": 0.56,
+  "source_pause_preserved": true,
+  "original_recorded_core_end": 9.38,
+  "waveform_5ms_rms_last_active": 9.465,
+  "original_resolve": 9.48,
+  "new_resolve": 9.565,
+  "resolve_difference_seconds": 0.085,
+  "original_tail_seconds": 2.88,
+  "new_tail_seconds": 2.795,
+  "original_music_is_continuation_of_chapter_seconds": 188.96,
+  "new_music_recomposed_as_short_excerpt": true,
+  "same_harmonic_phase_claimed": false,
+  "same_waveform_claimed": false,
+  "same_default_palette_and_ducking": true,
+  "cadence_piano_notes": 5,
+  "cadence_string_notes": 4,
+  "old_note_events": 35,
+  "new_note_events": 34,
+  "original_metrics": {
+    "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/结论落拍对标/old_mix_48k.wav",
+    "sha256": "fdfa6aabf48ed629e4223037ae61880a401a062a2ec4fdf04ba10ae1f843cca8",
+    "duration": 12.36,
+    "sample_peak_dbfs": -4.95704656335577,
+    "clipped_samples": 0,
+    "integrated_lufs": -17.84,
+    "true_peak_dbtp": -4.93,
+    "loudness_range_lu": 6.9,
+    "complete_decode": true
+  },
+  "new_metrics": {
+    "path": "/Users/elton/Documents/xsuvidio/啊子牙视频工作室/参考库/声音/结论落拍对标/新工具重编/mix_48k_stereo.wav",
+    "sha256": "498a681294e7c54ff331b97aeff0b3d4862ceb7eec84fc240865803bcb6fbd9e",
+    "duration": 12.36,
+    "sample_peak_dbfs": -4.6441396379311355,
+    "clipped_samples": 0,
+    "integrated_lufs": -17.04,
+    "true_peak_dbtp": -4.62,
+    "loudness_range_lu": 2.3,
+    "complete_decode": true
+  },
+  "human_listening_claimed": false,
+  "rms_tail_not_semantic_certification": true,
+  "interpretation": "New anchor deliberately uses measurable release 85ms later; retain this explicit difference instead of claiming exact original rhythm."
+}

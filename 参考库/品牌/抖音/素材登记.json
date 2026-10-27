@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-22",
+  "status": "approved_final_brand_asset",
+  "font": "Yozai Medium",
+  "text": [
+    "啊子牙",
+    "抖音:aziyah"
+  ],
+  "style": "悠哉透明浮雕，清晰轮廓定稿",
+  "user_font_choice": "2",
+  "user_motion_feedback": "一开始的动态移动太抢眼了，还是不要这样",
+  "user_save_request": "帮我把水印素材保留好，我以后都用这个水印",
+  "default_motion": "镜头内固定，仅按内容避让在切镜处换位",
+  "master_size": [
+    896,
+    424
+  ],
+  "body_fill_opacity": 0,
+  "highlight_max_opacity": 0.78,
+  "shadow_max_opacity": 0.6,
+  "origin_project": "/Users/elton/Documents/xsuvidio/xsufo/10_重新策划/全片终版/水印预览",
+  "full_film_watermark_applied": true,
+  "approval": "好，完美，按这个样品制作",
+  "continuous_rim_opacity": 0.12,
+  "edge_displacement_1080p": 1.25,
+  "approved_sample": "悠哉_清晰轮廓_静止样品_1080p.mp4",
+  "full_film_watermark_status": "completed",
+  "full_film_watermark_duration": 1087.6
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "title": "新一期",
+  "subject": null,
+  "audience_question": null,
+  "target_platforms": ["bilibili", "douyin"],
+  "duration_target_seconds": null,
+  "voice_music_preset": "工作室默认",
+  "production_authorized": false,
+  "authorization_reference": null,
+  "keep_content": [],
+  "review_mode": "完整声画稿先审；本期获制作授权后自主推进",
+  "published": false
+}

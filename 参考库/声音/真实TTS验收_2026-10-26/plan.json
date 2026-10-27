@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "source_filename": "input.json",
+  "source_sha256": "a412165de488d9d79c8be3225a6e767e4f23098e223f9da171d24c4b96eb6cee",
+  "created_at": "2026-10-26T13:52:18.150388+00:00",
+  "default_voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+  "rate_cny_per_10000_weighted_characters": 3.5,
+  "price_basis": "Rate is an offline estimate. Official reference checked 2026-10-26: speech-2.8-hd 3.50 CNY per 10k weighted input characters. A new paid run must bind current price evidence and real session authorization.",
+  "billing_verified": false,
+  "paragraphs": [
+    {
+      "id": "CHECK001",
+      "text": "我是啊子牙。今天我们顺着证据往下查，网友p.o.l.i.c.e留下的线索，到底能说明什么？",
+      "tts_text": "我是阿子牙。今天我们顺着证据往下查，网友police留下的线索，到底能说明什么？",
+      "phrases": [
+        "我是啊子牙。",
+        "今天我们顺着证据往下查，",
+        "网友p.o.l.i.c.e留下的线索，",
+        "到底能说明什么？"
+      ],
+      "tts_phrases": [
+        "我是阿子牙。",
+        "今天我们顺着证据往下查，",
+        "网友police留下的线索，",
+        "到底能说明什么？"
+      ],
+      "request": {
+        "model": "speech-2.8-hd",
+        "text": "我是阿子牙。今天我们顺着证据往下查，网友police留下的线索，到底能说明什么？",
+        "stream": false,
+        "voice_setting": {
+          "voice_id": "Chinese (Mandarin)_Southern_Young_Man",
+          "speed": 0.96,
+          "vol": 1,
+          "pitch": 0,
+          "emotion": "neutral"
+        },
+        "audio_setting": {
+          "sample_rate": 44100,
+          "bitrate": 256000,
+          "format": "mp3",
+          "channel": 1
+        },
+        "language_boost": "Chinese",
+        "subtitle_enable": true,
+        "subtitle_type": "word",
+        "output_format": "hex",
+        "pronunciation_dict": {
+          "tone": [
+            "阿子牙/(a1)(zi3)(ya2)"
+          ]
+        }
+      },
+      "cache_key": "6e138b2aa679ff4bed68e60650bcaeb0b548800d153af88d08cae662ddb9160d",
+      "estimated_billable_characters": 70,
+      "estimated_cost_cny": 0.0245
+    }
+  ],
+  "estimated_total_cny": 0.0245,
+  "paid_calls": 0
+}

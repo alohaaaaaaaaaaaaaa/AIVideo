@@ -1,0 +1,59 @@
+{
+  "status": "sample_identical_all_paragraphs",
+  "samples": 844800,
+  "frames": 440,
+  "duration": 17.6,
+  "time_stretch": false,
+  "speech_trimmed_samples": 0,
+  "padding_samples": 291,
+  "explicit_tail_samples": 57600,
+  "paragraph_checks": [
+    {
+      "id": "CONCLUSION",
+      "sample_start": 0,
+      "samples": 612480,
+      "original_samples": 593280,
+      "inserted_pause_samples": 19200,
+      "pcm_sha256": "2f113fa8e5e3dcd7376727f05619fa1c68e99480dd0e2ab81edb419a4441919b",
+      "source_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 259200,
+          "edited_start_sample": 0,
+          "edited_end_sample": 259200
+        },
+        {
+          "source_start_sample": 259200,
+          "source_end_sample": 593280,
+          "edited_start_sample": 278400,
+          "edited_end_sample": 612480
+        }
+      ],
+      "source_pcm_sha256": "d7a65a9fcbc0b0e9a81a816795c8f85f5aad9960adfcce4b0c6bb932901323d8",
+      "sample_identical": true
+    },
+    {
+      "id": "C02_P001",
+      "sample_start": 612480,
+      "samples": 174429,
+      "original_samples": 174429,
+      "inserted_pause_samples": 0,
+      "pcm_sha256": "05fad2f9850057eaa809e9d580937e7a176d62fbf75123063fd473ac807d2c75",
+      "source_spans": [
+        {
+          "source_start_sample": 0,
+          "source_end_sample": 174429,
+          "edited_start_sample": 0,
+          "edited_end_sample": 174429
+        }
+      ],
+      "source_pcm_sha256": "05fad2f9850057eaa809e9d580937e7a176d62fbf75123063fd473ac807d2c75",
+      "sample_identical": true
+    }
+  ],
+  "narration_sha256": "8f8ceb754326406e6f04b70efac70c402ad7f98ca56ba5522a6beb4d923267c9",
+  "paid_calls": 0,
+  "internal_pause_samples": 19200,
+  "all_source_samples_preserved": true,
+  "subtitles_and_visual_cues_use_same_shift_map": true
+}

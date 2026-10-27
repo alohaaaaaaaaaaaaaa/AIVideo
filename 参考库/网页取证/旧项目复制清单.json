@@ -1,0 +1,146 @@
+{
+  "status": "all_copies_sha256_equal",
+  "count": 23,
+  "files": [
+    {
+      "source": "10_重新策划/开场样片/风格试片_v2/素材/10_tianya_detail_focus.png",
+      "destination": "开场评论/原始未划线.png",
+      "sha256": "226d343a394c3c7c5d05118a453dc35bab0b0cb844d9da136aede3c2e0f26348",
+      "bytes": 403434
+    },
+    {
+      "source": "10_重新策划/最后一幕_重新整理/制作/工具/证据画面.py",
+      "destination": "央视原页滚动/原制作记录/证据画面.py",
+      "sha256": "08bfb865407e841476575546bfd10a18352ca71c500d2be0385c90bdf2047d06",
+      "bytes": 18381
+    },
+    {
+      "source": "10_重新策划/最后一幕_重新整理/制作/工具/准备查阅原页.py",
+      "destination": "央视原页滚动/原制作记录/准备查阅原页.py",
+      "sha256": "10de8dfa0b739046deaeed15facfe05557e2f26e25ea2e352b83ed69b8dbe3d8",
+      "bytes": 3121
+    },
+    {
+      "source": "10_重新策划/最后一幕_重新整理/制作/工具/编排时间线.py",
+      "destination": "央视原页滚动/原制作记录/编排时间线.py",
+      "sha256": "4d9b90e2a5eabb357d7e8887447700a85f8adc72ec7a384267c4eca0871bdfa2",
+      "bytes": 20691
+    },
+    {
+      "source": "10_重新策划/最后一幕_重新整理/制作/画面/查阅原页/查阅坐标.json",
+      "destination": "央视原页滚动/输入/原查阅坐标.json",
+      "sha256": "91cf050544a1836a62735a89afa0e27a59f7e3e05878c7f1b9172b96e41a1818",
+      "bytes": 1755
+    },
+    {
+      "source": "10_重新策划/最后一幕_重新整理/制作/画面/查阅原页/E06_原页连续查阅条.png",
+      "destination": "央视原页滚动/输入/原页连续条.png",
+      "sha256": "9e80334800e6c077dc048835a52cdc7ba5a471eb97e9162436e04194c59a4cc3",
+      "bytes": 674991
+    },
+    {
+      "source": "10_重新策划/最后一幕_重新整理/证据素材/人物与后续/后续与另案/E06c_完整涉案段_高光1080.png",
+      "destination": "央视原页滚动/输入/涉案原文高光.png",
+      "sha256": "66108af1f079c3d277621645050943190f3e9126fc12b6773d1b3d7c74cbc59e",
+      "bytes": 602012
+    },
+    {
+      "source": "10_重新策划/最后一幕_重新整理/制作/缓存/镜头/SH002.mp4",
+      "destination": "央视原页滚动/原采用缓存_SH002.mp4",
+      "sha256": "ff2515762c6c809804709b685582804d8c9a78e4c2472a61ceae36bd1eff1a8d",
+      "bytes": 1543199
+    },
+    {
+      "source": "06_原始资料/新闻/E06_央视经济半小时_新浪转载.html",
+      "destination": "央视原页滚动/输入/保存原始.html",
+      "sha256": "8f52075f3e5a330d128f066d17aaa266877e6798341b29aee0e17c7839ae0c32",
+      "bytes": 84799
+    },
+    {
+      "source": "10_重新策划/调查后续/工具/合成本环.py",
+      "destination": "舟山报道点击/原制作记录/合成本环.py",
+      "sha256": "53040d52bea4087ed05dbab50742f51ab3935a199a2c4556885d10652baa8f01",
+      "bytes": 24243
+    },
+    {
+      "source": "10_重新策划/调查后续/工具/编排正式时间线.py",
+      "destination": "舟山报道点击/原制作记录/编排正式时间线.py",
+      "sha256": "e25916f2fca97dd55bcb71a8cc11b259d04aca527e5368400e987a6a311468e2",
+      "bytes": 13942
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/捕获走访与军事报道.py",
+      "destination": "舟山报道点击/原制作记录/捕获走访与军事报道.py",
+      "sha256": "5098522a045270b0abdb606d8a450588861745525b9dabe46066e0a6af7de505",
+      "bytes": 15446
+    },
+    {
+      "source": "10_重新策划/调查后续/来源缓存/M01_禁航报道.html",
+      "destination": "舟山报道点击/输入/保存原始.html",
+      "sha256": "0334f8c4235cd5249c96cfbb9104cc18deb917cee78eecbc5e916bedab54a33b",
+      "bytes": 61925
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/M01a_禁航报道标题日期_标注.png",
+      "destination": "舟山报道点击/输入/标题日期高光.png",
+      "sha256": "4c57ef4d63b67444c3c542ae4335182be5fd1cf3d71e73f8961d6514f522ad74",
+      "bytes": 400561
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/M01b_日期海域船舶通告完整段_标注.png",
+      "destination": "舟山报道点击/输入/通告完整段高光.png",
+      "sha256": "cc86c43667274d31ff52d08cdf6a5af1a7b3e20dcdbf2fed49e59d6cb374e4ce",
+      "bytes": 564881
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/M01a_禁航报道标题日期_原页裁切.png",
+      "destination": "舟山报道点击/输入/标题日期原页.png",
+      "sha256": "43aa8ae9d80ddfbef4e1a8ba995e1b151b3a74a422cab778e97080a6af4a85a0",
+      "bytes": 528660
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/原始截图/M01a_禁航报道标题日期.png",
+      "destination": "舟山报道点击/输入/标题日期DPR3.png",
+      "sha256": "9ee95d6e70401232b1ef39dabf43cbc6ab3ea597f8ac863bbf79a7eb9332770f",
+      "bytes": 337054
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/原始截图/M01b_日期海域船舶通告完整段.png",
+      "destination": "舟山报道点击/输入/通告DPR3.png",
+      "sha256": "0670d30d0abed21d9ed8495151bda295f912d24e59d26e2a1fefe8b51705ae1f",
+      "bytes": 282545
+    },
+    {
+      "source": "10_重新策划/调查后续/缓存/S09.mp4",
+      "destination": "舟山报道点击/原采用缓存_S09.mp4",
+      "sha256": "6fe8044e035db97df3f1b43c6e4980690179e740115d258eacf44c7c822a19c4",
+      "bytes": 93333
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/原站样式/sina_master.css",
+      "destination": "央视原页滚动/输入/sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/原站样式/sina_theme.css",
+      "destination": "央视原页滚动/输入/sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/原站样式/sina_master.css",
+      "destination": "舟山报道点击/输入/sina_master.css",
+      "sha256": "2eb2b5b8aa423403ecd9395e534e91d914edc66882dc7386a9cfbe19edf388bb",
+      "bytes": 39319
+    },
+    {
+      "source": "10_重新策划/调查后续/证据素材/走访与军事报道/原站样式/sina_theme.css",
+      "destination": "舟山报道点击/输入/sina_theme.css",
+      "sha256": "f9b796d0383978d06f6b3d34aa57ff971e9fb6d6ad378fa42a1117d2009b6bef",
+      "bytes": 9835
+    }
+  ],
+  "original_scripts": "unchanged historical record; do not run them in independent studio",
+  "runnable_entry": "工具/网页/animate_evidence.py"
+}

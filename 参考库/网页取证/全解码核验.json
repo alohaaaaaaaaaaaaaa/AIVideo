@@ -1,0 +1,136 @@
+{
+  "status": "passed",
+  "clips": [
+    {
+      "file": "央视原页滚动/原片采用段_含声音.mp4",
+      "sha256": "1f61b67079b806dcb8bcc1bc99f4c8f341cff0467ac0fc0f4fc13bdb5f163e93",
+      "decoded_frames": 243,
+      "duration_from_frames": 9.72,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "央视原页滚动/原采用缓存_SH002.mp4",
+      "sha256": "ff2515762c6c809804709b685582804d8c9a78e4c2472a61ceae36bd1eff1a8d",
+      "decoded_frames": 70,
+      "duration_from_frames": 2.8,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "央视原页滚动/独立重渲染_2.8秒.mp4",
+      "sha256": "0b797de744a2d237637eb49e2adc56e92634fed67abf0ee765db2e320902f2ce",
+      "decoded_frames": 70,
+      "duration_from_frames": 2.8,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "平湖原页/原文高光与实音划线_20.52秒.mp4",
+      "sha256": "2f500b84997aa6f91c224cd7a7220acb3b751307dafd1ac222d569319b793e1c",
+      "decoded_frames": 513,
+      "duration_from_frames": 20.52,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "平湖原页/新抓原页_配原片实音_20.52秒.mp4",
+      "sha256": "d074fef4fd2a09958dcd4166a27af2b6b9f10dffc4803fc35e633796efa0cc5e",
+      "decoded_frames": 513,
+      "duration_from_frames": 20.52,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "开场评论/首镜5.32秒_实音划线.mp4",
+      "sha256": "3f824d04afbff89eae930a42148bc9d5502acc62f982ca84c21b0933a9bba2ae",
+      "decoded_frames": 133,
+      "duration_from_frames": 5.32,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "开场评论/首镜5.32秒_实音划线_完整来源.mp4",
+      "sha256": "6462231e0dae9f361ae7e4697610847c141dfe02c4f9f33574804960b184b535",
+      "decoded_frames": 133,
+      "duration_from_frames": 5.32,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "舟山报道点击/原片采用段_含声音.mp4",
+      "sha256": "182a97444da10c2882c470b4fbd94832e82b0a8fe089549d7b96c877993dc1cf",
+      "decoded_frames": 429,
+      "duration_from_frames": 17.16,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "舟山报道点击/原采用缓存_S09.mp4",
+      "sha256": "6fe8044e035db97df3f1b43c6e4980690179e740115d258eacf44c7c822a19c4",
+      "decoded_frames": 109,
+      "duration_from_frames": 4.36,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    },
+    {
+      "file": "舟山报道点击/独立重渲染_4.36秒.mp4",
+      "sha256": "3c325afe9aa04e16efdc7ebacb37fc1b6a9f0ac492b7f423591880e56060b692",
+      "decoded_frames": 109,
+      "duration_from_frames": 4.36,
+      "fps": 25.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "all_frames_decoded": true,
+      "passed": true
+    }
+  ],
+  "visual_review": "See separate 本轮核验说明.md; image outputs are decoded from the actual videos"
+}

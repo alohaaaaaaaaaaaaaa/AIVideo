@@ -1,0 +1,156 @@
+{
+  "status": "reference_baseline_verified_ready_for_next_topic",
+  "updated_at": "2026-10-26T22:43:12+08:00",
+  "scope": "独立通用制作工作室原片标准修复；不是新一期或整部原片重制",
+  "separate_from_original_project": true,
+  "original_project_modified": false,
+  "reference": {
+    "duration": 1319.96,
+    "fps": 25,
+    "name": "2026-10-24原采用叙事优化版"
+  },
+  "entry": "打开工作室.html",
+  "guide": "00_从这里开始.md",
+  "current_episode": "作品/2026-10-26_下一期_待选题",
+  "new_topic_selected": false,
+  "defaults": {
+    "tts_model": "speech-2.8-hd",
+    "voice": "Chinese (Mandarin)_Southern_Young_Man",
+    "speed": 0.96,
+    "music": "GeneralUser GS piano/strings/pizz/vibes，按新实音编曲",
+    "change_identity_only_on_user_request": true,
+    "subtitle": "Hiragino Sans GB42/Main底距42，science74；字体回退披露",
+    "delivery": [
+      "bili",
+      "clean"
+    ],
+    "author_endcard_preserved": true
+  },
+  "demo": {
+    "player": "参考库/原片同段对标/开场29秒/看同段对照.html",
+    "duration": 29.36,
+    "frames": 734,
+    "shots": 8,
+    "subtitles": 17,
+    "exports": [
+      {
+        "id": "bili",
+        "sha256": "710756c03c7d2bc0de519a4ce3ecc3fac4ea38b785e158b5d625460dba042235",
+        "decoded_frames": 734,
+        "duration": 29.36,
+        "decoded_audio_samples": 1409280,
+        "audio_duration": 29.36,
+        "audio_packet_sha256": "07dc9ec71bab46b3918673cafd849c98a2b0e9f60b18f05e41385740cfbd3844",
+        "peak_dbfs": -4.427018572284833,
+        "loudness": {
+          "integrated_lufs": -17.1,
+          "true_peak_dbtp": -4.42,
+          "recommended_max_dbtp": -1.0,
+          "true_peak_pass": true,
+          "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+        },
+        "clipped_samples": 0,
+        "complete_decode": true
+      },
+      {
+        "id": "clean",
+        "sha256": "6e8a5d919c87574a094b894d80c65ed002a1f05c94aa174ead798e9956db7e9c",
+        "decoded_frames": 734,
+        "duration": 29.36,
+        "decoded_audio_samples": 1409280,
+        "audio_duration": 29.36,
+        "audio_packet_sha256": "07dc9ec71bab46b3918673cafd849c98a2b0e9f60b18f05e41385740cfbd3844",
+        "peak_dbfs": -4.427018572284833,
+        "loudness": {
+          "integrated_lufs": -17.1,
+          "true_peak_dbtp": -4.42,
+          "recommended_max_dbtp": -1.0,
+          "true_peak_pass": true,
+          "measurement": "FFmpeg loudnorm input measurement on actual final AAC; no audio mutation"
+        },
+        "clipped_samples": 0,
+        "complete_decode": true
+      }
+    ],
+    "same_audio": true,
+    "newly_rebuilt": "首镜高光/红线/来源、字幕/水印合成、开场音符与跨章音乐桥",
+    "retained": "原旁白及其余7段已采用画面",
+    "opening_pcm_sample_identical": true,
+    "visual_review": "检查/本轮对标/连续开场/实际画面核对.json"
+  },
+  "web": {
+    "guide": "文档/09_网页抓取与网页动画.md",
+    "player": "参考库/网页取证/看网页参考.html",
+    "captured_pages": [
+      "平湖另案",
+      "央视节目实录新浪转载",
+      "舟山军事新闻"
+    ],
+    "this_round_capture_mode": "archived_html_offline; public_url tested on local HTTP fixture",
+    "actual_live_news_sites_revisited": false,
+    "saved": [
+      "原HTML/CSS",
+      "原截图/渲染DOM/全文",
+      "来源URL与时间",
+      "精确引文和DOM坐标",
+      "原制作代码/采用时码",
+      "动作配置/独立渲染",
+      "完整性与失败记录"
+    ],
+    "tools": [
+      "webpage-capture",
+      "webpage-animate",
+      "webpage-audit"
+    ]
+  },
+  "director": {
+    "guide": "文档/10_导演制片分镜与逐镜打磨.md",
+    "tool": "storyboard",
+    "bindings": [
+      "plan",
+      "timeline",
+      "visual_cues when used",
+      "narration when used",
+      "asset",
+      "mix"
+    ],
+    "render_checks_expectations": true,
+    "reference_rebuild_cannot_auto_accept_changed_assets": true
+  },
+  "paid_tests": {
+    "total_generation_submissions": 2,
+    "tts_requests": 1,
+    "ai_video_requests": 1,
+    "automatic_retries": 0,
+    "tts_usage_characters": 70,
+    "tts_cost_at_public_rate_cny": 0.0245,
+    "ai_estimate_cny": 3.5,
+    "total_at_public_rates_cny": 3.5245,
+    "account_bill_verified": false,
+    "actual_billed_cny": null,
+    "tts_report": "检查/本轮对标/声音与节拍差异.json",
+    "ai_report": "检查/本轮对标/AI真实接口测试/实测验收.json",
+    "secrets_in_project": false
+  },
+  "verification": {
+    "visual_reference": "检查/本轮对标/媒体视觉差异.json",
+    "audio_reference": "检查/本轮对标/声音与节拍差异.json",
+    "storyboard": "检查/本轮对标/导演分镜绑定核验.json",
+    "render_binding": "工具/媒体/导演绑定回归.json",
+    "web": "参考库/网页取证/本轮核验说明.md",
+    "web_failures": "检查/网页取证失败模式_20261026/失败模式核验.json",
+    "actual_exports": "参考库/原片同段对标/开场29秒/导出/检查/交付核验.json",
+    "browser": "检查/入口核验/浏览器核验.json",
+    "links_syntax": "检查/入口与文件完整性.json",
+    "scope_and_differences": "检查/本轮对标/差异与修复.md"
+  },
+  "limitations": [
+    "技术核验、实际样帧、实音一致性与用户审美分别记录；不保证任何新题自动同水平或爆款",
+    "新结论短段与原长章末和声不同，落拍晚85ms已保存完整A/B试听",
+    "真实API只覆盖1条默认TTS与1条v1文生视频；实际账单未查看",
+    "网页本轮用保存原页离线重放，未声称历史录屏或访问当前新闻站",
+    "本机macOS已核验；新电脑需重建环境、字体回退和网页坐标需重验",
+    "旧19秒样片为修复布局后的历史工程演示，不作为叙事标准"
+  ],
+  "archive_record": "检查/归档记录.json"
+}
